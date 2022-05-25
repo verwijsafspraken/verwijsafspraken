@@ -13,12 +13,12 @@ async function run() {
 }
 
 function updatePage() {
-  const pathSegments = document.location.hash
+  const path = document.location.hash
     .replace(/^[#\/]*/g, '')
     .split('/')
     .filter(segment => segment !== '');
 
-  const page = pathSegments
+  const page = path
     .reduce((page, segment) => page?.children?.find(child => child.id?.toString() === segment), database);
 
   document.body.innerHTML = page
@@ -38,13 +38,13 @@ function renderPage(page) {
         </form>
       </header>
       <section class="content">
-        <h1>${renderText(name)}</h1>
+        <h1>${name}</h1>
         ${renderMarkdown(content)}
         ${children && html`
           <ul class="child-articles">
             ${children.map(({ id, name, content }) => html`
               <li>
-                <h2>${renderText(name)}</h2>
+                <h2>${name}</h2>
                 ${renderMarkdown(content)}
               </li>
             `)}
@@ -54,7 +54,7 @@ function renderPage(page) {
       ${sticker !== undefined ? html`
         <aside class="sticker">
           <h1>Huisarts lastigvallen?</h1>
-          <p class="sticker ${sticker ? 'yes' : 'no'}">${sticker ? 'Ja!' : 'Nee!'}</p>
+          <p class=${`sticker ${sticker ? 'yes' : 'no'}`}>${sticker ? 'Ja!' : 'Nee!'}</p>
         </aside>
       ` : ''}
       <aside class="sidebar">
@@ -82,19 +82,25 @@ function renderPageNotFound() {
 }
 
 function renderMarkdown(markdown) {
-  return marked.parse(markdown);
+  return new Html(marked.parse(markdown));
 }
 
-function renderText(text) {
-  if (text === undefined) {
-    throw new Error('text is undefined');
-  }
+function encodeHtml(text) {
   return text
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
+}
+
+class Html {
+  constructor(content) {
+    this.content = content;
+  }
+  toString() {
+    return this.content;
+  }
 }
 
 function html(strings, ...variables) {
@@ -104,13 +110,27 @@ function html(strings, ...variables) {
       result += strings[i];
     }
     if (i in variables) {
-      result += stringifyHtml(variables[i]);
+      const value = variables[i];
+      const htmlValue = /=$/.test(strings[i])
+        // HTML attribute support.
+        ? JSON.stringify(value)
+        // HTML content
+        : stringifyHtml(value);
+      result += htmlValue;
     }
   }
-  return result;
+  return new Html(result);
 }
 
 function stringifyHtml(value) {
+  return value instanceof Array
+  ? value.map(stringifyHtml).join('\n')
+  : value instanceof Html
+  ? value.content
+  : encodeHtml(stringifyValue(value));
+}
+
+function stringifyValue(value) {
   if (value === undefined || value === null) {
     return '';
   } else if (value instanceof Array) {
