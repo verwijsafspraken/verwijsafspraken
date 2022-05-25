@@ -1,0 +1,57 @@
+main.article-page {
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "sticker content sidebar";
+  max-width: 1400px;
+  margin: 0 auto;
+
+  header {
+    grid-area: header;
+    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0px 0px 7px #555555;
+
+    h1 {
+      font-size: 1.3em;
+    }
+
+    form {
+      text-align: right;
+      display: flex;
+
+      input {
+        width: 80%;
+        padding: 0.5em;
+        font-size: 1em;
+      }
+
+      button {
+        padding: 0.5em;
+        font-size: 1em;
+      }
+    }
+  }
+
+  section.content {
+    grid-area: content;
+    padding: 2em;
+
+    h1, h2, h3, h4, h5, p {
+      margin: 1em 0;
+    }
+  }
+
+  aside.sidebar {
+    grid-area: sidebar;
+  }
+
+  aside.sticker {
+    grid-area: sticker;
+  }
+}

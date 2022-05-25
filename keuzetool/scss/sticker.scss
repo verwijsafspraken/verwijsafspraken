@@ -1,0 +1,26 @@
+aside.sticker {
+  padding: 2em;
+
+  h1 {
+    font-size: 1.2em;
+    margin: 1em 0;
+  }
+
+  p.sticker {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 2em auto;
+
+    background: radial-gradient(#f99 0%, #f00 100%);
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    transform: rotateZ(-10deg);
+    text-shadow: 0px 0px 3px #555555;
+    font-size: 1.3em;
+  }
+}
