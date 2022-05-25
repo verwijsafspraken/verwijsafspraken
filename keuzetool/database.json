@@ -1,15 +1,15 @@
 [{
-  "id": 1,
+  "id": "1",
   "name": "Ziekenhuis",
   "content": "Informatie voor ziekenhuizen",
   "children": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Verwijzing nodig?",
       "content": "Informatie over verwijzingen door ziekenhuizen",
       "children": [
         {
-          "id": 1,
+          "id": "1",
           "name": "Is geamputeerd been teruggegroeid?",
           "content": "Goed verhaal hier over val de huisarts niet lastig",
           "links": [
@@ -20,7 +20,7 @@
           ]
         },
         {
-          "id": 2,
+          "id": "2",
           "name": "Ben ik roodharig?",
           "content": "Oei, dan heb je vast last van ongestelde luizen",
           "links": [
