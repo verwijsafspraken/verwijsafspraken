@@ -19,9 +19,52 @@ main {
 
   h1 {
     text-align: center;
-    margin: 30vh auto 10vh auto;
+    margin: 30vh auto 2vh auto;
   }
 
-  
+  form {
+    text-align: center;
+    margin: 2vh auto 10vh auto;
 
+    input {
+      width: 60%;
+      padding: 0.5em;
+      font-size: 1.4em;
+    }
+
+    button {
+      width: 20%;
+      padding: 0.5em;
+      font-size: 1.4em;
+    }
+  }
+
+  section#font-page-content {
+    font-size: 1.1em;
+    margin: 2em 10%;
+  }
+
+  section#recommended-articles {
+    margin: 10em auto;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1em;
+
+      li {
+        width: 200px;
+        height: 200px;
+        padding: 1em;
+        border: 1px solid #EEEEEE;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #EEEEEE;
+        }
+      }
+    }
+  }
 }
