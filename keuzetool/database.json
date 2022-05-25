@@ -1,35 +1,45 @@
-[{
-  "id": "1",
-  "name": "Ziekenhuis",
-  "blurb": "Mooie tekst hier",
-  "content": "Informatie voor ziekenhuizen",
+{
+  "id": "welkom",
+  "name": "Voorpagina",
+  "content": "Moetikhierdehuisartsmeelastigvallen.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen.\n\nHet gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en u naasten alle  aandacht wanneer het écht nodig is.",
   "children": [
     {
-      "id": "1",
-      "name": "Verwijzing nodig?",
-      "content": "Informatie over verwijzingen door ziekenhuizen",
+      "id": "verwijzen",
+      "name": "Verwijzen",
+      "blurb": "Hier een blurb over dit onderwerp",
+      "content": "Kies een partij waar naar verwezen moet worden:",
       "children": [
         {
-          "id": "1",
-          "name": "Is geamputeerd been teruggegroeid?",
-          "blurb": "Mooie tekst hier",
-          "content": "Goed verhaal hier over val de huisarts niet lastig",
-          "links": [
+          "id": "ggz",
+          "name": "GGZ",
+          "blurb": "Hier een blurb over dit onderwerp",
+          "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk.",
+          "children": [
             {
-              "name": "ZN",
-              "url": "https://zn.nl/path"
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "name": "Ben ik roodharig?",
-          "blurb": "Mooie tekst hier",
-          "content": "Oei, dan heb je vast last van ongestelde luizen",
-          "links": [
+              "id": "acute-ggz",
+              "name": "Acute GGZ",
+              "blurb": "Hier een blurb over dit onderwerp",
+              "content": "## Een verwijzing via de huisarts is voor Acute GGZ niet nodig.\n\nSoms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek. Hierbij maakt de leeftijd van desbetreffend persoon niet uit. Kenmerken van de persoon en de omgeving bepalen of er sprake is van een crisis en wat de omvang van de crisis is. Per persoon is er verschillende type hulp noodzakelijk.",
+              "sticker": false,
+              "links": [
+                {
+                  "name": "ZN",
+                  "url": "https://zn.nl/path"
+                }
+              ]
+            },
             {
-              "name": "ZN",
-              "url": "https://zn.nl/path"
+              "id": "jeugdwet",
+              "name": "Jeugdwet",
+              "blurb": "Hier een blurb over dit onderwerp",
+              "content": "## Een verwijzing via de huisarts is voor de jeugdwet is... wel nodig?\n\nHier natuurlijk nog een goed verhaal over de jeugdwet.",
+              "sticker": true,
+              "links": [
+                {
+                  "name": "ZN",
+                  "url": "https://zn.nl/path"
+                }
+              ]
             }
           ]
         }
