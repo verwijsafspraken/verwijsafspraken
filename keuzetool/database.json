@@ -1,0 +1,25 @@
+{
+  "id": 1,
+  "name": "Ziekenhuis",
+  "content": "Informatie voor ziekenhuizen",
+  "children": [
+    {
+      "id": 1,
+      "name": "Verwijzing nodig?",
+      "content": "Informatie over verwijzingen door ziekenhuizen",
+      "children": [
+        {
+          "id": 1,
+          "title": "Is geamputeerd been teruggegroeid?",
+          "content": "Goed verhaal hier over val de huisarts niet lastig",
+          "links": [
+            {
+              "name": "ZN",
+              "url": "https://zn.nl/path"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
