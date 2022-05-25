@@ -76,7 +76,9 @@ function renderPage({ page, path }) {
           <section class="links">
             <h1>Meer lezen</h1>
             <ul>
-              <li><a href="#">Dingen</a></li>
+              ${links.map(link => html`
+                <li><a href=${link.url}>${name}</a></li>
+              `)}
             </ul>
           </section>
         `}
