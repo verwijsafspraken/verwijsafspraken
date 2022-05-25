@@ -34,3 +34,5 @@ function findSearchKeysRecurse(obj, path = '', arr = []) {
   // Make sure we only have unique entries in our array
   return [...new Set(arr)]
 }
+
+module.exports = { findSearchKeysRecurse }

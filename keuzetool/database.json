@@ -1,4 +1,4 @@
-{
+[{
   "id": 1,
   "name": "Ziekenhuis",
   "content": "Informatie voor ziekenhuizen",
@@ -33,4 +33,4 @@
       ]
     }
   ]
-}
+}]
