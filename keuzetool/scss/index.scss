@@ -4,66 +4,115 @@
   box-sizing: border-box;
 }
 
-html, body {
+html {
+  height: 100vh;
+}
+
+body {
   background-color: white;
   color: #555555;
   font-family: Tahoma, Arial, sans-serif;
+  min-height: 100%;
 }
 
 main {
   margin: 1em auto;
   padding: 4em;
   width: 80vw;
+  min-height: 100%;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
 
-  h1 {
-    text-align: center;
-    margin: 30vh auto 2vh auto;
-  }
-
-  form {
-    text-align: center;
-    margin: 2vh auto 10vh auto;
-
-    input {
-      width: 60%;
-      padding: 0.5em;
-      font-size: 1.4em;
+  &.front-page {
+    h1 {
+      text-align: center;
+      margin: 30vh auto 2vh auto;
     }
 
-    button {
-      width: 20%;
-      padding: 0.5em;
-      font-size: 1.4em;
+    form {
+      text-align: center;
+      margin: 2vh auto 10vh auto;
+
+      input {
+        width: 60%;
+        padding: 0.5em;
+        font-size: 1.4em;
+      }
+
+      button {
+        width: 20%;
+        padding: 0.5em;
+        font-size: 1.4em;
+      }
     }
-  }
 
-  section#font-page-content {
-    font-size: 1.1em;
-    margin: 2em 10%;
-  }
+    section#font-page-content {
+      font-size: 1.1em;
+      margin: 2em 10%;
+    }
 
-  section#recommended-articles {
-    margin: 10em auto;
+    section#recommended-articles {
+      margin: 10em auto;
 
-    ul {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1em;
+      ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
 
-      li {
-        width: 200px;
-        height: 200px;
-        padding: 1em;
-        border: 1px solid #EEEEEE;
-        cursor: pointer;
+        li {
+          width: 200px;
+          height: 200px;
+          padding: 1em;
+          border: 1px solid #EEEEEE;
+          cursor: pointer;
 
-        &:hover {
-          background-color: #EEEEEE;
+          &:hover {
+            background-color: #EEEEEE;
+          }
         }
+      }
+    }
+  }
+
+  &.article-page {
+    header {
+      border-bottom: 1px solid #EEEEEE;
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 1em;
+      background-color: white;
+      box-shadow: 0px 0px 7px #555555;
+
+      h1 {
+        font-size: 1.3em;
+      }
+
+      form {
+        text-align: right;
+        display: flex;
+
+        input {
+          width: 80%;
+          padding: 0.5em;
+          font-size: 1em;
+        }
+
+        button {
+          padding: 0.5em;
+          font-size: 1em;
+        }
+      }
+    }
+
+    section {
+      h1, h2, h3, h4, h5, p {
+        margin: 1em 0;
       }
     }
   }
