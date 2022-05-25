@@ -20,6 +20,17 @@ function preprocessNode({ path, node, parent }) {
   return node;
 }
 
+function flattenNode(node) {
+  return [
+    node,
+    ...(
+      node.children
+        ? node.children.flatMap(flattenNode)
+        : []
+    )
+  ]
+}
+
 async function run() {
   database = await fetch('./database.json').then(response => response.json());
   database = preprocessNode({
@@ -27,6 +38,12 @@ async function run() {
     node: database,
     parent: null
   });
+
+  fuse = new Fuse(flattenNode(database), {
+    includeMatches: true,
+    keys: ['name', 'content']
+  });
+
   window.addEventListener('hashchange', () => {
     updatePage();
   }, true);
