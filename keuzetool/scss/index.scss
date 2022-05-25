@@ -50,30 +50,6 @@ main {
       font-size: 1.1em;
       margin: 2em 10%;
     }
-
-    section#recommended-articles {
-      margin: 10em auto;
-
-      ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1em;
-
-        li {
-          width: 200px;
-          height: 200px;
-          padding: 1em;
-          border: 1px solid #EEEEEE;
-          cursor: pointer;
-
-          &:hover {
-            background-color: #EEEEEE;
-          }
-        }
-      }
-    }
   }
 
   &.article-page {
@@ -113,6 +89,30 @@ main {
     section {
       h1, h2, h3, h4, h5, p {
         margin: 1em 0;
+      }
+    }
+  }
+
+  section#child-articles {
+    margin: 10em auto;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1em;
+
+      li {
+        width: 200px;
+        height: 200px;
+        padding: 1em;
+        border: 1px solid #EEEEEE;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #EEEEEE;
+        }
       }
     }
   }
