@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: white;
+  color: #555555;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+main {
+  margin: 1em auto;
+  padding: 4em;
+  width: 80vw;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+
+  h1 {
+    text-align: center;
+    margin: 30vh auto 10vh auto;
+  }
+
+  
+
+}
