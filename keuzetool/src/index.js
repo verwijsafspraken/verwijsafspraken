@@ -21,9 +21,11 @@ function updatePage() {
   const page = path
     .reduce((page, segment) => page?.children?.find(child => child.id?.toString() === segment), database);
 
-  document.body.innerHTML = page
-    ? renderPage(page)
-    : renderPageNotFound();
+  document.body.innerHTML = stringifyHtml(
+    page
+    ? renderPage({ page, path })
+    : renderPageNotFound()
+  );
 }
 
 function renderPage(page) {
