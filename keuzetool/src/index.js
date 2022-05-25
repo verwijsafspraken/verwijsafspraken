@@ -98,9 +98,6 @@ class Html {
   constructor(content) {
     this.content = content;
   }
-  toString() {
-    return this.content;
-  }
 }
 
 function html(strings, ...variables) {
