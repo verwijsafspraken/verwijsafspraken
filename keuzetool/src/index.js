@@ -28,8 +28,13 @@ function updatePage() {
   );
 }
 
-function renderPage(page) {
+function urlFromPath(path) {
+  return `#/${path.join('/')}`;
+}
+
+function renderPage({ page, path }) {
   const { id, name, content, children, links, sticker } = page;
+
   return html`
     <main class="article-page">
       <header>
@@ -46,8 +51,10 @@ function renderPage(page) {
           <ul class="child-articles">
             ${children.map(({ id, name, content }) => html`
               <li>
-                <h2>${name}</h2>
-                ${renderMarkdown(content)}
+                <a href=${urlFromPath([...path, id])}>
+                  <h2>${name}</h2>
+                  ${renderMarkdown(content)}
+                </a>
               </li>
             `)}
           </ul>
