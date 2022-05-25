@@ -45,6 +45,7 @@ function renderPage({ page, path }) {
         </form>
       </header>
       <section class="content">
+        ${renderBreadcrumb({ path, root: database })}
         <h1>${name}</h1>
         ${renderMarkdown(content)}
         ${children && html`
@@ -143,5 +144,54 @@ function stringifyValue(value) {
     return value.join('\n');
   } else {
     return value.toString();
+  }
+}
+
+function renderBreadcrumb({ path, root }) {
+  const { pages } = path
+    .reduce(({ parentPage, pages }, id) => {
+        const currentPage = parentPage.children.find(page => page.id === id);
+        return {
+          parentPage: currentPage,
+          pages: [
+            ...pages,
+            currentPage
+          ]
+        }
+      },
+      { parentPage: root, pages: [] }
+    );
+  const items = pages.map(page => {
+    console.log({ page, pages });
+    const path = [...takeWhile(pathPage => pathPage !== page, pages), page]
+      .map(page => page.id);
+    return html`
+      <li>
+        <a href=${urlFromPath(path)}>
+          ${page.name}
+        </a>
+      </li>
+    `
+  });
+
+  return html`
+    <ul class="breadcrumb">
+      <li>
+        <a href="#">
+          Home
+        </a>
+      </li>
+      ${items}
+    </ul>
+  `
+}
+
+function* takeWhile(fn, xs) {
+  for (let x of xs) {
+    if (fn(x)) {
+      yield x;
+    } else {
+      break;
+    }
   }
 }
