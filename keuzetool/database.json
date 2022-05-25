@@ -10,8 +10,19 @@
       "children": [
         {
           "id": 1,
-          "title": "Is geamputeerd been teruggegroeid?",
+          "name": "Is geamputeerd been teruggegroeid?",
           "content": "Goed verhaal hier over val de huisarts niet lastig",
+          "links": [
+            {
+              "name": "ZN",
+              "url": "https://zn.nl/path"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Ben ik roodharig?",
+          "content": "Oei, dan heb je vast last van ongestelde luizen",
           "links": [
             {
               "name": "ZN",
