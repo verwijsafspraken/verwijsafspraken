@@ -1,47 +1,102 @@
 main.front-page {
   header {
-    background-image: url('./banner.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    padding: 25vh 3em;
+    background-color: #F1FAFF;
+    background-image: url('./friemeltje.svg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding: 15vh 20vw 14vh 20vw;
 
     h1 {
-      text-align: center;
-      margin: 0 auto 2vh auto;
-      color: white;
-      text-shadow: 0px 0px 3px #555555;
+      color: #1C3C7C;
+      max-width: 500px;
+      font-size: 60px;
+      margin: 0.5em 0px;
+    }
+
+    p {
+      color: #7B7E85;
+      max-width: 400px;
+      margin: 3em 0px 4em 0px;
+      font-size: 16px;
+      font-weight: 400;
     }
 
     form {
-      text-align: center;
-      margin: 2vh auto 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-content: stretch;
+      width: 100%;
+      height: 70px;
+
+      border-radius: 35px;
+      background-color: white;
+      box-shadow: 0px 14px 38px rgba(0, 0, 0, 0.05);
 
       input {
-        width: 60%;
-        padding: 0.5em;
-        font-size: 1.4em;
+        flex: 1 1 auto;
+        height: 100%;
+        padding: 0px 0px 0px 1.6em;
+
+        background: transparent;
+        border: 0;
+        font-size: 1.2em;
+
+        &:focus {
+          border-top-left-radius: 35px;
+          border-bottom-left-radius: 35px;
+        }
       }
 
       button {
-        width: 20%;
-        padding: 0.5em;
-        font-size: 1.4em;
+        flex: 0 0 19%;
+        height: 100%;
+        padding: 1em 2em;
+
+        background: #0FA5FF;
+        border: 0;
+        border-radius: 35px;
+        color: white;
+        font-size: 1.2em;
       }
     }
   }
 
-  section#font-page-content {
-    position: relative;
-    top: -10vh;
-    width: 80%;
+  section.content {
     max-width: 1200px;
-    margin: 2em auto;
-    padding: 2em;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
 
-    font-size: 1.1em;
-    border: 1px solid #eeeeee;
-    border-bottom: none;
-    background-color: white;
+    h1, p {
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 800;
+      color: #1C3C7C;
+      margin: 4em auto 1em auto;
+
+      &.under-striped {
+        padding-bottom: 1em;
+        background-image: url('./streepje.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+      }
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #2F3135;
+      margin: 2em auto;
+    }
+  }
+
+  footer {
+    min-height: 260px;
+    background-color: #1C3C7C;
+    margin-top: 5em;
   }
 }
