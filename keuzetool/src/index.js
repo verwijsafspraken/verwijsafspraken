@@ -27,7 +27,7 @@ function updatePage() {
 }
 
 function renderPage(page) {
-  const { id, name, content, children, links } = page;
+  const { id, name, content, children, links, sticker } = page;
   return html`
     <main class="article-page">
       <header>
@@ -37,22 +37,40 @@ function renderPage(page) {
           <button type="submit">Zoek</button>
         </form>
       </header>
-      <section id="page-content">
+      <section class="content">
         <h1>${renderText(name)}</h1>
         ${renderMarkdown(content)}
+        ${children && html`
+          <ul class="child-articles">
+            ${children.map(({ id, name, content }) => html`
+              <li>
+                <h2>${renderText(name)}</h2>
+                ${renderMarkdown(content)}
+              </li>
+            `)}
+          </ul>
+        `}
       </section>
-      ${children && html`
-        <section id="child-articles">
-        <ul>
-          ${children.map(({ id, name, content }) => html`
-            <li>
-              <h2>${renderText(name)}</h2>
-              ${renderMarkdown(content)}
-            </li>
-          `)}
-        </ul>
-      `}
-    </section>
+      ${sticker !== undefined ? html`
+        <aside class="sticker">
+          <h1>Huisarts lastigvallen?</h1>
+          <p class="sticker ${sticker ? 'yes' : 'no'}">${sticker ? 'Ja!' : 'Nee!'}</p>
+        </aside>
+      ` : ''}
+      <aside class="sidebar">
+        <section class="share">
+          <p><button>Deel dit!</button></p>
+        </section>
+
+        ${links && html`
+          <section class="links">
+            <h1>Meer lezen</h1>
+            <ul>
+              <li><a href="#">Dingen</a></li>
+            </ul>
+          </section>
+        `}
+      </aside>
     </main>
   `
 }
