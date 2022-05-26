@@ -71,11 +71,11 @@ function urlFromPath(path) {
 }
 
 function renderFrontPage(page) {
-  const { id, name, content, children, links, sticker, blurb } = page;
+  const { id, name, content, children, links, sticker, header, blurb } = page;
   return html`
     <main class="front-page">
       <header>
-        <h1>Heb ik de hulp van de huisarts nodig?</h1>
+        <h1>${header}</h1>
         <p>${renderMarkdown(blurb)}</p>
         <form id="search">
           <input id="js-search" type="text" name="" value="" placeholder="Wat is uw behoefte?" />
@@ -99,7 +99,7 @@ function renderFrontPage(page) {
         <h1 class="under-striped">${name}</h1>
         ${renderMarkdown(content)}
       </section>
-      <footer>Something here?</footer>
+      <footer></footer>
     </main>
   `
 }
@@ -108,18 +108,47 @@ function renderPage(page) {
   const { id, name, content, children, links, sticker } = page;
   return html`
     <main class="article-page">
-      <header>
-        <h1><a href="#">Heb ik de hulp van de huisarts nodig?</a></h1>
+      <nav>
+        <h1><a href="#">EHBDoorverwijzen</a></h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Over EHBD</a></li>
+          <li><a href="#">Artikelen</a></li>
+        </ul>
         <form id="search">
-          <input type="text" name="" value="" placeholder="Wat is uw behoefte?" />
-          <button type="submit">Zoek</button>
+          <input id="js-search" type="text" name="" value="" placeholder="Zoeken op onderwerp" />
         </form>
-      </header>
+      </nav>
       <section class="content">
         ${renderBreadcrumb(page)}
-        <h1>${name}</h1>
-        ${renderMarkdown(content)}
+        <section class="two-column">
+          <div class="column">
+            <h1>${name}</h1>
+            ${sticker !== undefined ? html`
+              <p class=${`sticker ${sticker ? 'yes' : 'no'}`}>
+                ${sticker
+                  ? 'Je hebt de hulp van de huisarts nodig'
+                  : 'De huisarts hoeft hier niet bij betrokken te worden'
+                }
+              </p>
+            ` : ''}
+            ${renderMarkdown(content)}
+          </div>
+          ${links && html`
+            <div class="column">
+              <section class="links">
+                <h1>Meer lezen</h1>
+                <ul>
+                  ${links.map(({ name, url }) => html`
+                    <li><a href=${url}>${name}</a></li>
+                  `)}
+                </ul>
+              </section>
+            </div>
+          `}
+        </section>
         ${children && html`
+          <h2>Artikelen</h2>
           <ul class="child-articles">
             ${children.map(({ id, name, blurb, url }) => html`
               <li>
@@ -132,29 +161,12 @@ function renderPage(page) {
           </ul>
         `}
       </section>
-      ${sticker !== undefined ? html`
-        <aside class="sticker">
-          <h1>Huisarts lastigvallen?</h1>
-          <p class=${`sticker ${sticker ? 'yes' : 'no'}`}>${sticker ? 'Ja!' : 'Nee!'}</p>
-        </aside>
-      ` : ''}
       <aside class="sidebar">
         <section class="share">
           <p><button>Deel dit!</button></p>
         </section>
-
-        ${links && html`
-          <section class="links">
-            <h1>Meer lezen</h1>
-            <ul>
-              ${links.map(({ name, url }) => html`
-                <li><a href=${url}>${name}</a></li>
-              `)}
-            </ul>
-          </section>
-        `}
       </aside>
-      <footer>Something here?</footer>
+      <footer></footer>
     </main>
   `
 }
@@ -225,14 +237,12 @@ function renderBreadcrumb(page) {
   const parentItems = parents(page)
     .map(page => html`
       <li>
-        <a href=${page.url}>
-          ${page.name}
-        </a>
+        <a href=${page.url}>${page.breadcrumb || page.name}</a>
       </li>
     `);
 
   return html`
-    <ul class="breadcrumb">
+    <ul class="breadcrumbs">
       ${parentItems}
     </ul>
   `
@@ -240,6 +250,6 @@ function renderBreadcrumb(page) {
 
 function parents(node) {
   return node.parent
-    ? [...parents(node.parent), node.parent]
+    ? [...parents(node.parent), node]
     : [];
 }

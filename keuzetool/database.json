@@ -1,7 +1,10 @@
 {
   "id": "welkom",
-  "name": "Voorpagina",
-  "content": "Moetikhierdehuisartsmeelastigvallen.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen.\n\nHet gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en u naasten alle  aandacht wanneer het écht nodig is.",
+  "breadcrumb": "Home",
+  "header": "Heb ik de hulp van de huisarts nodig?",
+  "blurb": "Moetikhierdehuisartsmeelastigvallen.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen.",
+  "name": "Over deze website",
+  "content": "Het gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en u naasten alle  aandacht wanneer het écht nodig is.",
   "children": [
     {
       "id": "verwijzen",
@@ -11,7 +14,8 @@
       "children": [
         {
           "id": "ggz",
-          "name": "GGZ",
+          "breadcrumb": "GGZ",
+          "name": "Geestelijke gezondheidszorg",
           "blurb": "Hier een blurb over dit onderwerp",
           "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk.",
           "children": [

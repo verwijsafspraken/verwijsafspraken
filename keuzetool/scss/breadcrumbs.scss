@@ -1,12 +1,22 @@
 ul.breadcrumbs {
   list-style: none;
-  margin: 2em auto;
 
   li {
     display: inline-block;
+    padding: 0px 56px 0px 0px;
+    background-image: url('./chevron.svg');
+    background-position: right 24px center;
+    background-repeat: no-repeat;
 
-    &:after {
-      content: ' > ';
+    &:last-child {
+      background: none;
+    }
+
+    a {
+      font-weight: 400;
+      font-size: 20px;
+      color: #4F5157;
+      text-decoration: none;
     }
   }
 }
