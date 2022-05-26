@@ -64,6 +64,13 @@ function updatePage() {
     ? page.path.length < 1 ? renderFrontPage(page) : renderPage(page)
     : renderPageNotFound()
   );
+
+  document.getElementById('js-search').oninput = (event) => {
+    let result = fuse.search(event.target.value)
+    console.log('result: ', result)
+  }
+
+  window.scrollTo(0,0);
 }
 
 function urlFromPath(path) {
