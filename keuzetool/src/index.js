@@ -90,19 +90,7 @@ function renderFrontPage(page) {
         </form>
       </header>
       <section class="content">
-        ${children && html`
-          <ul class="child-articles">
-            ${children.map(({ id, name, blurb, url }) => html`
-              <li>
-                <a href=${url}>
-                  <h2>${name}</h2>
-                  ${renderMarkdown(blurb)}
-                </a>
-              </li>
-            `)}
-          </ul>
-        `}
-
+        ${renderChildren(page)}
         <h1 class="under-striped">${name}</h1>
         ${renderMarkdown(content)}
       </section>
@@ -154,19 +142,7 @@ function renderPage(page) {
             </div>
           `}
         </section>
-        ${children && html`
-          <h2>Artikelen</h2>
-          <ul class="child-articles">
-            ${children.map(({ id, name, blurb, url }) => html`
-              <li>
-                <a href=${url}>
-                  <h2>${name}</h2>
-                  ${renderMarkdown(blurb)}
-                </a>
-              </li>
-            `)}
-          </ul>
-        `}
+        ${renderChildren(page)}
       </section>
       <aside class="sidebar">
         <section class="share">
@@ -259,4 +235,32 @@ function parents(node) {
   return node.parent
     ? [...parents(node.parent), node]
     : [];
+}
+
+function renderChildren(page) {
+  if ( !page.children ) return '';
+  return html`
+    <h2>Artikelen</h2>
+    <ul class="child-articles">
+      ${page.children.map(({ id, name, blurb, url, children }) => html`
+        <li>
+          <a href="${url}">
+            ${children && children.length > 0 && html`
+              <span class="tag">${numArticles(children)} artikelen</span>
+            `}
+            <h1>${name}</h1>
+            <p>${renderMarkdown(blurb)}</p>
+            <span class="button">Lees meer</span>
+          </a>
+        </li>
+      `)}
+    </ul>
+  `
+}
+
+function numArticles(children) {
+  return children
+    ? children.length +
+      children.reduce((a, p) => a + numArticles(p.children), 0)
+    : 0;
 }

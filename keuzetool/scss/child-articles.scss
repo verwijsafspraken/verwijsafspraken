@@ -17,7 +17,11 @@ section.content ul.child-articles {
     cursor: pointer;
 
     &:hover {
-      background-color: #EEEEEE;
+      box-shadow: 0px 45px 105px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+      text-decoration: none;
     }
 
     h1 {
