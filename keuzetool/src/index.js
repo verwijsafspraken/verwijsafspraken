@@ -61,7 +61,7 @@ function updatePage() {
 
   document.body.innerHTML = stringifyHtml(
     page
-    ? renderPage(page)
+    ? page.path.length < 1 ? renderFrontPage(page) : renderPage(page)
     : renderPageNotFound()
   );
 }
@@ -70,12 +70,46 @@ function urlFromPath(path) {
   return `#/${path.join('/')}`;
 }
 
+function renderFrontPage(page) {
+  const { id, name, content, children, links, sticker, blurb } = page;
+  return html`
+    <main class="front-page">
+      <header>
+        <h1>Heb ik de hulp van de huisarts nodig?</h1>
+        <p>${renderMarkdown(blurb)}</p>
+        <form id="search">
+          <input id="js-search" type="text" name="" value="" placeholder="Wat is uw behoefte?" />
+          <button type="submit">Zoek</button>
+        </form>
+      </header>
+      <section class="content">
+        ${children && html`
+          <ul class="child-articles">
+            ${children.map(({ id, name, blurb, url }) => html`
+              <li>
+                <a href=${url}>
+                  <h2>${name}</h2>
+                  ${renderMarkdown(blurb)}
+                </a>
+              </li>
+            `)}
+          </ul>
+        `}
+
+        <h1 class="under-striped">${name}</h1>
+        ${renderMarkdown(content)}
+      </section>
+      <footer>Something here?</footer>
+    </main>
+  `
+}
+
 function renderPage(page) {
   const { id, name, content, children, links, sticker } = page;
   return html`
     <main class="article-page">
       <header>
-        <h1>Moetikhierdehuisartsmeelastigvallen.nl</h1>
+        <h1><a href="#">Heb ik de hulp van de huisarts nodig?</a></h1>
         <form id="search">
           <input type="text" name="" value="" placeholder="Wat is uw behoefte?" />
           <button type="submit">Zoek</button>
@@ -87,11 +121,11 @@ function renderPage(page) {
         ${renderMarkdown(content)}
         ${children && html`
           <ul class="child-articles">
-            ${children.map(({ id, name, content, url }) => html`
+            ${children.map(({ id, name, blurb, url }) => html`
               <li>
                 <a href=${url}>
                   <h2>${name}</h2>
-                  ${renderMarkdown(content)}
+                  ${renderMarkdown(blurb)}
                 </a>
               </li>
             `)}
@@ -120,6 +154,7 @@ function renderPage(page) {
           </section>
         `}
       </aside>
+      <footer>Something here?</footer>
     </main>
   `
 }
@@ -131,7 +166,7 @@ function renderPageNotFound() {
 }
 
 function renderMarkdown(markdown) {
-  return new Html(marked.parse(markdown));
+  return new Html(markdown ? marked.parse(markdown) : '');
 }
 
 function encodeHtml(text) {

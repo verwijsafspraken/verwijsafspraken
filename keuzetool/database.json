@@ -1,6 +1,7 @@
 [{
   "id": "1",
   "name": "Ziekenhuis",
+  "blurb": "Mooie tekst hier",
   "content": "Informatie voor ziekenhuizen",
   "children": [
     {
@@ -11,6 +12,7 @@
         {
           "id": "1",
           "name": "Is geamputeerd been teruggegroeid?",
+          "blurb": "Mooie tekst hier",
           "content": "Goed verhaal hier over val de huisarts niet lastig",
           "links": [
             {
@@ -22,6 +24,7 @@
         {
           "id": "2",
           "name": "Ben ik roodharig?",
+          "blurb": "Mooie tekst hier",
           "content": "Oei, dan heb je vast last van ongestelde luizen",
           "links": [
             {
