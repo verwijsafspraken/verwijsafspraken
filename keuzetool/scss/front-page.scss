@@ -1,10 +1,28 @@
 main.front-page {
   header {
     background-color: #F1FAFF;
-    background-image: url('./friemeltje.svg');
-    background-position: top right;
-    background-repeat: no-repeat;
-    padding: 15vh 20vw 14vh 20vw;
+    padding: 2vh calc((100% - 1120px) / 2);
+    padding-bottom: 14vh;
+
+    @media screen and (max-width: 1220px) {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    // Background friemeltje
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 700px;
+      height: 600px;
+      top: -40px;
+      right: calc((100% - 1120px) / 2 - 300px);
+
+      background-image: url('./friemeltje.svg');
+      background-position: top right;
+      background-repeat: no-repeat;
+    }
 
     h1 {
       color: #1C3C7C;
@@ -18,7 +36,8 @@ main.front-page {
       max-width: 400px;
       margin: 3em 0px 4em 0px;
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 300;
+      line-height: 28px;
     }
 
     form {
@@ -39,7 +58,9 @@ main.front-page {
 
         background: transparent;
         border: 0;
-        font-size: 1.2em;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4F5157;
 
         &:focus {
           border-top-left-radius: 35px;
@@ -48,9 +69,9 @@ main.front-page {
       }
 
       button {
-        flex: 0 0 19%;
+        flex: 0 0 168px;
         height: 100%;
-        padding: 1em 2em;
+        padding: 25px 0px;
 
         background: #0FA5FF;
         border: 0;
@@ -62,10 +83,15 @@ main.front-page {
   }
 
   section.content {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
     position: relative;
-    top: -40px;
+    top: -70px;
+
+    @media screen and (max-width: 1220px) {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
 
     h1, p {
       max-width: 700px;
@@ -73,7 +99,7 @@ main.front-page {
 
     h1 {
       font-size: 42px;
-      font-weight: 800;
+      font-weight: 700;
       color: #1C3C7C;
       margin: 4em auto 1em auto;
       text-align: center;

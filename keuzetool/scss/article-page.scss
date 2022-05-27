@@ -1,7 +1,11 @@
 main.article-page {
   section.content {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 66px auto;
+
+    @media screen and (max-width: 1220px) {
+      margin: 66px 50px;
+    }
 
     .two-column {
       display: flex;
@@ -69,6 +73,19 @@ main.article-page {
       }
     }
 
+    section.share {
+      text-align: center;
+
+      button {
+        background-color: #6666FF;
+        border: 1px solid navy;
+        padding: 1em 2em;
+        margin: 2em;
+        border-radius: 0.5em;
+        color: white;
+      }
+    }
+
     h1, h2, h3, h4, h5, p {
       margin: 1em 0;
       color: #1C3C7C;
@@ -81,10 +98,13 @@ main.article-page {
     }
 
     h2 {
-      margin: 2em 0 1em 0;
+      margin: 4em 0 1em 0;
       font-weight: 500;
       font-size: 24px;
       line-height: 32px;
+      &.articles {
+        text-align: center;
+      }
     }
 
     p {

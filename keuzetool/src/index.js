@@ -81,12 +81,21 @@ function renderFrontPage(page) {
   const { id, name, content, children, links, sticker, header, blurb } = page;
   return html`
     <main class="front-page">
+      <nav>
+        <h1><a href="#">EHBDoorverwijzen</a></h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Over EHBD</a></li>
+          <li><a href="#">Artikelen</a></li>
+        </ul>
+        <form></form>
+      </nav>
       <header>
         <h1>${header}</h1>
-        <p>${renderMarkdown(blurb)}</p>
+        ${renderMarkdown(blurb)}
         <form id="search">
           <input id="js-search" type="text" name="" value="" placeholder="Wat is uw behoefte?" />
-          <button type="submit">Zoek</button>
+          <button type="submit">Zoeken</button>
         </form>
       </header>
       <section class="content">
@@ -131,6 +140,9 @@ function renderPage(page) {
           </div>
           ${links && html`
             <div class="column">
+              <section class="share">
+                <p><button>Deel dit!</button></p>
+              </section>
               <section class="links">
                 <h1>Meer lezen</h1>
                 <ul>
@@ -142,13 +154,9 @@ function renderPage(page) {
             </div>
           `}
         </section>
+        ${children && html`<h2 class="articles">Artikelen</h2>`}
         ${renderChildren(page)}
       </section>
-      <aside class="sidebar">
-        <section class="share">
-          <p><button>Deel dit!</button></p>
-        </section>
-      </aside>
       <footer></footer>
     </main>
   `
@@ -240,7 +248,6 @@ function parents(node) {
 function renderChildren(page) {
   if ( !page.children ) return '';
   return html`
-    <h2>Artikelen</h2>
     <ul class="child-articles">
       ${page.children.map(({ id, name, blurb, url, children }) => html`
         <li>
@@ -249,7 +256,7 @@ function renderChildren(page) {
               <span class="tag">${numArticles(children)} artikelen</span>
             `}
             <h1>${name}</h1>
-            <p>${renderMarkdown(blurb)}</p>
+            <div>${renderMarkdown(blurb)}</div>
             <span class="button">Lees meer</span>
           </a>
         </li>
