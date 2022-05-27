@@ -27,7 +27,7 @@ main.front-page {
       top: -40px;
       right: calc((100% - 1120px) / 2 - 300px);
 
-      background-image: url('./friemeltje.svg');
+      background-image: url('./images/friemeltje.svg');
       background-position: top right;
       background-repeat: no-repeat;
 
@@ -131,7 +131,7 @@ main.front-page {
 
       &.under-striped {
         padding-bottom: 1em;
-        background-image: url('./streepje.svg');
+        background-image: url('./images/streepje.svg');
         background-repeat: no-repeat;
         background-position: bottom;
       }
