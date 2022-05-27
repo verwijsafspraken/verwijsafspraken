@@ -9,6 +9,11 @@ nav {
   @media screen and (max-width: 1220px) {
     padding: 50px 50px;
   }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    height: 200px;
+    padding: 50px 35px;
+  }
 
   h1 {
     flex: 1 1 250px;
@@ -38,6 +43,10 @@ nav {
         color: #0FA5FF;
         text-decoration: none;
       }
+    }
+
+    @media screen and (max-width: 1024px) {
+      display: none;
     }
   }
 

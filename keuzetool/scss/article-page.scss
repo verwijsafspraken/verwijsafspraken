@@ -6,6 +6,9 @@ main.article-page {
     @media screen and (max-width: 1220px) {
       margin: 66px 50px;
     }
+    @media screen and (max-width: 767px) {
+      margin: 50px 35px;
+    }
 
     .two-column {
       display: flex;
@@ -15,12 +18,15 @@ main.article-page {
           flex: 1 1 30%;
         }
       }
+      @media screen and (max-width: 1220px) {
+        flex-direction: column;
+      }
     }
 
     p.sticker {
       font-weight: 500;
       font-size: 24px;
-      line-height: 120px;
+      line-height: 40px;
 
       &:before {
         content: '';
@@ -35,6 +41,11 @@ main.article-page {
         font-weight: 600;
         font-size: 40px;
         vertical-align: middle;
+
+        @media screen and (max-width: 900px) {
+          display: block;
+          margin-bottom: 30px;
+        }
       }
 
       &.yes:before {
@@ -44,6 +55,10 @@ main.article-page {
       &.no:before {
         content: 'NEE';
         background: #EE4C77;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: 20px;
       }
     }
 
@@ -112,6 +127,15 @@ main.article-page {
       font-size: 16px;
       line-height: 28px;
       color: #2F3135;
+    }
+
+    @media screen and (max-width: 767px) {
+      h1 {
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 20px;
+      }
     }
   }
 }
