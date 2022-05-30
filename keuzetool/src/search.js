@@ -9,33 +9,33 @@ let fuse;
  */
 function findSearchKeysRecurse(obj, path = '', arr = []) {
   for (let key in obj) {
-    let item = obj[key]
-    let newPath
+    let item = obj[key];
+    let newPath;
 
     // Time for some magic: Check if we already have a path (to avoid a dot in front of the path) and if the key is
     // not a number. Then we can concat the current path with the new key.
     if (path.length > 0 && isNaN(parseInt(key))) {
-      newPath = `${path}.${key}`
+      newPath = `${path}.${key}`;
     // If however the key is a number, we can simply ignore this step and use the current path.
     } else if (!isNaN(parseInt(key))) {
-      newPath = path
+      newPath = path;
     // In all other cases, we probably are dealing with the first entry and simply start with the key
     } else {
-      newPath = key
+      newPath = key;
     }
 
     // If the item is an object, that means we can dive into that and find more paths!
     if (typeof item == 'object') {
-      findSearchKeysRecurse(item, newPath, arr)
+      findSearchKeysRecurse(item, newPath, arr);
     } else {
       // We don't need to add `id` to the search keys
       if (key !== 'id') {
-        arr.push(newPath)
+        arr.push(newPath);
       }
     }
   }
   // Make sure we only have unique entries in our array
-  return [...new Set(arr)]
+  return [...new Set(arr)];
 }
 
 function flattenNode(node) {
@@ -46,7 +46,7 @@ function flattenNode(node) {
         ? node.children.flatMap(flattenNode)
         : []
     )
-  ]
+  ];
 }
 
 function initSearch(database) {
@@ -57,8 +57,8 @@ function initSearch(database) {
 }
 
 function handleSearch(event) {
-  let result = fuse.search(event.target.value)
-  console.log('result: ', result)
+  let result = fuse.search(event.target.value);
+  console.log('result: ', result);
 }
 
 module.exports = {
