@@ -17,7 +17,7 @@ function renderFrontPage(page) {
         <h1>${header}</h1>
         ${renderMarkdown(blurb)}
         <form id="search">
-          <input id="js-search" type="text" name="" value="" placeholder="Wat is uw behoefte?" />
+          <input id="js-search" type="text" name="" value="" autocomplete="off" placeholder="Wat is uw behoefte?" />
           <button type="submit">Zoeken</button>
         </form>
       </header>
@@ -43,7 +43,7 @@ function renderPage(page) {
           <li><a href="#">Artikelen</a></li>
         </ul>
         <form id="search">
-          <input id="js-search" type="text" name="" value="" placeholder="Zoeken op onderwerp" />
+          <input id="js-search" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
       </nav>
       <section class="content">
@@ -124,8 +124,8 @@ function renderSearchResults(results) {
       ${results ? results.map(({ item, matches }) => html`
         <li>
           <a href="${item.url}">
-            <h1>${item.name}</h1>
-            <p>${item.blurb}</p>
+            <h1>${searchName(item, matches)}</h1>
+            <p>${searchBody(item, matches)}</p>
           </a>
         </li>
       `) : html`
@@ -133,6 +133,19 @@ function renderSearchResults(results) {
       `}
     </ul>
   `;
+}
+
+function searchName(item, matches) {
+  if ( matches.find(match => match.key == "name") ) {
+    // TODO: Show the right highlights in the name
+    return item.name;
+  }
+  return item.name;
+}
+
+function searchBody(item, matches) {
+  // TODO: Show content or blurb or whatever, with the right highlights
+  return item.blurb;
 }
 
 function renderShareModal({ title, url, text }) {
