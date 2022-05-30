@@ -1,5 +1,9 @@
-import Fuse from 'fuse.js';
-import { findSearchKeysRecurse } from './helper.js';
+import {
+  initSearch,
+  findSearchKeysRecurse,
+  handleSearch
+} from './search.js';
+
 import {
   renderPage,
   renderFrontPage,
@@ -8,7 +12,6 @@ import {
 } from './rendering.js';
 
 let database;
-
 run();
 
 function preprocessNode({ path, node, parent }) {
@@ -27,17 +30,6 @@ function preprocessNode({ path, node, parent }) {
   return node;
 }
 
-function flattenNode(node) {
-  return [
-    node,
-    ...(
-      node.children
-        ? node.children.flatMap(flattenNode)
-        : []
-    )
-  ]
-}
-
 async function run() {
   database = await fetch('./database.json').then(response => response.json());
   database = preprocessNode({
@@ -46,10 +38,7 @@ async function run() {
     parent: null
   });
 
-  fuse = new Fuse(flattenNode(database), {
-    includeMatches: true,
-    keys: ['name', 'content']
-  });
+  initSearch(database);
 
   window.addEventListener('hashchange', () => {
     updatePage();
@@ -72,11 +61,7 @@ function updatePage() {
     : renderPageNotFound()
   );
 
-  document.getElementById('js-search').oninput = (event) => {
-    let result = fuse.search(event.target.value)
-    console.log('result: ', result)
-  }
-
+  document.getElementById('js-search').oninput = handleSearch;
   window.scrollTo(0,0);
 }
 

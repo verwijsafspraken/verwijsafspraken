@@ -1,3 +1,6 @@
+const Fuse = require('fuse.js/dist/fuse.common');
+let fuse;
+
 /**
  * This method allows for recursively looking through a JSON tree and return the path
  * @param obj Object (json blob or child)
@@ -9,8 +12,8 @@ function findSearchKeysRecurse(obj, path = '', arr = []) {
     let item = obj[key]
     let newPath
 
-    // Time for some magic: Check if we already have a path (to avoid a dot in front of the path) and if the key is 
-    // not a number. Then we can concat the current path with the new key. 
+    // Time for some magic: Check if we already have a path (to avoid a dot in front of the path) and if the key is
+    // not a number. Then we can concat the current path with the new key.
     if (path.length > 0 && isNaN(parseInt(key))) {
       newPath = `${path}.${key}`
     // If however the key is a number, we can simply ignore this step and use the current path.
@@ -35,4 +38,31 @@ function findSearchKeysRecurse(obj, path = '', arr = []) {
   return [...new Set(arr)]
 }
 
-module.exports = { findSearchKeysRecurse }
+function flattenNode(node) {
+  return [
+    node,
+    ...(
+      node.children
+        ? node.children.flatMap(flattenNode)
+        : []
+    )
+  ]
+}
+
+function initSearch(database) {
+  fuse = new Fuse(flattenNode(database), {
+    includeMatches: true,
+    keys: ['name', 'content']
+  });
+}
+
+function handleSearch(event) {
+  let result = fuse.search(event.target.value)
+  console.log('result: ', result)
+}
+
+module.exports = {
+  initSearch,
+  findSearchKeysRecurse,
+  handleSearch
+};
