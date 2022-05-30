@@ -66,10 +66,17 @@ function initSearch(database) {
 
 function openSearch(event) {
   openModal(renderSearchModal());
+  const resultList = document.querySelector('.search-modal ul');
   const newInput = document.querySelector('.search-modal input');
   newInput.addEventListener('input', event => {
-    document.querySelector('.search-modal ul').innerHTML =
+    resultList.innerHTML =
       stringifyHtml(renderSearchResults(fuse.search(event.target.value)));
+  });
+  newInput.addEventListener('keydown', event => {
+    if ( event.key === "Enter" ) {
+      const firstLinkInResultList = resultList.querySelector('a');
+      if ( firstLinkInResultList ) firstLinkInResultList.click();
+    }
   });
   newInput.focus();
 }
