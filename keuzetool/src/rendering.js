@@ -117,23 +117,33 @@ function renderPageNotFound() {
   `
 }
 
+function renderSearchModal() {
+  return html`
+    <section class="search-modal">
+      <form>
+        <input type="text" autocomplete="off" placeholder="Zoeken op onderwerp"/>
+        <button class="close">Close dialog</button>
+      </form>
+      <ul></ul>
+    </section>
+  `;
+}
+
 function renderSearchResults(results) {
   return html`
-    <ul>
-      ${results ? results.map(({ item, matches }) => {
-        item = highlightMatches(item, matches);
-        return html`
-          <li>
-            <a href="${item.url}">
-              <h1>${new Html(item.name)}</h1>
-              ${renderMarkdown(item.content ?? item.blurb)}
-            </a>
-          </li>
-        `
-      }) : html`
-        <li class="not-found">No results found</li>
-      `}
-    </ul>
+    ${results ? results.map(({ item, matches }) => {
+      item = highlightMatches(item, matches);
+      return html`
+        <li>
+          <a href="${item.url}">
+            <h1>${new Html(item.name)}</h1>
+            ${renderMarkdown(item.content ?? item.blurb)}
+          </a>
+        </li>
+      `
+    }) : html`
+      <li class="not-found">No results found</li>
+    `}
   `;
 }
 
@@ -165,7 +175,6 @@ function highlightMatches(item, matches) {
 
 function renderShareModal({ title, url, fullURL }) {
   const escapedURL = encodeURIComponent(fullURL);
-  console.log(escapedURL);
   return html`
     <section class="share-modal">
       <button class="close">Close dialog</button>
@@ -293,6 +302,7 @@ module.exports = {
   renderPage,
   renderFrontPage,
   renderPageNotFound,
+  renderSearchModal,
   renderSearchResults,
   renderShareModal,
   stringifyHtml

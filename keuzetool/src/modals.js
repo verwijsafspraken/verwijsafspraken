@@ -1,6 +1,6 @@
 const { stringifyHtml } = require('./rendering.js');
 
-module.exports = function(html) {
+function openModal(html) {
   const modal = document.querySelector('.modal') || document.createElement('div');
   modal.classList.add('modal');
   modal.innerHTML = stringifyHtml(html);
@@ -12,3 +12,17 @@ module.exports = function(html) {
   modal.querySelector('button.close')?.addEventListener('click', () =>
     document.body.removeChild(modal));
 }
+
+function closeModal() {
+  const modal = document.querySelector('.modal');
+  if ( modal ) {
+    document.body.removeChild(modal);
+    return true;
+  }
+  return false;
+}
+
+module.exports = {
+  openModal,
+  closeModal
+};

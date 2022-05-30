@@ -1,5 +1,9 @@
 const Fuse = require('fuse.js/dist/fuse.common');
 const {
+  openModal
+} = require('./modals.js');
+const {
+  renderSearchModal,
   renderSearchResults,
   stringifyHtml
 } = require('./rendering.js');
@@ -60,18 +64,18 @@ function initSearch(database) {
   });
 }
 
-function handleSearch(event) {
-  const searchResults = document.querySelector('.search-results')
-    || document.createElement('div');
-  searchResults.classList.add('search-results');
-  searchResults.innerHTML = stringifyHtml(
-    renderSearchResults(fuse.search(event.target.value))
-  );
-  document.body.appendChild(searchResults);
+function openSearch(event) {
+  openModal(renderSearchModal());
+  const newInput = document.querySelector('.search-modal input');
+  newInput.addEventListener('input', event => {
+    document.querySelector('.search-modal ul').innerHTML =
+      stringifyHtml(renderSearchResults(fuse.search(event.target.value)));
+  });
+  newInput.focus();
 }
 
 module.exports = {
   initSearch,
   findSearchKeysRecurse,
-  handleSearch
+  openSearch
 };
