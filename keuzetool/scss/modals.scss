@@ -1,4 +1,4 @@
-.search-results {
+.search-results, .share-modal {
   position: fixed;
   top: 10vh;
   left: 3vw;
@@ -7,7 +7,9 @@
   background-color: white;
   border: 3px solid purple;
   border-radius: 20px;
+}
 
+.search-results {
   ul {
     list-style: none;
 

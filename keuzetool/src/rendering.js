@@ -32,7 +32,7 @@ function renderFrontPage(page) {
 }
 
 function renderPage(page) {
-  const { id, name, content, children, links, sticker } = page;
+  const { id, name, content, children, links, sticker, url } = page;
   return html`
     <main class="article-page">
       <nav>
@@ -64,7 +64,7 @@ function renderPage(page) {
           ${links && html`
             <div class="column">
               <section class="share">
-                <p><button>Deel dit!</button></p>
+                <p><button id="share" data-title="${name}" data-url="${url}">Deel dit!</button></p>
               </section>
               <section class="links">
                 <h1>Meer lezen</h1>
@@ -132,6 +132,15 @@ function renderSearchResults(results) {
         <li class="not-found">No results found</li>
       `}
     </ul>
+  `;
+}
+
+function renderShareModal({ title, url, text }) {
+  return html`
+    <h1>Deel dit artikel</h1>
+    <h2>${title}</h2>
+    ${text ? html`<p>${text}</p>` : ''}
+    <p><a href="${url}">${window.location.origin}/${url}</a></p>
   `;
 }
 
@@ -244,5 +253,6 @@ module.exports = {
   renderFrontPage,
   renderPageNotFound,
   renderSearchResults,
+  renderShareModal,
   stringifyHtml
 };

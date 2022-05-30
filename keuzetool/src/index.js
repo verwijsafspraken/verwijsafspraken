@@ -8,6 +8,7 @@ import {
   renderPage,
   renderFrontPage,
   renderPageNotFound,
+  renderShareModal,
   stringifyHtml
 } from './rendering.js';
 
@@ -61,8 +62,23 @@ function updatePage() {
     : renderPageNotFound()
   );
 
-  document.getElementById('js-search').oninput = handleSearch;
+  document.getElementById('js-search').addEventListener('input', handleSearch);
+  document.getElementById('share').addEventListener('click', sharePage);
   window.scrollTo(0,0);
+}
+
+function sharePage(event) {
+  // Use native share dialog if present
+  if ( navigator.share ) return navigator.share(event.target.dataset);
+
+  // Otherwise show our own modal
+  const shareModal = document.querySelector('.share-modal')
+    || document.createElement('div');
+  shareModal.classList.add('share-modal');
+  shareModal.innerHTML = stringifyHtml(
+    renderShareModal(event.target.dataset)
+  );
+  document.body.appendChild(shareModal);
 }
 
 function urlFromPath(path) {
