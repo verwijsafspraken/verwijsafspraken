@@ -9,41 +9,210 @@
     {
       "id": "verwijzen",
       "name": "Verwijzen",
-      "blurb": "Hier een blurb over dit onderwerp",
+      "blurb": "Hoe werkt een doorverwijzing?",
       "content": "Kies een partij waar naar verwezen moet worden:",
       "children": [
         {
           "id": "ggz",
           "breadcrumb": "GGZ",
           "name": "Geestelijke gezondheidszorg",
-          "blurb": "Hier een blurb over dit onderwerp",
+          "blurb": "Ruim 4 op de 10 Nederlanders krijgt te maken met de GGZ. Afhankelijk van de situatie is hierbij een verwijzing van de huisarts noodzakelijk.",
           "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk.",
           "children": [
             {
               "id": "acute-ggz",
               "name": "Acute GGZ",
-              "blurb": "Hier een blurb over dit onderwerp",
+              "blurb": "Soms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek.",
               "content": "## Een verwijzing via de huisarts is voor Acute GGZ niet nodig.\n\nSoms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek. Hierbij maakt de leeftijd van desbetreffend persoon niet uit. Kenmerken van de persoon en de omgeving bepalen of er sprake is van een crisis en wat de omvang van de crisis is. Per persoon is er verschillende type hulp noodzakelijk.",
               "sticker": false,
               "links": [
                 {
-                  "name": "ZN",
-                  "url": "https://zn.nl/path"
+                  "name": "GGZ Standaarden",
+                  "url": "https://www.ggzstandaarden.nl/generieke-modules/acute-psychiatrie/introductie"
+                },
+                {
+                  "name": "Zorginstituut Nederland",
+                  "url": "https://www.zorginstituutnederland.nl/actueel/nieuws/2019/09/12/afspraken-over-goede-acute-psychiatrische-zorg"
                 }
               ]
             },
             {
               "id": "jeugdwet",
               "name": "Jeugdwet",
-              "blurb": "Hier een blurb over dit onderwerp",
-              "content": "## Een verwijzing via de huisarts is voor de jeugdwet is... wel nodig?\n\nHier natuurlijk nog een goed verhaal over de jeugdwet.",
-              "sticker": true,
+              "blurb": "In de zorg aan kinderen en jongeren met psychische problemen zijn vaak meerdere professionals betrokken. Die werken onderling samen.",
+              "content": "## Een verwijzing via de huisarts is voor de jeugdwet is niet noodzakelijk.\n\n In de Jeugdwet staat dat de jeugdarts, huisarts en medisch specialist (kinderarts, kinder- en jeugdpsychiater) de bevoegdheid heeft om te indiceren voor niet rechtstreeks toegankelijke jeugdhulp waaronder jeugd-ggz. Daarnaast hebben gemeenten de bevoegdheid om ook anderen daarvoor aan te wijzen en vaak geven ze wijkteams die bevoegdheid.",
+              "sticker": false,
               "links": [
                 {
-                  "name": "ZN",
-                  "url": "https://zn.nl/path"
+                  "name": "GGZ Standaarden",
+                  "url": "https://www.ggzstandaarden.nl/generieke-modules/landelijke-samenwerkingsafspraken-jeugd-ggz/samenwerkingsafspraken"
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verklaring",
+      "name": "Verklaring",
+      "blurb": "Dit betreft een verklaring over informatie uit het dossier.",
+      "content": "Patiënten worden regelmatig geconfronteerd met externe partijen die allerlei informatie vereisen rondom gezondheid en vaardigheden. In veel gevallen is het voor zowel externe partijen en de patiënt onduidelijk waar en hoe deze informatie opgevraagd dient te worden.",
+      "children": [
+        {
+          "id": "rijbewijsverklaring",
+          "breadcrumb": "Rijbewijsverklaring",
+          "name": "Rijbewijsverklaring",
+          "blurb": "Is de patiënt gezond genoeg om een rijbewijs te halen of een rijbewijs te verlengen?",
+          "content": "## De huisarts is niet nodig voor de gezondheidsverklaring van een rijbewijs.\n\n Dit beoordeelt het CBR met de Gezondheidsverklaring. Deze vult de patiënt zelf in.",
+          "sticker": false,
+          "links": [
+            {
+              "name": "CBR",
+              "url": "https://www.cbr.nl/nl/rijbewijs-houden/nl/gezondheidsverklaring.htm"
+            }
+          ]
+        },
+        {
+          "id": "gemeente",
+          "breadcrumb": "Gemeente",
+          "name": "Urgentieverklaring",
+          "blurb": "Intentieverklaring voor een sociale huurwoning.",
+          "content": "## De huisarts geeft geen urgentieverklaring voor sociale huurwoningen.\n\n Er zijn gevallen waarin u voorrang krijgt op een sociale huurwoning. Bijvoorbeeld als u een nieuwe woning nodig heeft om medische redenen. U vraagt dan een urgentieverklaring (of voorrangsverklaring) aan bij de gemeente. De gemeente bepaalt of u recht heeft op voorrang.",
+          "sticker": false,
+          "links": [
+            {
+              "name": "Rijksoverheid",
+              "url": "https://www.rijksoverheid.nl/onderwerpen/huurwoning-zoeken/vraag-en-antwoord/wanneer-krijg-ik-een-urgentieverklaring-voor-een-huurwoning"
+            }
+          ]
+        },
+        {
+          "id": "dossier",
+          "breadcrumb": "Patiëntendossier",
+          "name": "Informatie uit patiëntendossier",
+          "blurb": "Voor verscheidene redenen kunnen externe partijen informatie uit het huisartsendossier wensen",
+          "content": "## De aanvragende partij zal een verzoek indienen bij de huisarts.\n\n De aanvragende partijen kunnen bijvoorbeeld Gemeenten, UWV of advocaten zijn. Aan een aanvraag zijn kosten verbonden voor een derde partij. Let op! Een patiënt heeft te allen tijden het recht zijn/haar eigen dossier op te vragen. Het is echter niet te adiviseren om een compleet dossier met derden te delen.",
+          "sticker": true,
+          "links": [
+            {
+              "name": "KNMG - Geneeskundige verklaring",
+              "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
+            },
+            {
+              "name": "KNMG - Casus",
+              "url": "https://www.knmg.nl/advies-richtlijnen/artseninfolijn/praktijkdilemmas-1/praktijkdilemma/mag-ik-gegevens-uit-een-medisch-dossier-verstrekken-aan-de-advocaat-van-een-patient.htm"
+            },
+            {
+              "name": "Thuisarts",
+              "url": "https://www.thuisarts.nl/bezoek-aan-huisarts/ik-wil-mijn-medische-gegevens-van-huisarts-bekijken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "machtiging",
+      "name": "Machtiging",
+      "blurb": "Een machtiging is noodzakelijk voor vergoeding van bepaalde vormen van zorg en medicatie of vereist voor het reizen met medicatie naar het buitenland.",
+      "content": "Voor bepaalde vormen van zorg, zoals chronische fysiotherapie, een behandeling in het buitenland, een speciaal medicijn of hulpmiddel, vragen zorgverzekeraars als voorwaarde dat de patiënt vooraf toestemming vraagt. Die toestemming heet in verzekeringstermen een machtiging. Zonder machtiging krijgt de patiënt de zorg niet vergoed.",
+      "children": [
+        {
+          "id": "medicatie",
+          "name": "Medicatie",
+          "blurb": "Voor specifieke medicamenten zoals op maat gemaakte medicijnen of medicijnen uit het buitenland.",
+          "content": "## De **voorschrijvende arts** is verantwoordelijk voor de artsenverklaring.\n\nVoor specifieke medicamenten, zoals op maat gemaakte medicijnen of voor medicijnen uit het buitenland is een machtiging nodig. Zonder deze machtiging wordt de medicatie niet vergoed",
+          "sticker": false,
+          "links": [
+            {
+              "name": "Inspectie Gezondheidszorg en Jeugd",
+              "url": "https://www.igj.nl/zorgsectoren/geneesmiddelen/geneesmiddelen-zonder-handelsvergunning/leveren-op-artsenverklaring"
+            }
+          ]
+        },
+        {
+          "id": "medicatie-apotheek",
+          "name": "Medicatie Apotheek",
+          "blurb": "Is de patiënt niet (meer) in staat om medicatie zelf op te halen bij de apotheek?",
+          "content": "## De huisarts geeft geen machtiging voor medicatie van uw eigen apotheek.\n\n Wanneer de patiënt 16 jaar of ouders is, dan kan de patiënt iemand machtigen om dit voor hem/haar te doen. Hiervoor kan een machtigingsformulier bij de eigen apotheek worden aangevraagd evenals daar ook weer worden ingeleverd.",
+          "sticker": false,
+          "links": [
+            {
+              "name": "IkWoonLeefZorg - Medicatie",
+              "url": "https://www.ikwoonleefzorg.nl/hulp-en-zorg/mag-iemand-anders-mijn-medicijnen-ophalen"
+            }
+          ]
+        },
+        {
+          "id": "schengenverklaring",
+          "name": "Schengenverklaring",
+          "blurb": "Dient die de patiënt te reizen met opiaten naar een Schengenland of een land dat de Schengenverklaring accepteert?",
+          "content": "Een Schengenverklaring is 30 dagen geldig. Reist de patiënt langer? Dan er meerdere verklaringen nodig per medicijn.",
+          "sticker": true,
+          "links": [
+            {
+              "name": "Het CAK - Schengenverklaring",
+              "url": "https://www.hetcak.nl/vragen/ik-wil-mijn-medicijnen-meenemen-op-reis/meer-informatie/reizen-binnen-het-schengengebied"
+            }
+          ]
+        },
+        {
+          "id": "verbandmiddelen",
+          "name": "Verbandmiddelen",
+          "blurb": "Voor langdurige wondzorg zijn vaak specialistische verbandmiddelen noodzakelijk.",
+          "content": "Per 1 januari 2016 kunnen huisartsen verbandmiddelen voor langdurige wondzorg voorschrijven zonder een aanvullend formulier. Het recept volstaat.",
+          "sticker": false,
+          "links": [
+            {
+              "name": "LHV formulier verbandmiddelen",
+              "url": "https://hetroergaatom.lhv.nl/actueel/nieuws/formulieren-verbandmiddelen-langdurige-wondzorg-niet-nodig"
+            }
+          ]
+        },
+        {
+          "id": "dietetiek",
+          "name": "Diëtetiek",
+          "blurb": "De Belastingdienst vereist een ingevulde dieeëtbevestiging.",
+          "content": "Volgt de patiënt een dieet op voorschrift van een arts of diëtist? Dan mag de patiënt een vast bedrag bij de belastingopgave voor deze kosten aftrekken.",
+          "sticker": true,
+          "links": [
+            {
+              "name": "Belastingdienst",
+              "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/relatie_familie_en_gezondheid/gezondheid/aftrek_zorgkosten/overzicht_zorgkosten/dieetkosten/dieetbevestiging"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uitvoeringsverzoek",
+      "name": "Uitvoeringsverzoek",
+      "blurb": "Een uitvoeringsverzoek voor voorbehouden behandelingen in de thuiszorg.",
+      "content": "Kies een partij die het uitvoeringsverzoek indient:",
+      "children": [
+        {
+          "id": "huisarts",
+          "name": "Huisarts",
+          "blurb": "De huisarts geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
+          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n Een uitvoeringsverzoek is vorm vrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven worden of in de status en modeling worden toegelicht.",
+          "sticker": true,
+          "links": [
+            {
+              "name": "Rijksoverheid - voorbehouden handelingen",
+              "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
+            }
+          ]
+        },
+        {
+          "id": "overige-zorgverlener",
+          "name": "Overige zorgverlener",
+          "blurb": "Een zorgverlener geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
+          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n Overige zorgverleners die een uitvoeringsverzoek indienen voor een voorbehouden behandelingen moeten deze zelf aanvragen. Een uitvoeringsverzoek is vorm vrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven worden of in de status en modeling worden toegelicht.",
+          "sticker": false,
+          "links": [
+            {
+              "name": "Rijksoverheid - voorbehouden handelingen",
+              "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             }
           ]
         }
