@@ -1,4 +1,8 @@
 const Fuse = require('fuse.js/dist/fuse.common');
+const {
+  renderSearchResults,
+  stringifyHtml
+} = require('./rendering.js');
 let fuse;
 
 /**
@@ -57,8 +61,13 @@ function initSearch(database) {
 }
 
 function handleSearch(event) {
-  let result = fuse.search(event.target.value);
-  console.log('result: ', result);
+  const searchResults = document.querySelector('.search-results')
+    || document.createElement('div');
+  searchResults.classList.add('search-results');
+  searchResults.innerHTML = stringifyHtml(
+    renderSearchResults(fuse.search(event.target.value))
+  );
+  document.body.appendChild(searchResults);
 }
 
 module.exports = {

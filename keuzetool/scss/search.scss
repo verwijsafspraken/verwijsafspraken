@@ -1,0 +1,29 @@
+.search-results {
+  position: fixed;
+  top: 10vh;
+  left: 3vw;
+  right: 3vw;
+  bottom: 3vh;
+  background-color: white;
+  border: 3px solid purple;
+  border-radius: 20px;
+
+  ul {
+    list-style: none;
+
+    li {
+      border-bottom: 3px solid purple;
+
+      a {
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+        color: black;
+
+        h1 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

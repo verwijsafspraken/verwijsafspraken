@@ -117,6 +117,24 @@ function renderPageNotFound() {
   `
 }
 
+function renderSearchResults(results) {
+  console.log(results);
+  return html`
+    <ul>
+      ${results ? results.map(({ item, matches }) => html`
+        <li>
+          <a href="${item.url}">
+            <h1>${item.name}</h1>
+            <p>${item.blurb}</p>
+          </a>
+        </li>
+      `) : html`
+        <li class="not-found">No results found</li>
+      `}
+    </ul>
+  `;
+}
+
 function renderMarkdown(markdown) {
   return new Html(markdown ? marked.parse(markdown) : '');
 }
@@ -225,5 +243,6 @@ module.exports = {
   renderPage,
   renderFrontPage,
   renderPageNotFound,
+  renderSearchResults,
   stringifyHtml
 };
