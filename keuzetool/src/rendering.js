@@ -60,12 +60,12 @@ function renderPage(page) {
               </p>
             ` : ''}
             ${renderMarkdown(content)}
+            <p class="share">
+              <button id="share" data-title="${name}" data-url="${url}">Dit artikel delen</button>
+            </p>
           </div>
           ${links && html`
             <div class="column">
-              <section class="share">
-                <p><button id="share" data-title="${name}" data-url="${url}">Deel dit!</button></p>
-              </section>
               <section class="links">
                 <h1>Meer lezen</h1>
                 <ul>
