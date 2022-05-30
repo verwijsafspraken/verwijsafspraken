@@ -17,7 +17,7 @@ function renderFrontPage(page) {
         <h1>${header}</h1>
         ${renderMarkdown(blurb)}
         <form id="search">
-          <input id="js-search" type="text" name="" value="" autocomplete="off" placeholder="Wat is uw behoefte?" />
+          <input type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
           <button type="submit">Zoeken</button>
         </form>
       </header>
@@ -43,7 +43,7 @@ function renderPage(page) {
           <li><a href="#">Artikelen</a></li>
         </ul>
         <form id="search">
-          <input id="js-search" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
+          <input type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
       </nav>
       <section class="content">

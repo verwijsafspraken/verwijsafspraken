@@ -69,8 +69,8 @@ function updatePage() {
     : renderPageNotFound()
   );
 
-  document.getElementById('js-search').addEventListener('click', openSearch);
-  document.getElementById('js-search').addEventListener('focus', openSearch);
+  document.getElementById('search').addEventListener('click', openSearch);
+  document.querySelector('#search input').addEventListener('focus', openSearch);
   document.getElementById('share')?.addEventListener('click', sharePage);
   window.scrollTo(0,0);
 }
