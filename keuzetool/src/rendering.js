@@ -118,34 +118,49 @@ function renderPageNotFound() {
 }
 
 function renderSearchResults(results) {
-  console.log(results);
   return html`
     <ul>
-      ${results ? results.map(({ item, matches }) => html`
-        <li>
-          <a href="${item.url}">
-            <h1>${searchName(item, matches)}</h1>
-            <p>${searchBody(item, matches)}</p>
-          </a>
-        </li>
-      `) : html`
+      ${results ? results.map(({ item, matches }) => {
+        item = highlightMatches(item, matches);
+        return html`
+          <li>
+            <a href="${item.url}">
+              <h1>${new Html(item.name)}</h1>
+              ${renderMarkdown(item.content ?? item.blurb)}
+            </a>
+          </li>
+        `
+      }) : html`
         <li class="not-found">No results found</li>
       `}
     </ul>
   `;
 }
 
-function searchName(item, matches) {
-  if ( matches.find(match => match.key == "name") ) {
-    // TODO: Show the right highlights in the name
-    return item.name;
+function *pairs(items) {
+  for (let i = 1; i < items.length; i++) {
+    yield [items[i - 1], items[i]];
   }
-  return item.name;
 }
 
-function searchBody(item, matches) {
-  // TODO: Show content or blurb or whatever, with the right highlights
-  return item.blurb;
+function highlightIndices(text, indices) {
+  const header = text.slice(0, indices[0][0]);
+  return [
+    header,
+    ...[...pairs([...indices, [text.length, null]])]
+      .map(([a, b]) => {
+        const [startA, endA] = a;
+        const [startB, _endB] = b;
+        return `<mark>${text.slice(startA, endA + 1)}</mark>${text.slice(endA + 1, startB)}`;
+      })
+  ].join('');
+}
+
+function highlightMatches(item, matches) {
+  return matches.reduce((item, match) => ({
+    ...item,
+    [match.key]: highlightIndices(item[match.key], match.indices)
+  }), item);
 }
 
 function renderShareModal({ title, url, text }) {
