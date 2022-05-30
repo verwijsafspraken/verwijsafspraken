@@ -83,6 +83,11 @@ section.content ul.child-articles {
       background-color: white;
       border: 1px solid #7838CA;
       color: #7838CA;
+
+      &:hover {
+        background-color: #7838CA;
+        color: white;
+      }
     }
   }
 }

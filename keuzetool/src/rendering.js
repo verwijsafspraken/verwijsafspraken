@@ -163,12 +163,25 @@ function highlightMatches(item, matches) {
   }), item);
 }
 
-function renderShareModal({ title, url, text }) {
+function renderShareModal({ title, url, fullURL }) {
+  const escapedURL = encodeURIComponent(fullURL);
+  console.log(escapedURL);
   return html`
-    <h1>Deel dit artikel</h1>
-    <h2>${title}</h2>
-    ${text ? html`<p>${text}</p>` : ''}
-    <p><a href="${url}">${window.location.origin}/${url}</a></p>
+    <section class="share-modal">
+      <button class="close">Close dialog</button>
+      <h1>Delen</h1>
+      <ul>
+        <li><a class="twitter" href='https://twitter.com/share?text=Aambeien&url=${escapedURL}'>Twitter</a></li>
+        <li><a class="facebook" href='https://www.facebook.com/sharer.php?u=${escapedURL}'>Facebook</a></li>
+        <li><a class="whatsapp" href='https://web.whatsapp.com/send?text=${title}%20${escapedURL}'>WhatsApp</a></li>
+        <li><a class="e-mail" href='mailto:?subject=${title}&body=${title}${encodeURIComponent("\n\n")}${escapedURL}'>E-mail</a></li>
+      </ul>
+      <p>Link kopiëren</p>
+      <div class="share-url">
+        <span>${fullURL}</span>
+        <button>Copy to clipboard</button>
+      </div>
+    </section>
   `;
 }
 

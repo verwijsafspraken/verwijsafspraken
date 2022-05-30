@@ -12,6 +12,8 @@ import {
   stringifyHtml
 } from './rendering.js';
 
+import modal from './modals.js';
+
 let database;
 run();
 
@@ -71,15 +73,14 @@ function updatePage() {
 function sharePage(event) {
   // Use native share dialog if present
   if ( navigator.share ) return navigator.share(event.target.dataset);
-
   // Otherwise show our own modal
-  const shareModal = document.querySelector('.share-modal')
-    || document.createElement('div');
-  shareModal.classList.add('share-modal');
-  shareModal.innerHTML = stringifyHtml(
-    renderShareModal(event.target.dataset)
-  );
-  document.body.appendChild(shareModal);
+  const fullURL = window.location.origin + window.location.pathname + event.target.dataset.url;
+  modal(renderShareModal({...event.target.dataset, fullURL}));
+  document.querySelector('.share-url button').addEventListener('click', () => {
+    navigator.clipboard.writeText(fullURL).then(() => {
+      document.querySelector('.share-url').classList.add('shared');
+    });
+  });
 }
 
 function urlFromPath(path) {
