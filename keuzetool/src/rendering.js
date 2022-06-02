@@ -173,17 +173,55 @@ function highlightMatches(item, matches) {
   }), item);
 }
 
-function renderShareModal({ title, url, fullURL }) {
-  const escapedURL = encodeURIComponent(fullURL);
+function renderShareModal({ title, fullURL }) {
+  function toUrl(href, query) {
+    const url = new URL(href);
+    for (const [key, value] of Object.entries(query)) {
+      url.searchParams.append(key, value);
+    }
+    return url.toString();
+  }
+
+  const links = [
+    {
+      title: "Twitter",
+      className: "twitter",
+      url: toUrl("https://twitter.com/share", {
+        text: title,
+        url: fullURL,
+      }),
+    },
+    {
+      title: "Facebook",
+      className: "facebook",
+      url: toUrl("https://www.facebook.com/sharer.php", {
+        u: fullURL
+      }),
+    },
+    {
+      title: "WhatsApp",
+      className: "whatsapp",
+      url: toUrl("https://web.whatsapp.com/send", {
+        text: `${title} ${fullURL}`,
+      }),
+    },
+    {
+      title: "E-mail",
+      className: "e-mail",
+      url: toUrl("mailto:", { subject: title, body: `${title}\n\n${fullURL}` }),
+    },
+  ];
+
   return html`
     <section class="share-modal">
       <button class="close">Close dialog</button>
       <h1>Delen</h1>
       <ul>
-        <li><a class="twitter" href='https://twitter.com/share?text=Aambeien&url=${escapedURL}'>Twitter</a></li>
-        <li><a class="facebook" href='https://www.facebook.com/sharer.php?u=${escapedURL}'>Facebook</a></li>
-        <li><a class="whatsapp" href='https://web.whatsapp.com/send?text=${title}%20${escapedURL}'>WhatsApp</a></li>
-        <li><a class="e-mail" href='mailto:?subject=${title}&body=${title}${encodeURIComponent("\n\n")}${escapedURL}'>E-mail</a></li>
+        ${links.map(({ className, url, title }) => html`
+          <li>
+            <a class=${className} href=${url}>${title}</a>
+          </li>
+        `)}
       </ul>
       <p>Link kopiëren</p>
       <div class="share-url">
