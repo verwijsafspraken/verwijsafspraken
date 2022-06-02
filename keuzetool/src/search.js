@@ -79,8 +79,10 @@ function openSearch(event) {
   });
   newInput.addEventListener('keydown', event => {
     if ( event.key === "Enter" ) {
-      const firstLinkInResultList = resultList.querySelector('a');
-      if ( firstLinkInResultList ) firstLinkInResultList.click();
+      const hoveredSearchResult = resultList.querySelector('a:hover');
+      if ( hoveredSearchResult ) return hoveredSearchResult.click();
+      const firstSearchResult = resultList.querySelector('a');
+      if ( firstSearchResult ) return firstSearchResult.click();
     }
   });
   newInput.focus();
