@@ -154,6 +154,9 @@ function *pairs(items) {
 }
 
 function highlightIndices(text, indices) {
+  if (indices.length === 0) {
+    return text;
+  }
   const header = text.slice(0, indices[0][0]);
   return [
     header,
@@ -166,11 +169,25 @@ function highlightIndices(text, indices) {
   ].join('');
 }
 
+function filterWholeWordIndices(text, indices) {
+  const isAlphanumeric = c => /\w/.test(c);
+  return indices.filter(([start, end]) =>
+    // Beginning of word
+    !isAlphanumeric(text[start - 1]) && isAlphanumeric(text[start]) &&
+    // Ending of word
+    !isAlphanumeric(text[end + 1]) && isAlphanumeric(text[end])
+  );
+}
+
 function highlightMatches(item, matches) {
-  return matches.reduce((item, match) => ({
-    ...item,
-    [match.key]: highlightIndices(item[match.key], match.indices)
-  }), item);
+  return matches.reduce((item, match) => {
+    const text = match.value;
+    const indices = filterWholeWordIndices(text, match.indices);
+    return {
+      ...item,
+      [match.key]: highlightIndices(text, indices)
+    }
+  }, item);
 }
 
 function renderShareModal({ title, fullURL }) {
