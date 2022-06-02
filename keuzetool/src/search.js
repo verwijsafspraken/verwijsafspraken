@@ -58,7 +58,12 @@ function flattenNode(node) {
 }
 
 function initSearch(database) {
-  fuse = new Fuse(flattenNode(database), {
+  const documents = flattenNode(database)
+    .map((node) => ({
+      ...node,
+      content: node.content.replace(/[^A-z0-9\.,!]+/g, ' ')
+    }));
+  fuse = new Fuse(documents, {
     includeMatches: true,
     keys: ['name', 'content']
   });
