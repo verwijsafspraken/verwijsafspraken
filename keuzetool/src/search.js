@@ -1,6 +1,6 @@
 const Fuse = require('fuse.js/dist/fuse.common');
 const {
-  openModal
+  SearchModal
 } = require('./modals.js');
 const {
   renderSearchModal,
@@ -69,8 +69,8 @@ function initSearch(database) {
   });
 }
 
-function openSearch(event) {
-  openModal(renderSearchModal());
+function openSearch() {
+  new SearchModal(renderSearchModal()).open();
   const resultList = document.querySelector('.search-modal ul');
   const newInput = document.querySelector('.search-modal input');
   newInput.addEventListener('input', event => {
