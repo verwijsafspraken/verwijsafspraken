@@ -32,24 +32,8 @@
     overflow: hidden;
 
     form {
-      input {
-        display: block;
-        width: 100%;
-        height: 68px;
-        padding: 11px 50px;
-
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #7B7E85;
-        border-radius: 16px;
-        outline: none;
-        border: none;
-
-        background-image: url('./images/search.svg');
-        background-repeat: no-repeat;
-        background-position: left 22px center;
-      }
+      width: 100%;
+      height: 68px;
 
       button.close {
         display: block;

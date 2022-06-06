@@ -17,8 +17,7 @@ function renderFrontPage(page) {
         <h1>${header}</h1>
         ${renderMarkdown(blurb)}
         <form id="search">
-          <input type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
-          <button type="submit">Zoeken</button>
+          <input class="search large" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
       </header>
       <section class="content">
@@ -43,7 +42,7 @@ function renderPage(page) {
           <li><a href="#">Artikelen</a></li>
         </ul>
         <form id="search">
-          <input type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
+          <input class="search" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
       </nav>
       <section class="content">
@@ -121,7 +120,7 @@ function renderSearchModal() {
   return html`
     <section class="search-modal">
       <form>
-        <input type="text" autocomplete="off" placeholder="Zoeken op onderwerp"/>
+        <input class="search large" type="text" autocomplete="off" placeholder="Zoeken op onderwerp"/>
         <button class="close">Close dialog</button>
       </form>
       <ul></ul>
