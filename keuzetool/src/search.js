@@ -78,12 +78,9 @@ function openSearch() {
       stringifyHtml(renderSearchResults(fuse.search(event.target.value)));
   });
   newInput.addEventListener('keydown', event => {
-    if ( event.key === "Enter" ) {
-      const hoveredSearchResult = resultList.querySelector('a:hover');
-      if ( hoveredSearchResult ) return hoveredSearchResult.click();
-      const firstSearchResult = resultList.querySelector('a');
-      if ( firstSearchResult ) return firstSearchResult.click();
-    }
+    if ( event.key === "Enter" )
+      ( resultList.querySelector('a:hover') ||
+        resultList.querySelector('a') )?.click();
   });
   newInput.focus();
 }
