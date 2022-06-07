@@ -25,12 +25,16 @@ input.search {
 
   &.fake {
     position: fixed;
-    transition: all 0.1s ease;
+    transition: all 0.2s ease;
     border: 1px solid #EBEEF3;
-    padding-left: 55px;
-    font-weight: 400;
-    font-size: 16px;
-    border-radius: 16px;
-    background-position: left 22px center;
+
+    &.open {
+      padding-left: 55px;
+      font-weight: 400;
+      font-size: 16px;
+      border-radius: 16px;
+      background-position: left 22px center;
+      border: 0px;
+    }
   }
 }
