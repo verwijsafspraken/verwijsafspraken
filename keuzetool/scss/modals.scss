@@ -236,6 +236,7 @@
         overflow: hidden;
       }
       button {
+        flex: 0 0 auto;
         height: 48px;
         width: 48px;
         background: #0FA5FF url('./images/copy.svg');
