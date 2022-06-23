@@ -76,23 +76,27 @@ function renderPage(page) {
 
 function renderPageNotFound() {
   return html`
-    <main class="article-page">
+    <main class="article-page err-404-not-found">
       <nav>
         ${renderNavigation()}
         <form id="search">
-          <input id="js-search" type="text" name="" value="" placeholder="Zoeken op onderwerp" />
+          <input class="search" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
       </nav>
       <section class="content">
         <ul class="breadcrumbs">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Pagina niet gevonden</a></li>
+          <li><a href="#">404 error</a></li>
         </ul>
         <section class="two-column">
           <div class="column">
-            <h1>Pagina niet gevonden</h1>
+            <h1>We kunnen de pagina niet vinden</h1>
             <p>De link die je gevolgd hebt leidt naar een pagina die niet (meer) bestaat.</p>
-            <p>Sorry! Hopelijk kom je eruit met de zoekfunctie hierboven?</p>
+            <p>Sorry! Hopelijk kom je eruit met de zoekfunctie hierboven? Probeer anders één van deze opties:</p>
+            <p>
+              <a class="button back" href="javascript:history.go(-1)">Ga terug</a>
+              <a class="button home" href="#">Naar Home</a>
+            </p>
           </div>
         </section>
       </section>

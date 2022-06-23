@@ -1,0 +1,61 @@
+.err-404-not-found {
+  .column a.button {
+    display: inline-block;
+    height: 50px;
+    padding: 0 2em;
+    margin: 2em 1em 0 0;
+
+    border-radius: 25px;
+    color: #5840DD;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 50px;
+    text-decoration: none;
+
+    background-color: white;
+    border: 1px solid #D0D5DD;
+    color: #5840DD;
+
+    &.back {
+      padding-left: 50px;
+      position: relative;
+
+      &:before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 20px;
+        top: 16px;
+
+        background-color: #5840DD;
+        -webkit-mask-image: url('./images/back-arrow.svg');
+        mask-image: url('./images/back-arrow.svg');
+        background-size: 15px;
+        background-repeat: no-repeat;
+      }
+
+      &:hover {
+        border-color: #5840DD;
+        background-color: #5840DD;
+        color: white;
+
+        &:before {
+          background-color: white;
+        }
+      }
+    }
+
+    &.home {
+      border-color: #5840DD;
+      background-color: #5840DD;
+      color: white;
+
+      &:hover {
+        background-color: white;
+        color: #5840DD;
+      }
+    }
+  }
+}
