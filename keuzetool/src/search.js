@@ -1,4 +1,4 @@
-const Fuse = require('fuse.js/dist/fuse.common');
+const Flexsearch = require('flexsearch');
 const {
   SearchModal
 } = require('./modals.js');
@@ -9,64 +9,87 @@ const {
 } = require('./rendering.js');
 let fuse;
 
-/**
- * This method allows for recursively looking through a JSON tree and return the path
- * @param obj Object (json blob or child)
- * @param path Current path of the key
- * @param arr Array to store all currently defined paths
- */
-function findSearchKeysRecurse(obj, path = '', arr = []) {
-  for (let key in obj) {
-    let item = obj[key];
-    let newPath;
+const index = new Flexsearch.Index({
+  preset: 'score',
+  language: 'nl-NL',
+  tokenize: 'full',
+  charset: 'latin:extra'
+});
 
-    // Time for some magic: Check if we already have a path (to avoid a dot in front of the path) and if the key is
-    // not a number. Then we can concat the current path with the new key.
-    if (path.length > 0 && isNaN(parseInt(key))) {
-      newPath = `${path}.${key}`;
-    // If however the key is a number, we can simply ignore this step and use the current path.
-    } else if (!isNaN(parseInt(key))) {
-      newPath = path;
-    // In all other cases, we probably are dealing with the first entry and simply start with the key
-    } else {
-      newPath = key;
-    }
-
-    // If the item is an object, that means we can dive into that and find more paths!
-    if (typeof item == 'object') {
-      findSearchKeysRecurse(item, newPath, arr);
-    } else {
-      // We don't need to add `id` to the search keys
-      if (key !== 'id') {
-        arr.push(newPath);
-      }
-    }
-  }
-  // Make sure we only have unique entries in our array
-  return [...new Set(arr)];
-}
-
-function flattenNode(node) {
+function flattenArticles(article) {
   return [
-    node,
+    article,
     ...(
-      node.children
-        ? node.children.flatMap(flattenNode)
+      article.children
+        ? article.children.flatMap(flattenArticles)
         : []
     )
   ];
 }
 
+function escapeRegExp(text) {
+  return text.replace(/[-[\]{}()*+?.,\\^$|]/g, '\\$&');
+}
+
+function anyOfRegExp(texts) {
+  return new RegExp(
+    texts
+      .map(escapeRegExp)
+      .join('|')
+    , "giu"
+  );
+}
+
+const markdownRegExp = anyOfRegExp([
+  '* ',
+  '# ',
+  '*',
+  '_',
+  '>',
+  '`'
+]);
+
+function demarkdown(text) {
+  return text.replace(markdownRegExp, '');
+}
+
+let articles;
+
 function initSearch(database) {
-  const documents = flattenNode(database)
-    .map((node) => ({
-      ...node,
-      content: node.content.replace(/[^A-z0-9\.,!]+/g, ' ')
-    }));
-  fuse = new Fuse(documents, {
-    includeMatches: true,
-    keys: ['name', 'content']
-  });
+  articles = flattenArticles(database);
+  for (const [articleIndex, article] of articles.entries()) {
+    const text = demarkdown([
+      article.name,
+      article.blurb,
+      article.content
+    ].join('\n\n'));
+    index.add(articleIndex, text);
+  }
+}
+
+function createArticleMatches(query, articles) {
+  // Create regexp from words in query resulting in:
+  //   word1|word2|word3
+  const wordRegexp = anyOfRegExp(query.split(' '));
+  const keys = ['name', 'content'];
+
+  return articles
+    .map(article => {
+      const matches = keys
+        .map(key => {
+          const value = article[key];
+          const indices = [...value.matchAll(wordRegexp)]
+            .map(match => [match.index, match.index + match[0].length - 1]);
+          return { key, value, indices };
+        });
+      return { item: article, matches };
+    });
+}
+
+function search(query) {
+  const foundItemIndexes = index.search(query);
+  const items = foundItemIndexes.map(index => articles[index]);
+  return createArticleMatches(query, items);
 }
 
 function openSearch() {
@@ -74,8 +97,9 @@ function openSearch() {
   const resultList = document.querySelector('.search-modal ul');
   const newInput = document.querySelector('.search-modal input');
   newInput.addEventListener('input', event => {
+    const query = event.target.value;
     resultList.innerHTML =
-      stringifyHtml(renderSearchResults(fuse.search(event.target.value)));
+      stringifyHtml(renderSearchResults(search(query)));
   });
   newInput.addEventListener('keydown', event => {
     if ( event.key === "Enter" )
@@ -87,6 +111,5 @@ function openSearch() {
 
 module.exports = {
   initSearch,
-  findSearchKeysRecurse,
   openSearch
 };
