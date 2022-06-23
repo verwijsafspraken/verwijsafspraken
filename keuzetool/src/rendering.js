@@ -5,12 +5,7 @@ function renderFrontPage(page) {
   return html`
     <main class="front-page">
       <nav>
-        <h1><a href="#">EHBDoorverwijzen</a></h1>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Over EHBD</a></li>
-          <li><a href="#">Artikelen</a></li>
-        </ul>
+        ${renderNavigation()}
         <form></form>
       </nav>
       <header>
@@ -20,9 +15,9 @@ function renderFrontPage(page) {
           <input class="search large" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
       </header>
-      <section class="content">
+      <section class="content" id="artikelen">
         ${renderChildren(page)}
-        <h1 class="under-striped">${name}</h1>
+        <h1 class="under-striped" id="over-ons">${name}</h1>
         ${renderMarkdown(content)}
       </section>
       <footer></footer>
@@ -35,12 +30,7 @@ function renderPage(page) {
   return html`
     <main class="article-page">
       <nav>
-        <h1><a href="#">EHBDoorverwijzen</a></h1>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Over EHBD</a></li>
-          <li><a href="#">Artikelen</a></li>
-        </ul>
+        ${renderNavigation()}
         <form id="search">
           <input class="search" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
@@ -88,12 +78,7 @@ function renderPageNotFound() {
   return html`
     <main class="article-page">
       <nav>
-        <h1><a href="#">EHBDoorverwijzen</a></h1>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Over EHBD</a></li>
-          <li><a href="#">Artikelen</a></li>
-        </ul>
+        ${renderNavigation()}
         <form id="search">
           <input id="js-search" type="text" name="" value="" placeholder="Zoeken op onderwerp" />
         </form>
@@ -114,6 +99,17 @@ function renderPageNotFound() {
       <footer></footer>
     </main>
   `
+}
+
+function renderNavigation() {
+  return html`
+    <h1><a href="#">EHBDoorverwijzen</a></h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#over-ons">Over EHBD</a></li>
+      <li><a href="#artikelen">Artikelen</a></li>
+    </ul>
+  `;
 }
 
 function renderSearchModal() {

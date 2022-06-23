@@ -56,13 +56,24 @@ function preprocessNode({ path, node, parent }) {
 
 async function updatePage() {
   await closeAllModals();
-  const path = document.location.hash
-    .replace(/^[#\/]*/g, '')
-    .split('/')
-    .filter(segment => segment !== '');
 
-  const page = path
-    .reduce((page, segment) => page?.children?.find(child => child.id?.toString() === segment), database);
+  let page;
+  if (!document.location.hash.match(/^(#\/)+/g)) {
+    // Navigate to section on front page
+    page = database;
+    const path = document.location.hash.replace(/^[#\/]*/g, '');
+    setTimeout(() => document.getElementById(path).scrollIntoView({ behavior: 'smooth' }), 1);
+  } else {
+    // Navigate to another page
+    const path = document.location.hash
+      .replace(/^[#\/]*/g, '')
+      .split('/')
+      .filter(segment => segment !== '');
+
+    page = path.reduce((page, segment) =>
+      page?.children?.find(child => child.id?.toString() === segment)
+    , database);
+  }
 
   document.body.innerHTML = stringifyHtml(
     page
