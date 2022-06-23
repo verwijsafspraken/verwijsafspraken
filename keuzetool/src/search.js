@@ -34,23 +34,28 @@ function escapeRegExp(text) {
 function anyOfRegExp(texts) {
   return new RegExp(
     texts
-      .map(escapeRegExp)
+      .map(text =>
+          text instanceof RegExp
+          ? text.source
+          : escapeRegExp(text)
+      )
       .join('|')
     , "giu"
   );
 }
 
 const markdownRegExp = anyOfRegExp([
-  '* ',
-  '# ',
+  /^\* /,
+  /^#+ /,
   '*',
+  '**',
   '_',
   '>',
   '`'
 ]);
 
 function demarkdown(text) {
-  return text.replace(markdownRegExp, '');
+  return text.replaceAll(markdownRegExp, '');
 }
 
 let articles;
@@ -62,7 +67,7 @@ function initSearch(database) {
       article.name,
       article.blurb,
       article.content
-    ].join('\n\n'));
+    ].filter(Boolean).join('\n\n'));
     index.add(articleIndex, text);
   }
 }
@@ -77,7 +82,7 @@ function createArticleMatches(query, articles) {
     .map(article => {
       const matches = keys
         .map(key => {
-          const value = article[key];
+          const value = demarkdown(article[key]);
           const indices = [...value.matchAll(wordRegexp)]
             .map(match => [match.index, match.index + match[0].length - 1]);
           return { key, value, indices };
