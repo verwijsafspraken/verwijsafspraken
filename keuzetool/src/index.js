@@ -62,7 +62,7 @@ async function updatePage() {
     // Navigate to section on front page
     page = database;
     const path = document.location.hash.replace(/^[#\/]*/g, '');
-    setTimeout(() => document.getElementById(path).scrollIntoView({ behavior: 'smooth' }), 1);
+    setTimeout(() => document.getElementById(path)?.scrollIntoView({ behavior: 'smooth' }), 1);
   } else {
     // Navigate to another page
     const path = document.location.hash
