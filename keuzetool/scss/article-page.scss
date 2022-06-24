@@ -88,41 +88,117 @@ main.article-page {
       }
     }
 
-    .share {
-      button {
-        height: 40px;
-        padding: 0 16px 0 48px;
-        margin: 2em 0px;
+    .button-row {
+      display: flex;
+      .share {
+        button {
+          height: 40px;
+          padding: 0 16px 0 48px;
+          margin: 2em 0px;
 
-        border: 1px solid #D0D5DD;
-        border-radius: 8px;
-        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+          border: 1px solid #D0D5DD;
+          border-radius: 8px;
+          box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 40px;
-        background-color: white;
-        color: #5840DD;
-        cursor: pointer;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 40px;
+          background-color: white;
+          color: #5840DD;
+          cursor: pointer;
 
-        background-image: url('./images/share-desktop.svg');
-        background-position: left 15px center;
-        background-repeat: no-repeat;
+          background-image: url('./images/share-desktop.svg');
+          background-position: left 15px center;
+          background-repeat: no-repeat;
 
-        &:hover {
-          box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
+          &:hover {
+            box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
+          }
+
+          .android & {
+            background-image: url('./images/share-android.svg');
+          }
+          .ios & {
+            background-image: url('./images/share-ios.svg');
+          }
         }
 
-        .android & {
-          background-image: url('./images/share-android.svg');
-        }
-        .ios & {
-          background-image: url('./images/share-ios.svg');
+        @media screen and (max-width: 767px) {
+          text-align: center;
         }
       }
+      
+      .helped {
+        button {
+          height: 40px;
+          padding: 0 16px 0 48px;
+          margin: 2em 0px;
 
-      @media screen and (max-width: 767px) {
-        text-align: center;
+          border: 1px solid #D0D5DD;
+          border-radius: 8px;
+          box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 40px;
+          background-color: white;
+          color: #5840DD;
+          cursor: pointer;
+
+          background-image: url('./images/share-desktop.svg');
+          background-position: left 15px center;
+          background-repeat: no-repeat;
+
+          &:hover {
+            box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
+          }
+
+          .android & {
+            background-image: url('./images/share-android.svg');
+          }
+          .ios & {
+            background-image: url('./images/share-ios.svg');
+          }
+        }
+
+        &.hasHelped {
+          button:before {
+            content: 'Uw reactie is gedeeld!';
+            position: relative;
+            display: block;
+            width: 150px;
+            height: 36px;
+            top: -14 - 36px;
+            left: -18px;
+
+            background: #0C1421;
+            border-radius: 4px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 36px;
+            color: white;
+            cursor: default;
+          }
+
+          button:after {
+            content: '';
+            position: relative;
+            display: block;
+            top: -14 - 36px;
+            left: 20px;
+            width: 0px;
+            height: 0px;
+
+            border-top: 6px solid #0C1421;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            cursor: default;
+          }
+        }
+
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
       }
     }
 
