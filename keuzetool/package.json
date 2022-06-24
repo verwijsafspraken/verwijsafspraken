@@ -14,6 +14,7 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
+    "@datadog/browser-logs": "^4.13.0",
     "marked": "^4.0.16"
   }
 }
