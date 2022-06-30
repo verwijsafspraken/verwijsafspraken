@@ -3,7 +3,7 @@ footer {
   align-items: flex-end;
   justify-content: center;
   margin-top: 5em;
-  padding: 50px calc((100% - 1120px) / 2);
+  padding: 70px calc((100% - 1120px) / 2);
   min-height: 260px;
 
   background-color: #1C3C7C;
@@ -12,16 +12,17 @@ footer {
   section {
     flex: 1 1 auto;
     box-sizing: border-box;
-    padding: 70px 100px 70px 0px;
+    padding: 0;
+    padding-right: 150px;
 
     &.right {
-      padding: 70px 0px 70px 100px;
+      padding-left: 100px;
       text-align: right;
     }
   }
 
   h1 {
-    padding: 10px 0 10px 50px;
+    margin-bottom: 0.8em;
     font-weight: 500;
     font-size: 24px;
     line-height: 40px;
@@ -50,10 +51,14 @@ footer {
 
   @media screen and (max-width: 1220px) {
     padding: 50px 50px;
+
+    section {
+      padding-right: 50px;
+    }
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 800px) {
     flex-direction: column;
-    padding: 50px 35px;
+    padding: 50px 10vw;
 
     section {
       padding: 1em 0 !important;
