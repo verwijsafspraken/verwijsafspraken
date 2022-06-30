@@ -21,7 +21,8 @@ class Modal {
     this._modal.addEventListener('click', event => {
       if (event.target === this._modal) this.close();
     });
-    this._modal.querySelector('button.close')?.addEventListener('click', () => {
+    this._modal.querySelector('button.close')?.addEventListener('click', e => {
+      e.preventDefault();
       this.close();
     });
     openModals.push(this);
