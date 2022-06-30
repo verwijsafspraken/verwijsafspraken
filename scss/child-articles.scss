@@ -4,6 +4,7 @@ section.content ul.child-articles {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  margin: 0 !important;
 
   li {
     width: 360px;
