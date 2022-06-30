@@ -24,13 +24,16 @@ main.article-page {
     }
 
     p.sticker {
+      display: flex;
+      align-items: center;
       font-weight: 500;
       font-size: 24px;
       line-height: 40px;
 
       &:before {
         content: '';
-        display: inline-block;
+        display: block;
+        flex: 0 0 auto;
         width: 120px;
         height: 120px;
         margin-right: 20px;
@@ -127,7 +130,7 @@ main.article-page {
           text-align: center;
         }
       }
-      
+
       .helped {
         button {
           height: 40px;
