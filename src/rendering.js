@@ -115,7 +115,7 @@ function renderNavigation() {
     <h1><a href="#">Verwijsafspraken.nl</a></h1>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#over-ons">Over EHBD</a></li>
+      <li><a href="#over-ons">Over deze site</a></li>
       <li><a href="#artikelen">Artikelen</a></li>
     </ul>
   `;
