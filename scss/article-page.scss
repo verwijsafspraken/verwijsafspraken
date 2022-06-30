@@ -91,88 +91,73 @@ main.article-page {
       }
     }
 
-    .button-row {
-      display: flex;
-      .share {
-        button {
-          height: 40px;
-          padding: 0 16px 0 48px;
-          margin: 2em 0px;
+    .article-buttons {
+      margin: 2em 0;
+      @media screen and (max-width: 767px) {
+        text-align: center;
+      }
 
-          border: 1px solid #D0D5DD;
-          border-radius: 8px;
-          box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+      button {
+        position: relative;
+        height: 40px;
+        padding: 0 16px 0 48px;
+        margin: 6px 0;
+        margin-right: 12px;
 
-          font-size: 14px;
-          font-weight: 500;
-          line-height: 40px;
-          background-color: white;
-          color: #5840DD;
-          cursor: pointer;
+        border: 1px solid #D0D5DD;
+        border-radius: 8px;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 
-          background-image: url('./images/share-desktop.svg');
-          background-position: left 15px center;
-          background-repeat: no-repeat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 40px;
+        background-color: white;
+        color: #5840DD;
+        cursor: pointer;
 
-          &:hover {
-            box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
-          }
+        background-position: left 15px center;
+        background-repeat: no-repeat;
 
-          .android & {
-            background-image: url('./images/share-android.svg');
-          }
-          .ios & {
-            background-image: url('./images/share-ios.svg');
-          }
-        }
-
-        @media screen and (max-width: 767px) {
-          text-align: center;
+        &:hover {
+          box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
         }
       }
 
-      .helped {
-        button {
-          height: 40px;
-          padding: 0 16px 0 48px;
-          margin: 2em 0px;
+      button.share {
+        background-image: url('./images/share-desktop.svg');
+        .android & {
+          background-image: url('./images/share-android.svg');
+        }
+        .ios & {
+          background-image: url('./images/share-ios.svg');
+        }
+      }
 
-          border: 1px solid #D0D5DD;
-          border-radius: 8px;
-          box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+      button.helped {
+        background-image: url('./images/thumbs-up.svg');
 
-          font-size: 14px;
-          font-weight: 500;
-          line-height: 40px;
-          background-color: white;
-          color: #5840DD;
-          cursor: pointer;
-
-          background-image: url('./images/share-desktop.svg');
-          background-position: left 15px center;
-          background-repeat: no-repeat;
+        &.hasHelped {
+          background-color: #F5F6F9;
+          color: #93969F;
+          background-image: url('./images/thumbs-up-gray.svg');
+          cursor: default;
 
           &:hover {
-            box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
-          }
-
-          .android & {
-            background-image: url('./images/share-android.svg');
-          }
-          .ios & {
-            background-image: url('./images/share-ios.svg');
+            box-shadow: none;
           }
         }
 
-        &.hasHelped {
-          button:before {
-            content: 'Uw reactie is gedeeld!';
-            position: relative;
+        &.tooltip {
+          &:before {
+            content: '🎉 Dankjewel!';
+            content: attr(data-helped-feedback);
+            position: absolute;
             display: block;
-            width: 150px;
+            width: 170px;
             height: 36px;
             top: -14 - 36px;
-            left: -18px;
+            left: 50%;
+            margin-left: -85px;
 
             background: #0C1421;
             border-radius: 4px;
@@ -183,12 +168,13 @@ main.article-page {
             cursor: default;
           }
 
-          button:after {
+          &:after {
             content: '';
-            position: relative;
+            position: absolute;
             display: block;
-            top: -14 - 36px;
-            left: 20px;
+            top: -14px;
+            left: 50%;
+            margin-left: -6px;
             width: 0px;
             height: 0px;
 
@@ -197,10 +183,6 @@ main.article-page {
             border-right: 6px solid transparent;
             cursor: default;
           }
-        }
-
-        @media screen and (max-width: 767px) {
-          text-align: center;
         }
       }
     }
