@@ -20,7 +20,7 @@ function renderFrontPage(page) {
         <h1 class="under-striped" id="over-ons">${name}</h1>
         ${renderMarkdown(content)}
       </section>
-      <footer></footer>
+      ${renderFooter()}
     </main>
   `
 }
@@ -70,7 +70,7 @@ function renderPage(page) {
         ${children && html`<h2 class="articles">Artikelen</h2>`}
         ${renderChildren(page)}
       </section>
-      <footer></footer>
+      ${renderFooter()}
     </main>
   `
 }
@@ -101,7 +101,7 @@ function renderPageNotFound() {
           </div>
         </section>
       </section>
-      <footer></footer>
+      ${renderFooter()}
     </main>
   `
 }
@@ -114,6 +114,21 @@ function renderNavigation() {
       <li><a href="#over-ons">Over deze site</a></li>
       <li><a href="#artikelen">Artikelen</a></li>
     </ul>
+  `;
+}
+
+function renderFooter() {
+  return html`
+    <footer>
+      <section class="left">
+        <h1>Verwijsafspraken.nl</h1>
+        <p>Verwijsafspraken.nl is gemaakt door <a href="https://www.helpdehuisartsverzuipt.nl/">Help de Huisarts Verzuipt</a> in samenwerking met <a href="https://nedap-healthcare.com/">Nedap Healthcare</a></p>
+      </section>
+      <section class="right">
+        <p>Contact</p>
+        <p><a href="mailto:info@helpdehuisartsverzuipt.nl">info@helpdehuisartsverzuipt.nl</a></p>
+      </section>
+    </footer>
   `;
 }
 

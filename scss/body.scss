@@ -14,3 +14,16 @@ body {
   color: #555555;
   font-family: 'Inter', Tahoma, Arial, sans-serif;
 }
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  & > nav, & > footer {
+    flex: 0 0 auto;
+  }
+  & > section {
+    flex: 1 1 auto;
+  }
+}
