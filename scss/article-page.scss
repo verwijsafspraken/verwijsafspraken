@@ -226,11 +226,15 @@ main.article-page {
       }
     }
 
-    p {
+    p, ul, ol {
       font-weight: 300;
       font-size: 16px;
       line-height: 28px;
       color: #2F3135;
+    }
+
+    ul, ol {
+      margin-left: 2em;
     }
 
     @media screen and (max-width: 767px) {
