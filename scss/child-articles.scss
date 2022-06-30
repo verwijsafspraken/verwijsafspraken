@@ -42,6 +42,9 @@ section.content ul.child-articles {
 
     div {
       flex: 1 1 auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      position: relative;
 
       p {
         flex: 1 1 auto;
@@ -58,6 +61,16 @@ section.content ul.child-articles {
           text-decoration: underline;
           color: #7B7E85;
         }
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        bottom: 0px;
+        background: linear-gradient(transparent 0%, white 90%, white 100%);
       }
     }
 
