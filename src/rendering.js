@@ -26,7 +26,7 @@ function renderFrontPage(page) {
 }
 
 function renderPage(page) {
-  const { id, name, content, children, links, sticker, url } = page;
+  const { id, name, content, children, links, sticker, stickerText, url } = page;
   return html`
     <main class="article-page">
       <nav>
@@ -42,9 +42,9 @@ function renderPage(page) {
             <h1>${name}</h1>
             ${sticker !== undefined ? html`
               <p class=${`sticker ${sticker ? 'yes' : 'no'}`}>
-                ${sticker
+                ${stickerText || (sticker
                   ? 'Je hebt de hulp van de huisarts nodig'
-                  : 'De huisarts hoeft hier niet bij betrokken te worden'
+                  : 'De huisarts hoeft hier niet bij betrokken te worden')
                 }
               </p>
             ` : ''}
