@@ -48,14 +48,10 @@
               </p>
             `:""}
             ${s(r)}
-            <div class="button-row">
-            <p class="share">
-              <button id="share" data-title="${n}" data-url="${c}">Dit artikel delen</button>
+            <p class="article-buttons">
+              <button id="share" class="share" data-title="${n}" data-url="${c}">Dit artikel delen</button>
+              <button id="helped" class="helped" data-title="${n}" data-url="${c}">Dit artikel heeft mij geholpen</button>
             </p>
-            <p class="helped">
-              <button id="helped" data-title="${n}" data-url="${c}">Dit artikel heeft mij geholpen</button>
-            </p>
-          </div>
           </div>
           ${o&&l`
             <div class="column">
