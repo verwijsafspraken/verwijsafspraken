@@ -112,7 +112,7 @@ function renderPageNotFound() {
 
 function renderNavigation() {
   return html`
-    <h1><a href="#">EHBDoorverwijzen</a></h1>
+    <h1><a href="#">Verwijsafspraken.nl</a></h1>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#over-ons">Over EHBD</a></li>
