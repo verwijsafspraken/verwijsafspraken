@@ -1,9 +1,9 @@
 # Verwijsafspraken.nl
 
 [Verwijsafspraken.nl](https://verwijsafspraken.nl) is een initiatief van [Help
-de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega
-zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden
-bij een proces, en de huisarts een duidelijk antwoord om te delen.
+de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft
+collega-zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet
+worden bij een proces, en de huisarts een duidelijk antwoord om te delen.
 
 [Verwijsafspraken.nl](https://verwijsafspraken.nl) is [Open
 Source](https://nl.wikipedia.org/wiki/Open_source). Dat betekent dat iedereen
