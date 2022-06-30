@@ -21,7 +21,7 @@
         </li>
       `))}
     </ul>
-  `:""}function p(e){return e?e.length+e.reduce(((e,t)=>e+p(t.children)),0):0}e.exports={renderPage:function(e){const{id:t,name:n,content:r,children:u,links:o,sticker:a,url:c}=e;return l`
+  `:""}function p(e){return e?e.length+e.reduce(((e,t)=>e+p(t.children)),0):0}e.exports={renderPage:function(e){const{id:t,name:n,content:r,children:u,links:o,sticker:a,stickerText:c,url:p}=e;return l`
     <main class="article-page">
       <nav>
         ${i()}
@@ -44,16 +44,16 @@
             <h1>${n}</h1>
             ${void 0!==a?l`
               <p class=${"sticker "+(a?"yes":"no")}>
-                ${a?"Je hebt de hulp van de huisarts nodig":"De huisarts hoeft hier niet bij betrokken te worden"}
+                ${c||(a?"Je hebt de hulp van de huisarts nodig":"De huisarts hoeft hier niet bij betrokken te worden")}
               </p>
             `:""}
             ${s(r)}
             <div class="button-row">
             <p class="share">
-              <button id="share" data-title="${n}" data-url="${c}">Dit artikel delen</button>
+              <button id="share" data-title="${n}" data-url="${p}">Dit artikel delen</button>
             </p>
             <p class="helped">
-              <button id="helped" data-title="${n}" data-url="${c}">Dit artikel heeft mij geholpen</button>
+              <button id="helped" data-title="${n}" data-url="${p}">Dit artikel heeft mij geholpen</button>
             </p>
           </div>
           </div>
