@@ -106,9 +106,26 @@ function sharePage(event) {
 
 function hasHelped(event) {
   event.preventDefault();
-  
+  const helped = document.getElementById('helped');
+  helped.setAttribute('data-helped-feedback', randomHasHelpedText());
+  helped.classList.add('hasHelped');
   logPageHelped();
-  document.querySelector('.helped').classList.add('hasHelped');
+}
+
+function randomHasHelpedText() {
+  const options = [
+    '🐬 Dat vinden wij dolfijn!',
+    '🎉 Dankjewel!',
+    '💚 Merci beaucoup!',
+    '✌️ Hey wat leuk! Bedankt',
+    '🖐 High 5!',
+    '🐋 Dankjewhale!',
+    '⛰ Dat is top!',
+    '☃️ Cool cool cool!',
+    '💪 Dat doet ons goed!',
+    '🍃 Dat vinden wij lief!'
+  ];
+  return options[Math.floor(Math.random()*options.length)];
 }
 
 function urlFromPath(path) {

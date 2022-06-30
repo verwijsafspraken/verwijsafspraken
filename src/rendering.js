@@ -51,7 +51,7 @@ function renderPage(page) {
             ${renderMarkdown(content)}
             <p class="article-buttons">
               <button id="share" class="share" data-title="${name}" data-url="${url}">Dit artikel delen</button>
-              <button id="helped" class="helped" data-title="${name}" data-url="${url}">Dit artikel heeft mij geholpen</button>
+              <button id="helped" class="helped" data-title="${name}" data-url="${url}" data-helped-feedback="🐬 Dat vinden wij dolfijn!">Dit artikel heeft mij geholpen</button>
             </p>
           </div>
           ${links && html`

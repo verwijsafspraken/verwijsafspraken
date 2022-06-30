@@ -161,7 +161,8 @@ main.article-page {
           cursor: default;
 
           &:before {
-            content: '🐬 Dat vinden wij dolfijn!';
+            content: '🎉 Dankjewel!';
+            content: attr(data-helped-feedback);
             position: absolute;
             display: block;
             width: 200px;
