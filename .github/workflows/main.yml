@@ -11,7 +11,7 @@ jobs:
         run: |
           npm install
           mkdir -p docs
-          cp -r index.html database.json images docs/
+          cp -r index.html database.json images CNAME docs/
           npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
