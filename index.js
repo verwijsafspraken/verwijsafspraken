@@ -3,7 +3,7 @@
     <h1><a href="#">Verwijsafspraken.nl</a></h1>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#over-ons">Over EHBD</a></li>
+      <li><a href="#over-ons">Over deze site</a></li>
       <li><a href="#artikelen">Artikelen</a></li>
     </ul>
   `}function*u(e){for(let t=1;t<e.length;t++)yield[e[t-1],e[t]]}function o(e,t){return 0===t.length?e:[e.slice(0,t[0][0]),...[...u([...t,[e.length,null]])].map((([t,n])=>{const[r,i]=t,[u,o]=n;return`<mark>${e.slice(r,i+1)}</mark>${e.slice(i+1,u)}`}))].join("")}function s(e){return new a(e?r.parse(e):"")}class a{constructor(e){this.content=e}}function l(e,...t){let n="";for(let r=0;r<Math.max(e.length,t.length);r++)if(r in e&&(n+=e[r]),r in t){const i=t[r];n+=/=$/.test(e[r])?JSON.stringify(i):c(i)}return new a(n)}function c(e){return e instanceof Array?e.map(c).join("\n"):e instanceof a?e.content:(t=function(e){return null==e?"":e instanceof Array?e.join("\n"):e.toString()}(e),t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"));var t}function h(e){return e.parent?[...h(e.parent),e]:[]}function f(e){return e.children?l`
