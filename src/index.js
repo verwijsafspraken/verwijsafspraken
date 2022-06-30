@@ -16,18 +16,7 @@ import {
   ShareModal,
   closeAllModals
 } from './modals.js';
-
-
-// Datadog Stats
-import { datadogLogs } from '@datadog/browser-logs'
-
-datadogLogs.init({
-  clientToken: 'pub17f8509ed78f912fb055aeaa4a5d8a39',
-  site: 'datadoghq.com',
-  service: 'starfish.keuzetool',
-  forwardErrorsToLogs: false, // We don't really care about errors
-  sampleRate: 100,
-})
+import { logPageHelped, logPageVisit } from './metrics.js';
 
 let database;
 run();
@@ -93,7 +82,7 @@ async function updatePage() {
     : renderPageNotFound()
   );
 
-  datadogLogs.logger.info('Page visit', { type: 'page.visit', name: page.name, url: document.location.hash })
+  logPageVisit();
 
   document.getElementById('search').addEventListener('click', openSearch);
   document.querySelector('#search input').addEventListener('focus', openSearch);
@@ -118,7 +107,7 @@ function sharePage(event) {
 function hasHelped(event) {
   event.preventDefault();
   
-  datadogLogs.logger.info('Page has helped', { type: 'page.helped', url: document.location.hash })
+  logPageHelped();
   document.querySelector('.helped').classList.add('hasHelped');
 }
 
