@@ -2,7 +2,7 @@
   "id": "welkom",
   "breadcrumb": "Home",
   "header": "Heb ik de hulp van de huisarts nodig?",
-  "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen.",
+  "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega-zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen.",
   "name": "Over deze website",
   "content": "Het gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en u naasten alle  aandacht wanneer het écht nodig is.",
   "children": [
@@ -23,7 +23,7 @@
               "id": "acute-ggz",
               "name": "Acute GGZ",
               "blurb": "Soms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek.",
-              "content": "## Een verwijzing via de huisarts is voor Acute GGZ niet nodig.\n\nSoms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek. Hierbij maakt de leeftijd van desbetreffend persoon niet uit. Kenmerken van de persoon en de omgeving bepalen of er sprake is van een crisis en wat de omvang van de crisis is. Per persoon is er verschillende type hulp noodzakelijk.",
+              "content": "## Een verwijzing via de huisarts is voor Acute GGZ niet nodig.\n\nSoms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek. Hierbij maakt de leeftijd van desbetreffend persoon niet uit. Kenmerken van de persoon en de omgeving bepalen of er sprake is van een crisis en wat de omvang van de crisis is. Per persoon is er verschillende type hulp noodzakelijk.\n\nIn geval van acute psychiatrie kan altijd de huisarts(enpost) worden benaderd voor gegevens en informatie rondom crisisdiensten.",
               "sticker": false,
               "links": [
                 {
@@ -68,7 +68,7 @@
           "id": "ziekenhuiszorg",
           "name": "Ziekenhuiszorg",
           "blurb": "Ziekenhuiszorg omvat medisch-specialistische hulp en daarmee samenhangende verpleging en verzorging aan patiënten.",
-          "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbriefje. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
+          "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbrief. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
           "children": [
             {
               "id": "second-opinion",
@@ -78,10 +78,24 @@
               "sticker": false
             },
             {
-              "id": "langdurige-ziekenhuiszorg",
-              "name": "Langdurige Ziekenhuiszorg",
-              "blurb": "Geen nieuwe verwijzing naar specialist bij behandeling langer dan 12 maanden.",
-              "content": "Zolang een patiënt onder behandeling blijft van een medisch specialist of paramedicus voor dezelfde aandoening of kwaal (en dus niet is terugverwezen naar de eerste lijn) hoeft de huisarts geen nieuwe verwijzing af te geven. Is er sprake van een ‘nieuwe’ aandoening of kwaal, dan is een nieuwe verwijzing wél nodig.\n \nAls een behandeltraject met chronische indicatie langer dan twaalf maanden duurt kan de worden volstaan met een tussentijdse rapportage aan de verwijzer/behandelend arts. Wel dient de initiële verwijzing in het dossier aanwezig te zijn, ook bij een overstap naar een andere behandelaar.",
+              "id": "bestaande-klacht",
+              "name": "Bestaande klacht",
+              "blurb": "De klacht is bekend en huisarts heeft geen afsluitende brief ontvangen",
+              "content": "Zolang een patiënt onder behandeling blijft van een medisch specialist of paramedicus voor dezelfde aandoening of kwaal (en dus niet is terugverwezen naar de eerste lijn, en de huisarts geen afsluitende brief heeft ontvangen) hoeft de huisarts geen nieuwe verwijzing af te geven.\n\nAls een behandeltraject met chronische indicatie langer dan twaalf maanden duurt kan worden volstaan met een tussentijdse rapportage aan de verwijzer/behandelend arts. Wel dient de initiële verwijzing in het dossier aanwezig te zijn, ook bij een overstap naar een andere behandelaar.",
+              "sticker": false
+            },
+            {
+              "id": "nieuwe-klacht",
+              "name": "Nieuwe klacht",
+              "blurb": "Er is sprake van een ‘nieuwe’ aandoening of kwaal",
+              "content": "Is er sprake van een ‘nieuwe’ aandoening of kwaal, dan is een nieuwe verwijzing wél nodig. Daarvoor is de betrokkenheid van de huisarts nodig. De patiënt kan met een nieuwe klacht ook zonder verwijzing naar het ziekenhuis, maar dan worden de kosten niet gedekt door de zorgverzekeraar.",
+              "sticker": true
+            },
+            {
+              "id": "binnen-ziekenhuis",
+              "name": "Verwijzing binnen het ziekenhuis",
+              "blurb": "Er wordt verwezen van de ene naar de andere afdeling binnen het ziekenhuis",
+              "content": "Indien de ene specialist in het ziekenhuis wil doorverwijzen naar een andere specialist in hetzelfde ziekenhuis (bijvoorbeeld: longarts verwijst naar cardioloog) is er geen verwijzing van de huisarts nodig. De betreffende specialist dienst zelf de verwijzing te schrijven.",
               "sticker": false
             }
           ]
