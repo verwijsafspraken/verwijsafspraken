@@ -106,10 +106,12 @@ function sharePage(event) {
 
 function hasHelped(event) {
   event.preventDefault();
+  logPageHelped();
   const helped = document.getElementById('helped');
   helped.setAttribute('data-helped-feedback', randomHasHelpedText());
   helped.classList.add('hasHelped');
-  logPageHelped();
+  helped.classList.add('tooltip');
+  setTimeout(() => helped.classList.remove('tooltip'), 2000);
 }
 
 function randomHasHelpedText() {

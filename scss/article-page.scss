@@ -96,7 +96,8 @@ main.article-page {
         text-align: center;
       }
 
-      button.share {
+      button {
+        position: relative;
         height: 40px;
         padding: 0 16px 0 48px;
         margin: 2em 0px;
@@ -113,14 +114,16 @@ main.article-page {
         color: #5840DD;
         cursor: pointer;
 
-        background-image: url('./images/share-desktop.svg');
         background-position: left 15px center;
         background-repeat: no-repeat;
 
         &:hover {
           box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
         }
+      }
 
+      button.share {
+        background-image: url('./images/share-desktop.svg');
         .android & {
           background-image: url('./images/share-android.svg');
         }
@@ -130,29 +133,7 @@ main.article-page {
       }
 
       button.helped {
-        position: relative;
-        height: 40px;
-        padding: 0 16px 0 48px;
-        margin: 2em 0px;
-
-        border: 1px solid #D0D5DD;
-        border-radius: 8px;
-        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 40px;
-        background-color: white;
-        color: #5840DD;
-        cursor: pointer;
-
         background-image: url('./images/thumbs-up.svg');
-        background-position: left 15px center;
-        background-repeat: no-repeat;
-
-        &:hover {
-          box-shadow: 1px 2px 2px rgba(16, 24, 40, 0.1);
-        }
 
         &.hasHelped {
           background-color: #F5F6F9;
@@ -160,6 +141,12 @@ main.article-page {
           background-image: url('./images/thumbs-up-gray.svg');
           cursor: default;
 
+          &:hover {
+            box-shadow: none;
+          }
+        }
+
+        &.tooltip {
           &:before {
             content: '🎉 Dankjewel!';
             content: attr(data-helped-feedback);
