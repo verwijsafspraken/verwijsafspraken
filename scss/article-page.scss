@@ -92,6 +92,7 @@ main.article-page {
     }
 
     .article-buttons {
+      margin: 2em 0;
       @media screen and (max-width: 767px) {
         text-align: center;
       }
@@ -100,7 +101,7 @@ main.article-page {
         position: relative;
         height: 40px;
         padding: 0 16px 0 48px;
-        margin: 2em 0px;
+        margin: 6px 0;
         margin-right: 12px;
 
         border: 1px solid #D0D5DD;
