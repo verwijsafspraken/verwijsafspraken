@@ -2,7 +2,7 @@
   "id": "welkom",
   "breadcrumb": "Home",
   "header": "Heb ik de hulp van de huisarts nodig?",
-  "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega-zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen.",
+  "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega-zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen. De getoonde informatie is geschreven in samenwerking met het Ministerie van VWS.",
   "name": "Over deze website",
   "content": "Het gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en u naasten alle  aandacht wanneer het écht nodig is.",
   "children": [
@@ -17,7 +17,13 @@
           "breadcrumb": "GGZ",
           "name": "Geestelijke gezondheidszorg (GGZ)",
           "blurb": "Ruim 4 op de 10 Nederlanders krijgt te maken met de GGZ. Afhankelijk van de situatie is hierbij een verwijzing van de huisarts noodzakelijk.",
-          "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk. \n\n Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen geldig is, waarbij de ingangsdatum het moment is waarop de patiënt zich meldt bij de GGZ-instelling, en niet het moment waarop de verwijsbrief wordt afgegeven.",
+          "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk.\n\nVoor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de patiënt zich meldt bij de GGZ-instelling, en niet het moment waarop de verwijsbrief wordt afgegeven.",
+          "links": [
+            {
+              "name": "Verwijsafspraken GGZ november 2021",
+              "url": "https://open.overheid.nl/repository/ronl-dd12fd04-b8c3-4e86-b2d1-d096cf66f76a/1/pdf/Verwijsafspraken%20GGZ_8_november%202021.pdf"
+            }
+          ],
           "children": [
             {
               "id": "acute-ggz",
@@ -61,13 +67,27 @@
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/basis-ggz-en-gespecialiseerde-ggz"
                 }
               ]
+            },
+            {
+              "id": "afgeronde-ggz-behandeling",
+              "name": "Afgeronde GGZ-behandeling",
+              "blurb": "Er is sprake van een GGZ-behandeling die meer dan een jaar geleden is afgerond.",
+              "content": "Op het moment dat de GGZ-behandeling langer dan een jaar geleden is afgerond, is er een verwijzing van de huisarts nodig. Wanneer de afronding minder dan een jaar geleden heeft plaatsgevonden is er **geen** nieuwe verwijzing van de huisarts nodig.",
+              "sticker": true,
+              "stickerText": "Je hebt de hulp van de huisarts nodig (indien de behandeling langer dan een jaar geleden is afgerond)",
+              "links": [
+                {
+                  "name": "Minder administratieve lasten GGZ",
+                  "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/minder-administratieve-lasten-ggz"
+                }
+              ]
             }
           ]
         },
         {
           "id": "ziekenhuiszorg",
-          "name": "Ziekenhuiszorg",
-          "blurb": "Ziekenhuiszorg omvat medisch-specialistische hulp en daarmee samenhangende verpleging en verzorging aan patiënten.",
+          "name": "Ziekenhuiszorg / Zelfstandige behandelcentra (ZBCs)",
+          "blurb": "Ziekenhuiszorg en zorg bij ZBCs omvat medisch-specialistische hulp en daarmee samenhangende verpleging en verzorging aan patiënten.",
           "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbrief. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
           "children": [
             {
@@ -81,7 +101,7 @@
               "id": "bestaande-klacht",
               "name": "Bestaande klacht",
               "blurb": "De klacht is bekend en huisarts heeft geen afsluitende brief ontvangen",
-              "content": "Zolang een patiënt onder behandeling blijft van een medisch specialist of paramedicus voor dezelfde aandoening of kwaal (en dus niet is terugverwezen naar de eerste lijn, en de huisarts geen afsluitende brief heeft ontvangen) hoeft de huisarts geen nieuwe verwijzing af te geven.\n\nAls een behandeltraject met chronische indicatie langer dan twaalf maanden duurt kan worden volstaan met een tussentijdse rapportage aan de verwijzer/behandelend arts. Wel dient de initiële verwijzing in het dossier aanwezig te zijn, ook bij een overstap naar een andere behandelaar.",
+              "content": "Zolang een patiënt onder behandeling blijft van een medisch specialist of paramedicus voor dezelfde aandoening of kwaal (en dus niet is terugverwezen naar de eerste lijn, en de huisarts geen afsluitende brief heeft ontvangen) hoeft de huisarts geen nieuwe verwijzing af te geven.\n\nZonder afsluitende brief is een verwijzing oneindig geldig.\n\nAls een behandeltraject met chronische indicatie langer dan twaalf maanden duurt kan worden volstaan met een tussentijdse rapportage aan de verwijzer/behandelend arts. Wel dient de initiële verwijzing in het dossier aanwezig te zijn, ook bij een overstap naar een andere behandelaar.",
               "sticker": false
             },
             {
@@ -96,6 +116,13 @@
               "name": "Verwijzing binnen het ziekenhuis",
               "blurb": "Er wordt verwezen van de ene naar de andere afdeling binnen het ziekenhuis",
               "content": "Indien de ene specialist in het ziekenhuis wil doorverwijzen naar een andere specialist in hetzelfde ziekenhuis (bijvoorbeeld: longarts verwijst naar cardioloog) is er geen verwijzing van de huisarts nodig. De betreffende specialist dienst zelf de verwijzing te schrijven.",
+              "sticker": false
+            },
+            {
+              "id": "vanuit-ziekenhuis",
+              "name": "Verwijzing vanuit het ziekenhuis",
+              "blurb": "Er wordt verwezen vanuit het ziekenhuis naar vervolgzorg",
+              "content": "Indien een specialist in het ziekenhuis wil doorverwijzen naar vervolgzorg (bijvoorbeeld: een specialist verwijst naar een revalidatiekliniek) is er geen verwijzing van de huisarts nodig. De betreffende specialist dienst zelf de verwijzing te schrijven.\n\nIedereen met een BIG-registratie mag patiënten verwijzen.",
               "sticker": false
             }
           ]
@@ -126,6 +153,20 @@
               "blurb": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven.",
               "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\n <b>Als het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wél een verwijzing schrijven</b>. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand van de ingreep (bijvoorbeeld diabetes, copd, of hartfalen bij een borstvergroting of -verkleining). Of als de patiënt zodanige klachten heeft dat een ingreep van medisch belang is.",
               "sticker": false
+            },
+            {
+              "id": "opticien",
+              "name": "Opticien / Optometrist",
+              "blurb": "Een patiënt moet worden verwezen vanuit een optiekzaak",
+              "content": "Iedere optiekzaak heeft een optometrist die ze kunnen raadplegen. Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig.",
+              "sticker": false
+            },
+            {
+              "id": "audicien",
+              "name": "Audicien",
+              "blurb": "Een patiënt moet worden verwezen vanuit een audicien",
+              "content": "Om vanuit een audicien verwezen te worden naar een KNO-arts of een audiologisch centrum heeft de patiënt een verwijzing van de huisarts nodig.",
+              "sticker": true
             }
           ]
         }
@@ -226,15 +267,44 @@
           "sticker": false
         },
         {
-          "id": "schengenverklaring",
-          "name": "Schengenverklaring",
-          "blurb": "Dient die de patiënt te reizen met opiaten naar een Schengenland of een land dat de Schengenverklaring accepteert?",
-          "content": "Een Schengenverklaring is een document dat een reiziger binnen het Schengengebied bij zich moet hebben als hij geneesmiddelen gebruikt die onder de Opiumwet vallen. \n\nEen Schengenverklaring is 30 dagen geldig. Reist de patiënt langer? Dan er meerdere verklaringen nodig per medicijn.",
-          "sticker": true,
+          "id": "reizen-met-medicatie",
+          "name": "Reizen met medicatie",
+          "blurb": "Dient de patiënt te reizen met medicatie naar een Schengenland of een land dat de Schengenverklaring accepteert?",
+          "content": "Of er een medicijnverklaring nodig is hangt af van het medicijn, het land waar naartoe gereisd wordt en hoe lang er wordt gereisd. Twijfelt u of een medicijn onder de Opiumwet valt? Bekijk dan de links onder 'Meer lezen' of vraag het aan de apotheker.",
           "links": [
             {
-              "name": "Het CAK - Schengenverklaring",
-              "url": "https://www.hetcak.nl/vragen/ik-wil-mijn-medicijnen-meenemen-op-reis/meer-informatie/reizen-binnen-het-schengengebied"
+              "name": "Lijst van Opioïden",
+              "url": "https://www.farmacotherapeutischkompas.nl/bladeren/groepsteksten/opioiden"
+            },
+            {
+              "name": "Medicijnen mee op reis-hulp",
+              "url": "https://www.hetcak.nl/regelingen/medicijnen-mee-op-reis/advies-verklaringen"
+            }
+          ],
+          "children": [
+            {
+              "id": "opioiden",
+              "name": "Medicatie op de lijst van opioïden",
+              "blurb": "Om te reizen met sterke pijnstillers die onder de opiumwet vallen is een Schengenverklaring nodig",
+              "content": "Neem contact op met de ambassade van land van bestemming om te vragen wat er nodig is. Vaak is er een Schengenverklaring nodig. Een Schengenverklaring is een document dat een reiziger binnen het Schengengebied bij zich moet hebben als deze geneesmiddelen gebruikt die onder de Opiumwet vallen.\n\nBij het CAK kan een formulier worden opgevraagd (zie 'Meer lezen'), dat de patiënt zo volledig mogelijk moet invullen. Daarmee kan de patiënt naar de huisarts om het formulier te laten accorderen.\n\nEen Schengenverklaring is 30 dagen geldig. Reist de patiënt langer? Dan zijn er meerdere verklaringen nodig per medicijn.",
+              "sticker": true,
+              "links": [
+                {
+                  "name": "Het CAK - Schengenverklaring",
+                  "url": "https://www.hetcak.nl/vragen/ik-wil-mijn-medicijnen-meenemen-op-reis/meer-informatie/reizen-binnen-het-schengengebied"
+                },
+                {
+                  "name": "Formulier verklaring medicijnen op reis",
+                  "url": "https://www.hetcak.nl/HETCAK/media/HetCAK/formulieren/klant/schengen/Engelstalige-verklaring-voor-medicijnen-op-reis.pdf"
+                }
+              ]
+            },
+            {
+              "id": "niet-opioiden",
+              "name": "Medicatie niet op de lijst van opioïden",
+              "blurb": "Om te reizen met medicatie die niet onder de Opiumwet valt is geen verklaring nodig",
+              "content": "Om te reizen met medicatie die niet onder de Opiumwet vallen, is geen verklaring van de huisarts nodig. Het meenemen van een medicatielijst kan prettig zijn. Deze is op te vragen bij de apotheek.\n\n**Tip: De meeste apotheken geven ook een speciaal reispaspoort uit.**",
+              "sticker": false
             }
           ]
         }
@@ -250,7 +320,7 @@
           "id": "huisarts",
           "name": "Huisarts",
           "blurb": "De huisarts geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
-          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n De vorm waarin een uitvoeringsverzoek wordt gegeven is vormvrij. Dit betekent dat een opdracht ook schriftelijk, mondeling of digitaal gegeven worden. Wordt een opdracht mondeling gegeven? Dan moet degene die de opdracht aanneemt, de opdracht opschrijven en vervolgens voorlezen tijdens het (telefonisch of fysiek) contact. Digitaal kan een uitvoeringsverzoek gegeven worden via een beveiligde mail met een daarvoor bestemde applicatie. Bijvoorbeeld Zorgdomein of het Elektronisch Cliënten Dossier. Deze afspraken staan beschreven in de herziene Handleiding Voorbehouden handelingen in de (wijk)verpleging & verzorging.",
+          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n De vorm waarin een uitvoeringsverzoek wordt gegeven is **vormvrij**. Dit betekent dat een opdracht **schriftelijk, mondeling of digitaal** gegeven mag worden.\n\n* Wordt een opdracht mondeling gegeven? Dan moet degene die de opdracht aanneemt, de opdracht opschrijven en vervolgens voorlezen tijdens het (telefonisch of fysiek) contact.\n* Digitaal kan een uitvoeringsverzoek gegeven worden via een beveiligde mail met een daarvoor bestemde applicatie.\n\nDeze afspraken staan beschreven in de herziene Handleiding Voorbehouden handelingen in de (wijk)verpleging & verzorging.\n### Voorbehouden handelingen\n\nOnderstaande lijst is een overzicht van de voorbehouden handelingen en risicovolle handelingen, die relevant zijn voor **verpleging, verzorging en thuiszorg**.\n\n* Heelkundige handelingen\n   * Wondspoelen via katheter\n   * Verwijderen wondtampon\n   * Verwijderen exudrain\n* Katherisaties\n  * Infuusbehandeling\n    * Inbrengen perifere canule voor infuus (toedieningssysteem)\n    * Epiduraal en intrathecaal (poort): aanprikken spinaal poortsysteem, verwisselen naald\n    * Inbrengen hypodermoclyse\n    * Inbrengen subcutane canule, verwisselen\n  * Sondevoeding\n    * Inbrengen/ verwijderen neus-maag sonde, verwisselen PEG-sonde of jejunostomiesonde\n  * Nier- en blaaskatheterisatie\n    * Inbrengen van blaaskatheter (eenmalig of verblijfs-)\n    * Verwisselen van suprapubische katheter\n    * Urinestoma (UP) – katheteriseren van urinereservoir, spoelen\n  * Darmspoelen/toedienen hoogopgaand klysma\n  * Maaginhoud hevelen\n  * Uitzuigen van tracheacanule/van trachea via tracheacanule\n* Injecties\n  * Subcutaan\n  * Intracutaan\n  * Intramusculair\n  * Intraveneus\n* Puncties \n  * Venapunctie\n  * Ascitespunctie",
           "sticker": true,
           "links": [
             {
@@ -258,7 +328,7 @@
               "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             },
             {
-              "name": "Handleiding voorbouden handelingen",
+              "name": "Handleiding voorbehouden handelingen",
               "url": "https://www.ordz.nl/huisartsen/documenten/publicaties/2019/07/01/update-handleiding-voorbehouden-handelingen"
             }
           ]
@@ -412,6 +482,57 @@
             {
               "name": "IkWoonLeefZorg - Medicatie",
               "url": "https://www.ikwoonleefzorg.nl/hulp-en-zorg/mag-iemand-anders-mijn-medicijnen-ophalen"
+            }
+          ]
+        },
+        {
+          "id": "herhaal-medicatie",
+          "name": "Aanvragen herhaalmedicatie",
+          "blurb": "Het aanvragen van herhaalmedicatie die niet door de huisarts is voorgeschreven",
+          "content": "Het aanvragen van herhaalmedicatie moet altijd bij de arts die de medicatie oorspronkelijk heeft voorgeschreven. Dus indien medicatie door een specialist in het ziekenhuis wordt voorgeschreven moet herhaalmedicatie ook worden aangevraagd bij diezelfde specialist.",
+          "sticker": false,
+          "stickerText": "De huisarts hoeft hier alleen bij betrokken te worden indien de huisarts zelf de medicatie heeft voorgeschreven"
+        }
+      ]
+    },
+    {
+      "id": "hulpmiddelen",
+      "name": "Hulpmiddelen",
+      "blurb": "Het aanvragen van speciale hulpmiddelen",
+      "content": "Zijn er hulpmiddelen nodig voor behandeling, verpleging, revalidatie of verzorging? Dan kunnen deze worden vergoed vanuit het basispakket. Zorgverzekeraars vergoeden eenvoudige loopmiddelen, zoals krukken of een rollator niet meer. Zijn er blijvend hulpmiddelen nodig, bijvoorbeeld vanwege een handicap? Dan worden deze meestal verstrekt door de gemeente.\n\nAls een hulpmiddel of een voorziening nodig is, moet dit eerst worden gemeld bij de betreffende gemeente. Dit is nog geen officiële aanvraag. De gemeente start vervolgens een onderzoek dat maximaal 6 weken mag duren. In dit onderzoek kan ook een gesprek nodig zijn.",
+      "children": [
+        {
+          "id": "hulpmiddelen-in-en-om-huis",
+          "name": "Hulpmiddelen in en om huis",
+          "blurb": "Zijn er hulpmiddelen zoals een rolstoel, een traplift, een speciaal matras of een elektrische deuropener nodig?",
+          "content": "Zijn er hulpmiddelen nodig om zelfstandig te kunnen blijven wonen of om buitenshuis zelfstandig te kunnen verplaatsen? Deze hulpmiddelen worden door de zorgverzekeraar of de gemeente bekostigd. Informatie hierover kunt u opvragen bij het WMO-loket van de gemeente.",
+          "sticker": false,
+          "links": [
+            {
+              "name": "Hulpmiddelenwijzer",
+              "url": "https://www.hulpmiddelenwijzer.nl/"
+            },
+            {
+              "name": "Zijn medische hulpmiddelen opgenomen in het basispakket?",
+              "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/zijn-medische-hulpmiddelen-opgenomen-in-het-basispakket#:~:text=Voorbeelden%20van%20hulpmiddelen%20die%20u,Wmo-loket%20van%20uw%20gemeente"
+            },
+            {
+              "name": "Hulpmiddelen en de ZVW",
+              "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/hulpmiddelen-algemeen-zvw"
+            }
+          ]
+        },
+        {
+          "id": "personenalarmering",
+          "name": "Personenalarmering",
+          "blurb": "Er zijn medische redenen voor de inzet van personenalarmering, een systeem om 24 uur per dag hulp in te kunnen roepen",
+          "content": "In beginsel hoeft de huisarts hier niet bij betrokken te worden. Bij sommige verzekeraars is het helaas noodzakelijk dat de huisarts aangeeft dat er medische redenen zijn voor de inzet van personenalarmering.",
+          "sticker": false,
+          "stickerText": "De huisarts hoeft alleen betrokken te worden indien de verzekeraar dit vereist",
+          "links": [
+            {
+              "name": "Wanneer krijg ik personenalarmering voor thuis vergoed?",
+              "url": "https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/wanneer-krijg-ik-personenalarmering-voor-thuis-vergoed"
             }
           ]
         }
