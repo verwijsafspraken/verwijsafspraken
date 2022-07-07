@@ -122,7 +122,7 @@ function renderFooter() {
     <footer>
       <section class="left">
         <h1>Verwijsafspraken.nl</h1>
-        <p>Verwijsafspraken.nl is gemaakt door <a href="https://www.helpdehuisartsverzuipt.nl/">Help de Huisarts Verzuipt</a> in samenwerking met <a href="https://nedap-healthcare.com/">Nedap Healthcare</a></p>
+        <p>Verwijsafspraken.nl is gemaakt door <a href="https://www.helpdehuisartsverzuipt.nl/">Help de Huisarts Verzuipt</a> in samenwerking met <a href="https://nedap-healthcare.com/">Nedap Healthcare</a>, met informatie van het <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport">Ministerie van VWS</a>.</p>
       </section>
       <section class="right">
         <p>Contact</p>
