@@ -12,11 +12,14 @@ function getPageUrl() {
   return document.location.hash.slice(1);
 }
 
+let referrer = document.referrer;
+
 function log({ type = 'info', message, ...options }) {
   const attributes = {
     ...options,
     view: {
       url: getPageUrl(),
+      referrer,
       ...options.view
     }
   };
@@ -28,6 +31,7 @@ export function logPageVisit() {
     message: `Visit page`,
     action: "page.visit",
   });
+  referrer = document.location.href;
 }
 
 export function logPageHelped() {
