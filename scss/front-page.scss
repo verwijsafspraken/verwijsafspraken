@@ -65,6 +65,13 @@ main.front-page {
         border: 1px solid #EBEEF3;
       }
     }
+
+    a {
+      color: #7B7E85;
+      &:hover {
+        color: lighten(#7B7E85, 10%);
+      }
+    }
   }
 
   section.content {
@@ -108,6 +115,13 @@ main.front-page {
       line-height: 28px;
       color: #2F3135;
       margin: 2em auto;
+    }
+
+    a {
+      color: #2F3135;
+      &:hover {
+        color: lighten(#2F3135, 20%);
+      }
     }
   }
 }
