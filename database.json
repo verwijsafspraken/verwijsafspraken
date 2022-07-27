@@ -4,7 +4,7 @@
   "header": "Heb ik de hulp van de huisarts nodig?",
   "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega-zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen. De getoonde informatie is geschreven in samenwerking met het programma [[Ont]regel de Zorg](https://www.ordz.nl/) van het Ministerie van VWS.",
   "name": "Over deze website",
-  "content": "Het gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en u naasten alle  aandacht wanneer het écht nodig is.\n\nDeze website is ontwikkeld als [Open Source software](https://nl.wikipedia.org/wiki/Opensourcesoftware), en is [hier te vinden op Github](https://github.com/verwijsafspraken/verwijsafspraken).",
+  "content": "Het gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en uw naasten alle  aandacht wanneer het écht nodig is.\n\nDeze website is ontwikkeld als [Open Source software](https://nl.wikipedia.org/wiki/Opensourcesoftware), en is [hier te vinden op Github](https://github.com/verwijsafspraken/verwijsafspraken).",
   "children": [
     {
       "id": "verwijzing",
@@ -19,18 +19,17 @@
           "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbrief. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
           "children": [
             {
-              "id": "second-opinion",
-              "name": "Second Opinion",
-              "blurb": "De behandelend arts maakt de verwijzing voor de second opinion.",
-              "content": "Bij een second opinion maakt de behandelend arts de verwijzing voor de second opinion, en niet de huisarts.",
-              "sticker": false
-            },
-            {
               "id": "bestaande-klacht",
               "name": "Bestaande klacht",
               "blurb": "De klacht is bekend en huisarts heeft geen afsluitende brief ontvangen",
               "content": "Zolang een patiënt onder behandeling blijft van een medisch specialist of paramedicus voor dezelfde aandoening of kwaal (en dus niet is terugverwezen naar de eerste lijn, en de huisarts geen afsluitende brief heeft ontvangen) hoeft de huisarts geen nieuwe verwijzing af te geven.\n\nZonder afsluitende brief is een verwijzing oneindig geldig.\n\nAls een behandeltraject met chronische indicatie langer dan twaalf maanden duurt kan worden volstaan met een tussentijdse rapportage aan de verwijzer/behandelend arts. Wel dient de initiële verwijzing in het dossier aanwezig te zijn, ook bij een overstap naar een andere behandelaar.",
-              "sticker": false
+              "sticker": false,
+              "links": [
+                {
+                  "name": "Informatie bij [Ont]Regel de Zorg",
+                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/geen-nieuwe-verwijzing-naar-specialist-of-paramedicus-bij-behandelingen-langer-dan-12-maanden"
+                }
+              ]
             },
             {
               "id": "nieuwe-klacht",
@@ -47,11 +46,33 @@
               "sticker": false
             },
             {
+              "id": "second-opinion",
+              "name": "Second Opinion",
+              "blurb": "De behandelend arts maakt de verwijzing voor de second opinion.",
+              "content": "Bij een second opinion maakt de behandelend arts de verwijzing voor de second opinion, en niet de huisarts.",
+              "sticker": false
+            },
+            {
               "id": "binnen-ziekenhuis",
               "name": "Verwijzing op verzoek van specialist",
               "blurb": "Een specialist in ziekenhuis of DBC wil iemand verwijzen",
-              "content": "Iedere specialist in Nederland mag verwijzen. Zowel binnen als buiten de eigen organisatie. Verwijzen kan naar alle disciplines, zoals de afdeling cadriologie in het eigen ziekenhuis, maar ook psychologen, diëtisten, collega-specalisten of de huisarts. Ook wanneer er een gerelateerde zorgvraag wordt ontdekt die door de eigen af\n\nWanneer een medisch specialist iemand wil verwijzen naar een ander specialisme is tussenkomst van de huisarts niet noodzakelijk. Wel vindt de huisarts het prettig om op de hoogte gesteld te worden. Is de medisch specialist niet zeker of de patiënt verwezen moet worden, en zo ja waarheen? In dat geval kan de medisch specialist terugverwijzen naar of overleggen met de huisarts zodat die met de patiënt verdere opties kan bespreken.",
+              "content": "Iedere specialist in Nederland mag verwijzen. Zowel binnen als buiten de eigen organisatie. Verwijzen kan naar alle disciplines, zoals de afdeling cardiologie in het eigen ziekenhuis, maar ook psychologen, diëtisten, collega-specialisten, een ander ziekenhuis of de huisarts. Ook wanneer er een gerelateerde zorgvraag wordt ontdekt mag er zelf een indicatie worden gesteld.\n\nWanneer een medisch specialist iemand wil verwijzen naar een ander specialisme is tussenkomst van de huisarts niet noodzakelijk. Wel vindt de huisarts het prettig om op de hoogte gesteld te worden. Is de medisch specialist niet zeker of de patiënt verwezen moet worden, en zo ja waarheen? In dat geval kan de medisch specialist terugverwijzen naar of overleggen met de huisarts zodat die met de patiënt verdere opties kan bespreken.\n\nBijvoorbeeld: Iemand breekt op vakantie een been en de behandeling moet worden overgedragen aan het ziekenhuis thuis. De behandelend specialist mag en kan de patiënt zelf verwijzen zonder tussenkomst van de huisarts.",
               "sticker": false
+            },
+            {
+              "id": "oogarts",
+              "name": "Oogarts",
+              "blurb": "Voor de oogarts is een verwijzing nodig van de optometrist",
+              "content": "Bijna iedere optiekzaak heeft een optometrist die ze kunnen raadplegen. Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Is er geen optometrist in dienst, dan is wel de hulp van de huisarts nodig.",
+              "sticker": false,
+              "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden"
+            },
+            {
+              "id": "kno-arts",
+              "name": "KNO-arts",
+              "blurb": "Voor de KNO-arts is een verwijzing nodig van de huisarts",
+              "content": "Om vanuit een audicien verwezen te worden naar een KNO-arts heeft de patiënt een verwijzing van de huisarts nodig.",
+              "sticker": true
             }
           ]
         },
@@ -85,7 +106,7 @@
               "id": "verlopen-verwijzing",
               "name": "Verlopen GGZ-verwijzing",
               "blurb": "De verwijzing naar de GGZ is meer dan 275 dagen oud",
-              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Heeft binnen 9 maanden nadat de verwijzing is afgegeven het eerste patiëntcontact met de ggz-behandelaar nog niet plaatsgevonden, dan is hiervoor wel een nieuwe verwijzing nodig.",
+              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Heeft binnen 9 maanden nadat de verwijzing is afgegeven het eerste patiëntcontact met de ggz-behandelaar nog niet plaatsgevonden, dan is hiervoor wel een nieuwe verwijzing nodig.\n\nBijvoorbeeld: De verwijzing is op papier meegegeven en de patiënt heeft zich niet binnen 275 dagen bij een GGZ-behandelaar gemeld. Er is dan een nieuwe verwijzing nodig.",
               "sticker": true,
               "links": [
                 {
@@ -202,21 +223,6 @@
               "sticker": false
             },
             {
-              "id": "oogarts",
-              "name": "Oogarts",
-              "blurb": "Voor de oogarts is een verwijzing nodig van de optometrist",
-              "content": "Bijna iedere optiekzaak heeft een optometrist die ze kunnen raadplegen. Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Is er geen optometrist in dienst, dan is wel de hulp van de huisarts nodig.",
-              "sticker": false,
-              "stickerText": "De huisarts hoeft hier bijna nooit bij betrokken te worden"
-            },
-            {
-              "id": "kno-arts",
-              "name": "KNO-arts",
-              "blurb": "Voor de KNO-arts is een verwijzing nodig van de huisarts",
-              "content": "Om vanuit een audicien verwezen te worden naar een KNO-arts heeft de patiënt een verwijzing van de huisarts nodig.",
-              "sticker": true
-            },
-            {
               "id": "audiologisch-centrum",
               "name": "Audiologisch centrum",
               "blurb": "Voor een audiologisch centrum is een verwijzing nodig van de huisarts",
@@ -229,6 +235,12 @@
               "blurb": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven.",
               "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\n **Als het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wél een verwijzing schrijven**. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand van de ingreep (bijvoorbeeld diabetes, copd, of hartfalen bij een borstvergroting of -verkleining). Of als de patiënt zodanige klachten heeft dat een ingreep van medisch belang is.",
               "sticker": false,
+              "links": [
+                {
+                  "name": "Aanvullende zorgverzekering",
+                  "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/wat-is-een-aanvullende-zorgverzekering"
+                }
+              ]
             }
           ]
         }
@@ -266,7 +278,7 @@
           "sticker": false,
           "links": [
             {
-              "name": "Rijksoverheid",
+              "name": "Urgentieverklaring huurwoning",
               "url": "https://www.rijksoverheid.nl/onderwerpen/huurwoning-zoeken/vraag-en-antwoord/wanneer-krijg-ik-een-urgentieverklaring-voor-een-huurwoning"
             }
           ]
@@ -315,6 +327,10 @@
             {
               "name": "Standaardformulier",
               "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/dieetbevestiging-2019"
+            },
+            {
+              "name": "Informatie bij [Ont]Regel de Zorg",
+              "url": "https://www.ordz.nl/actueel/nieuws/2020/02/verzoeken-vanuit-gemeenten-wat-is-de-rol-van-de-huisarts-en-wat-niet/invullen-dieetbevestiging-door-huisarts-niet-standaard-nodig"
             }
           ]
         },
@@ -324,6 +340,12 @@
           "blurb": "Huisartsen worden soms gevraagd een formulier in te vullen dat wordt gebruikt door het Ministerie van Defensie.",
           "content": "Huisartsen krijgen soms de vraag van een patiënt om voor hen een formulier in te vullen dat wordt gebruikt vanuit het ministerie van Defensie. Bijvoorbeeld voor personen die gaan deelnemen aan een fittest of die zich willen voorbereiden op een sollicitatie bij Defensie. **Een huisarts heeft geen rol bij het afgeven van dergelijke verklaringen**. Indien iemand zich bij de huisarts meldt met een dergelijk formulier, dan kan worden gezegd dat de huisarts daar geen verklaring over aflegt en dat de kandidaat het formulier zelf kan invullen. De huisarts hoeft dit formulier dus niet te ondertekenen en hierover te verklaren.\n\n Indien één van de (huis)artsen vanuit Defensie aanvullende informatie nodig heeft naar aanleiding van de medische aanstellingskeuring, is het mogelijk dat de huisarts gevraagd wordt om aanvullende feitelijke informatie te geven. In dat geval ontvangt de huisarts een brief van één van de (huis)artsen vanuit Defensie met dit verzoek.",
           "sticker": false,
+          "links": [
+            {
+              "name": "Informatie bij [Ont]Regel de Zorg",
+              "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/huisarts-geen-rol-bij-invullen-formulier-fittest-defensie"
+            }
+          ]
         },
         {
           "id": "vog",
@@ -352,8 +374,9 @@
               "id": "opioiden",
               "name": "Medicatie op de lijst van opioïden",
               "blurb": "Om te reizen met sterke pijnstillers die onder de opiumwet vallen is een Schengenverklaring nodig",
-              "content": "Neem contact op met de ambassade van land van bestemming om te vragen wat er nodig is. Vaak is er een Schengenverklaring nodig. Een Schengenverklaring is een document dat een reiziger binnen het Schengengebied bij zich moet hebben als deze geneesmiddelen gebruikt die onder de Opiumwet vallen.\n\nBij het CAK kan een formulier worden opgevraagd (zie 'Meer lezen'), dat de reiziger zo volledig mogelijk moet invullen. Daarmee kan de reiziger naar de huisarts om het formulier te laten accorderen.\n\n**Let op:** De huisarts kan hiervoor kosten in rekening brengen, gebaseerd op het NZA-tarief 'opvragen van informatie'.\n\nEen Schengenverklaring is 30 dagen geldig. Wordt er langer gereist? Dan zijn er meerdere verklaringen nodig per medicijn.",
+              "content": "Neem contact op met de ambassade van land van bestemming om te vragen wat er nodig is. Vaak is er een Schengenverklaring nodig. Een Schengenverklaring is een document dat een reiziger binnen het Schengengebied bij zich moet hebben als deze geneesmiddelen gebruikt die onder de Opiumwet vallen.\n\nBij het CAK kan een formulier worden opgevraagd (zie 'Meer lezen'), dat de reiziger zo volledig mogelijk moet invullen. Daarmee kan de reiziger naar de voorschrijvend arts om het formulier te laten accorderen. De voorschrijvend arts kan een huisarts zijn, maar bijvoorbeeld ook een psychiater of een andere specialist.\n\n**Let op:** De arts kan voor het accorderen kosten in rekening brengen, gebaseerd op het NZA-tarief 'opvragen van informatie'.\n\nEen Schengenverklaring is 30 dagen geldig. Wordt er langer gereisd? Dan zijn er meerdere verklaringen nodig per medicijn.",
               "sticker": true,
+              "stickerText": "Je hebt (waarschijnlijk) de hulp van de voorschrijvend arts nodig",
               "links": [
                 {
                   "name": "Het CAK - Schengenverklaring",
@@ -408,7 +431,7 @@
           "sticker": true,
           "links": [
             {
-              "name": "Rijksoverheid - voorbehouden handelingen",
+              "name": "Voorbehouden medische handelingen",
               "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             },
             {
@@ -425,7 +448,7 @@
           "sticker": false,
           "links": [
             {
-              "name": "Rijksoverheid - voorbehouden handelingen",
+              "name": "Voorbehouden medische handelingen",
               "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             }
           ]
@@ -449,6 +472,10 @@
             {
               "name": "ZN Formulieren",
               "url": "https://www.znformulieren.nl/337936417/Formulieren?folderid=338591745&title=Farmacie"
+            },
+            {
+              "name": "Geneesmiddelen bij Zorginstituut Nederland",
+              "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/geneesmiddelen-zvw"
             }
           ]
         },
@@ -497,6 +524,10 @@
             {
               "name": "Lijst indicatiecodes",
               "url": "https://hetroergaatom.lhv.nl/sites/default/files/content/ditiseendomein_lhv_nl/uploads/content/lijst_indicatiecodes_januari_2020.pdf"
+            },
+            {
+              "name": "Informatie bij [Ont]Regel de Zorg",
+              "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/voorschrijven-genees--en-hulpmiddelen/geen-formulieren-meer-bij-voorschrijven-verbandmiddelen-langdurige-wondzorg"
             }
           ]
         },
@@ -607,6 +638,10 @@
             {
               "name": "Hulpmiddelen en de ZVW",
               "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/hulpmiddelen-algemeen-zvw"
+            },
+            {
+              "name": "Hulpmiddelen en de WMO",
+              "url": "https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/ondersteuning-gemeente-wmo-2015"
             }
           ]
         },
