@@ -72,7 +72,7 @@
               "id": "verwijzing-binnen-ggz",
               "name": "Verwijzing binnen GGZ",
               "blurb": "Omtrent verwijzingen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa.",
-              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Een <b>melding</b> aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
+              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Een **melding** aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
               "sticker": false,
               "links": [
                 {
@@ -164,7 +164,7 @@
           "id": "overige-zorg",
           "name": "Overige zorg",
           "blurb": "Hieronder vallen beroepsgroepen zoals de paramedici, mondhygiënisten en huidtherapeuten, etc.",
-          "content": "Deze categorie is een verzameling van van zorgdisciplines naast de ziekenhuiszorg en GGZ. Voor deze groepen geldt in de meeste gevallen een uitzondering van de algemene regel voor specialistische zorg. Namelijk dat er meestal <b>geen</b> verwijzing nodig is.",
+          "content": "Deze categorie is een verzameling van van zorgdisciplines naast de ziekenhuiszorg en GGZ. Voor deze groepen geldt in de meeste gevallen een uitzondering van de algemene regel voor specialistische zorg. Namelijk dat er meestal **geen** verwijzing nodig is.",
           "children": [
             {
               "id": "paramedicus",
@@ -227,8 +227,8 @@
               "id": "aanvullend-pakket",
               "name": "Aanvullend pakket",
               "blurb": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven.",
-              "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\n <b>Als het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wél een verwijzing schrijven</b>. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand van de ingreep (bijvoorbeeld diabetes, copd, of hartfalen bij een borstvergroting of -verkleining). Of als de patiënt zodanige klachten heeft dat een ingreep van medisch belang is.",
-              "sticker": false
+              "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\n **Als het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wél een verwijzing schrijven**. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand van de ingreep (bijvoorbeeld diabetes, copd, of hartfalen bij een borstvergroting of -verkleining). Of als de patiënt zodanige klachten heeft dat een ingreep van medisch belang is.",
+              "sticker": false,
             }
           ]
         }
@@ -262,7 +262,7 @@
           "id": "sociale-huur",
           "name": "Medische verklaring sociale huurwoning",
           "blurb": "Intentieverklaring voor een sociale huurwoning.",
-          "content": "## De huisarts geeft geen urgentieverklaring voor sociale huurwoningen.\n\n Er zijn gevallen waarin u voorrang krijgt op een sociale huurwoning. Bijvoorbeeld als u een nieuwe woning nodig heeft om medische redenen. U vraagt dan een urgentieverklaring (of voorrangsverklaring) aan bij de gemeente. De gemeente bepaalt of u recht heeft op voorrang.",
+          "content": "## De huisarts geeft geen urgentieverklaring voor sociale huurwoningen.\n\n Er zijn gevallen waarin u voorrang krijgt op een sociale huurwoning. Bijvoorbeeld als u een nieuwe woning nodig heeft om medische redenen. U vraagt dan een urgentieverklaring (of voorrangsverklaring) aan bij de gemeente. De **gemeente** bepaalt of u recht heeft op voorrang.",
           "sticker": false,
           "links": [
             {
@@ -275,7 +275,7 @@
           "id": "medische-verklaring-gemeente",
           "name": "Medische verklaring gemeente",
           "blurb": "Gemeenten vragen soms verklaringen rondom urgentie of voorzieningen.",
-          "content": "Wanneer de gemeente in verband met het verstrekken van een voorziening of een urgentie een medische verklaring nodig heeft van de burger, kan deze daarvoor terecht bij <b>een door de gemeente gecontracteerde GGD-arts of een medische adviseur (arts)</b>. Indien nodig kan die arts, met toestemming van de burger/patiënt, feitelijke informatie bij de huisarts of andere behandelend arts opvragen. \n\n Gemeenten kunnen niet van burgers vragen om bepaalde medische verklaringen door hun huisarts te laten invullen of ondertekenen, die een oordeel bevat over de (medische) (on)geschiktheid om bepaalde dingen wel of niet te doen. Bijvoorbeeld of iemand in staat te werken, een auto te besturen, naar school te gaan of recht heeft op een parkeervergunning of aangepaste woonruimte? Gemeenten kunnen niet (medische) verklaringen door de huisarts in laten vullen. Conform de richtlijnen van de KNMG geeft een behandelend arts namelijk geen geneeskundige verklaring af over zijn eigen patiënt.",
+          "content": "Wanneer de gemeente in verband met het verstrekken van een voorziening of een urgentie een medische verklaring nodig heeft van de burger, kan deze daarvoor terecht bij **een door de gemeente gecontracteerde GGD-arts of een medische adviseur (arts)**. Indien nodig kan die arts, met toestemming van de burger/patiënt, feitelijke informatie bij de huisarts of andere behandelend arts opvragen. \n\n Gemeenten kunnen niet van burgers vragen om bepaalde medische verklaringen door hun huisarts te laten invullen of ondertekenen, die een oordeel bevat over de (medische) (on)geschiktheid om bepaalde dingen wel of niet te doen. Bijvoorbeeld of iemand in staat te werken, een auto te besturen, naar school te gaan of recht heeft op een parkeervergunning of aangepaste woonruimte? Gemeenten kunnen niet (medische) verklaringen door de huisarts in laten vullen. Conform de richtlijnen van de KNMG geeft een behandelend arts namelijk geen geneeskundige verklaring af over zijn eigen patiënt.",
           "sticker": false
         },
         {
@@ -283,7 +283,7 @@
           "breadcrumb": "Patiëntendossier",
           "name": "Informatie uit patiëntendossier",
           "blurb": "Voor verscheidene redenen kunnen externe partijen informatie uit het huisartsendossier wensen",
-          "content": "## De aanvragende partij zal een verzoek indienen bij de huisarts.\n\n De aanvragende partijen kunnen bijvoorbeeld gemeenten, UWV of advocaten zijn. Aan een aanvraag zijn kosten verbonden voor een derde partij.\n\n <b>Let op</b>: een patiënt heeft te allen tijden het recht zijn/haar eigen dossier op te vragen. Het is echter niet te adviseren om een compleet dossier met derden te delen.",
+          "content": "## De aanvragende partij zal een verzoek indienen bij de huisarts.\n\n De aanvragende partijen kunnen bijvoorbeeld gemeenten, UWV of advocaten zijn. Aan een aanvraag zijn kosten verbonden voor een derde partij.\n\n **Let op**: een patiënt heeft te allen tijden het recht zijn/haar eigen dossier op te vragen. Het is echter niet te adviseren om een compleet dossier met derden te delen.",
           "sticker": true,
           "links": [
             {
@@ -304,7 +304,7 @@
           "id": "dietetiek",
           "name": "Diëtetiek",
           "blurb": "De Belastingdienst vereist een ingevulde dieeëtbevestiging.",
-          "content": "Mensen die bepaalde diëten volgen kunnen hiervoor soms een vast bedrag aftrekken bij de belastingaangifte. Hiervoor is een zogenaamde dieetbevestiging nodig. Het is niet nodig dat de huisarts deze dieetbevestiging standaard invult. <b>Alléén wanneer de belastinginspecteur specifiek bij de patiënt om de dieetbevestiging heeft gevraagd dán moet deze ingevuld worden</b>. De inspecteur vraagt dit wanneer deze een ingediende aangifte controleert of wanneer de patiënt hulp krijgt bij het indienen van de aangifte. De dieetbevestiging wordt afgegeven door degene die het dieet heeft voorgeschreven; <b>de huisarts dan wel de diëtist</b>.\n\n Om een bedrag af te kunnen trekken moet bij de aangifte aannemelijk gemaakt worden dat een dieet gevolgd wordt op basis van nog steeds geldend medisch voorschrift. Daarvoor is het het handigst om het standaardformulier van de Belastingdienst te gebruiken. Een overzicht van diëten en het bedrag dat kan worden afgetrokken is te vinden op de website van de Belastingdienst.",
+          "content": "Mensen die bepaalde diëten volgen kunnen hiervoor soms een vast bedrag aftrekken bij de belastingaangifte. Hiervoor is een zogenaamde dieetbevestiging nodig. Het is niet nodig dat de huisarts deze dieetbevestiging standaard invult. **Alléén wanneer de belastinginspecteur specifiek bij de patiënt om de dieetbevestiging heeft gevraagd dán moet deze ingevuld worden**. De inspecteur vraagt dit wanneer deze een ingediende aangifte controleert of wanneer de patiënt hulp krijgt bij het indienen van de aangifte. De dieetbevestiging wordt afgegeven door degene die het dieet heeft voorgeschreven; **de huisarts dan wel de diëtist**.\n\n Om een bedrag af te kunnen trekken moet bij de aangifte aannemelijk gemaakt worden dat een dieet gevolgd wordt op basis van nog steeds geldend medisch voorschrift. Daarvoor is het het handigst om het standaardformulier van de Belastingdienst te gebruiken. Een overzicht van diëten en het bedrag dat kan worden afgetrokken is te vinden op de website van de Belastingdienst.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier meestal niet bij betrokken te worden",
           "links": [
@@ -322,8 +322,8 @@
           "id": "defensie",
           "name": "Defensie",
           "blurb": "Huisartsen worden soms gevraagd een formulier in te vullen dat wordt gebruikt door het Ministerie van Defensie.",
-          "content": "Huisartsen krijgen soms de vraag van een patiënt om voor hen een formulier in te vullen dat wordt gebruikt vanuit het ministerie van Defensie. Bijvoorbeeld voor personen die gaan deelnemen aan een fittest of die zich willen voorbereiden op een sollicitatie bij Defensie. <b>Een huisarts heeft geen rol bij het afgeven van dergelijke verklaringen</b>. Indien iemand zich bij de huisarts meldt met een dergelijk formulier, dan kan worden gezegd dat de huisarts daar geen verklaring over aflegt en dat de kandidaat het formulier zelf kan invullen. De huisarts hoeft dit formulier dus niet te ondertekenen en hierover te verklaren.\n\n Indien één van de (huis)artsen vanuit Defensie aanvullende informatie nodig heeft naar aanleiding van de medische aanstellingskeuring, is het mogelijk dat de huisarts gevraagd wordt om aanvullende feitelijke informatie te geven. In dat geval ontvangt de huisarts een brief van één van de (huis)artsen vanuit Defensie met dit verzoek.",
-          "sticker": false
+          "content": "Huisartsen krijgen soms de vraag van een patiënt om voor hen een formulier in te vullen dat wordt gebruikt vanuit het ministerie van Defensie. Bijvoorbeeld voor personen die gaan deelnemen aan een fittest of die zich willen voorbereiden op een sollicitatie bij Defensie. **Een huisarts heeft geen rol bij het afgeven van dergelijke verklaringen**. Indien iemand zich bij de huisarts meldt met een dergelijk formulier, dan kan worden gezegd dat de huisarts daar geen verklaring over aflegt en dat de kandidaat het formulier zelf kan invullen. De huisarts hoeft dit formulier dus niet te ondertekenen en hierover te verklaren.\n\n Indien één van de (huis)artsen vanuit Defensie aanvullende informatie nodig heeft naar aanleiding van de medische aanstellingskeuring, is het mogelijk dat de huisarts gevraagd wordt om aanvullende feitelijke informatie te geven. In dat geval ontvangt de huisarts een brief van één van de (huis)artsen vanuit Defensie met dit verzoek.",
+          "sticker": false,
         },
         {
           "id": "vog",
@@ -421,7 +421,7 @@
           "id": "overige-zorgverleners",
           "name": "Overige zorgverleners",
           "blurb": "Een zorgverlener geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
-          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n Overige zorgverleners die een uitvoeringsverzoek voor voorbehouden behandelingen nodig hebben moeten deze <b>zelf</b> aanvragen. Een uitvoeringsverzoek is vormvrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven worden of in de status en modeling worden toegelicht.",
+          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n Overige zorgverleners die een uitvoeringsverzoek voor voorbehouden behandelingen nodig hebben moeten deze **zelf** aanvragen. Een uitvoeringsverzoek is vormvrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven worden of in de status en modeling worden toegelicht.",
           "sticker": false,
           "links": [
             {
@@ -442,7 +442,7 @@
           "id": "medische-noodzaak",
           "name": "Formulier medische noodzaak",
           "blurb": "Aanvullende formulieren zijn niet meer nodig bij een recept op medische noodzaak",
-          "content": "Per 1 januari 2016 zijn geen aanvullende formulieren meer nodig bij een recept op 'medische noodzaak'. Huisartsen schrijven waar mogelijk generiek voor op basis van de richtlijnen voor de huisartsenzorg. Daarin is het doelmatig voorschrijven van geneesmiddelen verankerd. Als voor de behandeling van een patiënt een specifiek geneesmiddel noodzakelijk is, bijvoorbeeld in verband met bijwerkingen of intolerantie, is per 1 januari 2016 de vermelding ‘medische noodzaak’ op het recept voldoende om de apotheker te laten weten welk geneesmiddel (generiek of spécialité) aan de patiënt moet worden geleverd. De apotheker neemt het recept in behandeling (onder meer om medicatiebewaking uit te voeren) en levert het geneesmiddel af. De verantwoording van de medische noodzaak op extra formulieren vervalt.\n\n<b>Let op</b>: Het formulier voor de artsenverklaring blijft voor sommige Bijlage 2 geneesmiddelen wel van toepassing. Onder het kopje 'Meer lezen' vindt u een link naar een overzicht voor welke geneesmiddelen dit nodig is.",
+          "content": "Per 1 januari 2016 zijn geen aanvullende formulieren meer nodig bij een recept op 'medische noodzaak'. Huisartsen schrijven waar mogelijk generiek voor op basis van de richtlijnen voor de huisartsenzorg. Daarin is het doelmatig voorschrijven van geneesmiddelen verankerd. Als voor de behandeling van een patiënt een specifiek geneesmiddel noodzakelijk is, bijvoorbeeld in verband met bijwerkingen of intolerantie, is per 1 januari 2016 de vermelding ‘medische noodzaak’ op het recept voldoende om de apotheker te laten weten welk geneesmiddel (generiek of spécialité) aan de patiënt moet worden geleverd. De apotheker neemt het recept in behandeling (onder meer om medicatiebewaking uit te voeren) en levert het geneesmiddel af. De verantwoording van de medische noodzaak op extra formulieren vervalt.\n\n**Let op**: Het formulier voor de artsenverklaring blijft voor sommige Bijlage 2 geneesmiddelen wel van toepassing. Onder het kopje 'Meer lezen' vindt u een link naar een overzicht voor welke geneesmiddelen dit nodig is.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
@@ -456,7 +456,7 @@
           "id": "speciale-voeding-dieetpreparaten",
           "name": "Formulier speciale voeding en dieetpreparaten",
           "blurb": "Speciale voeding kan worden voorgeschreven zonder aanvullend formulier",
-          "content": "Per 1 januari 2016 kan speciale voeding worden voorgeschreven zonder aanvullend formulier. <b>Het recept volstaat</b>. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Het recept bevat - naast de gegevens van patiënt en huisarts - de volgende elementen: het af te leveren middel (zo generiek mogelijk), gebruik (de dagdosis) en de hoeveelheid (waaruit de geschatte behandelduur blijkt).\n\n<b>Let op</b>: afhankelijk van de polis van de patiënt, kan soms speciale voeding alleen worden voorgeschreven door een diëtist.",
+          "content": "Per 1 januari 2016 kan speciale voeding worden voorgeschreven zonder aanvullend formulier. **Het recept volstaat**. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Het recept bevat - naast de gegevens van patiënt en huisarts - de volgende elementen: het af te leveren middel (zo generiek mogelijk), gebruik (de dagdosis) en de hoeveelheid (waaruit de geschatte behandelduur blijkt).\n\n**Let op**: afhankelijk van de polis van de patiënt, kan soms speciale voeding alleen worden voorgeschreven door een diëtist.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
@@ -470,14 +470,14 @@
           "id": "baxter-rol",
           "name": "Machtiging verstrekking van geneesmiddelen in Baxter-rol ",
           "blurb": "Huisartsen hoeven de aflevering van geneesmiddelen in een Baxter-rol nog maar één keer te machtigen.",
-          "content": "Per 1 januari 2016 hoeft de huisarts de aflevering van geneesmiddelen in een Baxter-rol nog maar <b>één keer</b> te machtigen. De apotheker kan de Baxter-afgifte vervolgens continueren totdat de huisarts een nieuw recept uitschrijft. <b>Het jaarlijks herhalen van de machtiging is niet meer nodig</b>. Het formulier dat nodig is voor de autorisatielijsten in het Apothekers Informatie Systeem blijft wél bestaan. Dit zijn door het Apothekers Informatie Systeem gemaakte lijsten waarop de actuele medicatie vermeld staat. Deze lijsten moeten, vanwege de Geneesmiddelenwet, jaarlijks ondertekend worden. Evenals formulieren die voortvloeien uit onderlinge afspraken tussen de huisarts en de zorgverzekeraar.",
+          "content": "Per 1 januari 2016 hoeft de huisarts de aflevering van geneesmiddelen in een Baxter-rol nog maar **één keer** te machtigen. De apotheker kan de Baxter-afgifte vervolgens continueren totdat de huisarts een nieuw recept uitschrijft. **Het jaarlijks herhalen van de machtiging is niet meer nodig**. Het formulier dat nodig is voor de autorisatielijsten in het Apothekers Informatie Systeem blijft wél bestaan. Dit zijn door het Apothekers Informatie Systeem gemaakte lijsten waarop de actuele medicatie vermeld staat. Deze lijsten moeten, vanwege de Geneesmiddelenwet, jaarlijks ondertekend worden. Evenals formulieren die voortvloeien uit onderlinge afspraken tussen de huisarts en de zorgverzekeraar.",
           "sticker": true
         },
         {
           "id": "stoppen-met-roken",
           "name": "Formulier stoppen-met-roken medicatie",
           "blurb": "Bij het voorschrijven van stoppen-met-roken medicatie is de vermelding van de letters ‘SMR’ op een recept voldoende.",
-          "content": "Per 1 januari 2016 is bij het voorschrijven van stoppen-met-roken medicatie vermelding van de letters ‘SMR’ op een recept voldoende. <b>Huisartsen hoeven daarnaast geen aanvullend formulier aan te leveren</b>. Voorwaarde is dat de medicatie onderdeel is van een begeleid SMR-programma. Als de begeleiding niet plaats vindt in de eigen praktijk, vergewist de huisarts zich van de medische noodzaak voor de voor te schrijven medicatie.\n\n <b>Let op</b>: Dit geldt alleen voor huisartsen. Voor medisch specialisten en overige zorgverleners is het formulier nog verplicht. Ook hier geldt dat de medicatie onderdeel is van een begeleid SMR-programma.",
+          "content": "Per 1 januari 2016 is bij het voorschrijven van stoppen-met-roken medicatie vermelding van de letters ‘SMR’ op een recept voldoende. **Huisartsen hoeven daarnaast geen aanvullend formulier aan te leveren**. Voorwaarde is dat de medicatie onderdeel is van een begeleid SMR-programma. Als de begeleiding niet plaats vindt in de eigen praktijk, vergewist de huisarts zich van de medische noodzaak voor de voor te schrijven medicatie.\n\n **Let op**: Dit geldt alleen voor huisartsen. Voor medisch specialisten en overige zorgverleners is het formulier nog verplicht. Ook hier geldt dat de medicatie onderdeel is van een begeleid SMR-programma.",
           "sticker": true,
           "links": [
             {
@@ -490,7 +490,7 @@
           "id": "langdurige-wondzorg",
           "name": "Formulier verbandmiddelen bij langdurige wondzorg",
           "blurb": "Huisartsen kunnen verbandmiddelen voor langdurige wondzorg voorschrijven zonder een aanvullend formulier.",
-          "content": "Per 1 januari 2016 kunnen huisartsen verbandmiddelen voor langdurige wondzorg voorschrijven zonder een aanvullend formulier. <b>Het recept volstaat</b>. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
+          "content": "Per 1 januari 2016 kunnen huisartsen verbandmiddelen voor langdurige wondzorg voorschrijven zonder een aanvullend formulier. **Het recept volstaat**. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
@@ -504,7 +504,7 @@
           "id": "incontinentiemateriaal",
           "name": "Formulier incontinentiemateriaal",
           "blurb": "Huisartsen kunnen incontinentiemateriaal voorschrijven zonder een aanvullend formulier.",
-          "content": "Per 1 januari 2016 kunnen huisartsen incontinentiemateriaal voorschrijven zonder een aanvullend formulier. <b>Het recept volstaat</b>. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
+          "content": "Per 1 januari 2016 kunnen huisartsen incontinentiemateriaal voorschrijven zonder een aanvullend formulier. **Het recept volstaat**. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
@@ -518,7 +518,7 @@
           "id": "chronische-aandoeningen",
           "name": "Machtiging bij chronische aandoeningen",
           "blurb": "Huisartsen hoeven de aanvraag voor hulpmiddelen voor chronische aandoeningen niet meer jaarlijks opnieuw te ondertekenen.",
-          "content": "Per 1 januari 2016 hoeven huisartsen de aanvraag voor hulpmiddelen voor chronische aandoeningen <b>niet meer jaarlijks opnieuw te ondertekenen</b>. Dat geldt onder meer voor incontinentiemateriaal en diabetesmaterialen. Er is een overzicht van alle chronische aandoeningen waarop deze afspraak van toepassing is.",
+          "content": "Per 1 januari 2016 hoeven huisartsen de aanvraag voor hulpmiddelen voor chronische aandoeningen **niet meer jaarlijks opnieuw te ondertekenen**. Dat geldt onder meer voor incontinentiemateriaal en diabetesmaterialen. Er is een overzicht van alle chronische aandoeningen waarop deze afspraak van toepassing is.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet jaarlijks te ondertekenen",
           "links": [
