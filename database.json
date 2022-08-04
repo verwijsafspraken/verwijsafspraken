@@ -90,32 +90,6 @@
           ],
           "children": [
             {
-              "id": "verwijzing-binnen-ggz",
-              "name": "Verwijzing binnen GGZ",
-              "blurb": "Omtrent verwijzingen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa.",
-              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Een **melding** aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
-              "sticker": false,
-              "links": [
-                {
-                  "name": "Basis-GGZ en gespecialiseerde GGZ",
-                  "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/basis-ggz-en-gespecialiseerde-ggz"
-                }
-              ]
-            },
-            {
-              "id": "verlopen-verwijzing",
-              "name": "Verlopen GGZ-verwijzing",
-              "blurb": "De verwijzing naar de GGZ is meer dan 275 dagen oud",
-              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Heeft binnen 9 maanden nadat de verwijzing is afgegeven het eerste patiëntcontact met de ggz-behandelaar nog niet plaatsgevonden, dan is hiervoor wel een nieuwe verwijzing nodig.\n\nBijvoorbeeld: De verwijzing is op papier meegegeven en de patiënt heeft zich niet binnen 275 dagen bij een GGZ-behandelaar gemeld. Er is dan een nieuwe verwijzing nodig.",
-              "sticker": true,
-              "links": [
-                {
-                  "name": "Verwijsafspraken GGZ november 2021",
-                  "url": "https://open.overheid.nl/repository/ronl-dd12fd04-b8c3-4e86-b2d1-d096cf66f76a/1/pdf/Verwijsafspraken%20GGZ_8_november%202021.pdf"
-                }
-              ]
-            },
-            {
               "id": "acute-ggz",
               "name": "Acute GGZ",
               "blurb": "Soms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek.",
@@ -133,6 +107,19 @@
               ]
             },
             {
+              "id": "verwijzing-binnen-ggz",
+              "name": "Verwijzing binnen GGZ",
+              "blurb": "Omtrent verwijzingen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa.",
+              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Een **melding** aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
+              "sticker": false,
+              "links": [
+                {
+                  "name": "Basis-GGZ en gespecialiseerde GGZ",
+                  "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/basis-ggz-en-gespecialiseerde-ggz"
+                }
+              ]
+            },
+            {
               "id": "jeugdwet",
               "name": "Jeugdwet",
               "blurb": "In de zorg aan kinderen en jongeren met psychische problemen zijn vaak meerdere professionals betrokken. Die werken onderling samen.",
@@ -142,6 +129,32 @@
                 {
                   "name": "GGZ Standaarden",
                   "url": "https://www.ggzstandaarden.nl/generieke-modules/landelijke-samenwerkingsafspraken-jeugd-ggz/samenwerkingsafspraken"
+                }
+              ]
+            },
+            {
+              "id": "geldige-verwijzing",
+              "name": "Korter dan 9 maanden geleden verwezen",
+              "blurb": "De verwijzing naar de GGZ is minder dan 275 dagen oud",
+              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Het maakt hierbij niet uit of de verwijzing digitaal of op papier wordt ontvangen.",
+              "sticker": false,
+              "links": [
+                {
+                  "name": "Verwijsafspraken GGZ november 2021",
+                  "url": "https://open.overheid.nl/repository/ronl-dd12fd04-b8c3-4e86-b2d1-d096cf66f76a/1/pdf/Verwijsafspraken%20GGZ_8_november%202021.pdf"
+                }
+              ]
+            },
+            {
+              "id": "verlopen-verwijzing",
+              "name": "Langer dan 9 maanden geleden verwezen",
+              "blurb": "De verwijzing naar de GGZ is meer dan 275 dagen oud",
+              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Heeft binnen 9 maanden nadat de verwijzing is afgegeven het eerste patiëntcontact met de GGZ-behandelaar nog niet plaatsgevonden, dan is hiervoor wel een nieuwe verwijzing nodig.\n\nBijvoorbeeld: De verwijzing is digitaal naar een GGZ-instelling verstuurd en de patiënt heeft zich vervolgens niet binnen 275 dagen gemeld. Er is dan een nieuwe verwijzing nodig.",
+              "sticker": true,
+              "links": [
+                {
+                  "name": "Verwijsafspraken GGZ november 2021",
+                  "url": "https://open.overheid.nl/repository/ronl-dd12fd04-b8c3-4e86-b2d1-d096cf66f76a/1/pdf/Verwijsafspraken%20GGZ_8_november%202021.pdf"
                 }
               ]
             },
