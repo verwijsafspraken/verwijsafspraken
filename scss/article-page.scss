@@ -6,9 +6,11 @@ main.article-page {
 
     @media screen and (max-width: 1220px) {
       margin: 66px 50px;
+      width: auto;
     }
     @media screen and (max-width: 767px) {
       margin: 50px 35px;
+      width: auto;
     }
 
     .two-column {
