@@ -36,7 +36,13 @@
               "name": "Nieuwe klacht",
               "blurb": "Er is sprake van een ‘nieuwe’ aandoening of kwaal",
               "content": "Is er sprake van een ‘nieuwe’ aandoening of kwaal, dan is een nieuwe verwijzing wél nodig. Daarvoor is de betrokkenheid van de huisarts nodig. De patiënt kan met een nieuwe klacht ook zonder verwijzing naar het ziekenhuis, maar dan worden de kosten niet gedekt door de zorgverzekeraar.",
-              "sticker": true
+              "sticker": true,
+              "links": [
+                {
+                  "name": "Zorginstituut Nederland - Medisch-specialistische zorg (ZVW)",
+                  "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/medisch-specialistische-zorg-zvw"
+                }
+              ]
             },
             {
               "id": "extra-klacht",
@@ -48,9 +54,23 @@
             {
               "id": "second-opinion",
               "name": "Second Opinion",
-              "blurb": "De behandelend arts maakt de verwijzing voor de second opinion.",
+              "blurb": "De behandelend arts maakt de verwijzing voor de second opinion",
               "content": "Bij een second opinion maakt de behandelend arts de verwijzing voor de second opinion, en niet de huisarts.",
-              "sticker": false
+              "sticker": false,
+              "links": [
+                {
+                  "name": "Zorginstituut Nederland - Second opinion in de Zorgverzekeringswet",
+                  "url": "https://www.zorginstituutnederland.nl/publicaties/standpunten/2015/01/06/second-opinion-in-de-zorgverzekeringswet"
+                },
+                {
+                  "name": "Rijksoverheid - Hoe krijg ik een second opinion in de zorg?",
+                  "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/wat-is-een-second-opinion-in-de-zorg"
+                },
+                {
+                  "name": "[Ont]Regel de Zorg - Verwijzingen",
+                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
+                }
+              ]
             },
             {
               "id": "binnen-ziekenhuis",
@@ -62,17 +82,30 @@
             {
               "id": "oogarts",
               "name": "Oogarts",
-              "blurb": "Voor de oogarts is een verwijzing nodig van de optometrist",
+              "blurb": "Een opticien/optometrist wil verwijzen naar de oogarts",
               "content": "Bijna iedere optiekzaak heeft een optometrist die ze kunnen raadplegen. Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Is er geen optometrist in dienst, dan is wel de hulp van de huisarts nodig.",
               "sticker": false,
-              "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden"
+              "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden",
+              "links": [
+                {
+                  "name": "[Ont]Regel de Zorg - Verwijzingen",
+                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
+                }
+              ]
             },
             {
               "id": "kno-arts",
               "name": "KNO-arts",
-              "blurb": "Voor de KNO-arts is een verwijzing nodig van de huisarts",
+              "blurb": "Een audicien wil verwijzen naar een KNO-arts",
               "content": "Om vanuit een audicien verwezen te worden naar een KNO-arts heeft de patiënt een verwijzing van de huisarts nodig.",
               "sticker": true
+            },
+            {
+              "id": "Kaakchirurg",
+              "name": "Kaakchirurg",
+              "blurb": "De tandarts wil doorverwijzen naar de kaakchirurg",
+              "content": "De kaakchirurg is de tandarts-specialist op het gebied van mondziekten, kaak- en aangezichtschirurgie.\n\nVoor het ontvangen van zorg van de Kaakchirurg is een verwijzing van de **tandarts** nodig, niet van de huisarts.",
+              "sticker": false
             }
           ]
         },
@@ -134,9 +167,9 @@
             },
             {
               "id": "geldige-verwijzing",
-              "name": "Korter dan 9 maanden geleden verwezen",
-              "blurb": "De verwijzing naar de GGZ is minder dan 275 dagen oud",
-              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Het maakt hierbij niet uit of de verwijzing digitaal of op papier wordt ontvangen.",
+              "name": "Patiënt meldt zich aan met geldige verwijzing",
+              "blurb": "Er zit minder dan 275 dagen tussen verwijzing en aanmelding bij de GGZ-instelling",
+              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Het maakt hierbij niet uit of de verwijzing digitaal of op papier wordt ontvangen.\n\nPer 1 januari 2020 is de wachttijd tussen het moment van aanmelden en de intake bij de GGZ-aanbieder (de wachttijd) niet meer van invloed op de geldigheid van de verwijzing.",
               "sticker": false,
               "links": [
                 {
@@ -147,9 +180,9 @@
             },
             {
               "id": "verlopen-verwijzing",
-              "name": "Langer dan 9 maanden geleden verwezen",
-              "blurb": "De verwijzing naar de GGZ is meer dan 275 dagen oud",
-              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Heeft binnen 9 maanden nadat de verwijzing is afgegeven het eerste patiëntcontact met de GGZ-behandelaar nog niet plaatsgevonden, dan is hiervoor wel een nieuwe verwijzing nodig.\n\nBijvoorbeeld: De verwijzing is digitaal naar een GGZ-instelling verstuurd en de patiënt heeft zich vervolgens niet binnen 275 dagen gemeld. Er is dan een nieuwe verwijzing nodig.",
+              "name": "Patiënt meldt zich aan met verlopen verwijzing",
+              "blurb": "Er zit meer dan 275 dagen tussen verwijzing en aanmelding bij de GGZ-instelling",
+              "content": "Voor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de aanmelding bij de GGZ-aanbieder binnenkomt. Heeft binnen 9 maanden nadat de verwijzing is afgegeven de aanmelding bij de GGZ-behandelaar nog niet plaatsgevonden, dan is hiervoor wel een nieuwe verwijzing nodig.\n\nPer 1 januari 2020 is de wachttijd tussen het moment van aanmelden en de intake bij de GGZ-aanbieder (de wachttijd) niet meer van invloed op de geldigheid van de verwijzing.",
               "sticker": true,
               "links": [
                 {
@@ -203,36 +236,42 @@
             {
               "id": "paramedicus",
               "name": "Paramedicus",
-              "blurb": "In de meeste gevallen zijn huisartsverwijzingen voor deze zorgdisciplines niet nodig.",
+              "blurb": "In de meeste gevallen zijn huisartsverwijzingen voor deze zorgdisciplines niet nodig",
               "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - logopedie\n - optometrie\n - Orthoptie\n - oefentherapie\n - Cesar/Mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is.",
-              "sticker": false
+              "sticker": false,
+              "links": [
+                {
+                  "name": "[Ont]Regel de Zorg - Verwijzingen",
+                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
+                }
+              ]
             },
             {
               "id": "mondhygienist",
               "name": "Mondhygiënist",
-              "blurb": "Voor de mondhygiënist is geen verwijzing van de huisarts nodig.",
+              "blurb": "Voor de mondhygiënist is geen verwijzing van de huisarts nodig",
               "content": "Voor het ontvangen van zorg van de mondhygiënist is **geen** verwijzing van de huisarts nodig.",
               "sticker": false
             },
             {
+              "id": "tandarts",
+              "name": "Tandarts",
+              "blurb": "Voor de tandarts is geen verwijzing van de huisarts nodig",
+              "content": "Heeft u een tandheelkundig probleem, dan kunt u terecht bij de tandarts. U heeft daarvoor **geen** verwijzing van de huisarts nodig.",
+              "sticker": false
+            },
+            {
               "id": "opticien",
-              "name": "Opticien",
-              "blurb": "Voor de opticien is geen verwijzing van de huisarts nodig.",
-              "content": "Voor het ontvangen van zorg van de opticien is **geen** verwijzing van de huisarts nodig.",
+              "name": "Opticien / Optometrist",
+              "blurb": "Voor de opticien of optometrist is geen verwijzing van de huisarts nodig",
+              "content": "Voor het ontvangen van zorg van een opticien of een optometrist is **geen** verwijzing van de huisarts nodig.",
               "sticker": false
             },
             {
               "id": "audicien",
               "name": "Audicien",
-              "blurb": "Voor de audicien is geen verwijzing van de huisarts nodig.",
+              "blurb": "Voor de audicien is geen verwijzing van de huisarts nodig",
               "content": "Voor het ontvangen van zorg van de audicien is **geen** verwijzing van de huisarts nodig.",
-              "sticker": false
-            },
-            {
-              "id": "Kaakchirurg",
-              "name": "Kaakchirurg",
-              "blurb": "Voor de Kaakchirurg is een verwijzing nodig van de tandarts",
-              "content": "De kaakchirurg is de tandarts-specialist op het gebied van mondziekten, kaak- en aangezichtschirurgie.\n\nVoor het ontvangen van zorg van de Kaakchirurg is een verwijzing van de **tandarts** nodig, niet van de huisarts.",
               "sticker": false
             },
             {
@@ -245,8 +284,8 @@
             {
               "id": "aanvullend-pakket",
               "name": "Aanvullend pakket",
-              "blurb": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven.",
-              "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\n **Als het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wél een verwijzing schrijven**. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand van de ingreep (bijvoorbeeld diabetes, copd, of hartfalen bij een borstvergroting of -verkleining). Of als de patiënt zodanige klachten heeft dat een ingreep van medisch belang is.",
+              "blurb": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven",
+              "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\n **Als het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wél een verwijzing schrijven**. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand van de ingreep (bijvoorbeeld diabetes, copd, of hartfalen bij een borstvergroting of -verkleining).",
               "sticker": false,
               "links": [
                 {
@@ -365,7 +404,13 @@
           "name": "VOG-plicht",
           "blurb": "De VOG-plicht voor huisartsen die zorg verlenen in de ANW-uren in een WLZ- of GGZ-instelling is afgeschaft.",
           "content": "De VOG-plicht voor huisartsen die in incidentele gevallen in de ANW-uren zorg verlenen in een WLZ- of GGZ-instelling is afgeschaft. De wijziging van het Uitvoeringsbesluit Wet kwaliteit, klachten en geschillen zorg (Wkkgz) die hiervoor noodzakelijk was is op 1 juli 2021 in werking getreden.\n\n In de praktijk komt het zelden voor dat een waarnemend huisarts tijdens zijn dienst in de avond, de nacht of weekend-uren (ANW-uren) wordt opgeroepen om in een WLZ- of GGZ-instelling zorg te verlenen. Huisartsen moesten voor deze incidentele situaties wel een actuele Verklaring Omtrent het Gedrag (VOG) kunnen overleggen, zodat deze instelling kan voldoen aan de plicht uit het Uitvoeringsbesluit Wkkgz. Omdat het nooit zeker is wanneer en door welke instelling een beroep gedaan wordt op deze huisartsen, moesten zij voor het geval dat ze ingeschakeld worden bij voorbaat in het bezit zijn van een VOG, die niet ouder dan drie maanden mocht zijn. Door deze wijziging zijn de administratieve lasten voor huisartsen verminderd.",
-          "sticker": false
+          "sticker": false,
+          "links": [
+            {
+              "name": "LHV - Schrappen VOG-plicht bij incidentele zorg",
+              "url": "https://www.lhv.nl/nieuws/stap-dichterbij-schrappen-vog-plicht-bij-incidentele-zorg-in-wlz-instelling/"
+            }
+          ]
         },
         {
           "id": "reizen-met-medicatie",
