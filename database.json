@@ -4,7 +4,7 @@
   "header": "Heb ik de hulp van de huisarts nodig?",
   "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft collega-zorginstellingen inzicht in de vraag wanneer de huisarts betrokken moet worden bij een proces, en de huisarts een duidelijk antwoord om te delen. De getoonde informatie is geschreven in samenwerking met het programma [[Ont]regel de Zorg](https://www.ordz.nl/) van het Ministerie van VWS.",
   "name": "Over deze website",
-  "content": "Het gaat niet goed met de huisartsenzorg in Nederland. De  laatste jaren is de werkdruk enorm toegenomen. Niet iedereen  kan dit volhouden. Tweederde van de artsen overweegt (eerder)  te stoppen met het werk. Huisartsenpraktijken zitten vol en  patiënten moeten noodgedwongen soms lang wachten op een  afspraak om langs te komen. Administratielast, regeldruk en  toenemende zorgvraag wegens vergrijzing spelen allemaal een  rol.\n\n Laten we met elkaar ervoor zorgen dat onzinnig papierwerk en  bureaucratie voorkomen worden. Hierdoor wordt de huisarts weer in zijn/haar kracht gezet en ontvangen u en uw naasten alle  aandacht wanneer het écht nodig is.\n\nDeze website is ontwikkeld als [Open Source software](https://nl.wikipedia.org/wiki/Opensourcesoftware), en is [hier te vinden op Github](https://github.com/verwijsafspraken/verwijsafspraken).",
+  "content": "Huisartsenzorg in Nederland staat onder druk. De werkdruk voor de huisarts is de laatste jaren toegenomen door vergrijzing, bevolkingsgroei en een toenemende administratielast. Veel artsen overwegen (eerder) te stoppen met hun werk en de toestroom van nieuwe huisartsen is te laag om het verschil op te vangen.\n\nDit betekent dat patiënten soms noodgedwongen lang moeten wachten op een afspraak om langs te komen, of überhaupt geen huisarts kunnen vinden. Ook de toegang tot de tweedelijnszorg komt hierdoor in het geding.\n\nTijdsbesparing in de huisartsenzorg is om deze redenen nog nooit zo belangrijk geweest. Met _verwijsafspraken.nl_ willen we onnodig papierwerk en overtollige bureaucratie voorkomen. Dit doen we door beter te informeren over situaties waarin de betrokkenheid van de huisarts eigenlijk niet nodig of gewenst is.\n\nDeze website is ontwikkeld als [Open Source software](https://nl.wikipedia.org/wiki/Opensourcesoftware), en is [hier te vinden op Github](https://github.com/verwijsafspraken/verwijsafspraken).",
   "children": [
     {
       "id": "verwijzing",
@@ -143,7 +143,7 @@
               "id": "verwijzing-binnen-ggz",
               "name": "Verwijzing binnen GGZ",
               "blurb": "Omtrent verwijzingen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa.",
-              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Een **melding** aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
+              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Ook wanneer een patiënt wordt verwezen van de ene naar de andere specialist in de GGZ is er geen verwijzing van de huisarts nodig. Een psycholoog mag bijvoorbeeld zelfstandig verwijzen naar een psychiater. Een **melding** aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
               "sticker": false,
               "links": [
                 {
@@ -341,6 +341,38 @@
           "blurb": "Gemeenten vragen soms verklaringen rondom urgentie of voorzieningen.",
           "content": "Wanneer de gemeente in verband met het verstrekken van een voorziening of een urgentie een medische verklaring nodig heeft van de burger, kan deze daarvoor terecht bij **een door de gemeente gecontracteerde GGD-arts of een medische adviseur (arts)**. Indien nodig kan die arts, met toestemming van de burger/patiënt, feitelijke informatie bij de huisarts of andere behandelend arts opvragen. \n\n Gemeenten kunnen niet van burgers vragen om bepaalde medische verklaringen door hun huisarts te laten invullen of ondertekenen, die een oordeel bevat over de (medische) (on)geschiktheid om bepaalde dingen wel of niet te doen. Bijvoorbeeld of iemand in staat te werken, een auto te besturen, naar school te gaan of recht heeft op een parkeervergunning of aangepaste woonruimte? Gemeenten kunnen niet (medische) verklaringen door de huisarts in laten vullen. Conform de richtlijnen van de KNMG geeft een behandelend arts namelijk geen geneeskundige verklaring af over zijn eigen patiënt.",
           "sticker": false
+        },
+        {
+          "id": "medische-verklaring-fit-to-fly",
+          "name": "Medische verklaring 'Fit to fly'",
+          "blurb": "Een verklaring van een onafhankelijke arts dat een patiënt veilig kan en mag vliegen",
+          "content": "Een geneeskundige verklaring is een schriftelijke verklaring die een oordeel bevat over een patiënt en over de (medische) geschiktheid of ongeschiktheid van een patiënt om bepaalde dingen wel of niet te doen. Het is de richtlijn van het KNMG dat een behandelend arts geen geneeskundige verklaring mag afgeven over eigen patiënten.\n\nOp een 'fit to fly'-verklaring staat dat een patiënt gezien is door een arts, en geschikt is bevonden om te vliegen. Dit kan meerdere aanleidingen hebben, zoals bijvoorbeeld na een Corona-besmetting, waterpokken of tijdens een zwangerschap met complicaties. Een arts moet dan bijvoorbeeld bevestigen dat zijn patiënt veilig kan vliegen.\n\nVoor dit soort verklaringen moet dus niet de assistentie van de eigen huisarts gezocht worden, maar van **een onafhankelijke arts**. Vraag aan de instantie die om de verklaring vraagt waar je deze verklaring het beste kunt krijgen.",
+          "sticker": false,
+          "stickerText": "De (eigen) huisarts hoeft hier niet bij betrokken te worden",
+          "links": [
+            {
+              "name": "KNMG - Geneeskundige verklaring",
+              "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
+            },
+            {
+              "name": "NTVG - Ondertekening 'fit to fly'-verklaring",
+              "url": "https://www.ntvg.nl/system/files/publications/b1070_0.pdf"
+            }
+          ]
+        },
+        {
+          "id": "medische-verklaring-algemeen",
+          "name": "Overige medische verklaringen",
+          "blurb": "Een overige verklaring van een onafhankelijke arts die een uitspraak doet over een patiënt",
+          "content": "Een geneeskundige verklaring is een schriftelijke verklaring die een oordeel bevat over een patiënt en over de (medische) geschiktheid of ongeschiktheid van een patiënt om bepaalde dingen wel of niet te doen. Het is de richtlijn van het KNMG dat een behandelend arts geen geneeskundige verklaring mag afgeven over eigen patiënten.\n\nGeneeskundige verklaringen beoordelen of iemand in staat is om te werken, een auto te besturen, naar school te gaan, goed voor de kinderen te zorgen. Maar ook: is terecht een geboekte reis geannuleerd of heeft iemand recht op een parkeervergunning of aangepaste woonruimte?\n\nVoor dit soort verklaringen moet dus niet de assistentie van de eigen huisarts gezocht worden, maar van **een onafhankelijke arts**. Vraag aan de instantie die om de verklaring vraagt waar je deze verklaring het beste kunt krijgen.",
+          "sticker": false,
+          "stickerText": "De (eigen) huisarts hoeft hier niet bij betrokken te worden",
+          "links": [
+            {
+              "name": "KNMG - Geneeskundige verklaring",
+              "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
+            }
+          ]
         },
         {
           "id": "dossier",
