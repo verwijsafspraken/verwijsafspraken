@@ -1,12 +1,30 @@
 const marked = require('marked');
 
+function renderEditor({ user }) {
+  if (!user) {
+    return html`
+      <form style="z-index: 9999">
+        <button id="login">Login</button>
+      </form>
+    `;
+  }
+  return html`
+    <form style="z-index: 9999">
+      Hallo ${user.name}
+      <button id="edit">Edit page</button>
+    </form>
+  `;
+}
+
 function renderFrontPage(page) {
-  const { id, name, content, children, links, sticker, header, blurb } = page;
+  const { id, name, content, children, links, sticker, header, blurb, user } = page;
   return html`
     <main class="front-page">
       <nav>
         ${renderNavigation()}
-        <form></form>
+        <form>
+        </form>
+        ${renderEditor({ user })}
       </nav>
       <header>
         <h1>${header}</h1>
@@ -26,7 +44,7 @@ function renderFrontPage(page) {
 }
 
 function renderPage(page) {
-  const { id, name, content, children, links, sticker, stickerText, url } = page;
+  const { id, name, content, children, links, sticker, stickerText, url, user } = page;
   return html`
     <main class="article-page">
       <nav>
@@ -34,21 +52,24 @@ function renderPage(page) {
         <form id="search">
           <input class="search" type="text" name="" value="" autocomplete="off" placeholder="Zoeken op onderwerp" />
         </form>
+        ${renderEditor({ user })}
       </nav>
       <section class="content">
         ${renderBreadcrumb(page)}
         <section class="two-column">
           <div class="column">
-            <h1>${name}</h1>
+            <h1 data-field="name">${name}</h1>
             ${sticker !== undefined ? html`
-              <p class=${`sticker ${sticker ? 'yes' : 'no'}`}>
+              <p contenteditable="false" class=${`sticker ${sticker ? 'yes' : 'no'}`}>
                 ${stickerText || (sticker
                   ? 'Je hebt de hulp van de huisarts nodig'
                   : 'De huisarts hoeft hier niet bij betrokken te worden')
                 }
               </p>
             ` : ''}
-            ${renderMarkdown(content)}
+            <div data-field="content">
+              ${renderMarkdown(content)}
+            </div>
             <p class="article-buttons">
               <button id="helped" class="helped" data-title="${name}" data-url="${url}" data-helped-feedback="🐬 Dat vinden wij dolfijn!">Dit artikel heeft mij geholpen</button>
               <button id="share" class="share" data-title="${name}" data-url="${url}">Dit artikel delen</button>

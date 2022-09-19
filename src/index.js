@@ -17,6 +17,7 @@ import {
   closeAllModals
 } from './modals.js';
 import { logPageHelped, logPageVisit } from './metrics.js';
+import { getUser, login as loginEditor, saveDatabase } from './editor'
 
 let database;
 run();
@@ -55,32 +56,51 @@ function preprocessNode({ path, node, parent }) {
   return node;
 }
 
+function getCurrentPath() {
+  return document.location.hash
+    .replace(/^[#\/]*/g, '')
+    .split('/')
+    .filter(segment => segment !== '');
+}
+
+function getPage(path) {
+  if (path.length === 0) {
+    // Navigate to section on front page
+    return database;
+  }
+
+  // Navigate to another page
+  return path.reduce((page, segment) =>
+    page?.children?.find(child => child.id?.toString() === segment)
+  , database);
+}
+
 async function updatePage() {
   await closeAllModals();
+  const user = await getUser();
 
-  let page;
-  if (!document.location.hash.match(/^(#\/)+/g)) {
-    // Navigate to section on front page
-    page = database;
-    const path = document.location.hash.replace(/^[#\/]*/g, '');
-    setTimeout(() => document.getElementById(path)?.scrollIntoView({ behavior: 'smooth' }), 1);
-  } else {
-    // Navigate to another page
-    const path = document.location.hash
-      .replace(/^[#\/]*/g, '')
-      .split('/')
-      .filter(segment => segment !== '');
+  const path = getCurrentPath();
+  const page = getPage(path);
 
-    page = path.reduce((page, segment) =>
-      page?.children?.find(child => child.id?.toString() === segment)
-    , database);
+  if (!page) {
+    document.body.innerHTML = renderPageNotFound();
+    return;
+  }
+
+  const context = {
+    ...page,
+    user
   }
 
   document.body.innerHTML = stringifyHtml(
-    page
-    ? page.path.length < 1 ? renderFrontPage(page) : renderPage(page)
-    : renderPageNotFound()
+    path.length
+      ? renderPage(context)
+      : renderFrontPage(context)
   );
+
+  if (path.length === 0) {
+    setTimeout(() => document.getElementById(path)?.scrollIntoView({ behavior: 'smooth' }), 1);
+  }
 
   logPageVisit();
 
@@ -88,7 +108,49 @@ async function updatePage() {
   document.querySelector('#search input').addEventListener('focus', openSearch);
   document.getElementById('share')?.addEventListener('click', sharePage);
   document.getElementById('helped')?.addEventListener('click', hasHelped);
-  window.scrollTo(0,0);
+  document.getElementById("login")?.addEventListener("click", login);
+  document.getElementById("edit")?.addEventListener("click", editPage);
+  window.scrollTo(0, 0);
+}
+
+function login(event) {
+  event.preventDefault();
+  loginEditor();
+}
+
+function htmlToMarkdown(html) {
+  // Use https://github.com/mixmark-io/turndown?
+  return html
+    .replace(/<.*?>/g, '')
+    .replace(/  +/g, ' ')
+    .trim();
+}
+
+async function editPage(event) {
+  event.preventDefault();
+  const elements = document.querySelectorAll('[data-field]');
+  if (event.target.textContent === 'Edit page') {
+    event.target.textContent = 'Save';
+    for (const element of elements) {
+      element.setAttribute('contenteditable', 'true');
+    }
+  } else if (event.target.textContent === 'Save') {
+    const pageChanges = {};
+    for (const element of elements) {
+      const fieldName = element.getAttribute('data-field');
+      const fieldValue = htmlToMarkdown(element.innerHTML);
+      pageChanges[fieldName] = fieldValue;
+      element.setAttribute('contenteditable', 'false');
+    }
+    const path = getCurrentPath();
+    const page = getPage(path);
+    Object.assign(page, pageChanges);
+
+    const url = await saveDatabase(database);
+    window.location.href = url;
+
+    event.target.textContent = 'Edit page';
+  }
 }
 
 function sharePage(event) {
