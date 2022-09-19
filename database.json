@@ -10,7 +10,7 @@
       "id": "verwijzing",
       "name": "Verwijzingen",
       "blurb": "Hoe werkt een doorverwijzing?",
-      "content": "Zorgverzekeraars bepalen in hun polisvoorwaarden wanneer een verwijzing nodig is. In het algemeen geldt dat voor specialistische zorg, zoals bijvoorbeeld in het ziekenhuis of GGZ-instelling, een verwijzing van een huisarts nodig is.",
+      "content": "Zorgverzekeraars bepalen in hun polisvoorwaarden wanneer een verwijzing nodig is. In het algemeen geldt dat voor specialistische zorg, zoals bijvoorbeeld in het ziekenhuis of GGZ-instelling, een verwijzing van een huisarts nodig is.Dit is een losse paragraaf, maar html-to-markdown is nog gaar.",
       "children": [
         {
           "id": "ziekenhuiszorg",
