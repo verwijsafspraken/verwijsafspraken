@@ -14,6 +14,7 @@ jobs:
           cp -r index.html database.json images CNAME docs/
           npm run build
       - name: Deploy 🚀
+        if: github.ref == 'refs/heads/master'
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
