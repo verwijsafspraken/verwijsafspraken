@@ -3,7 +3,7 @@ main.front-page {
   overflow-x: hidden;
 
   header {
-    background-color: #F1FAFF;
+    background-color: #f1faff;
     padding: 20px calc((100% - 1120px) / 2);
     padding-bottom: 145px;
 
@@ -37,23 +37,28 @@ main.front-page {
     }
 
     h1 {
-      color: #1C3C7C;
-      max-width: 500px;
+      color: #1c3c7c;
+      max-width: 600px;
       font-size: 60px;
       margin: 0.5em 0px;
 
       @media screen and (max-width: 767px) {
         font-size: 40px;
+        max-width: 400px;
       }
     }
 
     p {
-      color: #7B7E85;
-      max-width: 400px;
-      margin: 3em 0px 4em 0px;
+      color: #7b7e85;
+      max-width: 500px;
+      margin: 3em 0px 3em 0px;
       font-size: 16px;
       font-weight: 300;
       line-height: 28px;
+
+      @media screen and (max-width: 767px) {
+        max-width: 400px;
+      }
     }
 
     form {
@@ -62,14 +67,14 @@ main.front-page {
       height: 70px;
       input {
         box-shadow: 0px 14px 38px rgba(0, 0, 0, 0.05);
-        border: 1px solid #EBEEF3;
+        border: 1px solid #ebeef3;
       }
     }
 
     a {
-      color: #7B7E85;
+      color: #7b7e85;
       &:hover {
-        color: lighten(#7B7E85, 10%);
+        color: lighten(#7b7e85, 10%);
       }
     }
   }
@@ -90,14 +95,16 @@ main.front-page {
       padding-right: 35px;
     }
 
-    h1, p {
+    h1,
+    h2,
+    p {
       max-width: 700px;
     }
 
     h1 {
       font-size: 42px;
       font-weight: 700;
-      color: #1C3C7C;
+      color: #1c3c7c;
       margin: 4em auto 1em auto;
       text-align: center;
 
@@ -109,18 +116,24 @@ main.front-page {
       }
     }
 
+    h2 {
+      font-weight: 700;
+      color: #1c3c7c;
+      margin: 2em auto -1em auto;
+    }
+
     p {
       font-weight: 400;
       font-size: 16px;
       line-height: 28px;
-      color: #2F3135;
+      color: #2f3135;
       margin: 2em auto;
     }
 
     a {
-      color: #2F3135;
+      color: #2f3135;
       &:hover {
-        color: lighten(#2F3135, 20%);
+        color: lighten(#2f3135, 20%);
       }
     }
   }
