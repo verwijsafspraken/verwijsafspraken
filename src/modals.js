@@ -128,8 +128,26 @@ class ShareModal extends Modal {
   }
 }
 
+class EditModal extends Modal {
+  open() {
+    super.open();
+    setTimeout(() => this._modal?.classList.add('open'), 1);
+  }
+
+  close() {
+    return new Promise((resolve, reject) => {
+      this._modal?.classList.remove('open');
+      setTimeout(() => {
+        super.close();
+        resolve();
+      }, 200);
+    });
+  }
+}
+
 module.exports = {
   SearchModal,
   ShareModal,
+  EditModal,
   closeAllModals
 };

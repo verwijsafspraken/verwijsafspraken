@@ -16,26 +16,38 @@ import {
   ShareModal,
   closeAllModals
 } from './modals.js';
-import { logPageHelped, logPageVisit } from './metrics.js';
 
-let database;
+import {
+  logPageHelped,
+  logPageVisit
+} from './metrics.js';
+
+import {
+  openEditor,
+  notifyEditor
+} from './editor.js';
+
+let database, processedDatabase;
 run();
 
 async function run() {
   setDeviceClass();
   attachKeyboardHandler();
   database = await fetch('./database.json').then(response => response.json());
-  database = preprocessNode({
+  processDatabase(database);
+  window.addEventListener('hashchange', () => {
+    updatePage();
+  }, true);
+}
+
+function processDatabase(database) {
+  processedDatabase = preprocessNode({
     path: [],
     node: database,
     parent: null
   });
 
-  initSearch(database);
-
-  window.addEventListener('hashchange', () => {
-    updatePage();
-  }, true);
+  initSearch(processedDatabase);
   updatePage();
 }
 
@@ -58,22 +70,22 @@ function preprocessNode({ path, node, parent }) {
 async function updatePage() {
   await closeAllModals();
 
-  let page;
+  let page, path;
   if (!document.location.hash.match(/^(#\/)+/g)) {
     // Navigate to section on front page
-    page = database;
+    page = processedDatabase;
     const path = document.location.hash.replace(/^[#\/]*/g, '');
     setTimeout(() => document.getElementById(path)?.scrollIntoView({ behavior: 'smooth' }), 1);
   } else {
     // Navigate to another page
-    const path = document.location.hash
+    path = document.location.hash
       .replace(/^[#\/]*/g, '')
       .split('/')
       .filter(segment => segment !== '');
 
     page = path.reduce((page, segment) =>
       page?.children?.find(child => child.id?.toString() === segment)
-    , database);
+    , processedDatabase);
   }
 
   document.body.innerHTML = stringifyHtml(
@@ -83,6 +95,7 @@ async function updatePage() {
   );
 
   logPageVisit();
+  notifyEditor(database, page, path, processDatabase);
 
   document.getElementById('search').addEventListener('click', openSearch);
   document.querySelector('#search input').addEventListener('focus', openSearch);
@@ -142,7 +155,14 @@ function setDeviceClass() {
 
 function attachKeyboardHandler() {
   document.addEventListener('keyup', async event => {
-    if ( event.key !== "Escape" ) return;
-    if ( await closeAllModals() == 0 ) openSearch();
+    switch(event.code) {
+      case "Escape":
+        if ( await closeAllModals() == 0 ) openSearch();
+        return;
+      case "Backquote":
+        if ( !event.altKey ) return;
+        if ( await closeAllModals() == 0 ) openEditor();
+        return;
+    }
   });
 }

@@ -14,7 +14,10 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/theme-one-dark": "^6.1.0",
     "@datadog/browser-logs": "^4.13.0",
+    "codemirror": "^6.0.1",
     "marked": "^4.0.16"
   }
 }

@@ -15,7 +15,7 @@
     opacity: 1;
   }
 
-  .search-modal, .share-modal {
+  .search-modal, .share-modal, .editor-modal {
     background-color: white;
     box-shadow: 0px 8px 36px rgba(0, 0, 0, 0.16);
     border-radius: 16px;
@@ -293,6 +293,77 @@
           border-left: 6px solid transparent;
           border-right: 6px solid transparent;
           cursor: default;
+        }
+      }
+    }
+  }
+
+  .editor-modal {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    padding: 28px;
+    align-self: flex-end;
+    margin: 0px auto;
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #282c34;
+
+    button.close {
+      display: block;
+      position: absolute;
+      top: 28px;
+      right: 28px;
+      width: 36px;
+      height: 36px;
+
+      background: #F8FAFB url('./images/close.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 0;
+      outline: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 0;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #ededed;
+    }
+
+    #editor {
+      margin-top: 1em;
+      .cm-scroller {
+        height: 40vh;
+        overflow: auto;
+      }
+    }
+
+    .buttons {
+      text-align: right;
+
+      button {
+        height: 40px;
+        padding: 0 16px 0 16px;
+        margin: 6px 0;
+        margin-left: 12px;
+  
+        border: 1px solid white;
+        border-radius: 8px;
+  
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 40px;
+        background-color: #5840DD;
+        color: white;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: darken(#5840DD, 5%);
         }
       }
     }
