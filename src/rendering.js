@@ -194,6 +194,20 @@ function highlightMatches(item, matches) {
   }, item);
 }
 
+function renderEditorModal() {
+  return html`
+    <section class="editor-modal">
+      <button class="close">Close dialog</button>
+      <h1>Pagina bewerken</h1>
+      <div id="editor"></div>
+      <div class="buttons">
+        <button id="editor-save">Pas toe</button>
+        <button id="editor-download">Download</button>
+      </div>
+    </section>
+  `;
+}
+
 function renderShareModal({ title, fullURL }) {
   function toUrl(href, query) {
     const url = new URL(href);
@@ -364,5 +378,6 @@ module.exports = {
   renderSearchModal,
   renderSearchResults,
   renderShareModal,
+  renderEditorModal,
   stringifyHtml
 };
