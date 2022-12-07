@@ -579,7 +579,7 @@
           "links": [
             {
               "name": "Lijst indicatiecodes",
-              "url": "https://hetroergaatom.lhv.nl/sites/default/files/content/ditiseendomein_lhv_nl/uploads/content/lijst_indicatiecodes_januari_2020.pdf"
+              "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             }
           ]
         },
@@ -594,8 +594,8 @@
           "id": "stoppen-met-roken",
           "name": "Formulier stoppen-met-roken medicatie",
           "blurb": "Bij het voorschrijven van stoppen-met-roken medicatie is de vermelding van de letters ‘SMR’ op een recept voldoende.",
-          "content": "Per 1 januari 2016 is bij het voorschrijven van stoppen-met-roken medicatie vermelding van de letters ‘SMR’ op een recept voldoende. **Huisartsen hoeven daarnaast geen aanvullend formulier aan te leveren**. Voorwaarde is dat de medicatie onderdeel is van een begeleid SMR-programma. Als de begeleiding niet plaats vindt in de eigen praktijk, vergewist de huisarts zich van de medische noodzaak voor de voor te schrijven medicatie.\n\n **Let op**: Dit geldt alleen voor huisartsen. Voor medisch specialisten en overige zorgverleners is het formulier nog verplicht. Ook hier geldt dat de medicatie onderdeel is van een begeleid SMR-programma.",
-          "sticker": true,
+          "content": "Per 1 januari 2016 is bij het voorschrijven van stoppen-met-roken medicatie vermelding van de letters ‘SMR’ op een recept voldoende. **Huisartsen hoeven daarnaast geen aanvullend formulier aan te leveren**. Voorwaarde is dat de medicatie onderdeel is van een begeleid SMR-programma. Als de begeleiding niet plaats vindt in de eigen praktijk, vergewist de huisarts zich van de medische noodzaak voor de voor te schrijven medicatie. Begeleiding en aanmelden van medicatie kan dus **wel** via de huisarts.\n\n **Let op**: Dit geldt alleen voor huisartsen. Voor medisch specialisten en overige zorgverleners is het formulier nog verplicht. Ook hier geldt dat de medicatie onderdeel is van een begeleid SMR-programma.",
+          "sticker": false,
           "links": [
             {
               "name": "Stoppen-met-rokenprogramma",
@@ -613,7 +613,7 @@
           "links": [
             {
               "name": "Lijst indicatiecodes",
-              "url": "https://hetroergaatom.lhv.nl/sites/default/files/content/ditiseendomein_lhv_nl/uploads/content/lijst_indicatiecodes_januari_2020.pdf"
+              "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             },
             {
               "name": "Informatie bij [Ont]Regel de Zorg",
@@ -631,7 +631,7 @@
           "links": [
             {
               "name": "Lijst indicatiecodes",
-              "url": "https://hetroergaatom.lhv.nl/sites/default/files/content/ditiseendomein_lhv_nl/uploads/content/lijst_indicatiecodes_januari_2020.pdf"
+              "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             }
           ]
         },
