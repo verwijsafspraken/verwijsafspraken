@@ -104,7 +104,7 @@
               "id": "Kaakchirurg",
               "name": "Kaakchirurg",
               "blurb": "De tandarts wil doorverwijzen naar de kaakchirurg",
-              "content": "De kaakchirurg is de tandarts-specialist op het gebied van mondziekten, kaak- en aangezichtschirurgie.\n\nVoor het ontvangen van zorg van de Kaakchirurg is een verwijzing van de **tandarts** nodig, niet van de huisarts.",
+              "content": "De kaakchirurg is de tandarts-specialist op het gebied van mondziekten, kaak- en aangezichtschirurgie.\n\nVoor het ontvangen van zorg van de Kaakchirurg is een verwijzing van de tandarts **of** huisarts nodig. De tandarts mag dus direct doorverwijzen.",
               "sticker": false
             }
           ]
