@@ -88,7 +88,7 @@
               "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden",
               "links": [
                 {
-                  "name": "[Ont]Regel de Zorg - Verwijzingen ",
+                  "name": "[Ont]Regel de Zorg - Verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
               ]
@@ -96,15 +96,9 @@
             {
               "id": "kno-arts",
               "name": "KNO-arts",
-              "blurb": "Een audicien of audioloog wil verwijzen naar een KNO-arts",
-              "content": "Om vanuit een audicien of audioloog verwezen te worden naar een KNO-arts heeft de patiënt per januari 2023 geen verwijzing van de huisarts nodig.",
-              "sticker": false,
-              "links": [
-                {
-                  "name": "Informatie bij [Ont]Regel de Zorg",
-                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/audicien-en-audioloog-kan-direct-verwijzen-naar-kno-arts-zonder-tussenkomst-huisarts"
-                }
-              ]
+              "blurb": "Een audicien wil verwijzen naar een KNO-arts",
+              "content": "Om vanuit een audicien verwezen te worden naar een KNO-arts heeft de patiënt een verwijzing van de huisarts nodig.",
+              "sticker": true
             },
             {
               "id": "Kaakchirurg",
