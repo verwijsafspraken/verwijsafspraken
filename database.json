@@ -117,9 +117,8 @@
               "id": "gynaecoloog",
               "name": "Gynaecoloog",
               "blurb": "Verwijzing fertiliteit en partner is al verwezen",
-              "content": "Op het moment dat partner verwezen is en het niet duidelijk is bij wie de fertiliteitsproblematiek ligt, kan het wenselijk zijn om beide partners te onderzoeken.",
+              "content": "Op het moment dat partner verwezen is en het niet duidelijk is bij wie de fertiliteitsproblematiek ligt, kan het wenselijk zijn om beide partners te onderzoeken, er is geen nieuwe verwijzingvan de huisarts voor de partner nodig.",
               "sticker": false,
-              "stickerText": "Partner heeft geen aparte verwijzing van de huisarts nodig",
               "links": [
                 {
                   "name": "NZA - Verwijzen bij infertiliteit",
