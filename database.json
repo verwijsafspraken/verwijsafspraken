@@ -471,7 +471,7 @@
             },
             {
               "name": "Medicijnen mee op reis-hulp",
-              "url": "https://www.hetcak.nl/regelingen/medicijnen-mee-op-reis/advies-verklaringen"
+              "url": "https://www.hetcak.nl/medicijnen-mee-op-reis/"
             }
           ],
           "children": [
@@ -701,13 +701,7 @@
           "blurb": "Is de patiënt niet (meer) in staat om medicatie zelf op te halen bij de apotheek?",
           "content": "Wanneer de patiënt 16 jaar of ouders is, dan kan de patiënt iemand machtigen om dit voor hem/haar te doen. Hiervoor kan een machtigingsformulier bij de eigen apotheek worden aangevraagd evenenals daar ook weer worden ingeleverd.",
           "sticker": false,
-          "stickerText": "De huisarts geeft geen machtiging voor het ophalen van medicatie bij de apotheek",
-          "links": [
-            {
-              "name": "IkWoonLeefZorg - Medicatie",
-              "url": "https://www.ikwoonleefzorg.nl/hulp-en-zorg/mag-iemand-anders-mijn-medicijnen-ophalen"
-            }
-          ]
+          "stickerText": "De huisarts geeft geen machtiging voor het ophalen van medicatie bij de apotheek"
         },
         {
           "id": "herhaal-medicatie",
