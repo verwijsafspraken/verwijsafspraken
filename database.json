@@ -83,7 +83,7 @@
               "id": "oogarts",
               "name": "Oogarts",
               "blurb": "Een opticien/optometrist wil verwijzen naar de oogarts",
-              "content": "Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Voor een opticien geldt dit niet, deze zal de patient moeten verwijzen naarn een optometrist in de buurt. De hulp van de huisarts is in deze niet nodig.",
+              "content": "Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Voor een opticien geldt dit niet, deze zal de patient moeten verwijzen naar een optometrist in de buurt. De hulp van de huisarts is in deze niet nodig.",
               "sticker": false,
               "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden",
               "links": [
