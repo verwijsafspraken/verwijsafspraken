@@ -83,13 +83,13 @@
               "id": "oogarts",
               "name": "Oogarts",
               "blurb": "Een opticien/optometrist wil verwijzen naar de oogarts",
-              "content": "Bijna iedere optiekzaak heeft een optometrist die ze kunnen raadplegen. Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Is er geen optometrist in dienst, dan is wel de hulp van de huisarts nodig.",
+              "content": "Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Voor een opticien geldt dit niet, deze zal de patient moeten verwijzen naar een optometrist in de buurt. De hulp van de huisarts is in deze niet nodig.",
               "sticker": false,
               "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden",
               "links": [
                 {
                   "name": "[Ont]Regel de Zorg - Verwijzingen",
-                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
+                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/optometrist-kan-direct-verwijzen-naar-oorgarts-zonder-tussenkomst-huisarts"
                 }
               ]
             },
