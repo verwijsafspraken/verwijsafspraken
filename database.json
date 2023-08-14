@@ -80,6 +80,20 @@
               "sticker": false
             },
             {
+              "id": "cosmetisch",
+              "name": "Cosmetische zorg",
+              "blurb": "De behandeling is van cosmetische aard",
+              "content": "Behandelingen van plastisch-chirurgische aard vallen onder de basisverzekering, maar niet allemaal. Er gelden beperkingen en uitsluitingen. Zo is geregeld dat behandelingen die alleen cosmetisch van aard zijn en dus medisch gezien niet nodig, uitgesloten zijn van het basispakket. \n\n Voor alle zorg die is uitgesloten van het basis pakket is geen verwijzing nodig. \n\n Voor een behandeling van plastisch-chirurgische aard moet voorafgaand toestemming (een machtiging) door de zorgverzekeraar gegeven worden.",
+              "sticker": false,
+              "stickerText": "Hier is (doorgaans) geen verwijzing van de huisarts voor nodig",
+              "links": [
+                {
+                  "name": "Zorginstituut Nederland - Plastische-chirurgie",
+                  "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/plastische-chirurgie-zvw#:~:text=Behandelingen%20van%20plastisch%2Dchirurgische%20aard,uitgesloten%20zijn%20van%20het%20basispakket"
+                }
+              ]
+            },
+            {
               "id": "oogarts",
               "name": "Oogarts",
               "blurb": "Een opticien/optometrist wil verwijzen naar de oogarts",
