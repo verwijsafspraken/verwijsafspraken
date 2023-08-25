@@ -228,7 +228,7 @@
               "id": "recent-afgeronde-ggz-behandeling",
               "name": "Korter dan een jaar geleden afgeronde GGZ-behandeling",
               "blurb": "Er is sprake van een GGZ-behandeling die korter dan een jaar geleden is afgerond.",
-              "content": "Wanneer de afronding minder dan een jaar geleden heeft plaatsgevonden is er **geen** nieuwe verwijzing van de huisarts nodig.",
+              "content": "Wanneer de afronding minder dan een jaar geleden heeft plaatsgevonden is er **geen** nieuwe verwijzing van de huisarts nodig. \n\n Is er sprake van een nieuwe/andere hulpvraag, dan is er **wel** een verwijzing nodig.",
               "sticker": false,
               "links": [
                 {
@@ -238,6 +238,10 @@
                 {
                   "name": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
+                },
+                {
+                  "name": "Factsheet Zorgtrajectnummer",
+                  "url": "https://www.zorgprestatiemodel.nl/content/uploads/2022/01/Factsheet-Zorgtrajectnummer-januari-2022.pdf"
                 }
               ]
             },
