@@ -82,14 +82,37 @@ main.article-page {
       }
 
       ul {
-        margin-left: 2em;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 32px;
-        color: #5840DD;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
 
-        a {
-          text-decoration: none;
+        li {
+          margin: 0 0 2em 0;
+
+          a {
+            text-decoration: none;
+            color: #2F3135;
+            display: block;
+            padding: 1em 0.5em 0.5em 0.5em;
+            border-radius: 12px;
+            transition: background-color 0.2s ease;
+
+            img {
+              max-width: 100px;
+              max-height: 100px;
+              display: block;
+              margin: 0 auto 0.5em auto;
+            }
+
+            &:hover {
+              background-color: #EEE;
+
+              text-decoration: underline;
+            }
+          }
         }
       }
     }

@@ -59,8 +59,8 @@ function renderPage(page) {
               <section class="links">
                 <h1>Meer lezen</h1>
                 <ul>
-                  ${links.map(({ name, url }) => html`
-                    <li><a href=${url}>${name}</a></li>
+                  ${links.map(({ source, title, url }) => html`
+                    <li><a href=${url}><img src="images/${source}" />${title}</a></li>
                   `)}
                 </ul>
               </section>
