@@ -60,7 +60,7 @@ function renderPage(page) {
                 <h1>Meer lezen</h1>
                 <ul>
                   ${links.map(({ source, title, url }) => html`
-                    <li><a href=${url}><img src="images/${source}" />${title}</a></li>
+                    <li><a href=${url}><img src="${sourceToImage(source)}" />${title}</a></li>
                   `)}
                 </ul>
               </section>
@@ -73,6 +73,14 @@ function renderPage(page) {
       ${renderFooter()}
     </main>
   `
+}
+
+function sourceToImage(source) {
+  return {
+    "ORDZ": "images/ORDZ.png",
+    "Rijksoverheid": "images/Rijksoverheid.png",
+    "Thuisarts": "images/Thuisarts.svg"
+  }[source];
 }
 
 function renderPageNotFound() {
