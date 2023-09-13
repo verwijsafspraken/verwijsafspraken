@@ -82,16 +82,16 @@ function sourceToImage(source) {
     "CBR": "images/CBR.png",
     "GGZst": "images/GGZ Standaarden.png",
     "IGJ": "images/IGJ.svg",
-    "ILT": "ilt.jpg",
-    "KNMG": "KNMG.png",
-    "LHV": "LHV.png",
-    "NZA": "NZA.png",
+    "ILT": "images/ilt.jpg",
+    "KNMG": "images/KNMG.png",
+    "LHV": "images/LHV.png",
+    "NZA": "images/NZA.png",
     "ORDZ": "images/ORDZ.png",
     "Rijksoverheid": "images/Rijksoverheid.png",
     "Thuisarts": "images/Thuisarts.svg",
-    "VWS": "VWS.png",
-    "ZN": "ZN.jpg",
-    "ZIN": "Zorginstituus NL.png",
+    "VWS": "images/VWS.png",
+    "ZN": "images/ZN.jpg",
+    "ZIN": "images/Zorginstituut_NL.png"
   }[source];
 }
 

@@ -26,7 +26,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Informatie bij [Ont]Regel de Zorg",
+                  "source": "ORDZ",
+                  "title": "Informatie bij [Ont]Regel de Zorg",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/geen-nieuwe-verwijzing-naar-specialist-of-paramedicus-bij-behandelingen-langer-dan-12-maanden"
                 }
               ]
@@ -59,15 +60,18 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Zorginstituut Nederland - Second opinion in de Zorgverzekeringswet",
+                  "source": "ZIN",
+                  "title": "Second opinion in de Zorgverzekeringswet",
                   "url": "https://www.zorginstituutnederland.nl/publicaties/standpunten/2015/01/06/second-opinion-in-de-zorgverzekeringswet"
                 },
                 {
-                  "name": "Rijksoverheid - Hoe krijg ik een second opinion in de zorg?",
+                  "source": "Rijksoverheid",
+                  "title": "Hoe krijg ik een second opinion in de zorg?",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/wat-is-een-second-opinion-in-de-zorg"
                 },
                 {
-                  "name": "[Ont]Regel de Zorg - Verwijzingen",
+                  "source": "ORDZ",
+                  "title": "Verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
               ]
@@ -102,7 +106,8 @@
               "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden",
               "links": [
                 {
-                  "name": "[Ont]Regel de Zorg - Verwijzingen",
+                  "source":"ORDZ",
+                  "title": "Verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/optometrist-kan-direct-verwijzen-naar-oorgarts-zonder-tussenkomst-huisarts"
                 }
               ]
@@ -115,7 +120,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Informatie bij [Ont]Regel de Zorg",
+                  "source":"ORDZ",
+                  "title": "Meer informatie",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/audicien-en-audioloog-kan-direct-verwijzen-naar-kno-arts-zonder-tussenkomst-huisarts"
                 }
               ]
@@ -135,7 +141,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "NZA - Verwijzen bij infertiliteit",
+                  "source": "NZA",
+                  "title": "Verwijzen bij infertiliteit",
                   "url": "https://www.nza.nl/documenten/vragen-en-antwoorden/behandeling-mag-ik-bij-infertiliteit-een-zorgtraject-openen-en-een-polikliniekbezoek-registreren-voor-man-en-vrouw"
                 }
               ]
