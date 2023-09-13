@@ -157,8 +157,8 @@
           "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk.\n\nVoor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de patiënt zich meldt bij de GGZ-instelling, en niet het moment waarop de verwijsbrief wordt afgegeven.",
           "links": [
             {
-              "name": "Verwijsafspraken GGZ november 2021",
-              "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2021/11/Verwijsafspraken-GGZ_november-2021.pdf"
+              "name": "Verwijsafspraken GGZ 2023",
+              "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
             }
           ],
           "children": [
@@ -213,8 +213,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Verwijsafspraken GGZ november 2021",
-                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2021/11/Verwijsafspraken-GGZ_november-2021.pdf"
+                  "name": "Verwijsafspraken GGZ 2023",
+                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
             },
@@ -226,8 +226,8 @@
               "sticker": true,
               "links": [
                 {
-                  "name": "Verwijsafspraken GGZ november 2021",
-                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2021/11/Verwijsafspraken-GGZ_november-2021.pdf"
+                  "name": "Verwijsafspraken GGZ 2023",
+                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
             },
@@ -235,7 +235,7 @@
               "id": "recent-afgeronde-ggz-behandeling",
               "name": "Korter dan een jaar geleden afgeronde GGZ-behandeling",
               "blurb": "Er is sprake van een GGZ-behandeling die korter dan een jaar geleden is afgerond.",
-              "content": "Wanneer de afronding minder dan een jaar geleden heeft plaatsgevonden is er **geen** nieuwe verwijzing van de huisarts nodig.",
+              "content": "Wanneer de afronding minder dan een jaar geleden heeft plaatsgevonden is er **geen** nieuwe verwijzing van de huisarts nodig. \n\n Is er sprake van een nieuwe/andere hulpvraag, dan is er **wel** een verwijzing nodig.",
               "sticker": false,
               "links": [
                 {
@@ -243,8 +243,8 @@
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/minder-administratieve-lasten-ggz"
                 },
                 {
-                  "name": "Verwijsafspraken GGZ november 2021",
-                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2021/11/Verwijsafspraken-GGZ_november-2021.pdf"
+                  "name": "Verwijsafspraken GGZ 2023",
+                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
             },
@@ -260,8 +260,8 @@
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/minder-administratieve-lasten-ggz"
                 },
                 {
-                  "name": "Verwijsafspraken GGZ november 2021",
-                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2021/11/Verwijsafspraken-GGZ_november-2021.pdf"
+                  "name": "Verwijsafspraken GGZ 2023",
+                  "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
             }
