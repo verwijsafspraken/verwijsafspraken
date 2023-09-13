@@ -77,9 +77,21 @@ function renderPage(page) {
 
 function sourceToImage(source) {
   return {
+    "Belastingdienst": "images/Belastingdienst.png",
+    "CAK": "images/CAK.svg",
+    "CBR": "images/CBR.png",
+    "GGZst": "images/GGZ Standaarden.png",
+    "IGJ": "images/IGJ.svg",
+    "ILT": "ilt.jpg",
+    "KNMG": "KNMG.png",
+    "LHV": "LHV.png",
+    "NZA": "NZA.png",
     "ORDZ": "images/ORDZ.png",
     "Rijksoverheid": "images/Rijksoverheid.png",
-    "Thuisarts": "images/Thuisarts.svg"
+    "Thuisarts": "images/Thuisarts.svg",
+    "VWS": "VWS.png",
+    "ZN": "ZN.jpg",
+    "ZIN": "Zorginstituus NL.png",
   }[source];
 }
 
