@@ -157,7 +157,8 @@
           "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk.\n\nVoor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de patiënt zich meldt bij de GGZ-instelling, en niet het moment waarop de verwijsbrief wordt afgegeven.",
           "links": [
             {
-              "name": "Verwijsafspraken GGZ 2023",
+              "source":"VWS",
+              "title": "Verwijsafspraken GGZ 2023",
               "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
             }
           ],
@@ -170,11 +171,13 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "GGZ Standaarden",
+                  "source":"GGZst",
+                  "title": "Acute psychiatrie",
                   "url": "https://www.ggzstandaarden.nl/generieke-modules/acute-psychiatrie/introductie"
                 },
                 {
-                  "name": "Zorginstituut Nederland",
+                  "source":"ZIN",
+                  "title": "Afspraken acute psychiatrische zorg",
                   "url": "https://www.zorginstituutnederland.nl/actueel/nieuws/2019/09/12/afspraken-over-goede-acute-psychiatrische-zorg"
                 }
               ]
@@ -187,7 +190,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Basis-GGZ en gespecialiseerde GGZ",
+                  "source":"Rijksoverheid",
+                  "title": "Basis-GGZ en gespecialiseerde GGZ",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/basis-ggz-en-gespecialiseerde-ggz"
                 }
               ]
@@ -200,7 +204,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "GGZ Standaarden",
+                  "source":"GGZst",
+                  "title": "Samenwerkingsafspraken jeugd",
                   "url": "https://www.ggzstandaarden.nl/generieke-modules/landelijke-samenwerkingsafspraken-jeugd-ggz/samenwerkingsafspraken"
                 }
               ]
@@ -213,7 +218,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Verwijsafspraken GGZ 2023",
+                  "source":"VWS",
+                  "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
@@ -226,7 +232,8 @@
               "sticker": true,
               "links": [
                 {
-                  "name": "Verwijsafspraken GGZ 2023",
+                  "source":"VWS",
+                  "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
@@ -239,11 +246,13 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Minder administratieve lasten GGZ",
+                  "source": "Rijksoverheid",
+                  "title": "Minder administratieve lasten GGZ",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/minder-administratieve-lasten-ggz"
                 },
                 {
-                  "name": "Verwijsafspraken GGZ 2023",
+                  "source":"VWS",
+                  "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
@@ -256,11 +265,13 @@
               "sticker": true,
               "links": [
                 {
-                  "name": "Minder administratieve lasten GGZ",
+                  "source": "Rijksoverheid",
+                  "title": "Minder administratieve lasten GGZ",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/minder-administratieve-lasten-ggz"
                 },
                 {
-                  "name": "Verwijsafspraken GGZ 2023",
+                  "source":"VWS",
+                  "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
               ]
@@ -281,7 +292,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "[Ont]Regel de Zorg - Verwijzingen",
+                  "source": "ORDZ",
+                  "title": "Verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
               ]
@@ -329,7 +341,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Aanvullende zorgverzekering",
+                  "source":"Rijksoverheid",
+                  "title": "Aanvullende zorgverzekering",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/wat-is-een-aanvullende-zorgverzekering"
                 }
               ]
@@ -353,11 +366,13 @@
           "sticker": false,
           "links": [
             {
-              "name": "Gezondheidsverklaring bij CBR",
+              "source":"CBR",
+              "title": "Gezondheidsverklaring",
               "url": "https://www.cbr.nl/nl/rijbewijs-houden/nl/gezondheidsverklaring.htm"
             },
             {
-              "name": "Rijbewijskeuring bij KNMG",
+              "source":"KNMG",
+              "title": "Rijbewijskeuring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/rijbewijskeuring.htm"
             }
           ]
@@ -391,7 +406,8 @@
           "stickerText": "De (eigen) huisarts hoeft hier niet bij betrokken te worden",
           "links": [
             {
-              "name": "KNMG - Geneeskundige verklaring",
+              "source":"KNMG",
+              "title": "Geneeskundige verklaring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
             }
           ]
@@ -405,7 +421,8 @@
           "stickerText": "De (eigen) huisarts hoeft hier niet bij betrokken te worden",
           "links": [
             {
-              "name": "KNMG - Geneeskundige verklaring",
+              "source":"KNMG",
+              "title": "Geneeskundige verklaring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
             }
           ]
@@ -419,15 +436,18 @@
           "sticker": true,
           "links": [
             {
-              "name": "KNMG - Geneeskundige verklaring",
+              "source":"KNMG",
+              "title": "Geneeskundige verklaring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
             },
             {
-              "name": "KNMG - Casus",
+              "source":"KNMG",
+              "title": "Casus",
               "url": "https://www.knmg.nl/advies-richtlijnen/artseninfolijn/praktijkdilemmas-1/praktijkdilemma/mag-ik-gegevens-uit-een-medisch-dossier-verstrekken-aan-de-advocaat-van-een-patient.htm"
             },
             {
-              "name": "Thuisarts",
+              "source":"Thuisarts",
+              "title": "Thuisarts",
               "url": "https://www.thuisarts.nl/bezoek-aan-huisarts/ik-wil-mijn-medische-gegevens-van-huisarts-bekijken"
             }
           ]
@@ -441,15 +461,18 @@
           "stickerText": "De huisarts hoeft hier meestal niet bij betrokken te worden",
           "links": [
             {
-              "name": "Belastingdienst",
+              "source":"Belastingdienst",
+              "title": "Belastingdienst",
               "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/relatie_familie_en_gezondheid/gezondheid/aftrek_zorgkosten/overzicht_zorgkosten/dieetkosten/dieetbevestiging"
             },
             {
+              "source":"Belastingdienst",
               "name": "Standaardformulier",
               "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/dieetbevestiging-2019"
             },
             {
-              "name": "Informatie bij [Ont]Regel de Zorg",
+              "source":"ORDZ",
+              "name": "Informatie",
               "url": "https://www.ordz.nl/actueel/nieuws/2020/02/verzoeken-vanuit-gemeenten-wat-is-de-rol-van-de-huisarts-en-wat-niet/invullen-dieetbevestiging-door-huisarts-niet-standaard-nodig"
             }
           ]
@@ -462,7 +485,8 @@
           "sticker": false,
           "links": [
             {
-              "name": "Informatie bij [Ont]Regel de Zorg",
+              "source":"ORDZ",
+              "name": "Informatie",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/huisarts-geen-rol-bij-invullen-formulier-fittest-defensie"
             }
           ]
@@ -475,8 +499,9 @@
           "sticker": false,
           "links": [
             {
-              "name": "LHV - Schrappen VOG-plicht bij incidentele zorg",
-              "url": "https://www.lhv.nl/nieuws/stap-dichterbij-schrappen-vog-plicht-bij-incidentele-zorg-in-wlz-instelling/"
+              "source":"ORDZ",
+              "title": "VOG ANW uren",
+              "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-vog-plicht-zorgverlening-wlz--of-ggz-instelling-in-anw-uren"
             }
           ]
         },
@@ -487,11 +512,13 @@
           "content": "Of er een medicijnverklaring nodig is hangt af van het medicijn, het land waar naartoe gereisd wordt en hoe lang er wordt gereisd. Twijfelt u of een medicijn onder de Opiumwet valt? Bekijk dan de links onder 'Meer lezen' of vraag het aan de apotheker.",
           "links": [
             {
-              "name": "Lijst van Opioïden",
+              "source":"FK",
+              "title": "Lijst van Opioïden",
               "url": "https://www.farmacotherapeutischkompas.nl/bladeren/groepsteksten/opioiden"
             },
             {
-              "name": "Medicijnen mee op reis-hulp",
+              "source":"CAK",
+              "title": "Medicijnen mee op reis-hulp",
               "url": "https://www.hetcak.nl/medicijnen-mee-op-reis/"
             }
           ],
@@ -505,11 +532,13 @@
               "stickerText": "Je hebt (waarschijnlijk) de hulp van de voorschrijvend arts nodig",
               "links": [
                 {
-                  "name": "Het CAK - Schengenverklaring",
+                  "source":"CAK",
+                  "title": "Schengenverklaring",
                   "url": "https://www.hetcak.nl/vragen/ik-wil-mijn-medicijnen-meenemen-op-reis/meer-informatie/reizen-binnen-het-schengengebied"
                 },
                 {
-                  "name": "NZA - Tarief 'opvragen van informatie'",
+                  "source":"NZA",
+                  "title": "Tarief 'opvragen van informatie'",
                   "url": "https://www.nza.nl/documenten/vragen-en-antwoorden/welk-tarief-mag-een-huisarts-in-rekening-brengen-als-een-derde-partij-informatie-opvraagt-over-een-patient#:~:text=Het%20tarief%20voor%20de%20informatieverstrekking,is%20leidend%20voor%20de%20declaratie"
                 }
               ]
@@ -553,11 +582,13 @@
           "sticker": true,
           "links": [
             {
-              "name": "Voorbehouden medische handelingen",
+              "source":"Rijksoverheid",
+              "title": "Voorbehouden medische handelingen",
               "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             },
             {
-              "name": "Handleiding voorbehouden handelingen",
+              "source":"ORDZ",
+              "title": "Handleiding voorbehouden handelingen",
               "url": "https://www.ordz.nl/huisartsen/documenten/publicaties/2019/07/01/update-handleiding-voorbehouden-handelingen"
             }
           ]
@@ -570,7 +601,8 @@
           "sticker": false,
           "links": [
             {
-              "name": "Voorbehouden medische handelingen",
+              "source":"Rijksoverheid",
+              "title": "Voorbehouden medische handelingen",
               "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             }
           ]
@@ -592,11 +624,13 @@
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "name": "ZN Formulieren",
+              "source":"ZN",
+              "title": "ZN Formulieren",
               "url": "https://www.znformulieren.nl/337936417/Formulieren?folderid=338591745&title=Farmacie"
             },
             {
-              "name": "Geneesmiddelen bij Zorginstituut Nederland",
+              "source":"ZIN",
+              "title": "Geneesmiddelen (Zvw)",
               "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/geneesmiddelen-zvw"
             }
           ]
@@ -610,7 +644,8 @@
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "name": "Lijst indicatiecodes",
+              "source":"ORDZ",
+              "title": "Lijst indicatiecodes",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             }
           ]
@@ -630,7 +665,8 @@
           "sticker": false,
           "links": [
             {
-              "name": "Stoppen-met-rokenprogramma",
+              "source":"NZA",
+              "title": "Stoppen-met-rokenprogramma",
               "url": "https://puc.overheid.nl/nza/doc/PUC_236522_22/1/"
             }
           ]
@@ -644,11 +680,13 @@
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "name": "Lijst indicatiecodes",
+              "source":"ORDZ",
+              "title": "Lijst indicatiecodes",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             },
             {
-              "name": "Informatie bij [Ont]Regel de Zorg",
+              "source":"ORDZ",
+              "title": "Meer informatie",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/voorschrijven-genees--en-hulpmiddelen/geen-formulieren-meer-bij-voorschrijven-verbandmiddelen-langdurige-wondzorg"
             }
           ]
@@ -662,7 +700,8 @@
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "name": "Lijst indicatiecodes",
+              "source":"ORDZ",
+              "title": "Lijst indicatiecodes",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             }
           ]
@@ -676,7 +715,8 @@
           "stickerText": "De huisarts hoeft hier niet jaarlijks te ondertekenen",
           "links": [
             {
-              "name": "Informatie bij [Ont]Regel de Zorg incl. lijst chronische aandoeningen",
+              "source":"ORDZ",
+              "title": "informatie incl lijst chronische aandoeningen",
               "url": "https://www.ordz.nl/de-patient-client/ontregeld-voor-patienten-clienten/geen-jaarlijkse-machtigingen-bij-chronische-aandoeningen"
             }
           ]
@@ -689,11 +729,13 @@
           "sticker": true,
           "links": [
             {
-              "name": "Het CAK - Subsidieregeling medisch noodzakelijke zorg aan onverzekerden",
+              "source":"CAK",
+              "title": "ubsidieregeling medisch noodzakelijke zorg aan onverzekerden",
               "url": "https://www.hetcak.nl/zakelijk/regelingen/regeling-onverzekerde-verzekeringsplichtigen"
             },
             {
-              "name": "Het CAK - Vergoeding zorg vluchtelingen uit Oekraïne verandert vanaf 1 juli",
+              "source":"CAK",
+              "title": "Vergoeding zorg vluchtelingen uit Oekraïne verandert vanaf 1 juli",
               "url": "https://www.hetcak.nl/zakelijk/regelingen/regeling-onverzekerden/nieuws/vergoeding-zorg-vluchtelingen-uit-oekraine-verande"
             }
           ]
@@ -707,7 +749,8 @@
           "stickerText": "De voorschrijvende arts is verantwoordelijk voor de artsenverklaring.",
           "links": [
             {
-              "name": "Inspectie Gezondheidszorg en Jeugd",
+              "source":"IGJ",
+              "title": "geneesmiddelen zonder handelsvergunning",
               "url": "https://www.igj.nl/zorgsectoren/geneesmiddelen/geneesmiddelen-zonder-handelsvergunning/leveren-op-artsenverklaring"
             }
           ]

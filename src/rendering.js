@@ -80,6 +80,7 @@ function sourceToImage(source) {
     "Belastingdienst": "images/Belastingdienst.png",
     "CAK": "images/CAK.svg",
     "CBR": "images/CBR.png",
+    "FK": "images/fk.jpeg",
     "GGZst": "images/GGZ Standaarden.png",
     "IGJ": "images/IGJ.svg",
     "ILT": "images/ilt.jpg",
