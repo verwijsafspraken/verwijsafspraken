@@ -467,12 +467,12 @@
             },
             {
               "source":"Belastingdienst",
-              "name": "Standaardformulier",
+              "title": "Standaardformulier",
               "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/dieetbevestiging-2019"
             },
             {
               "source":"ORDZ",
-              "name": "Informatie",
+              "title": "Informatie",
               "url": "https://www.ordz.nl/actueel/nieuws/2020/02/verzoeken-vanuit-gemeenten-wat-is-de-rol-van-de-huisarts-en-wat-niet/invullen-dieetbevestiging-door-huisarts-niet-standaard-nodig"
             }
           ]
@@ -486,7 +486,7 @@
           "links": [
             {
               "source":"ORDZ",
-              "name": "Informatie",
+              "title": "Informatie",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/huisarts-geen-rol-bij-invullen-formulier-fittest-defensie"
             }
           ]
@@ -561,7 +561,8 @@
           "stickerText": "De huisarts hoeft hier niet bij betrokken te worden, behalve voor aanvraag PGB",
           "links": [
             {
-              "name": "Palliatieve zorg: terminaliteitsverklaring in meeste situaties niet meer nodig",
+              "source":"Rijksoverheid",
+              "title": "Palliatieve zorg: terminaliteitsverklaring in meeste situaties niet meer nodig",
               "url": "https://www.rijksoverheid.nl/actueel/nieuws/2019/11/05/palliatieve-zorg-terminaliteitsverklaring-in-meeste-situaties-niet-meer-nodig"
             }
           ]
@@ -787,19 +788,22 @@
           "sticker": false,
           "links": [
             {
-              "name": "Hulpmiddelenwijzer",
+              "title": "Hulpmiddelenwijzer",
               "url": "https://www.hulpmiddelenwijzer.nl/"
             },
             {
-              "name": "Zijn medische hulpmiddelen opgenomen in het basispakket?",
+              "source":"Rijksoverheid",
+              "title": "Medische hulpmiddelen in het basispakket",
               "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/zijn-medische-hulpmiddelen-opgenomen-in-het-basispakket#:~:text=Voorbeelden%20van%20hulpmiddelen%20die%20u,Wmo-loket%20van%20uw%20gemeente"
             },
             {
-              "name": "Hulpmiddelen en de ZVW",
+              "source":"ZIN",
+              "title": "Hulpmiddelen en de ZVW",
               "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/hulpmiddelen-algemeen-zvw"
             },
             {
-              "name": "Hulpmiddelen en de WMO",
+              "source":"Rijksoverheid",
+              "title": "Hulpmiddelen en de WMO",
               "url": "https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/ondersteuning-gemeente-wmo-2015"
             }
           ]
@@ -813,7 +817,8 @@
           "stickerText": "De huisarts hoeft alleen betrokken te worden indien de verzekeraar dit vereist",
           "links": [
             {
-              "name": "Wanneer krijg ik personenalarmering voor thuis vergoed?",
+              "source":"Rijksoverheid",
+              "title": "Wanneer krijg ik personenalarmering voor thuis vergoed?",
               "url": "https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/wanneer-krijg-ik-personenalarmering-voor-thuis-vergoed"
             }
           ]
