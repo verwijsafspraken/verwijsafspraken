@@ -10,7 +10,13 @@
       "id": "verwijzing",
       "name": "Verwijzingen",
       "blurb": "Hoe werkt een doorverwijzing?",
-      "content": "Zorgverzekeraars bepalen in hun polisvoorwaarden wanneer een verwijzing nodig is. In het algemeen geldt dat voor specialistische zorg, zoals bijvoorbeeld in het ziekenhuis of GGZ-instelling, een verwijzing van een huisarts nodig is.",
+      "content": "Zorgverzekeraars bepalen in hun polisvoorwaarden wanneer een verwijzing nodig is. In het algemeen geldt dat voor specialistische zorg, zoals bijvoorbeeld in het ziekenhuis of GGZ-instelling, een verwijzing van een huisarts nodig is.\n\n <b>Wanneer is een verwijzing geldig?\n\n </b> Er moet altijd een schriftelijke verwijzing zijn (bij voorkeur digitaal, maar op papier is ook mogelijk) Een uitsluitend telefonische verwijzing is dus niet geldig.",
+      "links": [
+        {
+          "name": "Verwijsafspraken (ont)regel de zorg",
+          "url": "https://www.ordz.nl/verwijsafspraken"
+        }
+      ],
       "children": [
         {
           "id": "ziekenhuiszorg",
@@ -69,6 +75,32 @@
                 {
                   "name": "[Ont]Regel de Zorg - Verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
+                }
+              ]
+            },
+            {
+              "id": "wachttijd",
+              "name": "Veranderen ziekenhuis",
+              "blurb": "Veranderen van ziekenhuis of kliniek voordat het zorgtraject is gestart",
+              "content": "De huisarts hoeft geen nieuwe verwijzing te schrijven. De reeds bestaande verwijzing (digitaal of op papier) blijft geldig.",
+              "sticker": false,
+              "links": [
+                {
+                  "name": "Verwijsafspraken (ont)regel de zorg",
+                  "url": "https://www.ordz.nl/verwijsafspraken"
+                }
+              ]
+            },
+            {
+              "id": "Verhuizing",
+              "name": "Verhuizing",
+              "blurb": "Als door verhuizing of andere reden de zorgvrager tijdens de behandeling naar een andere behandelaar wilt",
+              "content": "De medisch specialist draagt de zorgvrager zelf over naar het ander(e) ziekenhuis of kliniek en informeert de huisarts.",
+              "sticker": false,
+              "links": [
+                {
+                  "name": "Verwijsafspraken (ont)regel de zorg",
+                  "url": "https://www.ordz.nl/verwijsafspraken"
                 }
               ]
             },
@@ -137,6 +169,19 @@
                 {
                   "name": "NZA - Verwijzen bij infertiliteit",
                   "url": "https://www.nza.nl/documenten/vragen-en-antwoorden/behandeling-mag-ik-bij-infertiliteit-een-zorgtraject-openen-en-een-polikliniekbezoek-registreren-voor-man-en-vrouw"
+                }
+              ]
+            },
+            {
+              "id": "traumachirurg",
+              "name": "Traumachirurg",
+              "blurb": "Letsel opgelopen in het buitenland met een operatie-indicatie en behandeling kan in Nederland plaatsvinden.",
+              "content": "De brief/röntgenfoto uit het buitenlandse ziekenhuis volstaat. De Nederlandse specialist kan hiermee een definitief behandplan maken.",
+              "sticker": false,
+              "links": [
+                {
+                  "name": "Verwijsafspraken (ont)regel de zorg",
+                  "url": "https://www.ordz.nl/verwijsafspraken"
                 }
               ]
             }
