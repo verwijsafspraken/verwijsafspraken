@@ -13,7 +13,8 @@
       "content": "Zorgverzekeraars bepalen in hun polisvoorwaarden wanneer een verwijzing nodig is. In het algemeen geldt dat voor specialistische zorg, zoals bijvoorbeeld in het ziekenhuis of GGZ-instelling, een verwijzing van een huisarts nodig is.\n\n <b>Wanneer is een verwijzing geldig?\n\n </b> Er moet altijd een schriftelijke verwijzing zijn (bij voorkeur digitaal, maar op papier is ook mogelijk) Een uitsluitend telefonische verwijzing is dus niet geldig.",
       "links": [
         {
-          "name": "Verwijsafspraken (ont)regel de zorg",
+          "source":"ORDZ",
+          "title": "Verwijsafspraken",
           "url": "https://www.ordz.nl/verwijsafspraken"
         }
       ],
@@ -90,7 +91,8 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Verwijsafspraken (ont)regel de zorg",
+                  "source":"ORDZ",
+                  "title": "Verwijsafspraken",
                   "url": "https://www.ordz.nl/verwijsafspraken"
                 }
               ]
