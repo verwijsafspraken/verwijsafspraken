@@ -47,7 +47,8 @@
               "sticker": true,
               "links": [
                 {
-                  "name": "Zorginstituut Nederland - Medisch-specialistische zorg (ZVW)",
+                  "source":"ZIN",
+                  "title": "Medisch-specialistische zorg (ZVW)",
                   "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/medisch-specialistische-zorg-zvw"
                 }
               ]
@@ -57,7 +58,14 @@
               "name": "Extra klacht",
               "blurb": "Tijdens de behandeling bij een specialist wordt er een nieuwe kwaal ontdekt",
               "content": "Indien de patiënt is verwezen naar een specialist, en bij de behandeling wordt nog een additionele aandoening ontdekt, hoeft voor die aandoening geen extra verwijzing te worden aangevraagd.\n\nBijvoorbeeld: De patiënt is doorverwezen naar de dermatoloog voor eczeem en de dermatoloog ziet ook een verdacht plekje op de schouder. Of: de patiënt is doorverwezen voor een operatie aan de linker knie, maar er wordt ontdekt dat ook de rechter knie moet worden geöpereerd. In dat soort gevallen is een extra verwijzing niet noodzakelijk.",
-              "sticker": false
+              "sticker": false,
+              "links": [
+                {
+                  "source":"ORDZ",
+                  "title":"verwijsafspraken",
+                  "url":"https://www.ordz.nl/verwijsafspraken"
+                }
+              ]
             },
             {
               "id": "second-opinion",
@@ -67,6 +75,11 @@
               "sticker": false,
               "links": [
                 {
+                  "source": "ORDZ",
+                  "title": "verwijsafspraken",
+                  "url": "https://www.ordz.nl/verwijsafspraken"
+                },
+                {
                   "source": "ZIN",
                   "title": "Second opinion in de Zorgverzekeringswet",
                   "url": "https://www.zorginstituutnederland.nl/publicaties/standpunten/2015/01/06/second-opinion-in-de-zorgverzekeringswet"
@@ -75,12 +88,8 @@
                   "source": "Rijksoverheid",
                   "title": "Hoe krijg ik een second opinion in de zorg?",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/wat-is-een-second-opinion-in-de-zorg"
-                },
-                {
-                  "source": "ORDZ",
-                  "title": "Verwijzingen",
-                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
+
               ]
             },
             {
@@ -100,12 +109,13 @@
             {
               "id": "Verhuizing",
               "name": "Verhuizing",
-              "blurb": "Als door verhuizing of andere reden de zorgvrager tijdens de behandeling naar een andere behandelaar wilt",
+              "blurb": "Als door verhuizing of andere reden de zorgvrager tijdens de behandeling naar een andere behandelaar wil.",
               "content": "De medisch specialist draagt de zorgvrager zelf over naar het ander(e) ziekenhuis of kliniek en informeert de huisarts.",
               "sticker": false,
               "links": [
                 {
-                  "name": "Verwijsafspraken (ont)regel de zorg",
+                  "source":"ORDZ",
+                  "title": "Verwijsafspraken",
                   "url": "https://www.ordz.nl/verwijsafspraken"
                 }
               ]
@@ -114,8 +124,15 @@
               "id": "binnen-ziekenhuis",
               "name": "Verwijzing op verzoek van specialist",
               "blurb": "Een specialist in ziekenhuis of DBC wil iemand verwijzen",
-              "content": "Iedere specialist in Nederland mag verwijzen. Zowel binnen als buiten de eigen organisatie. Verwijzen kan naar alle disciplines, zoals de afdeling cardiologie in het eigen ziekenhuis, maar ook psychologen, diëtisten, collega-specialisten, een ander ziekenhuis of de huisarts. Ook wanneer er een gerelateerde zorgvraag wordt ontdekt mag er zelf een indicatie worden gesteld.\n\nWanneer een medisch specialist iemand wil verwijzen naar een ander specialisme is tussenkomst van de huisarts niet noodzakelijk. Wel vindt de huisarts het prettig om op de hoogte gesteld te worden. Is de medisch specialist niet zeker of de patiënt verwezen moet worden, en zo ja waarheen? In dat geval kan de medisch specialist terugverwijzen naar of overleggen met de huisarts zodat die met de patiënt verdere opties kan bespreken.\n\nBijvoorbeeld: Iemand breekt op vakantie een been en de behandeling moet worden overgedragen aan het ziekenhuis thuis. De behandelend specialist mag en kan de patiënt zelf verwijzen zonder tussenkomst van de huisarts.",
-              "sticker": false
+              "content": "Iedere specialist in Nederland mag verwijzen. Zowel binnen als buiten de eigen organisatie. Verwijzen kan naar alle disciplines, zoals de afdeling cardiologie in het eigen ziekenhuis, maar ook psychologen, diëtisten, collega-specialisten, een ander ziekenhuis of de huisarts. Ook wanneer er een gerelateerde zorgvraag wordt ontdekt mag er zelf een indicatie worden gesteld.\n\nWanneer een medisch specialist iemand wil verwijzen naar een ander specialisme is tussenkomst van de huisarts niet noodzakelijk. Wel vindt de huisarts het prettig om op de hoogte gesteld te worden. Is de medisch specialist niet zeker of de patiënt verwezen moet worden, en zo ja waarheen? In dat geval kan de medisch specialist terugverwijzen naar of overleggen met de huisarts zodat die met de patiënt verdere opties kan bespreken.",
+              "sticker": false,
+              "links": [
+                {
+                  "source":"ORDZ",
+                  "title": "Verwijsafspraken",
+                  "url": "https://www.ordz.nl/verwijsafspraken"
+                }
+              ]
             },
             {
               "id": "cosmetisch",
@@ -126,7 +143,8 @@
               "stickerText": "Hier is (doorgaans) geen verwijzing van de huisarts voor nodig",
               "links": [
                 {
-                  "name": "Zorginstituut Nederland - Plastische-chirurgie",
+                  "source":"ZIN",
+                  "title": "Plastische-chirurgie",
                   "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/plastische-chirurgie-zvw#:~:text=Behandelingen%20van%20plastisch%2Dchirurgische%20aard,uitgesloten%20zijn%20van%20het%20basispakket"
                 }
               ]
@@ -141,7 +159,7 @@
               "links": [
                 {
                   "source":"ORDZ",
-                  "title": "Verwijzingen",
+                  "title": "Ontregeld voor huisartsen > verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/optometrist-kan-direct-verwijzen-naar-oorgarts-zonder-tussenkomst-huisarts"
                 }
               ]
@@ -155,7 +173,7 @@
               "links": [
                 {
                   "source":"ORDZ",
-                  "title": "Meer informatie",
+                  "title": "Ontregeld voor huisartsen > verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/audicien-en-audioloog-kan-direct-verwijzen-naar-kno-arts-zonder-tussenkomst-huisarts"
                 }
               ]
