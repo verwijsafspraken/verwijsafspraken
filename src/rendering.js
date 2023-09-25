@@ -90,6 +90,7 @@ function sourceToImage(source) {
     "ORDZ": "images/ORDZ.png",
     "Rijksoverheid": "images/Rijksoverheid.png",
     "Thuisarts": "images/Thuisarts.svg",
+    "Vilans": "images/vilans-logo.png",
     "VWS": "images/VWS.png",
     "ZN": "images/ZN.jpg",
     "ZIN": "images/Zorginstituut_NL.png"

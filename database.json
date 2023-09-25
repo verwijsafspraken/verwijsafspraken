@@ -450,7 +450,8 @@
           "sticker": false,
           "links": [
             {
-              "name": "Urgentieverklaring huurwoning",
+              "source":"Rijksoverheid",
+              "title": "Urgentieverklaring huurwoning",
               "url": "https://www.rijksoverheid.nl/onderwerpen/huurwoning-zoeken/vraag-en-antwoord/wanneer-krijg-ik-een-urgentieverklaring-voor-een-huurwoning"
             }
           ]
@@ -853,6 +854,7 @@
           "sticker": false,
           "links": [
             {
+              "source":"Vilans",
               "title": "Hulpmiddelenwijzer",
               "url": "https://www.hulpmiddelenwijzer.nl/"
             },
