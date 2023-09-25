@@ -59,8 +59,8 @@ function renderPage(page) {
               <section class="links">
                 <h1>Meer lezen</h1>
                 <ul>
-                  ${links.map(({ name, url }) => html`
-                    <li><a href=${url}>${name}</a></li>
+                  ${links.map(({ source, title, url }) => html`
+                    <li><a href=${url}><img src="${sourceToImage(source)}" />${title}</a></li>
                   `)}
                 </ul>
               </section>
@@ -73,6 +73,28 @@ function renderPage(page) {
       ${renderFooter()}
     </main>
   `
+}
+
+function sourceToImage(source) {
+  return {
+    "Belastingdienst": "images/Belastingdienst.png",
+    "CAK": "images/CAK.svg",
+    "CBR": "images/CBR.png",
+    "FK": "images/fk.jpeg",
+    "GGZst": "images/GGZ Standaarden.png",
+    "IGJ": "images/IGJ.svg",
+    "ILT": "images/ilt.jpg",
+    "KNMG": "images/KNMG.png",
+    "LHV": "images/LHV.png",
+    "NZA": "images/NZA.png",
+    "ORDZ": "images/ORDZ.png",
+    "Rijksoverheid": "images/Rijksoverheid.png",
+    "Thuisarts": "images/Thuisarts.svg",
+    "Vilans": "images/vilans-logo.png",
+    "VWS": "images/VWS.png",
+    "ZN": "images/ZN.jpg",
+    "ZIN": "images/Zorginstituut_NL.png"
+  }[source];
 }
 
 function renderPageNotFound() {
