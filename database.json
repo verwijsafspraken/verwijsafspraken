@@ -842,10 +842,51 @@
     },
     {
       "id": "hulpmiddelen",
-      "name": "Hulpmiddelen",
-      "blurb": "Het aanvragen van speciale hulpmiddelen",
+      "name": "Aanvragen zorg en ondersteuning",
+      "blurb": "Het aanvragen van speciale hulpmiddelen, zorg en/of ondersteuning",
       "content": "Zijn er hulpmiddelen nodig voor behandeling, verpleging, revalidatie of verzorging? Dan kunnen deze worden vergoed vanuit het basispakket. Zorgverzekeraars vergoeden eenvoudige loopmiddelen, zoals krukken of een rollator niet meer. Zijn er blijvend hulpmiddelen nodig, bijvoorbeeld vanwege een handicap? Dan worden deze meestal verstrekt door de gemeente.\n\nAls een hulpmiddel of een voorziening nodig is, moet dit eerst worden gemeld bij de betreffende gemeente. Dit is nog geen officiële aanvraag. De gemeente start vervolgens een onderzoek dat maximaal 6 weken mag duren. In dit onderzoek kan ook een gesprek nodig zijn.",
       "children": [
+        {
+          "id": "indicaties",
+          "name": "Indicaties voor zorg en/of ondersteuning",
+          "blurb": "Er is ondersteuning nodig bij persoonlijke- of medische zorg, huishouden, vervoer, woningaanpassingen of het lukt thuis niet meer.",
+          "content": "Er zijn verschillende ",
+          "children": [
+            {
+              "id": "wlz",
+              "name": "WLZ",
+              "blurb": "Als u zorg wilt ontvangen vanuit de Wet Langdurige zorg",
+              "sticker": false,
+              "content": "Er zijn verschillende "
+            },
+            {
+              "id": "ZVW",
+              "name": "ZVW",
+              "blurb": "wijkverpleging wilt ontvangen ivm lichamelijke achteruitgang",
+              "sticker": false,
+              "content": "E "
+            },
+            {
+              "id": "wmo",
+              "name": "WMO",
+              "blurb": "Ondersteuning vanuit de gemeente.",
+              "sticker": false,
+              "content": "Vanuit de WMO worden maatwerk- en algemene voorzieningen aangeboden. Omdat dit geen medische hulp is, is er geen verwijzing van de huisarts nodig. Het is uiteraard wel altijd mogelijk om met de huisarts in gesprek voor advies. \n\n Meer informatie is beschikbaar bij het WMO-loket van de gemeente.",
+              "links":[
+                {
+                  "source": "Rijksoverheid",
+                  "title":"Hulp vanuit de gemeente",
+                  "url":"https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/ondersteuning-gemeente-wmo-2015"
+                },
+                {
+                  "source": "Rijksoverheid",
+                  "title":"Hoe ondersteuning vanuit de WMO",
+                  "url":"https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/ondersteuning-gemeente-wmo-2015-aanvragen"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "hulpmiddelen-in-en-om-huis",
           "name": "Hulpmiddelen in en om huis",
