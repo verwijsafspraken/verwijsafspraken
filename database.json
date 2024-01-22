@@ -23,7 +23,7 @@
           "id": "ziekenhuiszorg",
           "name": "Ziekenhuiszorg / Zelfstandige behandelcentra (ZBCs)",
           "blurb": "Ziekenhuiszorg en zorg bij ZBCs omvat medisch-specialistische hulp en daarmee samenhangende verpleging en verzorging aan patiënten.",
-          "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbrief. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
+          "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is die de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbrief. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
           "children": [
             {
               "id": "bestaande-klacht",
