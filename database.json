@@ -107,6 +107,20 @@
               ]
             },
             {
+              "id": "na-start",
+              "name": "Verwijzing achteraf",
+              "blurb": "De (eerste) afspraak is al geweest bij de medisch specialist",
+              "content": "Het is niet toegestaan om achteraf een verwijzing te vragen bij de huisarts. \n\n Bijvoorbeeld medewerkers van het ziekenhuis die een ongeval hebben tijdens hun werkzaamheden en door de medisch specialist direct behandeld zijn. Deze zorg valt onder spoedzorg.",
+              "sticker": false,
+              "links": [
+                {
+                  "source":"ORDZ",
+                  "title": "verwijsafspraken",
+                  "url":"https://www.ordz.nl/verwijsafspraken"
+                }
+              ]
+            },
+            {
               "id": "wachttijd",
               "name": "Veranderen ziekenhuis",
               "blurb": "Veranderen van ziekenhuis of kliniek voordat het zorgtraject is gestart",
