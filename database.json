@@ -23,7 +23,7 @@
           "id": "ziekenhuiszorg",
           "name": "Ziekenhuiszorg / Zelfstandige behandelcentra (ZBCs)",
           "blurb": "Ziekenhuiszorg en zorg bij ZBCs omvat medisch-specialistische hulp en daarmee samenhangende verpleging en verzorging aan patiënten.",
-          "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbrief. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
+          "content": "Vindt de zorgverlener, bijvoorbeeld de huisarts, dat er zorg nodig is die de huisarts niet kan geven? Dan volgt er een doorverwijzing. Dit doet de huisarts met een (online) verwijsbrief. In een verwijsbrief geeft de huisarts kort weer wat de medische geschiedenis is en wat de huidige klachten zijn. Ook legt de huisarts een verzoek neer tot onderzoek of verdere behandeling door de specialist.",
           "children": [
             {
               "id": "bestaande-klacht",
@@ -50,6 +50,20 @@
                   "source":"ZIN",
                   "title": "Medisch-specialistische zorg (ZVW)",
                   "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/medisch-specialistische-zorg-zvw"
+                }
+              ]
+            },
+            {
+              "id": "acute-zorgvraag",
+              "name": "Acute zorgvraag",
+              "blurb": "Er is sprake van een acute zorgvraag",
+              "content": "Bij een acute zorgvraag is geen verwijzing vanuit de eerste lijn nodig. Er is sprake van acute zorg wanneer zorg zo spoedig mogelijk, maar in ieder geval binnen enkele uren, verleend moet worden om overlijden of onomkeerbare gezondheidsschade als gevolg van een ongeval of een aandoening te voorkomen.",
+              "sticker": false,
+              "links": [
+                {
+                  "source":"ORDZ",
+                  "title": "verwijsafspraken",
+                  "url":"https://www.ordz.nl/verwijsafspraken"
                 }
               ]
             },
@@ -354,12 +368,19 @@
               "name": "Paramedicus",
               "blurb": "In de meeste gevallen zijn huisartsverwijzingen voor deze zorgdisciplines niet nodig",
               "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - logopedie\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. \n\n Vraagt uw logopedist om een verwijzing van de huisarts? Dan adviseren we u contact op te nemen met de zorgverzekeraar. In het geval van ongecontracteerde logopedisten of logopedisten met een vestiging op school stellen zorgverzekeraars beperkende eisen, waardoor een verwijzing nodig is.",
-              "sticker": false,
-              "links": [
+              "children": [
                 {
-                  "source": "ORDZ",
-                  "title": "Verwijzingen",
-                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
+                  "id": "op-locatie",
+                  "name": "Op praktijk",
+                  "blurb": "De zorgvrager is in staat om naar de praktijk van de paramedicus toe te gaan",
+                  "content": "",
+                  "sticker": false
+                },
+                {
+                  "id": "aan-huis",
+                  "name": "Aan huis",
+                  "blurb": "De paramedische zorg kan niet op locatie of de praktijk van de zorgverlener gegeven worden.",
+                  "content": ""
                 }
               ]
             },
@@ -942,13 +963,12 @@
         {
           "id": "huisarts",
           "name": "Huisarts initieerd afspraak",
-          "blurb": "De huisarts verwijst door naar zorgverlener waar de zorgvrager niet zelfstandig kan komen.",
-          "content": "Daar de huisarts de afspraak wenst regelt de huisarts het vervoer naar die afspraak.",
+          "blurb": "De huisarts verwijst direct door naar zorgverlener waar de zorgvrager niet zelfstandig kan komen.",
+          "content": "Als de huisarts direct wilt dat de zorgvrager gezien wordt door een specialist, zorgt de huisarts voor het vervoer naar de specialist.",
           "sticker": true
-
         },
         {
-          "id": "overige-zorgverleners",
+          "id": "",
           "name": "Overige zorgverleners",
           "blurb": "Een zorgverlener geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
           "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n Overige zorgverleners die een uitvoeringsverzoek voor voorbehouden behandelingen nodig hebben moeten deze **zelf** aanvragen. Een uitvoeringsverzoek is vormvrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven worden of in de status en modeling worden toegelicht.",
