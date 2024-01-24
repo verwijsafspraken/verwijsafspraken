@@ -54,6 +54,20 @@
               ]
             },
             {
+              "id": "acute-zorgvraag",
+              "name": "Acute zorgvraag",
+              "blurb": "Er is sprake van een acute zorgvraag",
+              "content": "Bij een acute zorgvraag is geen verwijzing vanuit de eerste lijn nodig. Er is sprake van acute zorg wanneer zorg zo spoedig mogelijk, maar in ieder geval binnen enkele uren, verleend moet worden om overlijden of onomkeerbare gezondheidsschade als gevolg van een ongeval of een aandoening te voorkomen.",
+              "sticker": false,
+              "links": [
+                {
+                  "source":"ORDZ",
+                  "title": "verwijsafspraken",
+                  "url":"https://www.ordz.nl/verwijsafspraken"
+                }
+              ]
+            },
+            {
               "id": "extra-klacht",
               "name": "Extra klacht",
               "blurb": "Tijdens de behandeling bij een specialist wordt er een nieuwe kwaal ontdekt",
