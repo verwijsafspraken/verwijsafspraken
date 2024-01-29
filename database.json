@@ -385,16 +385,17 @@
               "children": [
                 {
                   "id": "op-locatie",
-                  "name": "Op praktijk",
+                  "name": "Paramedische zorg op de praktijk",
                   "blurb": "De zorgvrager is in staat om naar de praktijk van de paramedicus toe te gaan",
                   "content": "",
                   "sticker": false
                 },
                 {
                   "id": "aan-huis",
-                  "name": "Aan huis",
+                  "name": "Paramedische zorg aan huis",
                   "blurb": "De paramedische zorg kan niet op locatie of de praktijk van de zorgverlener gegeven worden.",
-                  "content": ""
+                  "content": "Als er zorgverlener naar de zorgvrager toe moet komen is er een verwijzing van de huisarts nodig waarin aangegeven wordt dat zorg aan huis noodzakelijk is.",
+                  "sticker": true
                 }
               ]
             },
