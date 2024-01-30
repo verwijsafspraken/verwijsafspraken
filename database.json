@@ -381,15 +381,44 @@
               "id": "paramedicus",
               "name": "Paramedicus",
               "blurb": "In de meeste gevallen zijn huisartsverwijzingen voor deze zorgdisciplines niet nodig",
-              "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - logopedie\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. \n\n Vraagt uw logopedist om een verwijzing van de huisarts? Dan adviseren we u contact op te nemen met de zorgverzekeraar. In het geval van ongecontracteerde logopedisten of logopedisten met een vestiging op school stellen zorgverzekeraars beperkende eisen, waardoor een verwijzing nodig is.",
-              "sticker": false,
+              "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - <a href='https://www.nvlf.nl/wp-content/uploads/sites/2/2023/10/Flowchart-DTL-1.pdf'>logopedie</a>\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. Verdere informatie is te vinden in de onderstaande artikelen.\n\n Vraagt uw logopedist om een verwijzing van de huisarts? Neem dan contact op met uw zorgverzekeraar. Logopedisten die zonder contract werken of die een locatie op een school hebben, moeten van zorgverzekeraars werken met een verwijzing.",
               "links": [
                 {
                   "source": "ORDZ",
                   "title": "Verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
-              ]
+              ],
+                "children": [
+                {
+                  "id": "op-locatie",
+                  "name": "Paramedische zorg op de praktijk",
+                  "blurb": "De zorgvrager is in staat om naar de praktijk van de paramedicus toe te gaan",
+                  "content": "Iedereen mag op eigen initiatief zelf contact opnemen en een afspraak maken.",
+                  "sticker": false,
+                  "links": [
+                    {
+                      "source": "ZIN",
+                      "title": "Verwijzingen",
+                      "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/paramedische-zorg-zvw"
+                    }
+                  ]
+                },
+                {
+                  "id": "aan-huis",
+                  "name": "Paramedische zorg aan huis",
+                  "blurb": "De zorgvrager is **niet** in staat om naar de praktijk van de paramedicus toe te gaan",
+                  "content": "Als de paramedicus naar de zorgvrager toe moet komen is er een verwijzing van de huisarts nodig waarin aangegeven wordt dat zorg aan huis noodzakelijk is.",
+                  "sticker": true
+                },
+                {
+                  "id": "fysio-inco",
+                  "name": "Uitzonderingen",
+                  "blurb": "Bijvoorbeeld bekkenbodemfysiotherapie bij incontinentie",
+                  "content": "Voor sommige specialismes binnen de paramedische zorg kunnen zorgverzekeraars een verwijzing eisen. Neem contact op met uw zorgverzekeraar als u twijfelt of een verwijzing nodig is. \n\n Een voorbeeld hiervan is bekkenbodemfysiotherapie bij ongewild urineverlies (incontinentie).",
+                  "sticker": true
+                }
+                ]
             },
             {
               "id": "mondhygienist",
