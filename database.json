@@ -395,7 +395,14 @@
                   "name": "Paramedische zorg op de praktijk",
                   "blurb": "De zorgvrager is in staat om naar de praktijk van de paramedicus toe te gaan",
                   "content": "Iedereen mag op eigen initiatief zelf contact opnemen en een afspraak maken.",
-                  "sticker": false
+                  "sticker": false,
+                  "links": [
+                    {
+                      "source": "ZIN",
+                      "title": "Verwijzingen",
+                      "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/paramedische-zorg-zvw"
+                    }
+                  ]
                 },
                 {
                   "id": "aan-huis",
@@ -408,7 +415,7 @@
                   "id": "fysio-inco",
                   "name": "Uitzonderingen",
                   "blurb": "Bijvoorbeeld bekkenbodemfysiotherapie bij incontinentie",
-                  "content": "Voor sommige specialismes binnen de paramedische zorg kunnen zorgverzekeraars een verwijzing eisen. Neem contact op met uw zorgverzekeraar als u twijfelt of een verwijzing nodig is. \n\n Ivm de vergoeding door de zorgverzekeraar is het wel nodig om een verwijzing te hebben voor bekkenbodemfysiotherapie bij ongewild urineverlies (incontinentie).",
+                  "content": "Voor sommige specialismes binnen de paramedische zorg kunnen zorgverzekeraars een verwijzing eisen. Neem contact op met uw zorgverzekeraar als u twijfelt of een verwijzing nodig is. \n\n Een voorbeeld hiervan is bekkenbodemfysiotherapie bij ongewild urineverlies (incontinentie).",
                   "sticker": true
                 }
                 ]
