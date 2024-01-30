@@ -388,7 +388,30 @@
                   "title": "Verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
-              ]
+              ],
+                "children": [
+                {
+                  "id": "op-locatie",
+                  "name": "Paramedische zorg op de praktijk",
+                  "blurb": "De zorgvrager is in staat om naar de praktijk van de paramedicus toe te gaan",
+                  "content": "Iedereen mag op eigen initiatief zelf contact opnemen en een afspraak maken.",
+                  "sticker": false
+                },
+                {
+                  "id": "aan-huis",
+                  "name": "Paramedische zorg aan huis",
+                  "blurb": "De zorgvrager is **niet** in staat om naar de praktijk van de paramedicus toe te gaan",
+                  "content": "Als de paramedicus naar de zorgvrager toe moet komen is er een verwijzing van de huisarts nodig waarin aangegeven wordt dat zorg aan huis noodzakelijk is.",
+                  "sticker": true
+                },
+                {
+                  "id": "fysio-inco",
+                  "name": "Uitzonderingen",
+                  "blurb": "Bijvoorbeeld bekkenbodemfysiotherapie bij incontinentie",
+                  "content": "Voor sommige specialismes binnen de paramedische zorg kunnen zorgverzekeraars een verwijzing eisen. Neem contact op met uw zorgverzekeraar als u twijfelt of een verwijzing nodig is. \n\n Ivm de vergoeding door de zorgverzekeraar is het wel nodig om een verwijzing te hebben voor bekkenbodemfysiotherapie bij ongewild urineverlies (incontinentie).",
+                  "sticker": true
+                }
+                ]
             },
             {
               "id": "mondhygienist",
