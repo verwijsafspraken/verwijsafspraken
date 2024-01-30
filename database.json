@@ -381,8 +381,7 @@
               "id": "paramedicus",
               "name": "Paramedicus",
               "blurb": "In de meeste gevallen zijn huisartsverwijzingen voor deze zorgdisciplines niet nodig",
-              "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - <a href='https://www.nvlf.nl/wp-content/uploads/sites/2/2023/10/Flowchart-DTL-1.pdf'>logopedie</a>\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. Klik op de links voor eventuele toelichting of uitzonderingen.\n\n Vraagt uw logopedist om een verwijzing van de huisarts? Neem dan contact op met uw zorgverzekeraar. Logopedisten die zonder contract werken of die een locatie op een school hebben, moeten van zorgverzekeraars werken met een verwijzing.",
-              "sticker": false,
+              "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - <a href='https://www.nvlf.nl/wp-content/uploads/sites/2/2023/10/Flowchart-DTL-1.pdf'>logopedie</a>\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. Verdere informatie is te vinden in de onderstaande artikelen.\n\n Vraagt uw logopedist om een verwijzing van de huisarts? Neem dan contact op met uw zorgverzekeraar. Logopedisten die zonder contract werken of die een locatie op een school hebben, moeten van zorgverzekeraars werken met een verwijzing.",
               "links": [
                 {
                   "source": "ORDZ",
