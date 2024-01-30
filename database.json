@@ -881,7 +881,7 @@
         },
         {
           "id": "medicatie-apotheek",
-          "name": "Machting ophalen medicatie bij apotheek",
+          "name": "Machtiging ophalen medicatie bij apotheek",
           "blurb": "Is de patiënt niet (meer) in staat om medicatie zelf op te halen bij de apotheek?",
           "content": "Wanneer de patiënt 16 jaar of ouders is, dan kan de patiënt iemand machtigen om dit voor hem/haar te doen. Hiervoor kan een machtigingsformulier bij de eigen apotheek worden aangevraagd evenenals daar ook weer worden ingeleverd.",
           "sticker": false,
