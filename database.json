@@ -948,6 +948,28 @@
           ]
         }
       ]
+    },
+    {
+      "id": "vervoer",
+      "name": "Vervoer",
+      "blurb": "Het aanvragen van vervoer als zorgvrager niet zelfstandig naar locatie kan komen.",
+      "content": "Soms moet er vervoer geregeld worden zodat een zorgvrager op het juiste moment op de juiste plek kan zijn. Meest voorkomende voorbeeld hiervan is de zorgambulance.",
+      "children": [
+        {
+          "id": "vervoer-ha",
+          "name": "Huisarts initieert afspraak",
+          "blurb": "De huisarts verwijst direct door naar zorgverlener waar de zorgvrager niet zelfstandig kan komen.",
+          "content": "Als de huisarts direct wilt dat de zorgvrager gezien wordt door een specialist, zorgt de huisarts voor het vervoer naar de specialist.",
+          "sticker": true
+        },
+        {
+          "id": "vervoer-niet-ha",
+          "name": "Zorg niet geïnitieerd door huisarts",
+          "blurb": "Behandelingen of (vervolg)afspraken bij de medisch specialist.",
+          "content": "De specialist/ afdeling die de afspraak inpland is verantwoordelijk voor het regelen van vervoer als de zorgvrager niet in staat is om dit zelf te organiseren. De huisarts hoeft hier niet in meegenomen te worden.",
+          "sticker": false
+        }
+      ]
     }
   ]
 }
