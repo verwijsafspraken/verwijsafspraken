@@ -381,21 +381,12 @@
               "id": "paramedicus",
               "name": "Paramedicus",
               "blurb": "In de meeste gevallen zijn huisartsverwijzingen voor deze zorgdisciplines niet nodig",
-              "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - logopedie\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. \n\n Vraagt uw logopedist om een verwijzing van de huisarts? Dan adviseren we u contact op te nemen met de zorgverzekeraar. In het geval van ongecontracteerde logopedisten of logopedisten met een vestiging op school stellen zorgverzekeraars beperkende eisen, waardoor een verwijzing nodig is.",
-              "children": [
+              "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - <a href='https://www.nvlf.nl/wp-content/uploads/sites/2/2023/10/Flowchart-DTL-1.pdf'>logopedie</a>\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. Verdere informatie is te vinden in de onderstaande artikelen.\n\n Vraagt uw logopedist om een verwijzing van de huisarts? Neem dan contact op met uw zorgverzekeraar. Logopedisten die zonder contract werken of die een locatie op een school hebben, moeten van zorgverzekeraars werken met een verwijzing.",
+              "links": [
                 {
-                  "id": "op-locatie",
-                  "name": "Paramedische zorg op de praktijk",
-                  "blurb": "De zorgvrager is in staat om naar de praktijk van de paramedicus toe te gaan",
-                  "content": "",
-                  "sticker": false
-                },
-                {
-                  "id": "aan-huis",
-                  "name": "Paramedische zorg aan huis",
-                  "blurb": "De paramedische zorg kan niet op locatie of de praktijk van de zorgverlener gegeven worden.",
-                  "content": "Als er zorgverlener naar de zorgvrager toe moet komen is er een verwijzing van de huisarts nodig waarin aangegeven wordt dat zorg aan huis noodzakelijk is.",
-                  "sticker": true
+                  "source": "ORDZ",
+                  "title": "Verwijzingen",
+                  "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
               ],
                 "children": [
@@ -916,7 +907,7 @@
           "id": "indicaties",
           "name": "Indicaties voor zorg en/of ondersteuning",
           "blurb": "Er is ondersteuning nodig bij persoonlijke- of medische zorg, huishouden, vervoer, woningaanpassingen of het lukt thuis niet meer.",
-          "content": "Er zijn verschillende ",
+          "content": "Er zijn verschillende mogelijkheden om zorg te krijgen. ",
           "children": [
             {
               "id": "wlz",
@@ -928,14 +919,14 @@
             {
               "id": "ZVW",
               "name": "ZVW",
-              "blurb": "wijkverpleging wilt ontvangen ivm lichamelijke achteruitgang",
+              "blurb": "Wijkverpleging/thuiszorg wilt ontvangen ivm lichamelijke achteruitgang.",
               "sticker": false,
-              "content": "E "
+              "content": "Voor ondersteuning bij bijvoorbeeld douchen en aankleden kan  "
             },
             {
               "id": "wmo",
               "name": "WMO",
-              "blurb": "Ondersteuning vanuit de gemeente.",
+              "blurb": "Ondersteuning vanuit de Wet Maatschappelijke Ondersteuning door de gemeente.",
               "sticker": false,
               "content": "Vanuit de WMO worden maatwerk- en algemene voorzieningen aangeboden. Omdat dit geen medische hulp is, is er geen verwijzing van de huisarts nodig. Het is uiteraard wel altijd mogelijk om met de huisarts in gesprek voor advies. \n\n Meer informatie is beschikbaar bij het WMO-loket van de gemeente.",
               "links":[
@@ -1003,28 +994,21 @@
       "id": "vervoer",
       "name": "Vervoer",
       "blurb": "Het aanvragen van vervoer als zorgvrager niet zelfstandig naar locatie kan komen.",
-      "content": "Soms moet er vervoer geregeld worden zodat een zorgvrager op het juiste moment op de juiste plek kan zijn.",
+      "content": "Soms moet er vervoer geregeld worden zodat een zorgvrager op het juiste moment op de juiste plek kan zijn. Meest voorkomende voorbeeld hiervan is de zorgambulance.",
       "children": [
         {
-          "id": "huisarts",
-          "name": "Huisarts initieerd afspraak",
+          "id": "vervoer-ha",
+          "name": "Huisarts initieert afspraak",
           "blurb": "De huisarts verwijst direct door naar zorgverlener waar de zorgvrager niet zelfstandig kan komen.",
           "content": "Als de huisarts direct wilt dat de zorgvrager gezien wordt door een specialist, zorgt de huisarts voor het vervoer naar de specialist.",
           "sticker": true
         },
         {
-          "id": "",
-          "name": "Overige zorgverleners",
-          "blurb": "Een zorgverlener geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
-          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n Overige zorgverleners die een uitvoeringsverzoek voor voorbehouden behandelingen nodig hebben moeten deze **zelf** aanvragen. Een uitvoeringsverzoek is vormvrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven worden of in de status en modeling worden toegelicht.",
-          "sticker": false,
-          "links": [
-            {
-              "source":"Rijksoverheid",
-              "title": "Voorbehouden medische handelingen",
-              "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
-            }
-          ]
+          "id": "vervoer-niet-ha",
+          "name": "Zorg niet geïnitieerd door huisarts",
+          "blurb": "Behandelingen of (vervolg)afspraken bij de medisch specialist.",
+          "content": "De specialist/ afdeling die de afspraak inpland is verantwoordelijk voor het regelen van vervoer als de zorgvrager niet in staat is om dit zelf te organiseren. De huisarts hoeft hier niet in meegenomen te worden.",
+          "sticker": false
         }
       ]
     }
