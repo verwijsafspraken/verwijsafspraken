@@ -600,7 +600,7 @@
         {
           "id": "dietetiek",
           "name": "Diëtetiek",
-          "blurb": "De Belastingdienst vereist een ingevulde dieeëtbevestiging.",
+          "blurb": "De Belastingdienst vereist een ingevulde dieetbevestiging.",
           "content": "Mensen die bepaalde diëten volgen kunnen hiervoor soms een vast bedrag aftrekken bij de belastingaangifte. Hiervoor is een zogenaamde dieetbevestiging nodig. Het is niet nodig dat de huisarts deze dieetbevestiging standaard invult. **Alléén wanneer de belastinginspecteur specifiek bij de patiënt om de dieetbevestiging heeft gevraagd dán moet deze ingevuld worden**. De inspecteur vraagt dit wanneer deze een ingediende aangifte controleert of wanneer de patiënt hulp krijgt bij het indienen van de aangifte. De dieetbevestiging wordt afgegeven door degene die het dieet heeft voorgeschreven; **de huisarts dan wel de diëtist**.\n\n Om een bedrag af te kunnen trekken moet bij de aangifte aannemelijk gemaakt worden dat een dieet gevolgd wordt op basis van nog steeds geldend medisch voorschrift. Daarvoor is het het handigst om het standaardformulier van de Belastingdienst te gebruiken. Een overzicht van diëten en het bedrag dat kan worden afgetrokken is te vinden op de website van de Belastingdienst.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier meestal niet bij betrokken te worden",
@@ -912,10 +912,17 @@
         {
           "id": "herhaal-medicatie",
           "name": "Aanvragen herhaalmedicatie",
-          "blurb": "Het aanvragen van herhaalmedicatie die niet door de huisarts is voorgeschreven",
+          "blurb": "Het aanvragen van herhaalmedicatie die **niet** door de huisarts is voorgeschreven",
           "content": "Het aanvragen van herhaalmedicatie moet altijd bij de arts die de medicatie oorspronkelijk heeft voorgeschreven. Dus indien medicatie door een specialist in het ziekenhuis wordt voorgeschreven moet herhaalmedicatie ook worden aangevraagd bij diezelfde specialist.",
           "sticker": false,
-          "stickerText": "De huisarts hoeft hier alleen bij betrokken te worden indien de huisarts zelf de medicatie heeft voorgeschreven"
+          "stickerText": "De huisarts hoeft hier alleen bij betrokken te worden als de huisarts zelf de medicatie heeft voorgeschreven",
+          "links": [
+            {
+              "source":"NHG",
+              "title": "standpunt NHG herhalen specialistische medicatie",
+              "url" :"https://www.nhg.org/actueel/nhg-standpunt-herhalen-specialistische-medicatie-verschenen/"
+            }
+          ]
         }
       ]
     },
