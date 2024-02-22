@@ -235,8 +235,9 @@
               "sticker": false,
               "links": [
                 {
-                  "name": "Verwijsafspraken (ont)regel de zorg",
-                  "url": "https://www.ordz.nl/verwijsafspraken"
+                  "source":"NVT",
+                  "title": "Botbreuk in het buitenland",
+                  "url": "https://www.trauma.nl/botbreuk-in-buitenland/?fbclid=IwAR3CSTb85NgFtb49TpL3n4Jj1t7Rpf0i6Xc1GJjbfqnl8lboC_cNkZoT4BE"
                 }
               ]
             }

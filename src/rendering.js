@@ -87,6 +87,7 @@ function sourceToImage(source) {
     "KNMG": "images/KNMG.png",
     "LHV": "images/LHV.png",
     "NZA": "images/NZA.png",
+    "NVT": "images/NVT.svg",
     "ORDZ": "images/ORDZ.png",
     "Rijksoverheid": "images/Rijksoverheid.png",
     "Thuisarts": "images/Thuisarts.svg",
