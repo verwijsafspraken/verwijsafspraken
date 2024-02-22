@@ -85,6 +85,7 @@ function sourceToImage(source) {
     "IGJ": "images/IGJ.svg",
     "ILT": "images/ilt.jpg",
     "KNMG": "images/KNMG.png",
+    "FK": "images/FK.jpeg",
     "LHV": "images/LHV.png",
     "NZA": "images/NZA.png",
     "NVT": "images/NVT.svg",

@@ -541,7 +541,14 @@
           "name": "Medische verklaring gemeente",
           "blurb": "Gemeenten vragen soms verklaringen rondom urgentie of voorzieningen.",
           "content": "Wanneer de gemeente in verband met het verstrekken van een voorziening of een urgentie een medische verklaring nodig heeft van de burger, kan deze daarvoor terecht bij **een door de gemeente gecontracteerde GGD-arts of een medische adviseur (arts)**. Indien nodig kan die arts, met toestemming van de burger/patiënt, feitelijke informatie bij de huisarts of andere behandelend arts opvragen. \n\n Gemeenten kunnen niet van burgers vragen om bepaalde medische verklaringen door hun huisarts te laten invullen of ondertekenen, die een oordeel bevat over de (medische) (on)geschiktheid om bepaalde dingen wel of niet te doen. Bijvoorbeeld of iemand in staat te werken, een auto te besturen, naar school te gaan of recht heeft op een parkeervergunning of aangepaste woonruimte? Gemeenten kunnen niet (medische) verklaringen door de huisarts in laten vullen. Conform de richtlijnen van de KNMG geeft een behandelend arts namelijk geen geneeskundige verklaring af over zijn eigen patiënt.",
-          "sticker": false
+          "sticker": false,
+          "links": [
+            {
+              "source": "ORDZ",
+              "title": "Informatie bij [Ont]Regel de Zorg",
+              "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-medische-verklaringen-aan-gemeenten-door-huisarts"
+            }
+          ]
         },
         {
           "id": "medische-verklaring-fit-to-fly",
