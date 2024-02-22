@@ -70,7 +70,7 @@
                 <h1>Meer lezen</h1>
                 <ul>
                   ${a.map((({source:t,title:e,url:n})=>c`
-                    <li><a href=${n}><img src="${function(t){return{Belastingdienst:"images/Belastingdienst.png",CAK:"images/CAK.svg",CBR:"images/CBR.png",FK:"images/fk.jpeg",GGZst:"images/GGZ Standaarden.png",IGJ:"images/IGJ.svg",ILT:"images/ilt.jpg",KNMG:"images/KNMG.png",LHV:"images/LHV.png",NZA:"images/NZA.png",ORDZ:"images/ORDZ.png",Rijksoverheid:"images/Rijksoverheid.png",Thuisarts:"images/Thuisarts.svg",Vilans:"images/vilans-logo.png",VWS:"images/VWS.png",ZN:"images/ZN.jpg",ZIN:"images/Zorginstituut_NL.png"}[t]}(t)}" />${e}</a></li>
+                    <li><a href=${n}><img src="${function(t){return{Belastingdienst:"images/Belastingdienst.png",CAK:"images/CAK.svg",CBR:"images/CBR.png",FK:"images/fk.jpeg",GGZst:"images/GGZ Standaarden.png",IGJ:"images/IGJ.svg",ILT:"images/ilt.jpg",KNMG:"images/KNMG.png",LHV:"images/LHV.png",NZA:"images/NZA.png",NVT:"images/NVT.svg",ORDZ:"images/ORDZ.png",Rijksoverheid:"images/Rijksoverheid.png",Thuisarts:"images/Thuisarts.svg",Vilans:"images/vilans-logo.png",VWS:"images/VWS.png",ZN:"images/ZN.jpg",ZIN:"images/Zorginstituut_NL.png"}[t]}(t)}" />${e}</a></li>
                   `))}
                 </ul>
               </section>
