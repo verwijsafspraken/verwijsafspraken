@@ -52,6 +52,7 @@ function renderPage(page) {
             <p class="article-buttons">
               <button id="helped" class="helped" data-title="${name}" data-url="${url}" data-helped-feedback="🐬 Dat vinden wij dolfijn!">Dit artikel heeft mij geholpen</button>
               <button id="share" class="share" data-title="${name}" data-url="${url}">Dit artikel delen</button>
+              <a class="button hit" href="https://www.lhv.nl/huisartsen-interventieteam-hit/"> Wordt deze afspraak niet nageleefd? Meld dit!</a>
             </p>
           </div>
           ${links && html`
