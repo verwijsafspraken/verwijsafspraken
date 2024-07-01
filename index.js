@@ -62,6 +62,7 @@
             <p class="article-buttons">
               <button id="helped" class="helped" data-title="${n}" data-url="${p}" data-helped-feedback="🐬 Dat vinden wij dolfijn!">Dit artikel heeft mij geholpen</button>
               <button id="share" class="share" data-title="${n}" data-url="${p}">Dit artikel delen</button>
+              <a class="button hit" href="https://www.lhv.nl/huisartsen-interventieteam-hit/"> Wordt deze afspraak niet nageleefd? Meld dit!</a>
             </p>
           </div>
           ${a&&c`
