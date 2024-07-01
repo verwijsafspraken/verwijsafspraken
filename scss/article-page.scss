@@ -143,7 +143,8 @@ main.article-page {
         text-align: center;
       }
 
-      button {
+      button, a.button {
+        display: inline-block;
         position: relative;
         height: 40px;
         padding: 0 16px 0 48px;
@@ -154,12 +155,14 @@ main.article-page {
         border-radius: 8px;
         box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 
+        font-family: 'Inter', Tahoma, Arial, sans-serif;
         font-size: 14px;
         font-weight: 500;
         line-height: 40px;
         background-color: white;
         color: #5840DD;
         cursor: pointer;
+        text-decoration: none;
 
         background-position: left 15px center;
         background-repeat: no-repeat;
@@ -170,6 +173,16 @@ main.article-page {
       }
 
       button.share {
+        background-image: url('./images/share-desktop.svg');
+        .android & {
+          background-image: url('./images/share-android.svg');
+        }
+        .ios & {
+          background-image: url('./images/share-ios.svg');
+        }
+      }
+
+      a.hit {
         background-image: url('./images/share-desktop.svg');
         .android & {
           background-image: url('./images/share-android.svg');
