@@ -1,3 +1,4 @@
+@use "sass:color";
 main.front-page {
   position: relative;
   overflow-x: hidden;
@@ -74,7 +75,7 @@ main.front-page {
     a {
       color: #7b7e85;
       &:hover {
-        color: lighten(#7b7e85, 10%);
+        color: color.adjust(#7b7e85, $lightness: 10%);
       }
     }
   }
@@ -133,7 +134,7 @@ main.front-page {
     a {
       color: #2f3135;
       &:hover {
-        color: lighten(#2f3135, 20%);
+        color: color.adjust(#2f3135, $lightness: 20%);
       }
     }
   }
