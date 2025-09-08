@@ -373,6 +373,13 @@
           ]
         },
         {
+          "id": "keuringsarts",
+          "name": "Keuringsarts",
+          "blurb": "Een keuringsarts wilt naar aanleiding van een keuring een verwijzing doen of een onderzoek aanvragen..",
+          "content": "“Als tijdens een keuring blijkt dat vervolgonderzoek (zoals laboratoriumonderzoek) of een verwijzing nodig is, kan de keuringsarts dit zelf regelen. Het inschakelen van de huisarts is hiervoor niet noodzakelijk.”",
+          "sticker": false
+        },
+        {
           "id": "overige-zorg",
           "name": "Overige zorg",
           "blurb": "Hieronder vallen beroepsgroepen zoals de paramedici, mondhygiënisten en huidtherapeuten, etc.",
