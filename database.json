@@ -992,6 +992,72 @@
           ]
         }
       ]
+    },
+    {
+      "id": "rol-huisarts-specialistische-behandeling",
+      "name": "Rol van de huisarts voor, tijdens en na specialistische behandeling",
+      "breadcrumb": "Rol van de huisarts tijdens en na specialistische behandeling",
+      "header": "Voor, tijdens en na behandeling",
+      "blurb": "Informatie over de verantwoordelijkheden van de huisarts voor, tijdens en na een specialistische behandeling, inclusief wat u kunt doen als de wachttijd te lang duurt.",
+      "children": [
+        {
+          "id": "wachttijd-lang",
+          "name": "Wachttijd duurt lang",
+          "blurb": "Wat te doen als u lang moet wachten op een intake of behandeling.",
+          "content": "De wachttijd bij GGZ of ziekenhuis is vaak lang, en dit geldt voor vrijwel alle instellingen. Uw huisarts kan hier veelal weinig aan veranderen. Bel zorgbemiddeling van uw zorgverzekeraar. Zorgbemiddeling kan helpen bij het vinden van een plek waar u mogelijk sneller terecht kunt. U kunt uw verwijzing uitprinten en overal inleveren.",
+          "sticker": false,
+          "stickerText": "De huisarts hoeft hier niet bij betrokken te worden, zorgbemiddeling van de zorgverzekeraar helpt u graag verder",
+          "links": [
+            {
+              "source": "ZN",
+              "title": "Vind zorgbemiddeling",
+              "url": "https://www.mijnzorgverzekeraar.nl/#Overzicht-Websites"
+            }
+          ]
+        },
+        {
+          "id": "diagnostiek",
+          "name": "Aanvragen diagnostiek",
+          "blurb": "Wie is verantwoordelijk voor diagnostiek tijdens een lopende behandeling?",
+          "content": "Als een patiënt onder behandeling is bij een specialist, hoort de daarbij behorende diagnostiek door de specialist zelf aangevraagd te worden. De huisarts hoort hier niet als logistiek tussenstation te fungeren, ook niet als het bloedprikken buiten het ziekenhuis gebeurt. De specialist bepaalt welk onderzoek nodig is en is verantwoordelijk voor de interpretatie. Bij twijfel of het onder de huisarts of specialist valt, moet er vooraf overleg plaatsvinden tussen huisarts en specialist.",
+          "sticker": false,
+          "stickerText": "De huisarts hoeft hier niet bij betrokken te worden",
+          "children": [
+            {
+              "id": "bloedprikken",
+              "name": "Bloedprikken",
+              "blurb": "Aanvragen voor een laboratorium onderzoek, zoals bloedprikken",
+              "content": "Het aanvragen van bloedonderzoek dat onderdeel is van een specialistisch behandeltraject valt onder de verantwoordelijkheid van de specialist. De huisarts heeft niet het volledige behandelplan en kan daardoor risico op miscommunicatie of gemiste bevindingen lopen.",
+              "sticker": false,
+              "stickerText": "De huisarts hoeft hier niet bij betrokken te worden"
+            },
+            {
+              "id": "ecg",
+              "name": "ECG",
+              "blurb": "Aanvragen voor een hartfilmpje",
+              "content": "Een ECG dat nodig is tijdens of in het kader van een behandeling in de tweede lijn hoort door de specialist zelf te worden aangevraagd.",
+              "sticker": false,
+              "stickerText": "De huisarts hoeft hier niet bij betrokken te worden"
+            },
+            {
+              "id": "beeldvorming",
+              "name": "Beeldvormend onderzoek",
+              "blurb": "Aanvragen voor beeldvormend onderzoek, zoals echo of mammogram",
+              "content": "Röntgenfoto's, echo’s, CT-scans of MRI's vallen binnen het lopende traject van de tweede lijn en horen door de specialist te worden aangevraagd.",
+              "sticker": false,
+              "stickerText": "De huisarts hoeft hier niet bij betrokken te worden"
+            },
+            {
+              "id": "anders",
+              "name": "Overige zaken",
+              "blurb": "Overleg vooraf bij twijfel",
+              "content": "Wanneer de aanvraag niet onder bovenstaande categorieën valt, blijft het principe gelden: de behandelend specialist is verantwoordelijk voor diagnostiek die nodig is binnen diens eigen behandeltraject. Bij twijfel is overleg tussen huisarts en specialist nodig.",
+              "sticker": false,
+              "stickerText": "De huisarts kan alleen betrokken worden na vooraf overleg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
