@@ -2,18 +2,18 @@
   "id": "welkom",
   "breadcrumb": "Home",
   "header": "Heb ik de hulp van de huisarts nodig?",
-  "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft zorgverleners  en patiënten antwoord op de vraag in welke situaties de huisarts betrokken moet worden en wanneer niet.Twijfel je of de huisarts een verwijzing moet schrijven? Wil je vaststellen of de huisarts betrokken moet worden bij het aanvragen van herhaalmedicatie? Of wil je weten of de zorg aan onverzekerden door de huisarts gedeclareerd kan worden? Dit zijn voorbeelden van vragen waarop je op deze pagina de antwoorden vindt.",
+  "blurb": "Verwijsafspraken.nl is een initiatief van [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/). Het geeft zorgverleners  en patiënten antwoord op de vraag in welke situaties de huisarts betrokken moet worden en wanneer niet. Twijfel je of de huisarts een verwijzing moet schrijven? Wil je vaststellen of de huisarts betrokken moet worden bij het aanvragen van herhaalmedicatie? Of wil je weten of de zorg aan onverzekerden door de huisarts gedeclareerd kan worden? Dit zijn voorbeelden van vragen waarop je op deze pagina de antwoorden vindt.",
   "name": "Over deze website",
-  "content": "De zorg staat voor grote uitdagingen: de zorgvraag stijgt, de vergrijzing neemt toe en er is sprake van grote krapte op de arbeidsmarkt. Het is daarom voor iedereen belangrijk dat de juiste zorg door de juiste zorgverlener wordt geleverd en dat afspraken hierover voor iedereen helder zijn. Het doel van verwijsafspraken.nl is om zorgverleners en patiënten duidelijk te maken wanneerde betrokkenheid van de huisarts wel of niet nodig is. Deze website wordt regelmatig geüpdatet en gecontroleerd. Nieuwe afspraken worden zo snel als mogelijk toegevoegd. Denk je dat een afspraak onjuist is weergegeven of heb je feedback over de website? Laat het ons weten via [info@helpdehuisartsverzuipt.nl](mailto:info@helpdehuisartsverzuipt.nl)\n\n## Bronvermelding\n\nDe informatie op deze website is tot stand gekomen in samenwerking met het programma [[Ont]regel de Zorg](https://www.ordz.nl/) van het [ministerie van Volksgezondheid Welzijn en Sport](https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport) en [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/).\n\nDeze website is ontwikkeld als [Open Source software](https://nl.wikipedia.org/wiki/Opensourcesoftware), en is [hier te vinden op Github](https://github.com/verwijsafspraken/verwijsafspraken).",
+  "content": "De zorg staat voor grote uitdagingen: de zorgvraag stijgt, de vergrijzing neemt toe en er is sprake van grote krapte op de arbeidsmarkt. Het is daarom voor iedereen belangrijk dat de juiste zorg door de juiste zorgverlener wordt geleverd en dat afspraken hierover voor iedereen helder zijn. Het doel van verwijsafspraken.nl is om zorgverleners en patiënten duidelijk te maken wanneer de betrokkenheid van de huisarts wel of niet nodig is. Deze website wordt regelmatig geüpdatet en gecontroleerd. Nieuwe afspraken worden zo snel als mogelijk toegevoegd. Denk je dat een afspraak onjuist is weergegeven of heb je feedback over de website? Laat het ons weten via [info@helpdehuisartsverzuipt.nl](mailto:info@helpdehuisartsverzuipt.nl)\n\n## Bronvermelding\n\nDe informatie op deze website is tot stand gekomen in samenwerking met het programma [[Ont]regel de Zorg](https://www.ordz.nl/) van het [ministerie van Volksgezondheid Welzijn en Sport](https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport) en [Help de Huisarts Verzuipt](https://www.helpdehuisartsverzuipt.nl/).\n\nDeze website is ontwikkeld als [Open Source software](https://nl.wikipedia.org/wiki/Opensourcesoftware), en is [hier te vinden op Github](https://github.com/verwijsafspraken/verwijsafspraken).",
   "children": [
     {
       "id": "verwijzing",
       "name": "Verwijzingen",
       "blurb": "Hoe werkt een doorverwijzing?",
-      "content": "Zorgverzekeraars bepalen in hun polisvoorwaarden wanneer een verwijzing nodig is. In het algemeen geldt dat voor specialistische zorg, zoals bijvoorbeeld in het ziekenhuis of GGZ-instelling, een verwijzing van een huisarts nodig is.\n\n <b>Wanneer is een verwijzing geldig?\n\n </b> Er moet altijd een schriftelijke verwijzing zijn (bij voorkeur digitaal, maar op papier is ook mogelijk) Een uitsluitend telefonische verwijzing is dus niet geldig.",
+      "content": "Zorgverzekeraars bepalen in hun polisvoorwaarden wanneer een verwijzing nodig is. In het algemeen geldt dat voor specialistische zorg, zoals bijvoorbeeld in het ziekenhuis of GGZ-instelling, een verwijzing van een huisarts nodig is.\n\n<b>Wanneer is een verwijzing geldig?</b>\n\nEr moet altijd een schriftelijke verwijzing zijn (bij voorkeur digitaal, maar op papier is ook mogelijk). Een uitsluitend telefonische verwijzing is dus niet geldig.",
       "links": [
         {
-          "source":"ORDZ",
+          "source": "ORDZ",
           "title": "Verwijsafspraken",
           "url": "https://www.ordz.nl/verwijsafspraken"
         }
@@ -47,7 +47,7 @@
               "sticker": true,
               "links": [
                 {
-                  "source":"ZIN",
+                  "source": "ZIN",
                   "title": "Medisch-specialistische zorg (ZVW)",
                   "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/medisch-specialistische-zorg-zvw"
                 }
@@ -61,9 +61,9 @@
               "sticker": false,
               "links": [
                 {
-                  "source":"ORDZ",
+                  "source": "ORDZ",
                   "title": "verwijsafspraken",
-                  "url":"https://www.ordz.nl/verwijsafspraken"
+                  "url": "https://www.ordz.nl/verwijsafspraken"
                 }
               ]
             },
@@ -71,13 +71,13 @@
               "id": "extra-klacht",
               "name": "Extra klacht",
               "blurb": "Tijdens de behandeling bij een specialist wordt er een nieuwe kwaal ontdekt",
-              "content": "Indien de patiënt is verwezen naar een specialist, en bij de behandeling wordt nog een additionele aandoening ontdekt, hoeft voor die aandoening geen extra verwijzing te worden aangevraagd.\n\nBijvoorbeeld: De patiënt is doorverwezen naar de dermatoloog voor eczeem en de dermatoloog ziet ook een verdacht plekje op de schouder. Of: de patiënt is doorverwezen voor een operatie aan de linker knie, maar er wordt ontdekt dat ook de rechter knie moet worden geöpereerd. In dat soort gevallen is een extra verwijzing niet noodzakelijk.",
+              "content": "Indien de patiënt is verwezen naar een specialist, en bij de behandeling wordt nog een additionele aandoening ontdekt, hoeft voor die aandoening geen extra verwijzing te worden aangevraagd.\n\nBijvoorbeeld: De patiënt is doorverwezen naar de dermatoloog voor eczeem en de dermatoloog ziet ook een verdacht plekje op de schouder. Of: de patiënt is doorverwezen voor een operatie aan de linkerknie, maar er wordt ontdekt dat ook de rechterknie moet worden geopereerd. In dat soort gevallen is een extra verwijzing niet noodzakelijk.",
               "sticker": false,
               "links": [
                 {
-                  "source":"ORDZ",
-                  "title":"verwijsafspraken",
-                  "url":"https://www.ordz.nl/verwijsafspraken"
+                  "source": "ORDZ",
+                  "title": "verwijsafspraken",
+                  "url": "https://www.ordz.nl/verwijsafspraken"
                 }
               ]
             },
@@ -103,20 +103,19 @@
                   "title": "Hoe krijg ik een second opinion in de zorg?",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/wat-is-een-second-opinion-in-de-zorg"
                 }
-
               ]
             },
             {
               "id": "na-start",
               "name": "Verwijzing achteraf",
               "blurb": "De (eerste) afspraak is al geweest bij de medisch specialist",
-              "content": "Het is niet toegestaan om achteraf een verwijzing te vragen bij de huisarts. \n\n Bijvoorbeeld medewerkers van het ziekenhuis die een ongeval hebben tijdens hun werkzaamheden en door de medisch specialist direct behandeld zijn. Deze zorg valt onder spoedzorg.",
+              "content": "Het is niet toegestaan om achteraf een verwijzing te vragen bij de huisarts.\n\nBijvoorbeeld medewerkers van het ziekenhuis die een ongeval hebben tijdens hun werkzaamheden en door de medisch specialist direct behandeld zijn. Deze zorg valt onder spoedzorg.",
               "sticker": false,
               "links": [
                 {
-                  "source":"ORDZ",
+                  "source": "ORDZ",
                   "title": "verwijsafspraken",
-                  "url":"https://www.ordz.nl/verwijsafspraken"
+                  "url": "https://www.ordz.nl/verwijsafspraken"
                 }
               ]
             },
@@ -128,7 +127,7 @@
               "sticker": false,
               "links": [
                 {
-                  "source":"ORDZ",
+                  "source": "ORDZ",
                   "title": "Verwijsafspraken",
                   "url": "https://www.ordz.nl/verwijsafspraken"
                 }
@@ -142,7 +141,7 @@
               "sticker": false,
               "links": [
                 {
-                  "source":"ORDZ",
+                  "source": "ORDZ",
                   "title": "Verwijsafspraken",
                   "url": "https://www.ordz.nl/verwijsafspraken"
                 }
@@ -156,7 +155,7 @@
               "sticker": false,
               "links": [
                 {
-                  "source":"ORDZ",
+                  "source": "ORDZ",
                   "title": "Verwijsafspraken",
                   "url": "https://www.ordz.nl/verwijsafspraken"
                 }
@@ -166,12 +165,12 @@
               "id": "cosmetisch",
               "name": "Cosmetische zorg",
               "blurb": "De behandeling is van cosmetische aard",
-              "content": "Behandelingen van plastisch-chirurgische aard vallen onder de basisverzekering, maar niet allemaal. Er gelden beperkingen en uitsluitingen. Zo is geregeld dat behandelingen die alleen cosmetisch van aard zijn en dus medisch gezien niet nodig, uitgesloten zijn van het basispakket. \n\n Voor alle zorg die is uitgesloten van het basis pakket is geen verwijzing nodig. \n\n Voor een behandeling van plastisch-chirurgische aard moet voorafgaand toestemming (een machtiging) door de zorgverzekeraar gegeven worden.",
+              "content": "Behandelingen van plastisch-chirurgische aard vallen onder de basisverzekering, maar niet allemaal. Er gelden beperkingen en uitsluitingen. Zo is geregeld dat behandelingen die alleen cosmetisch van aard zijn en dus medisch gezien niet nodig, uitgesloten zijn van het basispakket.\n\nVoor alle zorg die is uitgesloten van het basispakket is geen verwijzing nodig.\n\nVoor een behandeling van plastisch-chirurgische aard moet voorafgaand toestemming (een machtiging) door de zorgverzekeraar gegeven worden.",
               "sticker": false,
               "stickerText": "Hier is (doorgaans) geen verwijzing van de huisarts voor nodig",
               "links": [
                 {
-                  "source":"ZIN",
+                  "source": "ZIN",
                   "title": "Plastische-chirurgie",
                   "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/plastische-chirurgie-zvw#:~:text=Behandelingen%20van%20plastisch%2Dchirurgische%20aard,uitgesloten%20zijn%20van%20het%20basispakket"
                 }
@@ -181,12 +180,12 @@
               "id": "oogarts",
               "name": "Oogarts",
               "blurb": "Een opticien/optometrist wil verwijzen naar de oogarts",
-              "content": "Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Voor een opticien geldt dit niet, deze zal de patient moeten verwijzen naar een optometrist in de buurt. De hulp van de huisarts is in deze niet nodig.",
+              "content": "Een optometrist geldt als een geldige verwijzer en er is dus geen verwijzing van de huisarts nodig. Voor een opticien geldt dit niet, deze zal de patiënt moeten verwijzen naar een optometrist in de buurt. De hulp van de huisarts is in deze niet nodig.",
               "sticker": false,
               "stickerText": "De huisarts hoeft hier (bijna) nooit bij betrokken te worden",
               "links": [
                 {
-                  "source":"ORDZ",
+                  "source": "ORDZ",
                   "title": "Ontregeld voor huisartsen > verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/optometrist-kan-direct-verwijzen-naar-oorgarts-zonder-tussenkomst-huisarts"
                 }
@@ -200,7 +199,7 @@
               "sticker": false,
               "links": [
                 {
-                  "source":"ORDZ",
+                  "source": "ORDZ",
                   "title": "Ontregeld voor huisartsen > verwijzingen",
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen/audicien-en-audioloog-kan-direct-verwijzen-naar-kno-arts-zonder-tussenkomst-huisarts"
                 }
@@ -210,14 +209,14 @@
               "id": "Kaakchirurg",
               "name": "Kaakchirurg",
               "blurb": "De tandarts wil doorverwijzen naar de kaakchirurg",
-              "content": "De kaakchirurg is de tandarts-specialist op het gebied van mondziekten, kaak- en aangezichtschirurgie.\n\nVoor het ontvangen van zorg van de Kaakchirurg is een verwijzing van de tandarts **of** huisarts nodig. De tandarts mag dus direct doorverwijzen.",
+              "content": "De kaakchirurg is de tandarts-specialist op het gebied van mondziekten, kaak- en aangezichtschirurgie.\n\nVoor het ontvangen van zorg van de Kaakchirurg is een verwijzing van de tandarts of huisarts nodig. De tandarts mag dus direct doorverwijzen.",
               "sticker": false
             },
             {
               "id": "gynaecoloog",
               "name": "Gynaecoloog",
               "blurb": "Verwijzing fertiliteit en partner is al verwezen",
-              "content": "Op het moment dat partner verwezen is en het niet duidelijk is bij wie de fertiliteitsproblematiek ligt, kan het wenselijk zijn om beide partners te onderzoeken, er is geen nieuwe verwijzingvan de huisarts voor de partner nodig.",
+              "content": "Op het moment dat partner verwezen is en het niet duidelijk is bij wie de fertiliteitsproblematiek ligt, kan het wenselijk zijn om beide partners te onderzoeken. Er is geen nieuwe verwijzing van de huisarts voor de partner nodig.",
               "sticker": false,
               "links": [
                 {
@@ -231,11 +230,11 @@
               "id": "traumachirurg",
               "name": "Traumachirurg",
               "blurb": "Letsel opgelopen in het buitenland met een operatie-indicatie en behandeling kan in Nederland plaatsvinden.",
-              "content": "De brief/röntgenfoto uit het buitenlandse ziekenhuis volstaat. De Nederlandse specialist kan hiermee een definitief behandplan maken.",
+              "content": "De brief/röntgenfoto uit het buitenlandse ziekenhuis volstaat. De Nederlandse specialist kan hiermee een definitief behandelplan maken.",
               "sticker": false,
               "links": [
                 {
-                  "source":"NVT",
+                  "source": "NVT",
                   "title": "Botbreuk in het buitenland",
                   "url": "https://www.trauma.nl/botbreuk-in-buitenland/?fbclid=IwAR3CSTb85NgFtb49TpL3n4Jj1t7Rpf0i6Xc1GJjbfqnl8lboC_cNkZoT4BE"
                 }
@@ -248,10 +247,10 @@
           "breadcrumb": "GGZ",
           "name": "Geestelijke gezondheidszorg (GGZ)",
           "blurb": "Ruim 4 op de 10 Nederlanders krijgt te maken met de GGZ. Afhankelijk van de situatie is hierbij een verwijzing van de huisarts noodzakelijk.",
-          "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw  bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de  geestelijke gezondheidzorg een update gekregen. Afhankelijk van de situatie is er  wel/geen verwijzing van de huisarts noodzakelijk.\n\nVoor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de patiënt zich meldt bij de GGZ-instelling, en niet het moment waarop de verwijsbrief wordt afgegeven.",
+          "content": "Met de invoering van het zorgprestatiemodel per 1 januari 2022 als nieuw bekostigingsmodel hebben de huidige verwijsafspraken naar en binnen de geestelijke gezondheidszorg een update gekregen. Afhankelijk van de situatie is er wel/geen verwijzing van de huisarts noodzakelijk.\n\nVoor verwijzingen naar de GGZ geldt dat de verwijzing 275 dagen (9 maanden) geldig is, waarbij de ingangsdatum het moment is waarop de patiënt zich meldt bij de GGZ-instelling, en niet het moment waarop de verwijsbrief wordt afgegeven.",
           "links": [
             {
-              "source":"VWS",
+              "source": "VWS",
               "title": "Verwijsafspraken GGZ 2023",
               "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
             }
@@ -261,16 +260,16 @@
               "id": "acute-ggz",
               "name": "Acute GGZ",
               "blurb": "Soms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek.",
-              "content": "## Een verwijzing via de huisarts is voor Acute GGZ niet nodig.\n\nSoms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek. Hierbij maakt de leeftijd van desbetreffend persoon niet uit. Kenmerken van de persoon en de omgeving bepalen of er sprake is van een crisis en wat de omvang van de crisis is. Per persoon is er verschillende type hulp noodzakelijk.\n\nIn geval van acute psychiatrie kan altijd de huisarts(enpost) worden benaderd voor gegevens en informatie rondom crisisdiensten.",
+              "content": "## Een verwijzing via de huisarts is voor Acute GGZ niet nodig.\n\nSoms is er sprake van acute psychische stoornissen of ernstige verslavingsproblematiek. Hierbij maakt de leeftijd van desbetreffend persoon niet uit. Kenmerken van de persoon en de omgeving bepalen of er sprake is van een crisis en wat de omvang van de crisis is. Per persoon is er verschillend type hulp noodzakelijk.\n\nIn geval van acute psychiatrie kan altijd de huisarts(enpost) worden benaderd voor gegevens en informatie rondom crisisdiensten.",
               "sticker": false,
               "links": [
                 {
-                  "source":"GGZst",
+                  "source": "GGZst",
                   "title": "Acute psychiatrie",
                   "url": "https://www.ggzstandaarden.nl/generieke-modules/acute-psychiatrie/introductie"
                 },
                 {
-                  "source":"ZIN",
+                  "source": "ZIN",
                   "title": "Afspraken acute psychiatrische zorg",
                   "url": "https://www.zorginstituutnederland.nl/actueel/nieuws/2019/09/12/afspraken-over-goede-acute-psychiatrische-zorg"
                 }
@@ -280,11 +279,11 @@
               "id": "verwijzing-binnen-ggz",
               "name": "Verwijzing binnen GGZ",
               "blurb": "Omtrent verwijzingen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa.",
-              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Ook wanneer een patiënt wordt verwezen van de ene naar de andere specialist in de GGZ is er geen verwijzing van de huisarts nodig. Een psycholoog mag bijvoorbeeld zelfstandig verwijzen naar een psychiater. Een **melding** aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
+              "content": "Er is geen verwijzing van de huisarts nodig als de patiënt wordt overgedragen van de generalistische basis-GGZ naar de gespecialiseerde GGZ en vice versa. Ook wanneer een patiënt wordt verwezen van de ene naar de andere specialist in de GGZ is er geen verwijzing van de huisarts nodig. Een psycholoog mag bijvoorbeeld zelfstandig verwijzen naar een psychiater. Een melding aan de huisarts volstaat. De vereenvoudigde afspraken vind je terug op rijksoverheid.nl.",
               "sticker": false,
               "links": [
                 {
-                  "source":"Rijksoverheid",
+                  "source": "Rijksoverheid",
                   "title": "Basis-GGZ en gespecialiseerde GGZ",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/basis-ggz-en-gespecialiseerde-ggz"
                 }
@@ -294,11 +293,11 @@
               "id": "jeugdwet",
               "name": "Jeugdwet",
               "blurb": "In de zorg aan kinderen en jongeren met psychische problemen zijn vaak meerdere professionals betrokken. Die werken onderling samen.",
-              "content": "## Een verwijzing via de huisarts is voor de jeugdwet is niet noodzakelijk.\n\n In de Jeugdwet staat dat de jeugdarts, huisarts en medisch specialist (kinderarts, kinder- en jeugdpsychiater) de bevoegdheid heeft om te indiceren voor niet rechtstreeks toegankelijke jeugdhulp waaronder jeugd-GGZ. Daarnaast hebben gemeenten de bevoegdheid om ook anderen daarvoor aan te wijzen en vaak geven ze wijkteams die bevoegdheid.",
+              "content": "## Een verwijzing via de huisarts is voor de Jeugdwet niet noodzakelijk.\n\nIn de Jeugdwet staat dat de jeugdarts, huisarts en medisch specialist (kinderarts, kinder- en jeugdpsychiater) de bevoegdheid hebben om te indiceren voor niet rechtstreeks toegankelijke jeugdhulp waaronder jeugd-GGZ. Daarnaast hebben gemeenten de bevoegdheid om ook anderen daarvoor aan te wijzen en vaak geven ze wijkteams die bevoegdheid.",
               "sticker": false,
               "links": [
                 {
-                  "source":"GGZst",
+                  "source": "GGZst",
                   "title": "Samenwerkingsafspraken jeugd",
                   "url": "https://www.ggzstandaarden.nl/generieke-modules/landelijke-samenwerkingsafspraken-jeugd-ggz/samenwerkingsafspraken"
                 }
@@ -312,7 +311,7 @@
               "sticker": false,
               "links": [
                 {
-                  "source":"VWS",
+                  "source": "VWS",
                   "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
@@ -326,7 +325,7 @@
               "sticker": true,
               "links": [
                 {
-                  "source":"VWS",
+                  "source": "VWS",
                   "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
@@ -336,7 +335,7 @@
               "id": "recent-afgeronde-ggz-behandeling",
               "name": "Korter dan een jaar geleden afgeronde GGZ-behandeling",
               "blurb": "Er is sprake van een GGZ-behandeling die korter dan een jaar geleden is afgerond.",
-              "content": "Wanneer de afronding minder dan een jaar geleden heeft plaatsgevonden is er **geen** nieuwe verwijzing van de huisarts nodig. \n\n Is er sprake van een nieuwe/andere hulpvraag, dan is er **wel** een verwijzing nodig.",
+              "content": "Wanneer de afronding minder dan een jaar geleden heeft plaatsgevonden is er geen nieuwe verwijzing van de huisarts nodig.\n\nIs er sprake van een nieuwe/andere hulpvraag, dan is er wel een verwijzing nodig.",
               "sticker": false,
               "links": [
                 {
@@ -345,7 +344,7 @@
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/minder-administratieve-lasten-ggz"
                 },
                 {
-                  "source":"VWS",
+                  "source": "VWS",
                   "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
@@ -364,7 +363,7 @@
                   "url": "https://www.rijksoverheid.nl/onderwerpen/geestelijke-gezondheidszorg/minder-administratieve-lasten-ggz"
                 },
                 {
-                  "source":"VWS",
+                  "source": "VWS",
                   "title": "Verwijsafspraken GGZ 2023",
                   "url": "https://www.zorgprestatiemodel.nl/shared/content/uploads/2022/06/20220629-Verwijsafspraken-ggz.pdf"
                 }
@@ -375,21 +374,21 @@
         {
           "id": "keuringsarts",
           "name": "Keuringsarts",
-          "blurb": "Een keuringsarts wilt naar aanleiding van een keuring een verwijzing doen of een onderzoek aanvragen..",
-          "content": "“Als tijdens een keuring blijkt dat vervolgonderzoek (zoals laboratoriumonderzoek) of een verwijzing nodig is, kan de keuringsarts dit zelf regelen. Het inschakelen van de huisarts is hiervoor niet noodzakelijk.”",
+          "blurb": "Een keuringsarts wil naar aanleiding van een keuring een verwijzing doen of een onderzoek aanvragen.",
+          "content": "Als tijdens een keuring blijkt dat vervolgonderzoek (zoals laboratoriumonderzoek) of een verwijzing nodig is, kan de keuringsarts dit zelf regelen. Het inschakelen van de huisarts is hiervoor niet noodzakelijk.",
           "sticker": false
         },
         {
           "id": "overige-zorg",
           "name": "Overige zorg",
           "blurb": "Hieronder vallen beroepsgroepen zoals de paramedici, mondhygiënisten en huidtherapeuten, etc.",
-          "content": "Deze categorie is een verzameling van van zorgdisciplines naast de ziekenhuiszorg en GGZ. Voor deze groepen geldt in de meeste gevallen een uitzondering van de algemene regel voor specialistische zorg. Namelijk dat er meestal **geen** verwijzing nodig is.",
+          "content": "Deze categorie is een verzameling van zorgdisciplines naast de ziekenhuiszorg en GGZ. Voor deze groepen geldt in de meeste gevallen een uitzondering van de algemene regel voor specialistische zorg. Namelijk dat er meestal geen verwijzing nodig is.",
           "children": [
             {
               "id": "paramedicus",
               "name": "Paramedicus",
               "blurb": "In de meeste gevallen zijn huisartsverwijzingen voor deze zorgdisciplines niet nodig",
-              "content": "Wanneer we het over paramedie hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n - diëtetiek\n - ergotherapie\n - fysiotherapie\n - huidtherapie\n - <a href='https://www.nvlf.nl/wp-content/uploads/sites/2/2023/10/Flowchart-DTL-1.pdf'>logopedie</a>\n - optometrie\n - orthoptie\n - oefentherapie\n - cesar/mensendieck. \n\n In de algemene regel geldt dat voor deze beroepsgroepen **geen** verwijzing van de huisarts nodig is. Verdere informatie is te vinden in de onderstaande artikelen.\n\n Vraagt uw logopedist om een verwijzing van de huisarts? Neem dan contact op met uw zorgverzekeraar. Logopedisten die zonder contract werken of die een locatie op een school hebben, moeten van zorgverzekeraars werken met een verwijzing.",
+              "content": "Wanneer we het over paramedici hebben, dan refereren we doorgaans naar zorgdisciplines zoals:\n- diëtetiek\n- ergotherapie\n- fysiotherapie\n- huidtherapie\n- logopedie\n- optometrie\n- orthoptie\n- oefentherapie\n- cesar/mensendieck.\n\nIn de algemene regel geldt dat voor deze beroepsgroepen geen verwijzing van de huisarts nodig is. Verdere informatie is te vinden in de onderstaande artikelen.\n\nVraagt uw logopedist om een verwijzing van de huisarts? Neem dan contact op met uw zorgverzekeraar. Logopedisten die zonder contract werken of die een locatie op een school hebben, moeten van zorgverzekeraars werken met een verwijzing.",
               "links": [
                 {
                   "source": "ORDZ",
@@ -397,7 +396,7 @@
                   "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/verwijzingen"
                 }
               ],
-                "children": [
+              "children": [
                 {
                   "id": "op-locatie",
                   "name": "Paramedische zorg op de praktijk",
@@ -415,7 +414,7 @@
                 {
                   "id": "aan-huis",
                   "name": "Paramedische zorg aan huis",
-                  "blurb": "De zorgvrager is **niet** in staat om naar de praktijk van de paramedicus toe te gaan",
+                  "blurb": "De zorgvrager is niet in staat om naar de praktijk van de paramedicus toe te gaan",
                   "content": "Als de paramedicus naar de zorgvrager toe moet komen is er een verwijzing van de huisarts nodig waarin aangegeven wordt dat zorg aan huis noodzakelijk is.",
                   "sticker": true
                 },
@@ -423,37 +422,37 @@
                   "id": "fysio-inco",
                   "name": "Uitzonderingen",
                   "blurb": "Bijvoorbeeld bekkenbodemfysiotherapie bij incontinentie",
-                  "content": "Voor sommige specialismes binnen de paramedische zorg kunnen zorgverzekeraars een verwijzing eisen. Neem contact op met uw zorgverzekeraar als u twijfelt of een verwijzing nodig is. \n\n Een voorbeeld hiervan is bekkenbodemfysiotherapie bij ongewild urineverlies (incontinentie).",
+                  "content": "Voor sommige specialismes binnen de paramedische zorg kunnen zorgverzekeraars een verwijzing eisen. Neem contact op met uw zorgverzekeraar als u twijfelt of een verwijzing nodig is.\n\nEen voorbeeld hiervan is bekkenbodemfysiotherapie bij ongewild urineverlies (incontinentie).",
                   "sticker": true
                 }
-                ]
+              ]
             },
             {
               "id": "mondhygienist",
               "name": "Mondhygiënist",
               "blurb": "Voor de mondhygiënist is geen verwijzing van de huisarts nodig",
-              "content": "Voor het ontvangen van zorg van de mondhygiënist is **geen** verwijzing van de huisarts nodig.",
+              "content": "Voor het ontvangen van zorg van de mondhygiënist is geen verwijzing van de huisarts nodig.",
               "sticker": false
             },
             {
               "id": "tandarts",
               "name": "Tandarts",
               "blurb": "Voor de tandarts is geen verwijzing van de huisarts nodig",
-              "content": "Heeft u een tandheelkundig probleem, dan kunt u terecht bij de tandarts. U heeft daarvoor **geen** verwijzing van de huisarts nodig.",
+              "content": "Heeft u een tandheelkundig probleem, dan kunt u terecht bij de tandarts. U heeft daarvoor geen verwijzing van de huisarts nodig.",
               "sticker": false
             },
             {
               "id": "opticien",
               "name": "Opticien / Optometrist",
               "blurb": "Voor de opticien of optometrist is geen verwijzing van de huisarts nodig",
-              "content": "Voor het ontvangen van zorg van een opticien of een optometrist is **geen** verwijzing van de huisarts nodig.",
+              "content": "Voor het ontvangen van zorg van een opticien of een optometrist is geen verwijzing van de huisarts nodig.",
               "sticker": false
             },
             {
               "id": "audicien",
               "name": "Audicien",
               "blurb": "Voor de audicien is geen verwijzing van de huisarts nodig",
-              "content": "Voor het ontvangen van zorg van de audicien is **geen** verwijzing van de huisarts nodig.",
+              "content": "Voor het ontvangen van zorg van de audicien is geen verwijzing van de huisarts nodig.",
               "sticker": false
             },
             {
@@ -467,11 +466,11 @@
               "id": "aanvullend-pakket",
               "name": "Aanvullend pakket",
               "blurb": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven",
-              "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\n **Als het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wél een verwijzing schrijven**. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand van de ingreep (bijvoorbeeld diabetes, copd, of hartfalen bij een borstvergroting of -verkleining).",
+              "content": "Voor vergoedingen uit het aanvullende pakket hoeven huisartsen geen verklaringen af te geven, tenzij medisch noodzakelijk. Het is de verantwoordelijkheid en de taak van de verzekeraar om te controleren of een verzekerde recht heeft op vergoedingen uit het aanvullend pakket.\n\nAls het om medisch noodzakelijke redenen van belang is dat informatie over de patiënt bekend is om de ingreep te kunnen uitvoeren, kan de huisarts wel een verwijzing schrijven. Bijvoorbeeld, bij een cosmetische ingreep is het uitgangspunt dat een verwijzing niet nodig is. Behalve als de patiënt onderliggende aandoeningen heeft die van belang zijn om te weten voorafgaand aan de ingreep (bijvoorbeeld diabetes, COPD of hartfalen bij een borstvergroting of -verkleining).",
               "sticker": false,
               "links": [
                 {
-                  "source":"Rijksoverheid",
+                  "source": "Rijksoverheid",
                   "title": "Aanvullende zorgverzekering",
                   "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/wat-is-een-aanvullende-zorgverzekering"
                 }
@@ -489,14 +488,14 @@
               "id": "vervoer-ha",
               "name": "Huisarts initieert afspraak",
               "blurb": "De huisarts verwijst direct door naar zorgverlener waar de zorgvrager niet zelfstandig kan komen.",
-              "content": "Als de huisarts direct wilt dat de zorgvrager gezien wordt door een specialist, zorgt de huisarts voor het vervoer naar de specialist.",
+              "content": "Als de huisarts direct wil dat de zorgvrager gezien wordt door een specialist, zorgt de huisarts voor het vervoer naar de specialist.",
               "sticker": true
             },
             {
               "id": "vervoer-niet-ha",
               "name": "Zorg niet geïnitieerd door huisarts",
               "blurb": "Behandelingen of (vervolg)afspraken bij de medisch specialist.",
-              "content": "De specialist/ afdeling die de afspraak inpland is verantwoordelijk voor het regelen van vervoer als de zorgvrager niet in staat is om dit zelf te organiseren. De huisarts hoeft hier niet in meegenomen te worden.",
+              "content": "De specialist of afdeling die de afspraak inplant is verantwoordelijk voor het regelen van vervoer als de zorgvrager niet in staat is om dit zelf te organiseren. De huisarts hoeft hier niet in meegenomen te worden.",
               "sticker": false
             }
           ]
@@ -507,7 +506,7 @@
       "id": "verklaringen",
       "name": "Verklaringen",
       "blurb": "(Medische) verklaringen waarbij de huisarts al dan niet nodig is.",
-      "content": "Patiënten worden regelmatig geconfronteerd met externe partijen die allerlei informatie vereisen rondom gezondheid en vaardigheden. In veel gevallen is het voor zowel externe partijen en de patiënt onduidelijk waar en hoe deze informatie opgevraagd dient te worden.",
+      "content": "Patiënten worden regelmatig geconfronteerd met externe partijen die allerlei informatie vereisen rondom gezondheid en vaardigheden. In veel gevallen is het voor zowel externe partijen als de patiënt onduidelijk waar en hoe deze informatie opgevraagd dient te worden.",
       "children": [
         {
           "id": "rijbewijsverklaring",
@@ -518,12 +517,12 @@
           "sticker": false,
           "links": [
             {
-              "source":"CBR",
+              "source": "CBR",
               "title": "Gezondheidsverklaring",
               "url": "https://www.cbr.nl/nl/rijbewijs-houden/nl/gezondheidsverklaring.htm"
             },
             {
-              "source":"KNMG",
+              "source": "KNMG",
               "title": "Rijbewijskeuring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/rijbewijskeuring.htm"
             }
@@ -533,11 +532,11 @@
           "id": "sociale-huur",
           "name": "Medische verklaring sociale huurwoning",
           "blurb": "Intentieverklaring voor een sociale huurwoning.",
-          "content": "## De huisarts geeft geen urgentieverklaring voor sociale huurwoningen.\n\n Er zijn gevallen waarin u voorrang krijgt op een sociale huurwoning. Bijvoorbeeld als u een nieuwe woning nodig heeft om medische redenen. U vraagt dan een urgentieverklaring (of voorrangsverklaring) aan bij de gemeente. De **gemeente** bepaalt of u recht heeft op voorrang.",
+          "content": "De huisarts geeft geen urgentieverklaring voor sociale huurwoningen.\n\nEr zijn gevallen waarin u voorrang krijgt op een sociale huurwoning. Bijvoorbeeld als u een nieuwe woning nodig heeft om medische redenen. U vraagt dan een urgentieverklaring (of voorrangsverklaring) aan bij de gemeente. De gemeente bepaalt of u recht heeft op voorrang.",
           "sticker": false,
           "links": [
             {
-              "source":"Rijksoverheid",
+              "source": "Rijksoverheid",
               "title": "Urgentieverklaring huurwoning",
               "url": "https://www.rijksoverheid.nl/onderwerpen/huurwoning-zoeken/vraag-en-antwoord/wanneer-krijg-ik-een-urgentieverklaring-voor-een-huurwoning"
             }
@@ -547,7 +546,7 @@
           "id": "medische-verklaring-gemeente",
           "name": "Medische verklaring gemeente",
           "blurb": "Gemeenten vragen soms verklaringen rondom urgentie of voorzieningen.",
-          "content": "Wanneer de gemeente in verband met het verstrekken van een voorziening of een urgentie een medische verklaring nodig heeft van de burger, kan deze daarvoor terecht bij **een door de gemeente gecontracteerde GGD-arts of een medische adviseur (arts)**. Indien nodig kan die arts, met toestemming van de burger/patiënt, feitelijke informatie bij de huisarts of andere behandelend arts opvragen. \n\n Gemeenten kunnen niet van burgers vragen om bepaalde medische verklaringen door hun huisarts te laten invullen of ondertekenen, die een oordeel bevat over de (medische) (on)geschiktheid om bepaalde dingen wel of niet te doen. Bijvoorbeeld of iemand in staat te werken, een auto te besturen, naar school te gaan of recht heeft op een parkeervergunning of aangepaste woonruimte? Gemeenten kunnen niet (medische) verklaringen door de huisarts in laten vullen. Conform de richtlijnen van de KNMG geeft een behandelend arts namelijk geen geneeskundige verklaring af over zijn eigen patiënt.",
+          "content": "Wanneer de gemeente in verband met het verstrekken van een voorziening of een urgentie een medische verklaring nodig heeft van de burger, kan deze daarvoor terecht bij een door de gemeente gecontracteerde GGD-arts of een medische adviseur (arts). Indien nodig kan die arts, met toestemming van de burger/patiënt, feitelijke informatie bij de huisarts of andere behandelend arts opvragen.\n\nGemeenten kunnen niet van burgers vragen om bepaalde medische verklaringen door hun huisarts te laten invullen of ondertekenen, die een oordeel bevat over de (medische) (on)geschiktheid om bepaalde dingen wel of niet te doen. Bijvoorbeeld of iemand in staat is te werken, een auto te besturen, naar school te gaan of recht heeft op een parkeervergunning of aangepaste woonruimte. Gemeenten kunnen niet medische verklaringen door de huisarts in laten vullen. Conform de richtlijnen van de KNMG geeft een behandelend arts namelijk geen geneeskundige verklaring af over zijn eigen patiënt.",
           "sticker": false,
           "links": [
             {
@@ -561,12 +560,12 @@
           "id": "medische-verklaring-fit-to-fly",
           "name": "Medische verklaring 'Fit to fly'",
           "blurb": "Een verklaring van een onafhankelijke arts dat een patiënt veilig kan en mag vliegen",
-          "content": "Een geneeskundige verklaring is een schriftelijke verklaring die een oordeel bevat over een patiënt en over de (medische) geschiktheid of ongeschiktheid van een patiënt om bepaalde dingen wel of niet te doen. Het is de richtlijn van het KNMG dat een behandelend arts geen geneeskundige verklaring mag afgeven over eigen patiënten.\n\nOp een 'fit to fly'-verklaring staat dat een patiënt gezien is door een arts, en geschikt is bevonden om te vliegen. Dit kan meerdere aanleidingen hebben, zoals bijvoorbeeld na een Corona-besmetting, waterpokken of tijdens een zwangerschap met complicaties. Een arts moet dan bijvoorbeeld bevestigen dat zijn patiënt veilig kan vliegen.\n\nVoor dit soort verklaringen moet dus niet de assistentie van de eigen huisarts gezocht worden, maar van **een onafhankelijke arts**. Vraag aan de instantie die om de verklaring vraagt waar je deze verklaring het beste kunt krijgen.",
+          "content": "Een geneeskundige verklaring is een schriftelijke verklaring die een oordeel bevat over een patiënt en over de (medische) geschiktheid of ongeschiktheid van een patiënt om bepaalde dingen wel of niet te doen. Het is de richtlijn van de KNMG dat een behandelend arts geen geneeskundige verklaring mag afgeven over eigen patiënten.\n\nOp een 'fit to fly'-verklaring staat dat een patiënt gezien is door een arts, en geschikt is bevonden om te vliegen. Dit kan meerdere aanleidingen hebben, zoals bijvoorbeeld na een coronabesmetting, waterpokken of tijdens een zwangerschap met complicaties. Een arts moet dan bijvoorbeeld bevestigen dat zijn patiënt veilig kan vliegen.\n\nVoor dit soort verklaringen moet dus niet de assistentie van de eigen huisarts gezocht worden, maar van een onafhankelijke arts. Vraag aan de instantie die om de verklaring vraagt waar je deze verklaring het beste kunt krijgen.",
           "sticker": false,
           "stickerText": "De (eigen) huisarts hoeft hier niet bij betrokken te worden",
           "links": [
             {
-              "source":"KNMG",
+              "source": "KNMG",
               "title": "Geneeskundige verklaring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
             }
@@ -576,12 +575,12 @@
           "id": "medische-verklaring-algemeen",
           "name": "Overige medische verklaringen",
           "blurb": "Een overige verklaring van een onafhankelijke arts die een uitspraak doet over een patiënt",
-          "content": "Een geneeskundige verklaring is een schriftelijke verklaring die een oordeel bevat over een patiënt en over de (medische) geschiktheid of ongeschiktheid van een patiënt om bepaalde dingen wel of niet te doen. Het is de richtlijn van het KNMG dat een behandelend arts geen geneeskundige verklaring mag afgeven over eigen patiënten.\n\nGeneeskundige verklaringen beoordelen of iemand in staat is om te werken, een auto te besturen, naar school te gaan, goed voor de kinderen te zorgen. Maar ook: is terecht een geboekte reis geannuleerd of heeft iemand recht op een parkeervergunning of aangepaste woonruimte?\n\nVoor dit soort verklaringen moet dus niet de assistentie van de eigen huisarts gezocht worden, maar van **een onafhankelijke arts**. Vraag aan de instantie die om de verklaring vraagt waar je deze verklaring het beste kunt krijgen.",
+          "content": "Een geneeskundige verklaring is een schriftelijke verklaring die een oordeel bevat over een patiënt en over de (medische) geschiktheid of ongeschiktheid van een patiënt om bepaalde dingen wel of niet te doen. Het is de richtlijn van de KNMG dat een behandelend arts geen geneeskundige verklaring mag afgeven over eigen patiënten.\n\nGeneeskundige verklaringen beoordelen of iemand in staat is om te werken, een auto te besturen, naar school te gaan, goed voor de kinderen te zorgen. Maar ook: is terecht een geboekte reis geannuleerd of heeft iemand recht op een parkeervergunning of aangepaste woonruimte?\n\nVoor dit soort verklaringen moet dus niet de assistentie van de eigen huisarts gezocht worden, maar van een onafhankelijke arts. Vraag aan de instantie die om de verklaring vraagt waar je deze verklaring het beste kunt krijgen.",
           "sticker": false,
           "stickerText": "De (eigen) huisarts hoeft hier niet bij betrokken te worden",
           "links": [
             {
-              "source":"KNMG",
+              "source": "KNMG",
               "title": "Geneeskundige verklaring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
             }
@@ -592,21 +591,21 @@
           "breadcrumb": "Patiëntendossier",
           "name": "Informatie uit patiëntendossier",
           "blurb": "Voor verscheidene redenen kunnen externe partijen informatie uit het huisartsendossier wensen",
-          "content": "## De aanvragende partij zal een verzoek indienen bij de huisarts.\n\n De aanvragende partijen kunnen bijvoorbeeld gemeenten, UWV of advocaten zijn. Aan een aanvraag zijn kosten verbonden voor een derde partij.\n\n **Let op**: een patiënt heeft te allen tijden het recht zijn/haar eigen dossier op te vragen. Het is echter niet te adviseren om een compleet dossier met derden te delen.",
+          "content": "De aanvragende partij zal een verzoek indienen bij de huisarts.\n\nDe aanvragende partijen kunnen bijvoorbeeld gemeenten, UWV of advocaten zijn. Aan een aanvraag zijn kosten verbonden voor een derde partij.\n\nLet op: een patiënt heeft te allen tijde het recht zijn of haar eigen dossier op te vragen. Het is echter niet te adviseren om een compleet dossier met derden te delen.",
           "sticker": true,
           "links": [
             {
-              "source":"KNMG",
+              "source": "KNMG",
               "title": "Geneeskundige verklaring",
               "url": "https://www.knmg.nl/advies-richtlijnen/dossiers/geneeskundige-verklaring.htm"
             },
             {
-              "source":"KNMG",
+              "source": "KNMG",
               "title": "Casus",
               "url": "https://www.knmg.nl/advies-richtlijnen/artseninfolijn/praktijkdilemmas-1/praktijkdilemma/mag-ik-gegevens-uit-een-medisch-dossier-verstrekken-aan-de-advocaat-van-een-patient.htm"
             },
             {
-              "source":"Thuisarts",
+              "source": "Thuisarts",
               "title": "Thuisarts",
               "url": "https://www.thuisarts.nl/bezoek-aan-huisarts/ik-wil-mijn-medische-gegevens-van-huisarts-bekijken"
             }
@@ -616,22 +615,22 @@
           "id": "dietetiek",
           "name": "Diëtetiek",
           "blurb": "De Belastingdienst vereist een ingevulde dieetbevestiging.",
-          "content": "Mensen die bepaalde diëten volgen kunnen hiervoor soms een vast bedrag aftrekken bij de belastingaangifte. Hiervoor is een zogenaamde dieetbevestiging nodig. Het is niet nodig dat de huisarts deze dieetbevestiging standaard invult. **Alléén wanneer de belastinginspecteur specifiek bij de patiënt om de dieetbevestiging heeft gevraagd dán moet deze ingevuld worden**. De inspecteur vraagt dit wanneer deze een ingediende aangifte controleert of wanneer de patiënt hulp krijgt bij het indienen van de aangifte. De dieetbevestiging wordt afgegeven door degene die het dieet heeft voorgeschreven; **de huisarts dan wel de diëtist**.\n\n Om een bedrag af te kunnen trekken moet bij de aangifte aannemelijk gemaakt worden dat een dieet gevolgd wordt op basis van nog steeds geldend medisch voorschrift. Daarvoor is het het handigst om het standaardformulier van de Belastingdienst te gebruiken. Een overzicht van diëten en het bedrag dat kan worden afgetrokken is te vinden op de website van de Belastingdienst.",
+          "content": "Mensen die bepaalde diëten volgen kunnen hiervoor soms een vast bedrag aftrekken bij de belastingaangifte. Hiervoor is een zogenaamde dieetbevestiging nodig. Het is niet nodig dat de huisarts deze dieetbevestiging standaard invult. Alleen wanneer de belastinginspecteur specifiek bij de patiënt om de dieetbevestiging heeft gevraagd, dan moet deze ingevuld worden. De inspecteur vraagt dit wanneer deze een ingediende aangifte controleert of wanneer de patiënt hulp krijgt bij het indienen van de aangifte. De dieetbevestiging wordt afgegeven door degene die het dieet heeft voorgeschreven; de huisarts dan wel de diëtist.\n\nOm een bedrag af te kunnen trekken moet bij de aangifte aannemelijk gemaakt worden dat een dieet gevolgd wordt op basis van nog steeds geldend medisch voorschrift. Daarvoor is het het handigst om het standaardformulier van de Belastingdienst te gebruiken. Een overzicht van diëten en het bedrag dat kan worden afgetrokken is te vinden op de website van de Belastingdienst.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier meestal niet bij betrokken te worden",
           "links": [
             {
-              "source":"Belastingdienst",
+              "source": "Belastingdienst",
               "title": "Belastingdienst",
               "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/relatie_familie_en_gezondheid/gezondheid/aftrek_zorgkosten/overzicht_zorgkosten/dieetkosten/dieetbevestiging"
             },
             {
-              "source":"Belastingdienst",
+              "source": "Belastingdienst",
               "title": "Standaardformulier",
               "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/dieetbevestiging-2019"
             },
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "Informatie",
               "url": "https://www.ordz.nl/actueel/nieuws/2020/02/verzoeken-vanuit-gemeenten-wat-is-de-rol-van-de-huisarts-en-wat-niet/invullen-dieetbevestiging-door-huisarts-niet-standaard-nodig"
             }
@@ -641,11 +640,11 @@
           "id": "defensie",
           "name": "Defensie",
           "blurb": "Huisartsen worden soms gevraagd een formulier in te vullen dat wordt gebruikt door het Ministerie van Defensie.",
-          "content": "Huisartsen krijgen soms de vraag van een patiënt om voor hen een formulier in te vullen dat wordt gebruikt vanuit het ministerie van Defensie. Bijvoorbeeld voor personen die gaan deelnemen aan een fittest of die zich willen voorbereiden op een sollicitatie bij Defensie. **Een huisarts heeft geen rol bij het afgeven van dergelijke verklaringen**. Indien iemand zich bij de huisarts meldt met een dergelijk formulier, dan kan worden gezegd dat de huisarts daar geen verklaring over aflegt en dat de kandidaat het formulier zelf kan invullen. De huisarts hoeft dit formulier dus niet te ondertekenen en hierover te verklaren.\n\n Indien één van de (huis)artsen vanuit Defensie aanvullende informatie nodig heeft naar aanleiding van de medische aanstellingskeuring, is het mogelijk dat de huisarts gevraagd wordt om aanvullende feitelijke informatie te geven. In dat geval ontvangt de huisarts een brief van één van de (huis)artsen vanuit Defensie met dit verzoek.",
+          "content": "Huisartsen krijgen soms de vraag van een patiënt om voor hen een formulier in te vullen dat wordt gebruikt vanuit het ministerie van Defensie. Bijvoorbeeld voor personen die gaan deelnemen aan een fittest of die zich willen voorbereiden op een sollicitatie bij Defensie. Een huisarts heeft geen rol bij het afgeven van dergelijke verklaringen. Indien iemand zich bij de huisarts meldt met een dergelijk formulier, dan kan worden gezegd dat de huisarts daar geen verklaring over aflegt en dat de kandidaat het formulier zelf kan invullen. De huisarts hoeft dit formulier dus niet te ondertekenen en hierover te verklaren.\n\nIndien een van de (huis)artsen vanuit Defensie aanvullende informatie nodig heeft naar aanleiding van de medische aanstellingskeuring, is het mogelijk dat de huisarts gevraagd wordt om aanvullende feitelijke informatie te geven. In dat geval ontvangt de huisarts een brief van een van de (huis)artsen vanuit Defensie met dit verzoek.",
           "sticker": false,
           "links": [
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "Informatie",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/huisarts-geen-rol-bij-invullen-formulier-fittest-defensie"
             }
@@ -655,11 +654,11 @@
           "id": "vog",
           "name": "VOG-plicht",
           "blurb": "De VOG-plicht voor huisartsen die zorg verlenen in de ANW-uren in een WLZ- of GGZ-instelling is afgeschaft.",
-          "content": "De VOG-plicht voor huisartsen die in incidentele gevallen in de ANW-uren zorg verlenen in een WLZ- of GGZ-instelling is afgeschaft. De wijziging van het Uitvoeringsbesluit Wet kwaliteit, klachten en geschillen zorg (Wkkgz) die hiervoor noodzakelijk was is op 1 juli 2021 in werking getreden.\n\n In de praktijk komt het zelden voor dat een waarnemend huisarts tijdens zijn dienst in de avond, de nacht of weekend-uren (ANW-uren) wordt opgeroepen om in een WLZ- of GGZ-instelling zorg te verlenen. Huisartsen moesten voor deze incidentele situaties wel een actuele Verklaring Omtrent het Gedrag (VOG) kunnen overleggen, zodat deze instelling kan voldoen aan de plicht uit het Uitvoeringsbesluit Wkkgz. Omdat het nooit zeker is wanneer en door welke instelling een beroep gedaan wordt op deze huisartsen, moesten zij voor het geval dat ze ingeschakeld worden bij voorbaat in het bezit zijn van een VOG, die niet ouder dan drie maanden mocht zijn. Door deze wijziging zijn de administratieve lasten voor huisartsen verminderd.",
+          "content": "De VOG-plicht voor huisartsen die in incidentele gevallen in de ANW-uren zorg verlenen in een WLZ- of GGZ-instelling is afgeschaft. De wijziging van het Uitvoeringsbesluit Wet kwaliteit, klachten en geschillen zorg (Wkkgz) die hiervoor noodzakelijk was is op 1 juli 2021 in werking getreden.\n\nIn de praktijk komt het zelden voor dat een waarnemend huisarts tijdens zijn dienst in de avond, de nacht of weekend-uren (ANW-uren) wordt opgeroepen om in een WLZ- of GGZ-instelling zorg te verlenen. Huisartsen moesten voor deze incidentele situaties wel een actuele Verklaring Omtrent het Gedrag (VOG) kunnen overleggen, zodat deze instelling kan voldoen aan de plicht uit het Uitvoeringsbesluit Wkkgz. Omdat het nooit zeker is wanneer en door welke instelling een beroep gedaan wordt op deze huisartsen, moesten zij voor het geval dat ze ingeschakeld worden bij voorbaat in het bezit zijn van een VOG, die niet ouder dan drie maanden mocht zijn. Door deze wijziging zijn de administratieve lasten voor huisartsen verminderd.",
           "sticker": false,
           "links": [
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "VOG ANW uren",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-vog-plicht-zorgverlening-wlz--of-ggz-instelling-in-anw-uren"
             }
@@ -672,12 +671,12 @@
           "content": "Of er een medicijnverklaring nodig is hangt af van het medicijn, het land waar naartoe gereisd wordt en hoe lang er wordt gereisd. Twijfelt u of een medicijn onder de Opiumwet valt? Bekijk dan de links onder 'Meer lezen' of vraag het aan de apotheker.",
           "links": [
             {
-              "source":"FK",
+              "source": "FK",
               "title": "Lijst van Opioïden",
               "url": "https://www.farmacotherapeutischkompas.nl/bladeren/groepsteksten/opioiden"
             },
             {
-              "source":"CAK",
+              "source": "CAK",
               "title": "Medicijnen mee op reis-hulp",
               "url": "https://www.hetcak.nl/medicijnen-mee-op-reis/"
             }
@@ -687,17 +686,17 @@
               "id": "opioiden",
               "name": "Medicatie op de lijst van opioïden",
               "blurb": "Om te reizen met sterke pijnstillers die onder de opiumwet vallen is een Schengenverklaring nodig",
-              "content": "Neem contact op met de ambassade van land van bestemming om te vragen wat er nodig is. Vaak is er een Schengenverklaring nodig. Een Schengenverklaring is een document dat een reiziger binnen het Schengengebied bij zich moet hebben als deze geneesmiddelen gebruikt die onder de Opiumwet vallen.\n\nBij het CAK kan een formulier worden opgevraagd (zie 'Meer lezen'), dat de reiziger zo volledig mogelijk moet invullen. Daarmee kan de reiziger naar de voorschrijvend arts om het formulier te laten accorderen. De voorschrijvend arts kan een huisarts zijn, maar bijvoorbeeld ook een psychiater of een andere specialist.\n\n**Let op:** De arts kan voor het accorderen kosten in rekening brengen, gebaseerd op het NZA-tarief 'opvragen van informatie'.\n\nEen Schengenverklaring is 30 dagen geldig. Wordt er langer gereisd? Dan zijn er meerdere verklaringen nodig per medicijn.",
+              "content": "Neem contact op met de ambassade van het land van bestemming om te vragen wat er nodig is. Vaak is er een Schengenverklaring nodig. Een Schengenverklaring is een document dat een reiziger binnen het Schengengebied bij zich moet hebben als deze geneesmiddelen gebruikt die onder de Opiumwet vallen.\n\nBij het CAK kan een formulier worden opgevraagd (zie 'Meer lezen'), dat de reiziger zo volledig mogelijk moet invullen. Daarmee kan de reiziger naar de voorschrijvend arts om het formulier te laten accorderen. De voorschrijvend arts kan een huisarts zijn, maar bijvoorbeeld ook een psychiater of een andere specialist.\n\nLet op: de arts kan voor het accorderen kosten in rekening brengen, gebaseerd op het NZA-tarief 'opvragen van informatie'.\n\nEen Schengenverklaring is 30 dagen geldig. Wordt er langer gereisd? Dan zijn er meerdere verklaringen nodig per medicijn.",
               "sticker": true,
               "stickerText": "Je hebt (waarschijnlijk) de hulp van de voorschrijvend arts nodig",
               "links": [
                 {
-                  "source":"CAK",
+                  "source": "CAK",
                   "title": "Schengenverklaring",
                   "url": "https://www.hetcak.nl/vragen/ik-wil-mijn-medicijnen-meenemen-op-reis/meer-informatie/reizen-binnen-het-schengengebied"
                 },
                 {
-                  "source":"NZA",
+                  "source": "NZA",
                   "title": "Tarief 'opvragen van informatie'",
                   "url": "https://www.nza.nl/documenten/vragen-en-antwoorden/welk-tarief-mag-een-huisarts-in-rekening-brengen-als-een-derde-partij-informatie-opvraagt-over-een-patient#:~:text=Het%20tarief%20voor%20de%20informatieverstrekking,is%20leidend%20voor%20de%20declaratie"
                 }
@@ -707,7 +706,7 @@
               "id": "niet-opioiden",
               "name": "Medicatie niet op de lijst van opioïden",
               "blurb": "Om te reizen met medicatie die niet onder de Opiumwet valt is geen verklaring nodig",
-              "content": "Om te reizen met medicatie die niet onder de Opiumwet vallen, is geen verklaring van de huisarts nodig. Het meenemen van een medicatielijst kan prettig zijn. Deze is op te vragen bij de apotheek.\n\n**Tip: De meeste apotheken geven ook een speciaal reispaspoort uit.**",
+              "content": "Om te reizen met medicatie die niet onder de Opiumwet valt, is geen verklaring van de huisarts nodig. Het meenemen van een medicatielijst kan prettig zijn. Deze is op te vragen bij de apotheek.\n\nTip: de meeste apotheken geven ook een speciaal reispaspoort uit.",
               "sticker": false
             }
           ]
@@ -721,7 +720,7 @@
           "stickerText": "De huisarts hoeft hier niet bij betrokken te worden, behalve voor aanvraag PGB",
           "links": [
             {
-              "source":"Rijksoverheid",
+              "source": "Rijksoverheid",
               "title": "Palliatieve zorg: terminaliteitsverklaring in meeste situaties niet meer nodig",
               "url": "https://www.rijksoverheid.nl/actueel/nieuws/2019/11/05/palliatieve-zorg-terminaliteitsverklaring-in-meeste-situaties-niet-meer-nodig"
             }
@@ -733,22 +732,22 @@
       "id": "uitvoeringsverzoeken",
       "name": "Uitvoeringsverzoeken",
       "blurb": "Een uitvoeringsverzoek voor voorbehouden behandelingen in de thuiszorg.",
-      "content": "Een uitvoeringsverzoek is een vaak schriftelijke opdracht om een voorbehouden handeling uit te voeren. Dit verzoek doet een zelfstandig bevoegde professional aan een niet zelfstandig bevoegde professional. \n\n Kies een partij die het uitvoeringsverzoek aanvraagt:",
+      "content": "Een uitvoeringsverzoek is een vaak schriftelijke opdracht om een voorbehouden handeling uit te voeren. Dit verzoek doet een zelfstandig bevoegde professional aan een niet zelfstandig bevoegde professional.\n\nKies een partij die het uitvoeringsverzoek aanvraagt:",
       "children": [
         {
           "id": "huisarts",
           "name": "Huisarts",
           "blurb": "De huisarts geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
-          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n De vorm waarin een uitvoeringsverzoek wordt gegeven is **vormvrij**. Dit betekent dat een opdracht **schriftelijk, mondeling of digitaal** gegeven mag worden.\n\n* Wordt een opdracht mondeling gegeven? Dan moet degene die de opdracht aanneemt, de opdracht opschrijven en vervolgens voorlezen tijdens het (telefonisch of fysiek) contact.\n* Digitaal kan een uitvoeringsverzoek gegeven worden via een beveiligde mail met een daarvoor bestemde applicatie.\n\nDeze afspraken staan beschreven in de herziene Handleiding Voorbehouden handelingen in de (wijk)verpleging & verzorging.\n### Voorbehouden handelingen\n\nOnderstaande lijst is een overzicht van de voorbehouden handelingen en risicovolle handelingen, die relevant zijn voor **verpleging, verzorging en thuiszorg**.\n\n* Heelkundige handelingen\n   * Wondspoelen via katheter\n   * Verwijderen wondtampon\n   * Verwijderen exudrain\n* Katherisaties\n  * Infuusbehandeling\n    * Inbrengen perifere canule voor infuus (toedieningssysteem)\n    * Epiduraal en intrathecaal (poort): aanprikken spinaal poortsysteem, verwisselen naald\n    * Inbrengen hypodermoclyse\n    * Inbrengen subcutane canule, verwisselen\n  * Sondevoeding\n    * Inbrengen/ verwijderen neus-maag sonde, verwisselen PEG-sonde of jejunostomiesonde\n  * Nier- en blaaskatheterisatie\n    * Inbrengen van blaaskatheter (eenmalig of verblijfs-)\n    * Verwisselen van suprapubische katheter\n    * Urinestoma (UP) – katheteriseren van urinereservoir, spoelen\n  * Darmspoelen/toedienen hoogopgaand klysma\n  * Maaginhoud hevelen\n  * Uitzuigen van tracheacanule/van trachea via tracheacanule\n* Injecties\n  * Subcutaan\n  * Intracutaan\n  * Intramusculair\n  * Intraveneus\n* Puncties \n  * Venapunctie\n  * Ascitespunctie",
+          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\nDe vorm waarin een uitvoeringsverzoek wordt gegeven is vormvrij. Dit betekent dat een opdracht schriftelijk, mondeling of digitaal gegeven mag worden.\n\n* Wordt een opdracht mondeling gegeven? Dan moet degene die de opdracht aanneemt, de opdracht opschrijven en vervolgens voorlezen tijdens het (telefonisch of fysiek) contact.\n* Digitaal kan een uitvoeringsverzoek gegeven worden via een beveiligde mail met een daarvoor bestemde applicatie.\n\nDeze afspraken staan beschreven in de herziene Handleiding Voorbehouden handelingen in de (wijk)verpleging & verzorging.\n\n### Voorbehouden handelingen\n\nOnderstaande lijst is een overzicht van de voorbehouden handelingen en risicovolle handelingen, die relevant zijn voor verpleging, verzorging en thuiszorg.\n\n* Heelkundige handelingen\n  * Wondspoelen via katheter\n  * Verwijderen wondtampon\n  * Verwijderen exudrain\n* Katheterisaties\n  * Infuusbehandeling\n    * Inbrengen perifere canule voor infuus (toedieningssysteem)\n    * Epiduraal en intrathecaal (poort): aanprikken spinaal poortsysteem, verwisselen naald\n    * Inbrengen hypodermoclyse\n    * Inbrengen subcutane canule, verwisselen\n  * Sondevoeding\n    * Inbrengen/verwijderen neus-maag sonde, verwisselen PEG-sonde of jejunostomiesonde\n  * Nier- en blaaskatheterisatie\n    * Inbrengen van blaaskatheter (eenmalig of verblijfskatheter)\n    * Verwisselen van suprapubische katheter\n    * Urinestoma (UP) – katheteriseren van urinereservoir, spoelen\n  * Darmspoelen/toedienen hoogopgaand klysma\n  * Maaginhoud hevelen\n  * Uitzuigen van tracheacanule/van trachea via tracheacanule\n* Injecties\n  * Subcutaan\n  * Intracutaan\n  * Intramusculair\n  * Intraveneus\n* Puncties\n  * Venapunctie\n  * Ascitespunctie",
           "sticker": true,
           "links": [
             {
-              "source":"Rijksoverheid",
+              "source": "Rijksoverheid",
               "title": "Voorbehouden medische handelingen",
               "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             },
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "Handleiding voorbehouden handelingen",
               "url": "https://www.ordz.nl/huisartsen/documenten/publicaties/2019/07/01/update-handleiding-voorbehouden-handelingen"
             }
@@ -758,11 +757,11 @@
           "id": "overige-zorgverleners",
           "name": "Overige zorgverleners",
           "blurb": "Een zorgverlener geeft een verpleegkundige de opdracht om een voorbehouden handeling te verrichten.",
-          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\n Overige zorgverleners die een uitvoeringsverzoek voor voorbehouden behandelingen nodig hebben moeten deze **zelf** aanvragen. Een uitvoeringsverzoek is vormvrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven worden of in de status en modeling worden toegelicht.",
+          "content": "Er zijn 14 categorieën voorbehouden handelingen. Voor elke categorie staat in de wet welke beroepsgroep die handeling zelfstandig mag uitvoeren.\n\nOverige zorgverleners die een uitvoeringsverzoek voor voorbehouden behandelingen nodig hebben moeten deze zelf aanvragen. Een uitvoeringsverzoek is vormvrij en hoeft niet op papier/formulier ingevuld te worden. Het mag worden opgeschreven of in de status en mondeling worden toegelicht.",
           "sticker": false,
           "links": [
             {
-              "source":"Rijksoverheid",
+              "source": "Rijksoverheid",
               "title": "Voorbehouden medische handelingen",
               "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/vraag-en-antwoord/voorbehouden-medische-handelingen"
             }
@@ -780,17 +779,17 @@
           "id": "medische-noodzaak",
           "name": "Formulier medische noodzaak",
           "blurb": "Aanvullende formulieren zijn niet meer nodig bij een recept op medische noodzaak",
-          "content": "Per 1 januari 2016 zijn geen aanvullende formulieren meer nodig bij een recept op 'medische noodzaak'. Huisartsen schrijven waar mogelijk generiek voor op basis van de richtlijnen voor de huisartsenzorg. Daarin is het doelmatig voorschrijven van geneesmiddelen verankerd. Als voor de behandeling van een patiënt een specifiek geneesmiddel noodzakelijk is, bijvoorbeeld in verband met bijwerkingen of intolerantie, is per 1 januari 2016 de vermelding ‘medische noodzaak’ op het recept voldoende om de apotheker te laten weten welk geneesmiddel (generiek of spécialité) aan de patiënt moet worden geleverd. De apotheker neemt het recept in behandeling (onder meer om medicatiebewaking uit te voeren) en levert het geneesmiddel af. De verantwoording van de medische noodzaak op extra formulieren vervalt.\n\n**Let op**: Het formulier voor de artsenverklaring blijft voor sommige Bijlage 2 geneesmiddelen wel van toepassing. Onder het kopje 'Meer lezen' vindt u een link naar een overzicht voor welke geneesmiddelen dit nodig is.",
+          "content": "Per 1 januari 2016 zijn geen aanvullende formulieren meer nodig bij een recept op 'medische noodzaak'. Huisartsen schrijven waar mogelijk generiek voor op basis van de richtlijnen voor de huisartsenzorg. Daarin is het doelmatig voorschrijven van geneesmiddelen verankerd. Als voor de behandeling van een patiënt een specifiek geneesmiddel noodzakelijk is, bijvoorbeeld in verband met bijwerkingen of intolerantie, is per 1 januari 2016 de vermelding ‘medische noodzaak’ op het recept voldoende om de apotheker te laten weten welk geneesmiddel (generiek of spécialité) aan de patiënt moet worden geleverd. De apotheker neemt het recept in behandeling (onder meer om medicatiebewaking uit te voeren) en levert het geneesmiddel af. De verantwoording van de medische noodzaak op extra formulieren vervalt.\n\nLet op: Het formulier voor de artsenverklaring blijft voor sommige Bijlage 2-geneesmiddelen wel van toepassing. Onder het kopje 'Meer lezen' vindt u een link naar een overzicht voor welke geneesmiddelen dit nodig is.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "source":"ZN",
+              "source": "ZN",
               "title": "ZN Formulieren",
               "url": "https://www.znformulieren.nl/337936417/Formulieren?folderid=338591745&title=Farmacie"
             },
             {
-              "source":"ZIN",
+              "source": "ZIN",
               "title": "Geneesmiddelen (Zvw)",
               "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/geneesmiddelen-zvw"
             }
@@ -800,12 +799,12 @@
           "id": "speciale-voeding-dieetpreparaten",
           "name": "Formulier speciale voeding en dieetpreparaten",
           "blurb": "Speciale voeding kan worden voorgeschreven zonder aanvullend formulier",
-          "content": "Per 1 januari 2016 kan speciale voeding worden voorgeschreven zonder aanvullend formulier. **Het recept volstaat**. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Het recept bevat - naast de gegevens van patiënt en huisarts - de volgende elementen: het af te leveren middel (zo generiek mogelijk), gebruik (de dagdosis) en de hoeveelheid (waaruit de geschatte behandelduur blijkt).\n\n**Let op**: afhankelijk van de polis van de patiënt, kan soms speciale voeding alleen worden voorgeschreven door een diëtist.",
+          "content": "Per 1 januari 2016 kan speciale voeding worden voorgeschreven zonder aanvullend formulier. Het recept volstaat. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Het recept bevat - naast de gegevens van patiënt en huisarts - de volgende elementen: het af te leveren middel (zo generiek mogelijk), gebruik (de dagdosis) en de hoeveelheid (waaruit de geschatte behandelduur blijkt).\n\nLet op: afhankelijk van de polis van de patiënt, kan soms speciale voeding alleen worden voorgeschreven door een diëtist.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "Lijst indicatiecodes",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             }
@@ -813,20 +812,20 @@
         },
         {
           "id": "baxter-rol",
-          "name": "Machtiging verstrekking van geneesmiddelen in Baxter-rol ",
+          "name": "Machtiging verstrekking van geneesmiddelen in Baxter-rol",
           "blurb": "Huisartsen hoeven de aflevering van geneesmiddelen in een Baxter-rol nog maar één keer te machtigen.",
-          "content": "Per 1 januari 2016 hoeft de huisarts de aflevering van geneesmiddelen in een Baxter-rol nog maar **één keer** te machtigen. De apotheker kan de Baxter-afgifte vervolgens continueren totdat de huisarts een nieuw recept uitschrijft. **Het jaarlijks herhalen van de machtiging is niet meer nodig**. Het formulier dat nodig is voor de autorisatielijsten in het Apothekers Informatie Systeem blijft wél bestaan. Dit zijn door het Apothekers Informatie Systeem gemaakte lijsten waarop de actuele medicatie vermeld staat. Deze lijsten moeten, vanwege de Geneesmiddelenwet, jaarlijks ondertekend worden. Evenals formulieren die voortvloeien uit onderlinge afspraken tussen de huisarts en de zorgverzekeraar.",
+          "content": "Per 1 januari 2016 hoeft de huisarts de aflevering van geneesmiddelen in een Baxter-rol nog maar één keer te machtigen. De apotheker kan de Baxter-afgifte vervolgens continueren totdat de huisarts een nieuw recept uitschrijft. Het jaarlijks herhalen van de machtiging is niet meer nodig. Het formulier dat nodig is voor de autorisatielijsten in het Apothekers Informatie Systeem blijft wél bestaan. Dit zijn door het Apothekers Informatie Systeem gemaakte lijsten waarop de actuele medicatie vermeld staat. Deze lijsten moeten, vanwege de Geneesmiddelenwet, jaarlijks ondertekend worden. Evenals formulieren die voortvloeien uit onderlinge afspraken tussen de huisarts en de zorgverzekeraar.",
           "sticker": true
         },
         {
           "id": "stoppen-met-roken",
           "name": "Formulier stoppen-met-roken medicatie",
           "blurb": "Bij het voorschrijven van stoppen-met-roken medicatie is de vermelding van de letters ‘SMR’ op een recept voldoende.",
-          "content": "Per 1 januari 2016 is bij het voorschrijven van stoppen-met-roken medicatie vermelding van de letters ‘SMR’ op een recept voldoende. **Huisartsen hoeven daarnaast geen aanvullend formulier aan te leveren**. Voorwaarde is dat de medicatie onderdeel is van een begeleid SMR-programma. Als de begeleiding niet plaats vindt in de eigen praktijk, vergewist de huisarts zich van de medische noodzaak voor de voor te schrijven medicatie. Begeleiding en aanmelden van medicatie kan dus **wel** via de huisarts.\n\n **Let op**: Dit geldt alleen voor huisartsen. Voor medisch specialisten en overige zorgverleners is het formulier nog verplicht. Ook hier geldt dat de medicatie onderdeel is van een begeleid SMR-programma.",
+          "content": "Per 1 januari 2016 is bij het voorschrijven van stoppen-met-roken medicatie vermelding van de letters ‘SMR’ op een recept voldoende. Huisartsen hoeven daarnaast geen aanvullend formulier aan te leveren. Voorwaarde is dat de medicatie onderdeel is van een begeleid SMR-programma. Als de begeleiding niet plaatsvindt in de eigen praktijk, vergewist de huisarts zich van de medische noodzaak voor de voor te schrijven medicatie. Begeleiding en aanmelden van medicatie kan dus wel via de huisarts.\n\nLet op: Dit geldt alleen voor huisartsen. Voor medisch specialisten en overige zorgverleners is het formulier nog verplicht. Ook hier geldt dat de medicatie onderdeel is van een begeleid SMR-programma.",
           "sticker": false,
           "links": [
             {
-              "source":"NZA",
+              "source": "NZA",
               "title": "Stoppen-met-rokenprogramma",
               "url": "https://puc.overheid.nl/nza/doc/PUC_236522_22/1/"
             }
@@ -836,17 +835,17 @@
           "id": "langdurige-wondzorg",
           "name": "Formulier verbandmiddelen bij langdurige wondzorg",
           "blurb": "Huisartsen kunnen verbandmiddelen voor langdurige wondzorg voorschrijven zonder een aanvullend formulier.",
-          "content": "Per 1 januari 2016 kunnen huisartsen verbandmiddelen voor langdurige wondzorg voorschrijven zonder een aanvullend formulier. **Het recept volstaat**. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
+          "content": "Per 1 januari 2016 kunnen huisartsen verbandmiddelen voor langdurige wondzorg voorschrijven zonder een aanvullend formulier. Het recept volstaat. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "Lijst indicatiecodes",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             },
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "Meer informatie",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/voorschrijven-genees--en-hulpmiddelen/geen-formulieren-meer-bij-voorschrijven-verbandmiddelen-langdurige-wondzorg"
             }
@@ -856,12 +855,12 @@
           "id": "incontinentiemateriaal",
           "name": "Formulier incontinentiemateriaal",
           "blurb": "Huisartsen kunnen incontinentiemateriaal voorschrijven zonder een aanvullend formulier.",
-          "content": "Per 1 januari 2016 kunnen huisartsen incontinentiemateriaal voorschrijven zonder een aanvullend formulier. **Het recept volstaat**. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
+          "content": "Per 1 januari 2016 kunnen huisartsen incontinentiemateriaal voorschrijven zonder een aanvullend formulier. Het recept volstaat. De indicatie vormt een onderdeel van de reguliere dossiervoering van de huisarts in het Huisartsen Informatie Systeem (HIS). Wel voorziet de zorgverlener het recept van een indicatiecode. Het korte lijstje indicatiecodes is opgesteld door huisartsen en verzekeraars. Dit betekent dat het recept – naast patiënt- en huisartsgegevens – de volgende elementen bevat: het af te leveren middel (zo generiek mogelijk), de hoeveelheid (waaruit de geschatte behandelduur blijkt) en de indicatiecode.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet (verder) bij betrokken te worden",
           "links": [
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "Lijst indicatiecodes",
               "url": "https://www.ordz.nl/huisartsen/ontregeld-voor-huisartsen/geschrapte-vereenvoudigde-formulieren/geen-aanvullende-formulieren-bij-indicatiecodes-op-recept"
             }
@@ -871,12 +870,12 @@
           "id": "chronische-aandoeningen",
           "name": "Machtiging bij chronische aandoeningen",
           "blurb": "Huisartsen hoeven de aanvraag voor hulpmiddelen voor chronische aandoeningen niet meer jaarlijks opnieuw te ondertekenen.",
-          "content": "Per 1 januari 2016 hoeven huisartsen de aanvraag voor hulpmiddelen voor chronische aandoeningen **niet meer jaarlijks opnieuw te ondertekenen**. Dat geldt onder meer voor incontinentiemateriaal en diabetesmaterialen. Er is een overzicht van alle chronische aandoeningen waarop deze afspraak van toepassing is.",
+          "content": "Per 1 januari 2016 hoeven huisartsen de aanvraag voor hulpmiddelen voor chronische aandoeningen niet meer jaarlijks opnieuw te ondertekenen. Dat geldt onder meer voor incontinentiemateriaal en diabetesmaterialen. Er is een overzicht van alle chronische aandoeningen waarop deze afspraak van toepassing is.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier niet jaarlijks te ondertekenen",
           "links": [
             {
-              "source":"ORDZ",
+              "source": "ORDZ",
               "title": "informatie incl lijst chronische aandoeningen",
               "url": "https://www.ordz.nl/de-patient-client/ontregeld-voor-patienten-clienten/geen-jaarlijkse-machtigingen-bij-chronische-aandoeningen"
             }
@@ -890,12 +889,12 @@
           "sticker": true,
           "links": [
             {
-              "source":"CAK",
+              "source": "CAK",
               "title": "Subsidieregeling medisch noodzakelijke zorg aan onverzekerden",
               "url": "https://www.hetcak.nl/zakelijk/regelingen/regeling-onverzekerde-verzekeringsplichtigen"
             },
             {
-              "source":"CAK",
+              "source": "CAK",
               "title": "Vergoeding zorg vluchtelingen uit Oekraïne verandert vanaf 1 juli",
               "url": "https://www.hetcak.nl/zakelijk/regelingen/regeling-onverzekerden/nieuws/vergoeding-zorg-vluchtelingen-uit-oekraine-verande"
             }
@@ -910,7 +909,7 @@
           "stickerText": "De voorschrijvende arts is verantwoordelijk voor de artsenverklaring.",
           "links": [
             {
-              "source":"IGJ",
+              "source": "IGJ",
               "title": "geneesmiddelen zonder handelsvergunning",
               "url": "https://www.igj.nl/zorgsectoren/geneesmiddelen/geneesmiddelen-zonder-handelsvergunning/leveren-op-artsenverklaring"
             }
@@ -920,22 +919,22 @@
           "id": "medicatie-apotheek",
           "name": "Machtiging ophalen medicatie bij apotheek",
           "blurb": "Is de patiënt niet (meer) in staat om medicatie zelf op te halen bij de apotheek?",
-          "content": "Wanneer de patiënt 16 jaar of ouders is, dan kan de patiënt iemand machtigen om dit voor hem/haar te doen. Hiervoor kan een machtigingsformulier bij de eigen apotheek worden aangevraagd evenenals daar ook weer worden ingeleverd.",
+          "content": "Wanneer de patiënt 16 jaar of ouder is, dan kan de patiënt iemand machtigen om dit voor hem/haar te doen. Hiervoor kan een machtigingsformulier bij de eigen apotheek worden aangevraagd evenals daar ook weer worden ingeleverd.",
           "sticker": false,
           "stickerText": "De huisarts geeft geen machtiging voor het ophalen van medicatie bij de apotheek"
         },
         {
           "id": "herhaal-medicatie",
           "name": "Aanvragen herhaalmedicatie",
-          "blurb": "Het aanvragen van herhaalmedicatie die **niet** door de huisarts is voorgeschreven",
+          "blurb": "Het aanvragen van herhaalmedicatie die niet door de huisarts is voorgeschreven",
           "content": "Het aanvragen van herhaalmedicatie moet altijd bij de arts die de medicatie oorspronkelijk heeft voorgeschreven. Dus indien medicatie door een specialist in het ziekenhuis wordt voorgeschreven moet herhaalmedicatie ook worden aangevraagd bij diezelfde specialist.",
           "sticker": false,
           "stickerText": "De huisarts hoeft hier alleen bij betrokken te worden als de huisarts zelf de medicatie heeft voorgeschreven",
           "links": [
             {
-              "source":"NHG",
+              "source": "NHG",
               "title": "standpunt NHG herhalen specialistische medicatie",
-              "url" :"https://www.nhg.org/actueel/nhg-standpunt-herhalen-specialistische-medicatie-verschenen/"
+              "url": "https://www.nhg.org/actueel/nhg-standpunt-herhalen-specialistische-medicatie-verschenen/"
             }
           ]
         }
@@ -955,22 +954,22 @@
           "sticker": false,
           "links": [
             {
-              "source":"Vilans",
+              "source": "Vilans",
               "title": "Hulpmiddelenwijzer",
               "url": "https://www.hulpmiddelenwijzer.nl/"
             },
             {
-              "source":"Rijksoverheid",
+              "source": "Rijksoverheid",
               "title": "Medische hulpmiddelen in het basispakket",
               "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/zijn-medische-hulpmiddelen-opgenomen-in-het-basispakket#:~:text=Voorbeelden%20van%20hulpmiddelen%20die%20u,Wmo-loket%20van%20uw%20gemeente"
             },
             {
-              "source":"ZIN",
+              "source": "ZIN",
               "title": "Hulpmiddelen en de ZVW",
               "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/hulpmiddelen-algemeen-zvw"
             },
             {
-              "source":"Rijksoverheid",
+              "source": "Rijksoverheid",
               "title": "Hulpmiddelen en de WMO",
               "url": "https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/ondersteuning-gemeente-wmo-2015"
             }
@@ -985,7 +984,7 @@
           "stickerText": "De huisarts hoeft alleen betrokken te worden indien de verzekeraar dit vereist",
           "links": [
             {
-              "source":"Rijksoverheid",
+              "source": "Rijksoverheid",
               "title": "Wanneer krijg ik personenalarmering voor thuis vergoed?",
               "url": "https://www.rijksoverheid.nl/onderwerpen/zorg-en-ondersteuning-thuis/vraag-en-antwoord/wanneer-krijg-ik-personenalarmering-voor-thuis-vergoed"
             }
@@ -1054,6 +1053,130 @@
               "content": "Wanneer de aanvraag niet onder bovenstaande categorieën valt, blijft het principe gelden: de behandelend specialist is verantwoordelijk voor diagnostiek die nodig is binnen diens eigen behandeltraject. Bij twijfel is overleg tussen huisarts en specialist nodig.",
               "sticker": false,
               "stickerText": "De huisarts kan alleen betrokken worden na vooraf overleg"
+            }
+          ]
+        },
+        {
+          "id": "herhaalmedicatie",
+          "name": "Herhaalmedicatie tijdens behandeling",
+          "blurb": "Wie schrijft medicatie voor tijdens specialistische behandeling?",
+          "content": "De behandelend specialist is verantwoordelijk voor de medicatie, inclusief herhaalrecepten, zolang het zorgtraject loopt. De huisarts is geen verlengde van de tweede lijn en hoort geen specialistische medicatie voor te schrijven zonder overleg.",
+          "children": [
+            {
+              "id": "ziekenhuis",
+              "name": "Ziekenhuis",
+              "blurb": "Herhalen van medicatie door het ziekenhuis is voorgeschreven",
+              "content": "De specialist is verantwoordelijk voor de keuze, monitoring en eventuele bijwerkingen van medicatie tijdens het behandeltraject. Waarom is dat belangrijk?\n\n## De specialist kent het behandelplan\n\nDe specialist bepaalt welke medicijnen nodig zijn, in welke dosering en voor hoelang. Soms zijn aanpassingen nodig op basis van bloedwaarden, bijwerkingen of behandeldoelen. Alleen de behandelend arts heeft hier volledig zicht op.\n\nDe huisarts is niet automatisch betrokken bij specialistische zorg en ontvangt niet altijd tijdig of volledig bericht over het verloop van de behandeling. Herhaalrecepten zonder die informatie zijn niet veilig.\n\n## Verantwoord voorschrijven vraagt inzicht\n\nZonder actuele labwaarden of specialistische monitoring kan de huisarts niet inschatten of voortzetting van de medicatie verantwoord is. Dit geldt bijvoorbeeld bij medicijnen zoals immunosuppressiva, antipsychotica of oncologische middelen.\n\n## Wanneer kan de huisarts wel overnemen?\n\nAlleen als:\n- De specialist het zorgtraject heeft afgerond,\n- Er een duidelijke schriftelijke overdracht is gestuurd,\n- En de huisarts heeft ingestemd met het overnemen van de medicatie.\n\nHerhaalmedicatie van specialistische middelen is dus geen automatische taak van de huisarts. Door het voorschrijven bij de behandelend arts te laten, blijft de zorg veilig en duidelijk georganiseerd.",
+              "sticker": false,
+              "stickerText": "De huisarts is niet verantwoordelijk voor de medicatie die is voorgeschreven door de specialist in het ziekenhuis",
+              "links": [
+                {
+                  "source": "NHG",
+                  "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+                  "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
+                },
+                {
+                  "source": "NHG",
+                  "title": "Overzicht richtlijnen NHG en FMS",
+                  "url": "https://www.nhg.org/documenten/richtlijnen-fms-en-nhg/"
+                }
+              ]
+            },
+            {
+              "id": "ggz",
+              "name": "GGZ-instelling",
+              "blurb": "Niet automatisch via de huisarts",
+              "content": "De GGZ-behandelaar (zoals een psychiater of verslavingsarts) is verantwoordelijk voor het voorschrijven en herhalen van medicatie die hoort bij een specialistische GGZ-behandeling.\n\n## Waarom is dat belangrijk?\n\n### De behandelaar kent het behandelplan\n\nDe psychiater of andere GGZ-specialist bepaalt welke medicatie nodig is, in welke dosering en hoelang deze gebruikt moet worden. Bijwerkingen, effect op gedrag of stemming en de noodzaak tot aanpassing vereisen specialistische beoordeling.\n\n### De huisarts is niet standaard betrokken\n\nDe huisarts heeft vaak geen actueel zicht op de behandelvoortgang of wijziging in medicatie. Herhaalrecepten zonder deze informatie kunnen leiden tot onveilige situaties, vooral bij medicatie zoals antidepressiva, antipsychotica, stemmingsstabilisatoren of medicatie bij ADHD.\n\n### Verantwoord herhalen vraagt actuele informatie\n\nVoor veilig voorschrijven is specialistische monitoring essentieel. Zonder deze informatie kan de huisarts niet beoordelen of de medicatie nog passend en verantwoord is.\n\n## Wanneer kan de huisarts wel overnemen?\n\nAlleen als:\n- De GGZ-behandeling is afgerond,\n- Er een duidelijke schriftelijke overdracht is gedaan,\n- En de huisarts heeft ingestemd met het overnemen van het medicatiebeleid.\n\nHerhaalmedicatie bij lopende GGZ-behandeling is dus geen taak van de huisarts. Het blijft de verantwoordelijkheid van de behandelend specialist om continuïteit en veiligheid van de medicatie te waarborgen.",
+              "sticker": false,
+              "stickerText": "De huisarts is niet verantwoordelijk voor de medicatie die is voorgeschreven door de GGZ",
+              "links": [
+                {
+                  "source": "NHG",
+                  "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+                  "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
+                },
+                {
+                  "source": "NHG",
+                  "title": "Overzicht richtlijnen NHG en FMS",
+                  "url": "https://www.nhg.org/documenten/richtlijnen-fms-en-nhg/"
+                }
+              ]
+            },
+            {
+              "id": "andere-instellingen",
+              "name": "Andere instellingen (revalidatie, ZBC’s, etc.)",
+              "blurb": "Geen taak voor de huisarts tijdens behandeling",
+              "content": "Ook bij tijdelijke medicatie blijft de behandelend arts verantwoordelijk.",
+              "sticker": false,
+              "stickerText": "De huisarts is niet verantwoordelijk voor de medicatie die is voorgeschreven door de GGZ",
+              "links": [
+                {
+                  "source": "NHG",
+                  "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+                  "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
+                },
+                {
+                  "source": "NHG",
+                  "title": "Overzicht richtlijnen NHG en FMS",
+                  "url": "https://www.nhg.org/documenten/richtlijnen-fms-en-nhg/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nazorg-en-vervolg",
+          "name": "Nazorg en vervolgzorg na opname of ingreep",
+          "blurb": "Wie is verantwoordelijk voor nazorg en vervolgverwijzingen?",
+          "content": "De specialist blijft verantwoordelijk voor nazorg en vervolgverwijzingen zolang het traject loopt. De huisarts neemt deze zorg niet automatisch over.",
+          "children": [
+            {
+              "id": "elv",
+              "name": "ELV-bed (Eerstelijns Verblijf)",
+              "content": "Is er na de ingreep of na ziekenhuisopname een revalidatieplek nodig? Of andere vorm van zorg zoals een ELV-bed? Verwijzing voor tijdelijk verblijf hoort door de specialist of transferverpleegkundige te worden gedaan.",
+              "sticker": false,
+              "stickerText": "De huisarts is niet verantwoordelijk voor vervolgzorg na opname in het ziekenhuis"
+            },
+            {
+              "id": "hechtingen",
+              "name": "Hechtingen verwijderen",
+              "content": "Als u bent geopereerd of gehecht in het ziekenhuis of bij een medisch specialist, hoort de controle én het verwijderen van de hechtingen te gebeuren door diezelfde zorgverlener of instelling.\n\n## Waarom is dat belangrijk?\n\n### De behandelend arts weet wat er gedaan is\n\nAlleen de operateur of behandelend specialist weet precies hoe de wond is gehecht, welk materiaal is gebruikt en wanneer de hechtingen veilig verwijderd kunnen worden.\n\n### Wondcontrole hoort bij nazorg\n\nHet verwijderen van hechtingen is geen losse handeling. Vaak moet ook worden beoordeeld of de wond goed geneest en of er complicaties zijn. Deze medische nazorg hoort bij het specialistisch behandeltraject.\n\n### De huisarts heeft geen dossierinformatie\n\nZonder duidelijke overdracht van het ziekenhuis weet de huisarts niet wanneer of waarom gehecht is, wat er is gedaan en of er bijzonderheden zijn. Dat maakt veilig handelen lastig.\n\n## Verantwoordelijkheid van de behandelend arts\n\nAlleen na goed overleg vooraf en na expliciet akkoord van de huisarts kan dit aan de huisarts worden overgedragen.",
+              "sticker": false,
+              "stickerText": "De huisarts is niet verantwoordelijk voor vervolgzorg na ingreep in het ziekenhuis"
+            },
+            {
+              "id": "nacontrole",
+              "name": "Nacontrole",
+              "content": "De nacontrole hoort bij de zorg van het ziekenhuis of de behandelend specialist/psychiater.\n\nAls u in het ziekenhuis bent behandeld of geopereerd, is de specialist die u heeft behandeld verantwoordelijk voor de nacontrole. Deze hoort bij het behandeltraject en kan niet zomaar worden overgedragen aan de huisarts.\n\n## Waarom is dit belangrijk?\n\n### De specialist kent het volledige behandelplan\n\nAlleen de behandelend arts kan goed beoordelen of het herstel verloopt zoals verwacht en of er aanvullende zorg nodig is.\n\n### Beoordeling van uitslagen of beeldvorming hoort erbij\n\nDe nacontrole is vaak bedoeld om de operatie of behandeling te evalueren, uitslagen van onderzoeken te bespreken en het vervolgbeleid te bepalen. Dit vereist specialistische kennis en toegang tot het ziekenhuisdossier.\n\n### De huisarts heeft geen toegang tot alle informatie\n\nZonder goede overdracht en zonder betrokken te zijn geweest bij de behandeling, kan de huisarts deze controle niet veilig en verantwoord uitvoeren.\n\n## Kan de huisarts de nacontrole doen?\n\nDit kan alleen als:\n- De huisarts instemt met het overnemen van de zorg,\n- En de specialist duidelijk en volledig overdraagt aan de huisarts.",
+              "sticker": false,
+              "stickerText": "De huisarts is niet verantwoordelijk voor nacontroles"
+            },
+            {
+              "id": "thuiszorg",
+              "name": "Thuiszorg",
+              "content": "De verwijzing voor thuiszorg hoort bij het ontslagbeleid van het ziekenhuis of de instelling.\n\nAls iemand uit het ziekenhuis of een andere zorginstelling wordt ontslagen en thuiszorg nodig heeft — bijvoorbeeld voor wondzorg, injecties, infusen of hulp bij medicatie of dagelijkse handelingen — dan is het ziekenhuis verantwoordelijk voor het regelen van deze zorg.\n\n## Waarom is dit belangrijk?\n\n### De specialist of transferverpleegkundige kent het medisch dossier\n\nZij kunnen het beste inschatten welke zorg nodig is, op welk moment, en met welke urgentie.\n\n### De huisarts is op dat moment niet hoofdbehandelaar\n\nPas na een formele en volledige overdracht neemt de huisarts die rol weer over.\n\n### Snelle thuiszorg vereist duidelijke informatie\n\nEen goede overdracht via de transferverpleegkundige bevat alle gegevens die de thuiszorgorganisatie nodig heeft om veilig en snel te starten. Die informatie heeft de huisarts meestal niet paraat.\n\n## Wat als het ziekenhuis of de instelling vraagt of de huisarts de thuiszorg wil regelen?\n\nDat is niet de bedoeling. De huisarts is geen logistiek tussenstation voor het aanvragen van zorg die voortkomt uit opname. Alleen na duidelijke overdracht, én als het vervolg past binnen de eerstelijnszorg, én de huisarts gaat akkoord, kan de huisarts daar een rol in spelen.\n\n## Samengevat\n\n- De specialist of transferverpleegkundige vraagt de thuiszorg aan.\n\nDoor dit goed te regelen, ontvangt de patiënt op tijd de juiste zorg — en blijft de huisarts beschikbaar voor vragen die echt bij de huisartsenpraktijk thuishoren.",
+              "sticker": false,
+              "stickerText": "De huisarts is niet verantwoordelijk voor het maken van verwijzingen op verzoek van een andere instelling"
+            },
+            {
+              "id": "bloedprikken-nazorg",
+              "name": "Bloedprikken na opname",
+              "content": "Bloedonderzoek dat hoort bij een specialistisch behandeltraject wordt aangevraagd door de behandelend arts.\n\nAls een patiënt in behandeling is bij een ziekenhuis, GGZ-instelling, revalidatiecentrum of andere zorginstelling, dan is het de verantwoordelijkheid van de specialist om bloedonderzoek aan te vragen dat nodig is binnen dat zorgtraject.\n\n## Waarom is dit belangrijk?\n\n### De specialist kent het behandelplan en weet welk onderzoek nodig is\n\nDe huisarts kan dit niet beoordelen zonder volledige informatie, en is vaak niet op de hoogte van de medische achtergronden.\n\n### De aanvrager is verantwoordelijk voor opvolging van de uitslag\n\nWie het bloedonderzoek aanvraagt, moet ook zorgen voor de juiste interpretatie en vervolgacties. Dat is bij specialistische zorg de behandelaar in de tweede lijn.\n\n### De huisarts is geen tussenstation\n\nHet is niet de taak van de huisarts om verzoeken van instellingen administratief af te handelen. Ook niet als het prikken gebeurt bij de huisartsenpraktijk of een externe prikpost.\n\n## Wat als een patiënt wordt ontslagen uit het ziekenhuis en een controlebepaling nodig heeft?\n\nDan is het ziekenhuis verantwoordelijk voor het meegeven van een prikformulier of het digitaal versturen van de aanvraag. Pas na formele overdracht aan de huisarts, en alleen als het vervolg past binnen de eerstelijnszorg, kan de huisarts dit overnemen.\n\n## Samengevat\n\n- Bloedonderzoek tijdens of kort na opname hoort bij de instelling\n- De behandelend arts vraagt dit aan\n- De huisarts neemt dit niet automatisch over\n\nZo zorgen we samen voor veilige zorg en duidelijke taakverdeling — zonder onnodige belasting van de huisartsenzorg.",
+              "sticker": false,
+              "stickerText": "Aanvraag van bloedonderzoek bij nazorg is de verantwoordelijkheid van de specialist."
+            }
+          ]
+        },
+        {
+          "id": "overdracht",
+          "name": "Zorg na afsluiting en overdracht naar huisarts",
+          "blurb": "Wanneer neemt de huisarts de zorg over?",
+          "content": "De huisarts kan pas een rol spelen in vervolgzorg wanneer het specialistisch zorgtraject formeel is afgerond. Er moet sprake zijn van een duidelijke en volledige overdracht. Dit gebeurt alleen in overleg met de huisarts en met diens expliciete instemming.\n\nVoor een veilige overdracht van zorg gelden drie voorwaarden:\n- De specialist heeft het behandeltraject afgesloten.\n- Er is een volledige en schriftelijke overdracht gestuurd.\n- De huisarts heeft ingestemd met het overnemen van de vervolgzorg/medicatie en controles.",
+          "links": [
+            {
+              "source": "NHG",
+              "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+              "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
             }
           ]
         }
