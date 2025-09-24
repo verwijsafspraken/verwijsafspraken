@@ -997,7 +997,8 @@
       "name": "Rol van de huisarts voor, tijdens en na specialistische behandeling",
       "breadcrumb": "Rol van de huisarts tijdens en na specialistische behandeling",
       "header": "Voor, tijdens en na behandeling",
-      "blurb": "Informatie over de verantwoordelijkheden van de huisarts voor, tijdens en na een specialistische behandeling, inclusief wat u kunt doen als de wachttijd te lang duurt.",
+      "blurb": "Welke verantwoordelijkheden heeft de huisarts",
+      "content": "Informatie over de verantwoordelijkheden van de huisarts voor, tijdens en na een specialistische behandeling, inclusief wat u kunt doen als de wachttijd te lang duurt.",
       "children": [
         {
           "id": "wachttijd-lang",
