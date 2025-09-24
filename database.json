@@ -1172,6 +1172,8 @@
           "id": "overdracht",
           "name": "Zorg na afsluiting en overdracht naar huisarts",
           "blurb": "Wanneer neemt de huisarts de zorg over?",
+          "sticker": true,
+          "stickerText": "De huisarts moet expliciet akkoord gaan met het overnemen van de zorg.",
           "content": "De huisarts kan pas een rol spelen in vervolgzorg wanneer het specialistisch zorgtraject formeel is afgerond. Er moet sprake zijn van een duidelijke en volledige overdracht. Dit gebeurt alleen in overleg met de huisarts en met diens expliciete instemming.\n\nVoor een veilige overdracht van zorg gelden drie voorwaarden:\n- De specialist heeft het behandeltraject afgesloten.\n- Er is een volledige en schriftelijke overdracht gestuurd.\n- De huisarts heeft ingestemd met het overnemen van de vervolgzorg/medicatie en controles.",
           "links": [
             {
