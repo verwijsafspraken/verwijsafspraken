@@ -2,8 +2,8 @@
 import { datadogLogs } from '@datadog/browser-logs'
 
 datadogLogs.init({
-  clientToken: 'pub17f8509ed78f912fb055aeaa4a5d8a39',
-  site: 'datadoghq.com',
+  clientToken: 'pubde9290f61adcc5883d4b419722a24b39',
+  site: 'datadoghq.eu',
   service: 'verwijsafspraken',
   sampleRate: 100,
 });
