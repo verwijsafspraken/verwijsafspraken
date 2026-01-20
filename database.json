@@ -1055,6 +1055,149 @@
               "sticker": false,
               "stickerText": "De huisarts kan alleen betrokken worden na vooraf overleg"
             }
+
+        {
+        "id": "herhaalmedicatie",
+        "name": "Herhaalmedicatie tijdens behandeling",
+        "blurb": "Wie schrijft medicatie voor tijdens specialistische behandeling?",
+        "content": "De behandelend specialist is verantwoordelijk voor de medicatie, inclusief herhaalrecepten, zolang het zorgtraject loopt. De huisarts is geen verlengde van de tweede lijn en hoort geen specialistische medicatie voor te schrijven zonder overleg.",
+        "children": [
+          {
+            "id": "ziekenhuis",
+            "name": "Ziekenhuis",
+            "blurb": "Herhalen van van medicatie door het ziekenhuis is voorschreven",
+            "content": "De specialist is verantwoordelijk voor de keuze, monitoring en eventuele bijwerkingen van medicatie tijdens het behandeltraject.Waarom is dat belangrijk?\n ##De specialist kent het behandelplan.\n\n De specialist bepaalt welke medicijnen nodig zijn, in welke dosering en voor hoelang. Soms zijn aanpassingen nodig op basis van bloedwaarden, bijwerkingen of behandeldoelen. Alleen de behandelend arts heeft hier volledig zicht op.\n De huisarts is niet automatisch betrokken bij specialistische zorg en ontvangt niet altijd tijdig of volledig bericht over het verloop van de behandeling. Herhaalrecepten zonder die informatie zijn niet veilig. ##Verantwoord voorschrijven vraagt inzicht. \n\n Zonder actuele labwaarden of specialistische monitoring kan de huisarts niet inschatten of voortzetting van de medicatie verantwoord is. Dit geldt bijvoorbeeld bij medicijnen zoals immunosuppressiva, antipsychotica of oncologische middelen. ## Wanneer kan de huisarts wel overnemen? \n\n Alleen als:## De specialist het zorgtraject heeft afgerond, én er een duidelijke schriftelijke overdracht is gestuurd, én de huisarts heeft ingestemd met het overnemen van de medicatie. \n Herhaalmedicatie van specialistische middelen is dus geen automatische taak van de huisarts. Door het voorschrijven bij de behandelend arts te laten, blijft de zorg veilig en duidelijk georganiseerd.",
+            "sticker": false,
+            "stickerText": "De huisarts is niet verantwoordelijk voor de medicatie die is voorgeschreven door de specialist in het ziekenhuis",
+             "links": [
+          {
+            "source": "NHG",
+            "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+            "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
+          },
+          {
+            "source": "NHG",
+            "title": "Overzicht richtlijnen NHG en FMS",
+            "url": "https://www.nhg.org/documenten/richtlijnen-fms-en-nhg/"
+          }
+        ]
+          },
+          {
+            "id": "ggz",
+            "name": "GGZ-instelling",
+            "blurb": "Niet automatisch via de huisarts",
+            "content": "De GGZ-behandelaar (zoals een psychiater of verslavingsarts) is verantwoordelijk voor het voorschrijven en herhalen van medicatie die hoort bij een specialistische GGZ-behandeling.\n\n## Waarom is dat belangrijk?\n\n### De behandelaar kent het behandelplan\n\nDe psychiater of andere GGZ-specialist bepaalt welke medicatie nodig is, in welke dosering en hoelang deze gebruikt moet worden. Bijwerkingen, effect op gedrag of stemming en de noodzaak tot aanpassing vereisen specialistische beoordeling.\n\n### De huisarts is niet standaard betrokken\n\nDe huisarts heeft vaak geen actueel zicht op de behandelvoortgang of wijziging in medicatie. Herhaalrecepten zonder deze informatie kunnen leiden tot onveilige situaties, vooral bij medicatie zoals antidepressiva, antipsychotica, stemmingsstabilisatoren of medicatie bij ADHD.\n\n### Verantwoord herhalen vraagt actuele informatie\n\nVoor veilig voorschrijven is specialistische monitoring essentieel. Zonder deze informatie kan de huisarts niet beoordelen of de medicatie nog passend en verantwoord is.\n\n## Wanneer kan de huisarts wel overnemen?\n\nAlleen als:\n- De GGZ-behandeling is afgerond,\n- Er een duidelijke schriftelijke overdracht is gedaan,\n- De huisarts heeft ingestemd met het overnemen van het medicatie beleid.\n\nHerhaalmedicatie bij lopende GGZ-behandeling is dus geen taak van de huisarts. Het blijft de verantwoordelijkheid van de behandelend specialist om continuïteit en veiligheid van de medicatie te waarborgen.",
+            "sticker": false,
+            "stickerText": "De huisarts is niet verantwoordelijk voor de medicatie die is voorgeschreven door de GGZ",
+             "links": [
+          {
+            "source": "NHG",
+            "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+            "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
+          },
+          {
+            "source": "NHG",
+            "title": "Overzicht richtlijnen NHG en FMS",
+            "url": "https://www.nhg.org/documenten/richtlijnen-fms-en-nhg/"
+          }
+        ]
+          },
+          {
+            "id": "andere-instellingen",
+            "name": "Andere instellingen (revalidatie, ZBC’s, etc.)",
+            "blurb": "Geen taak voor de huisarts tijdens behandeling",
+            "content": "Ook bij tijdelijke medicatie blijft de behandelend arts verantwoordelijk.",
+            "sticker": false,
+            "stickerText": "De huisarts is niet verantwoordelijk voor de medicatie die is voorgeschreven door de GGZ",
+           "links": [
+          {
+            "source": "NHG",
+            "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+            "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
+          },
+          {
+            "source": "NHG",
+            "title": "Overzicht richtlijnen NHG en FMS",
+            "url": "https://www.nhg.org/documenten/richtlijnen-fms-en-nhg/"
+          }
+        ]
+            ]
+      },
+      {
+        "id": "nazorg-en-vervolg",
+        "name": "Nazorg en vervolgzorg na opname of ingreep",
+        "blurb": "Wie is verantwoordelijk voor nazorg en vervolgverwijzingen?",
+        "content": "De specialist blijft verantwoordelijk voor nazorg en vervolgverwijzingen zolang het traject loopt. De huisarts neemt deze zorg niet automatisch over.",
+        "children": [
+          {
+            "id": "elv",
+            "name": "ELV-bed (Eerstelijns Verblijf)",
+            "content": "Is er na de ingreep of na ziekenhuis opname een revalidatie plek nodig? Of andere vorm van zorg zoals een ELV bed? Verwijzing voor tijdelijk verblijf hoort door de specialist of transferverpleegkundige te worden gedaan.",
+            "sticker": false,
+            "stickerText": "De huisarts is niet verantwoordelijk voor vervolg zorg na opname in het ziekenhuis",
+          },
+          {
+            "id": "hechtingen",
+            "name": "Hechtingen verwijderen",
+            "content": "Als u bent geopereerd of gehecht in het ziekenhuis of bij een medisch specialist, hoort de controle én het verwijderen van de hechtingen te gebeuren door diezelfde zorgverlener of instelling.\n\n## Waarom is dat belangrijk?\n\n### De behandelend arts weet wat er gedaan is\n\nAlleen de operateur of behandelend specialist weet precies hoe de wond is gehecht, welk materiaal is gebruikt en wanneer de hechtingen veilig verwijderd kunnen worden.\n\n### Wondcontrole hoort bij nazorg\n\nHet verwijderen van hechtingen is geen losse handeling. Vaak moet ook worden beoordeeld of de wond goed geneest en of er complicaties zijn. Deze medische nazorg hoort bij het specialistisch behandeltraject.\n\n### De huisarts heeft geen dossierinformatie\n\nZonder duidelijke overdracht van het ziekenhuis weet de huisarts niet wanneer of waarom gehecht is, wat er is gedaan en of er bijzonderheden zijn. Dat maakt veilig handelen lastig.\n\n## Verantwoordelijkheid van de behandelend arts\n\nAlleen na goed overleg vooraf en na expliciet akkoord van de huisarts kan dit aan de huisarts worden overgedragen.",
+            "sticker": false,
+            "stickerText": "De huisarts is niet verantwoordelijk voor vervolg zorg na ingreep in het ziekenhuis",
+          },
+          {
+            "id": "nacontrole",
+            "name": "Nacontrole",
+            "content": "De nacontrole hoort bij de zorg van het ziekenhuis of de behandelend specialist/psychiater.\n\nAls u in het ziekenhuis bent behandeld of geopereerd, is de specialist die u heeft behandeld verantwoordelijk voor de nacontrole. Deze hoort bij het behandeltraject en kan niet zomaar worden overgedragen aan de huisarts.\n\n## Waarom is dit belangrijk?\n\n### De specialist kent het volledige behandelplan\n\nAlleen de behandelend arts kan goed beoordelen of het herstel verloopt zoals verwacht en of er aanvullende zorg nodig is.\n\n### Beoordeling van uitslagen of beeldvorming hoort erbij\n\nDe nacontrole is vaak bedoeld om de operatie of behandeling te evalueren, uitslagen van onderzoeken te bespreken en het vervolgbeleid te bepalen. Dit vereist specialistische kennis en toegang tot het ziekenhuisdossier.\n\n### De huisarts heeft geen toegang tot alle informatie\n\nZonder goede overdracht en zonder betrokken te zijn geweest bij de behandeling, kan de huisarts deze controle niet veilig en verantwoord uitvoeren.\n\n## Kan de huisarts de nacontrole doen?\n\nDit kan alleen als:\n- De huisarts instemt met het overnemen van de zorg,\n- En de specialist duidelijk en volledig overdraagt aan de huisarts.",
+            "sticker": false,
+            "stickerText": "De huisarts is niet verantwoordelijk voor nacontroles",
+
+          },
+          {
+            "id": "thuiszorg",
+            "name": "Thuiszorg",
+            "content": "De verwijzing voor thuiszorg hoort bij het ontslagbeleid van het ziekenhuis of de instelling.\n\nAls iemand uit het ziekenhuis of een andere zorginstelling wordt ontslagen en thuiszorg nodig heeft — bijvoorbeeld voor wondzorg, injecties, infusen of hulp bij medicatie of dagelijkse handelingen — dan is het ziekenhuis verantwoordelijk voor het regelen van deze zorg.\n\n## Waarom is dit belangrijk?\n\n### De specialist of transferverpleegkundige kent het medisch dossier\n\nZij kunnen het beste inschatten welke zorg nodig is, op welk moment, en met welke urgentie.\n\n### De huisarts is op dat moment niet hoofdbehandelaar\n\nPas na een formele en volledige overdracht neemt de huisarts die rol weer over.\n\n### Snelle thuiszorg vereist duidelijke informatie\n\nEen goede overdracht via de transferverpleegkundige bevat alle gegevens die de thuiszorgorganisatie nodig heeft om veilig en snel te starten. Die informatie heeft de huisarts meestal niet paraat.\n\n## Wat als het ziekenhuis of de instelling vraagt of de huisarts de thuiszorg wil regelen?\n\nDat is niet de bedoeling. De huisarts is geen logistiek tussenstation voor het aanvragen van zorg die voortkomt uit opname. Alleen na duidelijke overdracht, én als het vervolg past binnen de eerstelijnszorg, én de huisarts gaat akkoord, kan de huisarts daar een rol in spelen.\n\n## Samengevat\n\n- De specialist of transferverpleegkundige vraagt de thuiszorg aan.\n\n Door dit goed te regelen, ontvangt de patiënt op tijd de juiste zorg — en blijft de huisarts beschikbaar voor vragen die écht bij de huisartsenpraktijk thuishoren.",
+            "sticker": false,
+            "stickerText": "De huisarts is niet verantwoordelijk voor het maken van verwijzingen op verzoek van een andere instelling",
+
+          },
+          {
+            "id": "bloedprikken-nazorg",
+            "name": "Bloedprikken na opname",
+            "content": "Bloedonderzoek dat hoort bij een specialistisch behandeltraject wordt aangevraagd door de behandelend arts.\n\nAls een patiënt in behandeling is bij een ziekenhuis, GGZ-instelling, revalidatiecentrum of andere zorginstelling, dan is het de verantwoordelijkheid van de specialist om bloedonderzoek aan te vragen dat nodig is binnen dat zorgtraject.\n\n## Waarom is dit belangrijk?\n\n### De specialist kent het behandelplan en weet welk onderzoek nodig is\n\nDe huisarts kan dit niet beoordelen zonder volledige informatie, en is vaak niet op de hoogte van de medische achtergronden.\n\n### De aanvrager is verantwoordelijk voor opvolging van de uitslag\n\nWie het bloedonderzoek aanvraagt, moet ook zorgen voor de juiste interpretatie en vervolgacties. Dat is bij specialistische zorg de behandelaar in de tweede lijn.\n\n### De huisarts is geen tussenstation\n\nHet is niet de taak van de huisarts om verzoeken van instellingen administratief af te handelen. Ook niet als het prikken gebeurt bij de huisartsenpraktijk of een externe prikpost.\n\n## Wat als een patiënt wordt ontslagen uit het ziekenhuis en een controlebepaling nodig heeft?\n\nDan is het ziekenhuis verantwoordelijk voor het meegeven van een prikformulier of het digitaal versturen van de aanvraag. Pas na formele overdracht aan de huisarts, en alleen als het vervolg past binnen de eerstelijnszorg, kan de huisarts dit overnemen.\n\n## Samengevat\n\n- Bloedonderzoek tijdens of kort na opname hoort bij de instelling\n- De behandelend arts vraagt dit aan\n- De huisarts neemt dit niet automatisch over\n\nZo zorgen we samen voor veilige zorg en duidelijke taakverdeling — zonder onnodige belasting van de huisartsenzorg.",
+            "sticker": false,
+            "stickerText": "Aanvraag van bloedonderzoek bij nazorg is de verantwoordelijkheid van de specialist.",
+
+          }
+        ]
+      },
+      {
+        "id": "overdracht",
+        "name": "Zorg na afsluiting en overdracht naar huisarts",
+        "blurb": "Wanneer neemt de huisarts de zorg over?",
+        "content": "De huisarts kan pas een rol spelen in vervolgzorg wanneer het specialistisch zorgtraject formeel is afgerond. Er moet sprake zijn van een duidelijke en volledige overdracht. Dit gebeurt alleen in overleg met de huisarts en met diens expliciete instemming.\n\n Voor een veilige overdracht van zorg gelden drie voorwaarden:\n- De specialist heeft het behandeltraject afgesloten.\n- Er is een volledige en schriftelijke overdracht gestuurd.\n- De huisarts heeft ingestemd met het overnemen van de vervolgzorg/medicatie en controles.\n\n ",
+
+        "links": [
+          {
+            "source": "NHG",
+            "title": "NHG-Standpunt: Herhalen van medicatie voorgeschreven door een medisch specialist",
+            "url": "https://richtlijnen.nhg.org/medisch-inhoudelijke-nhg-standpunten/herhalen-specialistische-medicatie"
+          }
+        ]
+      }
+    ]
+  }
+
+
+
+
+
+
+        
+
+
+
+
+
+            
           ]
         },
         {
